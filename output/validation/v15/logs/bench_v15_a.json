@@ -1,0 +1,20 @@
+{
+  "command": [
+    "godot_console",
+    "--path",
+    "C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/candidate/game/godot",
+    "--resolution",
+    "1920x1080",
+    "res://tests/V9Capture.tscn",
+    "--",
+    "--tag=v15_a",
+    "--out=C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/bench/v15",
+    "--only=G1_exterior_eye,O16_dome_axis_terrace,P13_court_photo,academic_central_passage,academic_stair_left,admin_entrance_axis,dorm_garden_paths,drone_overview,main_approach_road,ring_road_eye,V15_median_eye,V13_approach_aerial",
+    "--preset=high",
+    "--uncapped",
+    "--skip-images"
+  ],
+  "exit_code": 0,
+  "seconds": 22.18,
+  "started_utc": "2026-11-09T11:17:43.075317+00:00"
+}

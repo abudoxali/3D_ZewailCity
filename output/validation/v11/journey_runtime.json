@@ -1,0 +1,46 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "airborne_frames": 2,
+        "failures": [],
+        "final": [
+          0.0,
+          0.86,
+          367.81
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.187220990657806,
+        "max_gap_at": {
+          "feet_y": 0.20549750328064,
+          "floor": [
+            -201.23,
+            0.02,
+            6.05
+          ],
+          "on_floor": true,
+          "player": [
+            -201.23,
+            1.08,
+            6.05
+          ],
+          "target": [
+            -210.470001220703,
+            23.2099990844727
+          ],
+          "velocity": [
+            -4.28,
+            0.0,
+            7.94
+          ]
+        }
+      },
+      "name": "continuous main exterior gate > west mapped footways > Academic passage > rear",
+      "pass": true
+    }
+  ],
+  "method": "scripted sprint through existing walk controller; one initial placement, continuous movement",
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

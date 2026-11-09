@@ -1,0 +1,104 @@
+[
+  {
+    "id": "G1",
+    "leaves": [
+      "E",
+      "W",
+      "PedE",
+      "PedW"
+    ],
+    "start": {
+      "E": "closed",
+      "W": "open",
+      "PedE": "open",
+      "PedW": "open"
+    },
+    "return_walls": "stone, lane post -> portal leg, both sides (V11 ESTIMATED)",
+    "evidence": "PHOTO_AND_MAP (C01/C02/D02/D03); return walls and slide travel ESTIMATED"
+  },
+  {
+    "id": "G2",
+    "leaves": [
+      "A",
+      "B",
+      "Ped"
+    ],
+    "start": {
+      "A": "open",
+      "B": "open",
+      "Ped": "open"
+    },
+    "opening_width_m": 14.04,
+    "portal_height_m": 9.6,
+    "wall_connection_half_m": 20.44,
+    "evidence": "PROVISIONAL_MAP_CLUSTER position; V11 design conceptually standardised from G1 (ESTIMATED)"
+  },
+  {
+    "id": "G3",
+    "leaves": [
+      "A",
+      "B",
+      "Ped"
+    ],
+    "start": {
+      "A": "open",
+      "B": "open",
+      "Ped": "open"
+    },
+    "opening_width_m": 11.83,
+    "portal_height_m": 9.6,
+    "wall_connection_half_m": 18.23,
+    "evidence": "PROVISIONAL_MAP_CLUSTER position; V11 design conceptually standardised from G1 (ESTIMATED)"
+  },
+  {
+    "id": "G4",
+    "leaves": [
+      "A",
+      "B",
+      "Ped"
+    ],
+    "start": {
+      "A": "open",
+      "B": "open",
+      "Ped": "open"
+    },
+    "opening_width_m": 15.05,
+    "portal_height_m": 9.6,
+    "wall_connection_half_m": 21.45,
+    "evidence": "PROVISIONAL_MAP_CLUSTER position; V11 design conceptually standardised from G1 (ESTIMATED)"
+  },
+  {
+    "id": "G5",
+    "leaves": [
+      "A",
+      "B",
+      "Ped"
+    ],
+    "start": {
+      "A": "open",
+      "B": "open",
+      "Ped": "open"
+    },
+    "opening_width_m": 13.45,
+    "portal_height_m": 9.6,
+    "wall_connection_half_m": 19.85,
+    "evidence": "PROVISIONAL_MAP_CLUSTER position; V11 design conceptually standardised from G1 (ESTIMATED)"
+  },
+  {
+    "id": "G6",
+    "leaves": [
+      "A",
+      "B",
+      "Ped"
+    ],
+    "start": {
+      "A": "open",
+      "B": "open",
+      "Ped": "open"
+    },
+    "opening_width_m": 14.02,
+    "portal_height_m": 9.6,
+    "wall_connection_half_m": 20.42,
+    "evidence": "PROVISIONAL_MAP_CLUSTER position; V11 design conceptually standardised from G1 (ESTIMATED)"
+  }
+]

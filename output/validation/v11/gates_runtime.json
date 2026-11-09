@@ -1,0 +1,246 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+
+      },
+      "name": "six distinct gates with explicit evidence states",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "original seven spawn indices preserved",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "gate spawn present G2",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          6.56,
+          0.39,
+          646.22
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.126927018165588,
+        "max_gap_at": {
+          "feet_y": -0.325001180171967,
+          "floor": [
+            6.49,
+            -0.45,
+            641.67
+          ],
+          "on_floor": true,
+          "player": [
+            6.49,
+            0.55,
+            641.67
+          ],
+          "target": [
+            6.5681300163269,
+            646.673034667969
+          ],
+          "velocity": [
+            0.07,
+            0.0,
+            4.37
+          ]
+        }
+      },
+      "name": "walk through provisional opening G2",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "gate spawn present G3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -275.51,
+          0.97,
+          -138.45
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.113192617893219,
+        "max_gap_at": {
+          "feet_y": 0.222417116165161,
+          "floor": [
+            -267.8,
+            0.11,
+            -128.48
+          ],
+          "on_floor": true,
+          "player": [
+            -267.8,
+            1.1,
+            -128.48
+          ],
+          "target": [
+            -270.9169921875,
+            -132.47200012207
+          ],
+          "velocity": [
+            0.52,
+            0.0,
+            -2.89
+          ]
+        }
+      },
+      "name": "walk through provisional opening G3",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "gate spawn present G4",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -349.9,
+          0.65,
+          238.4
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0203657746315002,
+        "max_gap_at": {
+          "feet_y": -0.179746627807617,
+          "floor": [
+            -345.35,
+            -0.2,
+            238.16
+          ],
+          "on_floor": true,
+          "player": [
+            -345.35,
+            0.7,
+            238.16
+          ],
+          "target": [
+            -350.312957763672,
+            238.421096801758
+          ],
+          "velocity": [
+            -4.36,
+            0.0,
+            0.23
+          ]
+        }
+      },
+      "name": "walk through provisional opening G4",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "gate spawn present G5",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          242.5,
+          1.02,
+          -82.08
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0197276473045349,
+        "max_gap_at": {
+          "feet_y": 0.189291954040527,
+          "floor": [
+            239.7,
+            0.17,
+            -78.59
+          ],
+          "on_floor": true,
+          "player": [
+            239.7,
+            1.06,
+            -78.59
+          ],
+          "target": [
+            242.764129638672,
+            -82.4034805297852
+          ],
+          "velocity": [
+            2.74,
+            0.0,
+            -3.41
+          ]
+        }
+      },
+      "name": "walk through provisional opening G5",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "gate spawn present G6",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          354.2,
+          0.82,
+          237.12
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0196930766105652,
+        "max_gap_at": {
+          "feet_y": -0.0617498159408569,
+          "floor": [
+            350.45,
+            -0.08,
+            236.94
+          ],
+          "on_floor": true,
+          "player": [
+            350.45,
+            0.81,
+            236.94
+          ],
+          "target": [
+            354.612670898438,
+            237.139205932617
+          ],
+          "velocity": [
+            4.36,
+            0.0,
+            0.21
+          ]
+        }
+      },
+      "name": "walk through provisional opening G6",
+      "pass": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

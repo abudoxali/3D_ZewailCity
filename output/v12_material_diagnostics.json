@@ -1,0 +1,358 @@
+{
+  "anisotropy_enum": 4,
+  "failures": [],
+  "materials": [
+    {
+      "name": "V12_Graded_Campus_Soil",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 1.5,
+      "tint": null
+    },
+    {
+      "name": "V12_Desert_Sand",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 1.5,
+      "tint": null
+    },
+    {
+      "name": "V12_Grass_Lawn",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.0,
+      "tint": null
+    },
+    {
+      "name": "V12_Planted_Soil_Sparse",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.0,
+      "tint": null
+    },
+    {
+      "name": "V7_GM_White_Pebbles",
+      "pbr_mode": null,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": null,
+      "tint": null
+    },
+    {
+      "name": "V12_Compacted_Earth",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 1.5,
+      "tint": null
+    },
+    {
+      "name": "V12_V15_Planted_Bed_Soil",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.0,
+      "tint": null
+    },
+    {
+      "name": "V12_Grass_Lawn",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.0,
+      "tint": null
+    },
+    {
+      "name": "V12_Asphalt",
+      "pbr_mode": 1,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": "(1.0705, 1.0963, 1.0921)"
+    },
+    {
+      "name": "V12_Paver_Road_Grey",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Paver_Road_Grey",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Concrete_Curb",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Plaza_Grey",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Plaza_Light",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Paving_Edge_Restraint",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V7_GM_V6_Plaza_Inlay",
+      "pbr_mode": null,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": null,
+      "tint": null
+    },
+    {
+      "name": "V12_Garden_Pavers",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Paving_Limestone",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    },
+    {
+      "name": "V12_Paving_Light",
+      "pbr_mode": 2,
+      "shader": "res://shaders/ground_surface.gdshader",
+      "tile_m": 2.1,
+      "tint": null
+    }
+  ],
+  "renderer": "",
+  "source_of_normals": "Provider OpenGL +Y maps; source_color on diffuse only; world projection derivative frame; +Z reconstructed for BC5",
+  "textures": [
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/asphalt_01/asphalt_01_diff_1k.jpg",
+      "sample_linear_data": [
+        0.329411774873734,
+        0.298039227724075,
+        0.266666680574417
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/asphalt_01/asphalt_01_nor_gl_1k.jpg",
+      "reconstructed_gl_z": 0.993442546056788,
+      "sample_linear_data": [
+        0.556862771511078,
+        0.494117647409439,
+        0.964705884456635
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/asphalt_01/asphalt_01_rough_1k.jpg",
+      "sample_linear_data": [
+        0.772549033164978,
+        0.772549033164978,
+        0.772549033164978
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/concrete_pavement_03/concrete_pavement_03_diff_1k.jpg",
+      "sample_linear_data": [
+        0.282352954149246,
+        0.243137255311012,
+        0.20392157137394
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/concrete_pavement_03/concrete_pavement_03_nor_gl_1k.jpg",
+      "reconstructed_gl_z": 0.99294706241385,
+      "sample_linear_data": [
+        0.466666668653488,
+        0.450980395078659,
+        0.937254905700684
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/concrete_pavement_03/concrete_pavement_03_rough_1k.jpg",
+      "sample_linear_data": [
+        0.925490200519562,
+        0.925490200519562,
+        0.925490200519562
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/sand_01/sand_01_diff_1k.jpg",
+      "sample_linear_data": [
+        0.631372570991516,
+        0.584313750267029,
+        0.454901963472366
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/sand_01/sand_01_nor_gl_1k.jpg",
+      "reconstructed_gl_z": 0.928998018292427,
+      "sample_linear_data": [
+        0.450980395078659,
+        0.321568638086319,
+        0.905882358551025
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/sand_01/sand_01_rough_1k.jpg",
+      "sample_linear_data": [
+        0.992156863212585,
+        0.992156863212585,
+        0.992156863212585
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/sparse_grass/sparse_grass_diff_1k.jpg",
+      "sample_linear_data": [
+        0.270588248968124,
+        0.20392157137394,
+        0.0470588244497776
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/sparse_grass/sparse_grass_nor_gl_1k.jpg",
+      "reconstructed_gl_z": 0.991583179238105,
+      "sample_linear_data": [
+        0.501960813999176,
+        0.564705908298492,
+        0.890196084976196
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/sparse_grass/sparse_grass_rough_1k.jpg",
+      "sample_linear_data": [
+        0.952941179275513,
+        0.952941179275513,
+        0.952941179275513
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/beige_wall_001/beige_wall_001_diff_1k.jpg",
+      "sample_linear_data": [
+        0.619607865810394,
+        0.549019634723663,
+        0.470588237047195
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/beige_wall_001/beige_wall_001_nor_gl_1k.jpg",
+      "reconstructed_gl_z": 0.998075811410808,
+      "sample_linear_data": [
+        0.482352942228317,
+        0.474509805440903,
+        0.972549021244049
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "format": 22,
+      "mipmaps": true,
+      "path": "res://assets/pbr/beige_wall_001/beige_wall_001_rough_1k.jpg",
+      "sample_linear_data": [
+        0.647058844566345,
+        0.647058844566345,
+        0.647058844566345
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ]
+}

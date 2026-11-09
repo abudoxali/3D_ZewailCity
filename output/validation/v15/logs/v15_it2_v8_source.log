@@ -1,0 +1,36 @@
+00:02.344  blend            | Read blend: "C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend"
+BlenderMCP addon registered
+[v8-source] PASS G2 masonry supports and steel leaves replace markers {'shell_faces': 84, 'detail_faces': 740}
+[v8-source] PASS G2 provisional state and parametric editability None
+[v8-source] PASS G2 no physical yellow provisional lettering None
+[v8-source] PASS G2 foundations below local datum None
+[v8-source] PASS G3 masonry supports and steel leaves replace markers {'shell_faces': 84, 'detail_faces': 878}
+[v8-source] PASS G3 provisional state and parametric editability None
+[v8-source] PASS G3 no physical yellow provisional lettering None
+[v8-source] PASS G3 foundations below local datum None
+[v8-source] PASS G4 masonry supports and steel leaves replace markers {'shell_faces': 84, 'detail_faces': 502}
+[v8-source] PASS G4 provisional state and parametric editability None
+[v8-source] PASS G4 no physical yellow provisional lettering None
+[v8-source] PASS G4 foundations below local datum None
+[v8-source] PASS G5 masonry supports and steel leaves replace markers {'shell_faces': 84, 'detail_faces': 704}
+[v8-source] PASS G5 provisional state and parametric editability None
+[v8-source] PASS G5 no physical yellow provisional lettering None
+[v8-source] PASS G5 foundations below local datum None
+[v8-source] PASS G6 masonry supports and steel leaves replace markers {'shell_faces': 84, 'detail_faces': 838}
+[v8-source] PASS G6 provisional state and parametric editability None
+[v8-source] PASS G6 no physical yellow provisional lettering None
+[v8-source] PASS G6 foundations below local datum None
+[v8-source] PASS perimeter subdivided and datum applied exactly once 1065
+[v8-source] PASS wall footing vertices embedded 450 mm below datum {'footing_vertices': 4260, 'max_error_m': 4.2329155480747005e-07}
+[v8-source] PASS main portal proportion retained None
+[v8-source] PASS gate stone cream-beige rather than orange [0.6800000071525574, 0.6349999904632568, 0.5400000214576721, 1.0]
+[v8-source] PASS gate stone roughness and recessed joints 0.699999988079071
+[v8-source] PASS ground partition disjoint and complete {'surface_overlap_m2': 9.146826046448948e-13, 'plot_uncovered_m2': 2.4800821220190423e-13, 'centreline_gaps': []}
+[v8-source] PASS five integrated aprons, no invented external links [{'id': 'G2', 'parameters': {'opening_width': 14.040985164698228, 'orientation': 0.07315853752854463, 'support_width': 0.65, 'support_depth': 0.95, 'support_height': 3.55, 'frame_height': 3.15, 'frame
+[v8-source] PASS Academic_Stair_Left original safe riser and landing geometry retained None
+[v8-source] PASS Academic_Stair_Right original safe riser and landing geometry retained None
+[v8-source] PASS Administration ramp toe flush to 0.06 m road and outward top normal {'toe_z': 0.06323501467704773, 'top_normal': [-8.546024332645175e-09, 0.06457086652517319, 0.997913122177124]}
+BlenderMCP addon unregistered
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

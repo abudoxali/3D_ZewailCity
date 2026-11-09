@@ -1,0 +1,170 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "edge_recoveries_at_2cm": 9,
+        "gaps": [],
+        "height_errors": [],
+        "max_error_m": 0.0381084382534027,
+        "samples": 5736
+      },
+      "name": "all road centrelines have collision at source elevation",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -16.3,
+          1.31,
+          -270.45
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0199164152145386,
+        "max_gap_at": {
+          "feet_y": 0.195189595222473,
+          "floor": [
+            -17.18,
+            0.18,
+            -296.65
+          ],
+          "on_floor": true,
+          "player": [
+            -17.18,
+            1.07,
+            -296.65
+          ],
+          "target": [
+            -16.2999992370605,
+            -290.0
+          ],
+          "velocity": [
+            0.58,
+            0.0,
+            4.33
+          ]
+        }
+      },
+      "name": "gate walkway and perimeter-loop transition",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          16.3,
+          1.25,
+          -180.45
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.018994152545929,
+        "max_gap_at": {
+          "feet_y": 0.398787140846252,
+          "floor": [
+            16.3,
+            0.38,
+            -208.17
+          ],
+          "on_floor": true,
+          "player": [
+            16.3,
+            1.27,
+            -208.17
+          ],
+          "target": [
+            16.2999992370605,
+            -200.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            4.37
+          ]
+        }
+      },
+      "name": "approach paving",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          0.0,
+          1.1,
+          159.6
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0190273523330688,
+        "max_gap_at": {
+          "feet_y": 0.165051579475403,
+          "floor": [
+            0.0,
+            0.15,
+            131.09
+          ],
+          "on_floor": true,
+          "player": [
+            0.0,
+            1.04,
+            131.09
+          ],
+          "target": [
+            0.0,
+            145.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            4.37
+          ]
+        }
+      },
+      "name": "academic connector",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          300.71,
+          0.83,
+          225.4
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0188763737678528,
+        "max_gap_at": {
+          "feet_y": -0.052418053150177,
+          "floor": [
+            301.16,
+            -0.07,
+            239.41
+          ],
+          "on_floor": true,
+          "player": [
+            301.16,
+            0.82,
+            239.41
+          ],
+          "target": [
+            300.700012207031,
+            225.0
+          ],
+          "velocity": [
+            -0.13,
+            0.0,
+            -4.27
+          ]
+        }
+      },
+      "name": "ring road grade",
+      "pass": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

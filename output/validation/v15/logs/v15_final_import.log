@@ -1,0 +1,337 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+MCP Bridge: Listening on 127.0.0.1:9500
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (4 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (146 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Started Preparing scenes for reload (1 steps)[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Analyzing scene [empty][39m[0m
+[  50% ] [90m[1mpreload_reimporting_scene[22m | Preparation done.[39m[0m
+[92m[ DONE ][39m [1mpreload_reimporting_scene[22m
+[0m
+[   0% ] [90m[1mreimport[22m | campus_full_T_planted_soil_sparse_albedo.png[39m[0m
+[   0% ] [90m[1mreimport[22m | campus_full_T_planted_soil_sparse_roughness.png[39m[0m
+[   1% ] [90m[1mreimport[22m | campus_full_T_planted_soil_sparse_normal.png[39m[0m
+[   2% ] [90m[1mreimport[22m | campus_full_T_white_pebbles_albedo.png[39m[0m
+[   2% ] [90m[1mreimport[22m | campus_full_T_white_pebbles_roughness.png[39m[0m
+[   3% ] [90m[1mreimport[22m | campus_full_T_white_pebbles_normal.png[39m[0m
+[   4% ] [90m[1mreimport[22m | campus_full_T_compacted_earth_albedo.png[39m[0m
+[   4% ] [90m[1mreimport[22m | campus_full_T_compacted_earth_roughness.png[39m[0m
+[   5% ] [90m[1mreimport[22m | campus_full_T_compacted_earth_normal.png[39m[0m
+[   6% ] [90m[1mreimport[22m | campus_full_T_v15_planted_bed_soil_albedo.png[39m[0m
+[   6% ] [90m[1mreimport[22m | campus_full_T_v15_planted_bed_soil_roughness.png[39m[0m
+[   7% ] [90m[1mreimport[22m | campus_full_T_v15_planted_bed_soil_normal.png[39m[0m
+[   8% ] [90m[1mreimport[22m | campus_full_T_grass_lawn_v15_median_albedo.png[39m[0m
+[   8% ] [90m[1mreimport[22m | campus_full_T_grass_lawn_v15_median_roughness.png[39m[0m
+[   9% ] [90m[1mreimport[22m | campus_full_T_grass_lawn_v15_median_normal.png[39m[0m
+[  10% ] [90m[1mreimport[22m | campus_full_T_agave_leaf_albedo.png[39m[0m
+[  10% ] [90m[1mreimport[22m | campus_full_T_agave_leaf_roughness.png[39m[0m
+[  11% ] [90m[1mreimport[22m | campus_full_T_barrel_cactus_albedo.png[39m[0m
+[  12% ] [90m[1mreimport[22m | campus_full_T_paving_limestone_albedo.png[39m[0m
+[  12% ] [90m[1mreimport[22m | campus_full_T_paving_limestone_roughness.png[39m[0m
+[  13% ] [90m[1mreimport[22m | campus_full_T_paving_limestone_normal.png[39m[0m
+[  14% ] [90m[1mreimport[22m | campus_full_T_paving_light_albedo.png[39m[0m
+[  14% ] [90m[1mreimport[22m | campus_full_T_paving_light_roughness.png[39m[0m
+[  15% ] [90m[1mreimport[22m | campus_full_T_paving_light_normal.png[39m[0m
+[  16% ] [90m[1mreimport[22m | campus_full_T_graded_campus_soil_albedo.png[39m[0m
+[  17% ] [90m[1mreimport[22m | campus_full_T_graded_campus_soil_roughness.png[39m[0m
+[  17% ] [90m[1mreimport[22m | campus_full_T_graded_campus_soil_normal.png[39m[0m
+[  18% ] [90m[1mreimport[22m | campus_full_T_desert_sand_albedo.png[39m[0m
+[  19% ] [90m[1mreimport[22m | campus_full_T_desert_sand_roughness.png[39m[0m
+[  19% ] [90m[1mreimport[22m | campus_full_T_desert_sand_normal.png[39m[0m
+[  20% ] [90m[1mreimport[22m | campus_full_T_groundcover_planted_albedo.png[39m[0m
+[  21% ] [90m[1mreimport[22m | campus_full_T_groundcover_planted_roughness.png[39m[0m
+[  21% ] [90m[1mreimport[22m | campus_full_T_groundcover_planted_normal.png[39m[0m
+[  22% ] [90m[1mreimport[22m | campus_full_T_grass_lawn_albedo.png[39m[0m
+[  23% ] [90m[1mreimport[22m | campus_full_T_grass_lawn_roughness.png[39m[0m
+[  23% ] [90m[1mreimport[22m | campus_full_T_grass_lawn_normal.png[39m[0m
+[  24% ] [90m[1mreimport[22m | campus_full_pachira_aquatica_01_bark_diff_1k.jpg[39m[0m
+[  25% ] [90m[1mreimport[22m | campus_full_pachira_aquatica_01_bark_arm_1k.jpg[39m[0m
+[  25% ] [90m[1mreimport[22m | campus_full_pachira_aquatica_01_bark_nor_gl_1k.jpg[39m[0m
+[  26% ] [90m[1mreimport[22m | campus_full_pachira_aquatica_01_leaves_diff_1k.jpg[39m[0m
+[  27% ] [90m[1mreimport[22m | campus_full_pachira_aquatica_01_leaves_arm_1k.jpg[39m[0m
+[  27% ] [90m[1mreimport[22m | campus_full_pachira_aquatica_01_leaves_nor_gl_1k.jpg[39m[0m
+[  28% ] [90m[1mreimport[22m | campus_full_crystalline_iceplant_diff_1k_v15green.png[39m[0m
+[  29% ] [90m[1mreimport[22m | campus_full_crystalline_iceplant_arm_1k.jpg[39m[0m
+[  29% ] [90m[1mreimport[22m | campus_full_crystalline_iceplant_nor_gl_1k.jpg[39m[0m
+[  30% ] [90m[1mreimport[22m | campus_full_T_red_mulch_albedo.png[39m[0m
+[  31% ] [90m[1mreimport[22m | campus_full_T_red_mulch_roughness.png[39m[0m
+[  31% ] [90m[1mreimport[22m | campus_full_T_red_mulch_normal.png[39m[0m
+[  32% ] [90m[1mreimport[22m | campus_full_T_shrub_bougainvillea_albedo.png[39m[0m
+[  33% ] [90m[1mreimport[22m | campus_full_T_shrub_bougainvillea_roughness.png[39m[0m
+[  34% ] [90m[1mreimport[22m | campus_full_T_shrub_bougainvillea_normal.png[39m[0m
+[  34% ] [90m[1mreimport[22m | campus_full_T_shrub_orange_albedo.png[39m[0m
+[  35% ] [90m[1mreimport[22m | campus_full_T_shrub_orange_roughness.png[39m[0m
+[  36% ] [90m[1mreimport[22m | campus_full_T_shrub_orange_normal.png[39m[0m
+[  36% ] [90m[1mreimport[22m | campus_full_T_barrel_cactus_roughness.png[39m[0m
+[  37% ] [90m[1mreimport[22m | campus_full_T_barrel_cactus_normal.png[39m[0m
+[  38% ] [90m[1mreimport[22m | campus_full_T_palm_trunk_albedo.png[39m[0m
+[  38% ] [90m[1mreimport[22m | campus_full_T_palm_trunk_roughness.png[39m[0m
+[  39% ] [90m[1mreimport[22m | campus_full_T_palm_trunk_normal.png[39m[0m
+[  40% ] [90m[1mreimport[22m | campus_full_T_cycad_frond_albedo.png[39m[0m
+[  40% ] [90m[1mreimport[22m | campus_full_T_cycad_frond_roughness.png[39m[0m
+[  41% ] [90m[1mreimport[22m | campus_full_T_tree_bark_albedo.png[39m[0m
+[  42% ] [90m[1mreimport[22m | campus_full_T_tree_bark_roughness.png[39m[0m
+[  42% ] [90m[1mreimport[22m | campus_full_T_tree_bark_normal.png[39m[0m
+[  43% ] [90m[1mreimport[22m | campus_full_T_cypress_foliage_albedo.png[39m[0m
+[  44% ] [90m[1mreimport[22m | campus_full_T_cypress_foliage_roughness.png[39m[0m
+[  44% ] [90m[1mreimport[22m | campus_full_T_cypress_foliage_normal.png[39m[0m
+[  45% ] [90m[1mreimport[22m | campus_full_T_euphorbia_red_albedo.png[39m[0m
+[  46% ] [90m[1mreimport[22m | campus_full_T_euphorbia_red_roughness.png[39m[0m
+[  46% ] [90m[1mreimport[22m | campus_full_oak_basecolor.png[39m[0m
+[  47% ] [90m[1mreimport[22m | campus_full_df8d6263ad77aee2.png[39m[0m
+[  48% ] [90m[1mreimport[22m | campus_full_6887c6fc0fd09dcd.png[39m[0m
+[  48% ] [90m[1mreimport[22m | campus_full_359dce7fb2b932b6.png[39m[0m
+[  49% ] [90m[1mreimport[22m | campus_full_T_planter_soil_normal.png[39m[0m
+[  50% ] [90m[1mreimport[22m | campus_full_T_hedge_albedo.png[39m[0m
+[  51% ] [90m[1mreimport[22m | campus_full_T_hedge_roughness.png[39m[0m
+[  51% ] [90m[1mreimport[22m | campus_full_T_hedge_normal.png[39m[0m
+[  52% ] [90m[1mreimport[22m | campus_full_T_copper_drum_albedo.png[39m[0m
+[  53% ] [90m[1mreimport[22m | campus_full_T_copper_drum_roughness.png[39m[0m
+[  53% ] [90m[1mreimport[22m | campus_full_T_copper_dome_albedo.png[39m[0m
+[  54% ] [90m[1mreimport[22m | campus_full_T_copper_dome_roughness.png[39m[0m
+[  55% ] [90m[1mreimport[22m | campus_full_T_copper_dome_band_albedo.png[39m[0m
+[  55% ] [90m[1mreimport[22m | campus_full_T_copper_dome_band_roughness.png[39m[0m
+[  56% ] [90m[1mreimport[22m | campus_full_T_concrete_curb_albedo.png[39m[0m
+[  57% ] [90m[1mreimport[22m | campus_full_T_concrete_curb_roughness.png[39m[0m
+[  57% ] [90m[1mreimport[22m | campus_full_T_concrete_curb_normal.png[39m[0m
+[  58% ] [90m[1mreimport[22m | campus_full_T_gate_sandstone_tiles_albedo.png[39m[0m
+[  59% ] [90m[1mreimport[22m | campus_full_T_gate_sandstone_tiles_roughness.png[39m[0m
+[  59% ] [90m[1mreimport[22m | campus_full_T_gate_sandstone_tiles_normal.png[39m[0m
+[  60% ] [90m[1mreimport[22m | campus_full_T_stucco_ochre_albedo.png[39m[0m
+[  61% ] [90m[1mreimport[22m | campus_full_T_stucco_ochre_roughness.png[39m[0m
+[  61% ] [90m[1mreimport[22m | campus_full_T_stone_cladding_albedo.png[39m[0m
+[  62% ] [90m[1mreimport[22m | campus_full_T_stone_cladding_roughness.png[39m[0m
+[  63% ] [90m[1mreimport[22m | campus_full_T_stone_cladding_normal.png[39m[0m
+[  63% ] [90m[1mreimport[22m | campus_full_T_roof_membrane_albedo.png[39m[0m
+[  64% ] [90m[1mreimport[22m | campus_full_T_roof_membrane_roughness.png[39m[0m
+[  65% ] [90m[1mreimport[22m | campus_full_T_roof_membrane_normal.png[39m[0m
+[  65% ] [90m[1mreimport[22m | campus_full_T_granite_band_albedo.png[39m[0m
+[  66% ] [90m[1mreimport[22m | campus_full_T_granite_band_roughness.png[39m[0m
+[  67% ] [90m[1mreimport[22m | campus_full_T_stone_white_albedo.png[39m[0m
+[  68% ] [90m[1mreimport[22m | campus_full_T_stone_white_roughness.png[39m[0m
+[  68% ] [90m[1mreimport[22m | campus_full_T_stone_white_normal.png[39m[0m
+[  69% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_light_albedo.png[39m[0m
+[  70% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_light_roughness.png[39m[0m
+[  70% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_light_normal.png[39m[0m
+[  71% ] [90m[1mreimport[22m | campus_full_T_granite_dark_albedo.png[39m[0m
+[  72% ] [90m[1mreimport[22m | campus_full_T_granite_dark_roughness.png[39m[0m
+[  72% ] [90m[1mreimport[22m | campus_full_T_planter_soil_albedo.png[39m[0m
+[  73% ] [90m[1mreimport[22m | campus_full_T_planter_soil_roughness.png[39m[0m
+[  74% ] [90m[1mreimport[22m | campus_full_asphalt_01_nor_gl_1k.jpg[39m[0m
+[  74% ] [90m[1mreimport[22m | campus_full_T_paver_road_grey_albedo.png[39m[0m
+[  75% ] [90m[1mreimport[22m | campus_full_T_paver_road_grey_roughness.png[39m[0m
+[  76% ] [90m[1mreimport[22m | campus_full_T_paver_road_grey_normal.png[39m[0m
+[  76% ] [90m[1mreimport[22m | campus_full_T_paver_road_grey_v15_band_albedo.png[39m[0m
+[  77% ] [90m[1mreimport[22m | campus_full_T_paver_road_grey_v15_band_roughness.png[39m[0m
+[  78% ] [90m[1mreimport[22m | campus_full_T_paver_road_grey_v15_band_normal.png[39m[0m
+[  78% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_grey_albedo.png[39m[0m
+[  79% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_grey_roughness.png[39m[0m
+[  80% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_grey_normal.png[39m[0m
+[  80% ] [90m[1mreimport[22m | campus_full_T_v7_paving_edge_restraint_albedo.png[39m[0m
+[  81% ] [90m[1mreimport[22m | campus_full_T_v7_paving_edge_restraint_roughness.png[39m[0m
+[  82% ] [90m[1mreimport[22m | campus_full_T_v7_paving_edge_restraint_normal.png[39m[0m
+[  82% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_inlay_albedo.png[39m[0m
+[  83% ] [90m[1mreimport[22m | campus_full_T_v6_plaza_inlay_roughness.png[39m[0m
+[  84% ] [90m[1mreimport[22m | campus_full_T_v6_garden_pavers_albedo.png[39m[0m
+[  85% ] [90m[1mreimport[22m | campus_full_T_v6_garden_pavers_roughness.png[39m[0m
+[  85% ] [90m[1mreimport[22m | campus_full_T_v6_garden_pavers_normal.png[39m[0m
+[  86% ] [90m[1mreimport[22m | campus_full_T_stucco_ochre_normal.png[39m[0m
+[  87% ] [90m[1mreimport[22m | campus_full_T_ledgestone_dark_albedo.png[39m[0m
+[  87% ] [90m[1mreimport[22m | campus_full_T_ledgestone_dark_roughness.png[39m[0m
+[  88% ] [90m[1mreimport[22m | campus_full_T_ledgestone_dark_normal.png[39m[0m
+[  89% ] [90m[1mreimport[22m | campus_full_T_v6_residential_stone_albedo.png[39m[0m
+[  89% ] [90m[1mreimport[22m | campus_full_T_v6_residential_stone_roughness.png[39m[0m
+[  90% ] [90m[1mreimport[22m | campus_full_T_v6_residential_stone_normal.png[39m[0m
+[  91% ] [90m[1mreimport[22m | campus_full_T_v7_residential_plinth_albedo.png[39m[0m
+[  91% ] [90m[1mreimport[22m | campus_full_T_v7_residential_plinth_roughness.png[39m[0m
+[  92% ] [90m[1mreimport[22m | campus_full_T_v7_residential_plinth_normal.png[39m[0m
+[  93% ] [90m[1mreimport[22m | campus_full_T_shrub_green_albedo.png[39m[0m
+[  93% ] [90m[1mreimport[22m | campus_full_T_shrub_green_roughness.png[39m[0m
+[  94% ] [90m[1mreimport[22m | campus_full_T_shrub_green_normal.png[39m[0m
+[  95% ] [90m[1mreimport[22m | campus_full_T_wood_pergola_albedo.png[39m[0m
+[  95% ] [90m[1mreimport[22m | campus_full_T_wood_pergola_roughness.png[39m[0m
+[  96% ] [90m[1mreimport[22m | campus_full_T_wood_pergola_normal.png[39m[0m
+[  97% ] [90m[1mreimport[22m | campus_full_asphalt_01_diff_1k.jpg[39m[0m
+[  97% ] [90m[1mreimport[22m | campus_full_asphalt_01_rough_1k.png[39m[0m
+[  98% ] [90m[1mreimport[22m | campus_full.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (146 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+MCP Bridge: Stopped

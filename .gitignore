@@ -1,0 +1,39 @@
+# --- local tooling / caches
+.claude/
+tools/.venv/
+**/__pycache__/
+*.pyc
+*.blend1
+game/godot/.godot/
+game/godot/**/*.tmp
+
+# --- builds and reproducible outputs (rebuild with tools/v15_rebuild.sh)
+releases/
+output/game_ready/
+output/exports/
+output/previews/
+output/validation/v11/final/
+
+# --- V15 working evidence kept local (large raw captures, downloads, checkpoints)
+output/validation/v15/downloads/
+output/validation/v15/checkpoint/
+output/validation/v15/it*/
+output/validation/v15/final*/v14/
+output/validation/v15/final*/v15/
+output/validation/v15/bench/v14/
+output/validation/v15/bench/v15/
+output/validation/v15/windows_build/*.png
+output/validation/v15/candidate/
+output/validation/v15/audit/
+
+# --- reference photographs: owner / third-party images stay local (public repository)
+Zewail_V6_Reference_Kit/
+references/source_images/
+references/owner/
+references/frames/
+references/correction_kit/
+references/*.MOV
+references/*.mov
+
+# --- third-party MCP integrations (their own git repositories; install separately)
+tools/integrations/

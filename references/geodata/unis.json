@@ -1,0 +1,375 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-06T17:29:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 12151116312,
+  "lat": 29.8611466,
+  "lon": 30.9199779,
+  "tags": {
+    "access": "private",
+    "amenity": "university",
+    "barrier": "gate",
+    "description": "مدخل مدينة بادية وجامعة بادية",
+    "name": "جامعة بادية",
+    "website": "https://www.badyauni.edu.eg/"
+  }
+},
+{
+  "type": "node",
+  "id": 13622551801,
+  "lat": 30.0168154,
+  "lon": 31.0657250,
+  "tags": {
+    "addr:street": "KM 22 Cairo-Alexandria road",
+    "amenity": "university",
+    "internet_access": "wlan",
+    "name": "NEWGIZA UNIVERSITY",
+    "website": "https://ngu.edu.eg/"
+  }
+},
+{
+  "type": "way",
+  "id": 94203023,
+  "center": {
+    "lat": 29.9769315,
+    "lon": 30.9484370
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "تطوير محور المركزي و تغيير الاتجاهات",
+    "name:ar": "جامعة ٦ أكتوبر",
+    "name:en": "October 6 University",
+    "wikidata": "Q4120425",
+    "wikimedia_commons": "Category:October 6 University",
+    "wikipedia": "en:October 6 University"
+  }
+},
+{
+  "type": "way",
+  "id": 94592281,
+  "center": {
+    "lat": 29.9954496,
+    "lon": 30.9655790
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "محور 26 يوليو",
+    "addr:street:en": "26th of July Axis",
+    "amenity": "university",
+    "check_date": "2025-11-24",
+    "name": "جامعة مصر للعلوم والتكنولوجيا",
+    "name:ar": "جامعة مصر للعلوم والتكنولوجيا",
+    "name:en": "Misr University For Science And Technology",
+    "opening_hours": "Sa-Th 08:00-21:00",
+    "phone": "+20238354686",
+    "website": "https://www.must.edu.eg/",
+    "wheelchair": "yes",
+    "wikidata": "Q14565823",
+    "wikipedia": "ar:جامعة مصر للعلوم والتكنولوجيا"
+  }
+},
+{
+  "type": "way",
+  "id": 98525899,
+  "center": {
+    "lat": 29.9643928,
+    "lon": 31.0157010
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر - القاهرة - مصر",
+    "addr:street": "طريق الواحات",
+    "amenity": "university",
+    "building": "yes",
+    "name": "الأكاديمية الدولية للهندسة وعلوم الأعلام",
+    "name:ar": "الأكاديمية الدولية للهندسة وعلوم الأعلام",
+    "name:en": "International Academy for Engineering and Media Science"
+  }
+},
+{
+  "type": "way",
+  "id": 98959896,
+  "center": {
+    "lat": 30.0349195,
+    "lon": 31.0083625
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "كلية الهندسة - جامعة القاهرة (فرع الشيخ زايد - اعدادي هندسة)",
+    "name:ar": "كلية الهندسة - جامعة القاهرة (فرع الشيخ زايد - اعدادي هندسة)",
+    "name:en": "Faculty of Engineering - Cairo University (Sheikh Zayed Branch)",
+    "operator": "جامعة القاهرة",
+    "operator:type": "government",
+    "website": "https://eng.cu.edu.eg/"
+  }
+},
+{
+  "type": "way",
+  "id": 99792459,
+  "center": {
+    "lat": 29.9728843,
+    "lon": 30.9539409
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر - الجيزة",
+    "addr:street": "شارع معهد الفنون التطبيقية",
+    "amenity": "university",
+    "name": "المعهد العالي للفنون التطبيقية",
+    "name:ar": "المعهد العالي للفنون التطبيقية",
+    "name:en": "Higher Institute of Applied Arts"
+  }
+},
+{
+  "type": "way",
+  "id": 99888908,
+  "center": {
+    "lat": 29.9730437,
+    "lon": 30.9424986
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر",
+    "addr:housename": "مكتبة جامعة 6 أكتوبر",
+    "addr:street": "ميدان الحصرى",
+    "amenity": "university",
+    "layer": "-1",
+    "name": "مكتبة جامعة 6 أكتوبر",
+    "name:ar": "مكتبة جامعة 6 أكتوبر",
+    "name:en": "6 October University library",
+    "operator": "6th of October University",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 99937941,
+  "center": {
+    "lat": 29.9602260,
+    "lon": 30.9337395
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر",
+    "addr:street": "ميدان الوهاب",
+    "amenity": "university",
+    "internet_access": "wlan",
+    "name": "معهد اكتوبر العالي للهندسة والتكنولوجيا",
+    "name:en": "october high institute for engineering & technology",
+    "website": "https://www.ohi.edu.eg/"
+  }
+},
+{
+  "type": "way",
+  "id": 100168058,
+  "center": {
+    "lat": 29.9557752,
+    "lon": 30.9142064
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر",
+    "addr:housename": "أكاديمية الثقافة والعلوم",
+    "addr:street": "Al-Mehwar Al-Markazi",
+    "amenity": "university",
+    "name": "مدينة الثقافة والعلوم",
+    "name:ar": "مدينة الثقافة والعلوم",
+    "name:en": "Academy of Culture and Science",
+    "operator": "حكومى"
+  }
+},
+{
+  "type": "way",
+  "id": 217305619,
+  "center": {
+    "lat": 30.0723799,
+    "lon": 30.9483321
+  },
+  "tags": {
+    "amenity": "university",
+    "barrier": "wall",
+    "name": "المدرسة البريطانية الدولية بالقاهرة",
+    "name:ar": "المدرسة البريطانية الدولية بالقاهرة",
+    "name:en": "British International School in Cairo",
+    "website": "https://www.bisc.edu.eg/"
+  }
+},
+{
+  "type": "way",
+  "id": 254057935,
+  "center": {
+    "lat": 29.9580388,
+    "lon": 30.9599141
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر",
+    "addr:housename": "جامعة أكتوبر للعلوم الحديثة والآداب",
+    "addr:street": "طريق الواحات البحرية - الجيزة",
+    "amenity": "university",
+    "name": "جامعة أكتوبر للعلوم الحديثة والآداب",
+    "name:ar": "جامعة أكتوبر للعلوم الحديثة والآداب",
+    "name:en": "October University for Modern Sciences and Arts",
+    "operator": "Private \"Nawal El-Degway\"",
+    "website": "https://www.msa.edu.eg/",
+    "wikipedia": "en:Modern Sciences and Arts University"
+  }
+},
+{
+  "type": "way",
+  "id": 264910207,
+  "center": {
+    "lat": 30.0002609,
+    "lon": 30.9639860
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "أرض ملك جامعة مصر للعلوم والتكنولوجيا",
+    "name:ar": "أرض ملك جامعة مصر للعلوم والتكنولوجيا",
+    "name:en": "MUST Land"
+  }
+},
+{
+  "type": "way",
+  "id": 305968474,
+  "center": {
+    "lat": 29.9400679,
+    "lon": 30.8906643
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر",
+    "addr:street": "طريق المصانع رقم 24",
+    "amenity": "university",
+    "name": "أكاديمية أخبار اليوم",
+    "name:ar": "أكاديمية أخبار اليوم",
+    "name:en": "Akhbar Al-Youm Academy",
+    "operator": "Private",
+    "phone": "+202 38347120",
+    "website": "http://www.akhbaracademy.edu.eg"
+  }
+},
+{
+  "type": "way",
+  "id": 305968475,
+  "center": {
+    "lat": 29.9376588,
+    "lon": 30.8866097
+  },
+  "tags": {
+    "addr:city": "مدينة 6 أكتوبر المنطقة الصناعية",
+    "addr:street": "No. 26",
+    "amenity": "university",
+    "name": "جامعة الأهرام الكندية",
+    "name:ar": "جامعة الأهرام الكندية",
+    "name:en": "Ahram Candian University ACU",
+    "operator": "Private",
+    "wikidata": "Q4702165",
+    "wikimedia_commons": "Category:Ahram Canadian University",
+    "wikipedia": "en:Ahram Canadian University"
+  }
+},
+{
+  "type": "way",
+  "id": 772349384,
+  "center": {
+    "lat": 30.0329615,
+    "lon": 31.0185682
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "جامعة القاهرة فرع الشيخ زايد",
+    "name:ar": "جامعة القاهرة فرع الشيخ زايد",
+    "name:en": "Cairo University, Sheikh Zayed Branch"
+  }
+},
+{
+  "type": "way",
+  "id": 773018847,
+  "center": {
+    "lat": 30.0123616,
+    "lon": 30.9860805
+  },
+  "tags": {
+    "amenity": "university",
+    "check_date": "2025-11-24",
+    "image": "https://drive.google.com/file/d/0B1Hqu6jqN2hAUHZ6a2VfWkRsTWc/view?usp=sharing",
+    "level": "4",
+    "name": "جامعة النيل",
+    "name:ar": "جامعة النيل",
+    "name:en": "Nile University"
+  }
+},
+{
+  "type": "way",
+  "id": 776909712,
+  "center": {
+    "lat": 29.9584886,
+    "lon": 31.0518915
+  },
+  "tags": {
+    "alt_name": "معهد الأهرام العالي",
+    "amenity": "university",
+    "name": "معهد الأهرام العالي",
+    "name:ar": "معهد الأهرام العالي",
+    "name:en": "PHI"
+  }
+},
+{
+  "type": "way",
+  "id": 990607401,
+  "center": {
+    "lat": 29.9608044,
+    "lon": 30.9344604
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "معهد اكتوبر العالى للهندسة والتكنولوجيا (ادرة اعمال)"
+  }
+},
+{
+  "type": "way",
+  "id": 1225388422,
+  "center": {
+    "lat": 29.9750714,
+    "lon": 30.9473505
+  },
+  "tags": {
+    "amenity": "university",
+    "check_date": "2023-12-25",
+    "name": "6 of October University",
+    "name:ar": "جامعة ٦ أكتوبر",
+    "operator": "جامعة ٦ أكتوبر",
+    "website": "https://o6u.edu.eg"
+  }
+},
+{
+  "type": "way",
+  "id": 1430313584,
+  "center": {
+    "lat": 29.9537306,
+    "lon": 30.9615436
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "جامعة أكتوبر التكنواوجية"
+  }
+},
+{
+  "type": "way",
+  "id": 1456049130,
+  "center": {
+    "lat": 30.0448044,
+    "lon": 30.9898008
+  },
+  "tags": {
+    "amenity": "university",
+    "education": "university",
+    "name": "الكلية الكندية الدولية",
+    "name:ar": "الكلية الكندية الدولية",
+    "name:en": "Canadian International College"
+  }
+}
+
+  ]
+}

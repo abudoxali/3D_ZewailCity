@@ -1,0 +1,53 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "airborne_frames": 7,
+        "failures": [],
+        "final": [
+          370.13,
+          1.1,
+          630.89
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188946068286896,
+        "max_gap_at": {
+          "feet_y": 0.249875545501709,
+          "floor": [
+            -6.51,
+            0.06,
+            -45.4
+          ],
+          "on_floor": true,
+          "player": [
+            -6.51,
+            1.12,
+            -45.4
+          ],
+          "target": [
+            0.0,
+            -42.0
+          ],
+          "velocity": [
+            8.0,
+            0.0,
+            4.17
+          ]
+        }
+      },
+      "name": "outside G1 > approach > Administration landing > Academic A > BOTH stairs/hall/bridge > court ramp > rear > dormitory",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "journey ends with walking physics and collision enabled",
+      "pass": true
+    }
+  ],
+  "method": "One initial floor placement outside G1; continuous real sprint/walk input; no subsequent teleport/fly/jump; existing collision masks",
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

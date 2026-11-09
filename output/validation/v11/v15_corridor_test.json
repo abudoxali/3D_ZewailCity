@@ -1,0 +1,262 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "airborne_frames": 2,
+        "failures": [],
+        "final": [
+          -0.01,
+          1.61,
+          -25.44
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188969016075134,
+        "max_gap_at": {
+          "feet_y": 0.268337726593018,
+          "floor": [
+            -24.43,
+            0.08,
+            -58.59
+          ],
+          "on_floor": true,
+          "player": [
+            -24.43,
+            1.14,
+            -58.59
+          ],
+          "target": [
+            -25.0,
+            -55.0
+          ],
+          "velocity": [
+            -0.23,
+            0.0,
+            1.42
+          ]
+        }
+      },
+      "name": "V15 walk G1 exterior > inbound walkway > Administration forecourt",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -16.54,
+          1.26,
+          -200.0
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188120603561401,
+        "max_gap_at": {
+          "feet_y": 0.406264543533325,
+          "floor": [
+            -9.28,
+            0.22,
+            -200.0
+          ],
+          "on_floor": true,
+          "player": [
+            -9.28,
+            1.28,
+            -200.0
+          ],
+          "target": [
+            -17.0,
+            -200.0
+          ],
+          "velocity": [
+            -0.79,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "V15 cross inbound verge: carriageway > road kerb > bed > walkway kerb > walkway",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 1,
+        "failures": [],
+        "final": [
+          6.43,
+          1.08,
+          -180.0
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.164768159389496,
+        "max_gap_at": {
+          "feet_y": 0.370614767074585,
+          "floor": [
+            9.23,
+            0.21,
+            -180.0
+          ],
+          "on_floor": true,
+          "player": [
+            9.23,
+            1.25,
+            -180.0
+          ],
+          "target": [
+            6.0,
+            -180.0
+          ],
+          "velocity": [
+            -4.37,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "V15 cross outbound verge back to carriageway",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          5.55,
+          1.09,
+          -170.0
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188966274261475,
+        "max_gap_at": {
+          "feet_y": 0.385427594184875,
+          "floor": [
+            2.31,
+            0.2,
+            -170.0
+          ],
+          "on_floor": true,
+          "player": [
+            2.31,
+            1.26,
+            -170.0
+          ],
+          "target": [
+            6.0,
+            -170.0
+          ],
+          "velocity": [
+            4.37,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "V15 cross median between carriageways",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -6.0,
+          1.05,
+          -120.47
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0189998745918274,
+        "max_gap_at": {
+          "feet_y": 0.266667246818542,
+          "floor": [
+            -6.0,
+            0.25,
+            -236.08
+          ],
+          "on_floor": true,
+          "player": [
+            -6.0,
+            1.14,
+            -236.08
+          ],
+          "target": [
+            -6.0,
+            -120.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            4.37
+          ]
+        }
+      },
+      "name": "V15 inbound carriageway through crossover bands",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          6.01,
+          0.97,
+          -299.59
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0191937685012817,
+        "max_gap_at": {
+          "feet_y": 0.214576125144959,
+          "floor": [
+            6.0,
+            0.2,
+            -284.86
+          ],
+          "on_floor": true,
+          "player": [
+            6.0,
+            1.09,
+            -284.86
+          ],
+          "target": [
+            6.0,
+            -300.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            -4.37
+          ]
+        }
+      },
+      "name": "V15 outbound carriageway through crossover bands",
+      "pass": true
+    },
+    {
+      "detail": {
+        "hole_count": 0,
+        "holes": [],
+        "samples": 35689,
+        "single_ray_edge_misses": 2
+      },
+      "name": "V15 corridor collision has no holes (0.5 m grid, x -22..22, Blender y 100..300)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "count": 0,
+        "examples": []
+      },
+      "name": "V15 corridor has no raised invisible collision over the walkable surface",
+      "pass": true
+    },
+    {
+      "detail": {
+        "own_collider": false,
+        "triangles": 146540.0
+      },
+      "name": "V15 precast kerb units rendered (visual only, no own collider)",
+      "pass": true
+    }
+  ],
+  "method": "Real walking input with existing collision; physics ray grid over the pilot corridor",
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

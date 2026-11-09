@@ -1,0 +1,152 @@
+[
+  {
+    "id": "G2",
+    "parameters": {
+      "opening_width": 14.040985164698228,
+      "orientation": 0.07315853752854463,
+      "support_width": 0.65,
+      "support_depth": 0.95,
+      "support_height": 3.55,
+      "frame_height": 3.15,
+      "frame_depth": 0.32,
+      "pedestrian_width": 1.7,
+      "leaf_height": 2.65,
+      "leaf_parking": "sliding_flanks",
+      "wall_height": 3.5,
+      "threshold_offset": 0.06,
+      "threshold_depth": 6.0,
+      "wall_connection_half": 10.0,
+      "node_spacing": 12.840985164698228
+    },
+    "position": [
+      6.445,
+      -638.674
+    ],
+    "threshold_elevation_m": -0.44965020000000006,
+    "internal_surface_gap_m": 3.977,
+    "internal_connector_m2": 25.008,
+    "v9_apron_m2": 83.486,
+    "external_connection": "UNRESOLVED: mapped branches end ~25 m before external road; no extension",
+    "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+  },
+  {
+    "id": "G3",
+    "parameters": {
+      "opening_width": 11.826758677978908,
+      "orientation": -1.7677592805287667,
+      "support_width": 0.65,
+      "support_depth": 0.95,
+      "support_height": 3.55,
+      "frame_height": 3.15,
+      "frame_depth": 0.32,
+      "pedestrian_width": 1.7,
+      "leaf_height": 2.65,
+      "leaf_parking": "sliding_flanks",
+      "wall_height": 3.5,
+      "threshold_offset": 0.06,
+      "threshold_depth": 6.0,
+      "wall_connection_half": 10.0,
+      "node_spacing": 10.62675867797891
+    },
+    "position": [
+      -270.917,
+      132.472
+    ],
+    "threshold_elevation_m": 0.11179420000000001,
+    "internal_surface_gap_m": 3.659,
+    "internal_connector_m2": 32.548,
+    "v9_apron_m2": 89.382,
+    "external_connection": "No external connector invented",
+    "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+  },
+  {
+    "id": "G4",
+    "parameters": {
+      "opening_width": 15.054677910366586,
+      "orientation": -1.6195309328830627,
+      "support_width": 0.65,
+      "support_depth": 0.95,
+      "support_height": 3.55,
+      "frame_height": 3.15,
+      "frame_depth": 0.32,
+      "pedestrian_width": 1.7,
+      "leaf_height": 2.65,
+      "leaf_parking": "sliding_flanks",
+      "wall_height": 3.5,
+      "threshold_offset": 0.06,
+      "threshold_depth": 6.0,
+      "wall_connection_half": 10.0,
+      "node_spacing": 13.854677910366586
+    },
+    "position": [
+      -342.324,
+      -238.001
+    ],
+    "threshold_elevation_m": -0.19886560000000003,
+    "internal_surface_gap_m": 7.54,
+    "internal_connector_m2": 52.732,
+    "v9_apron_m2": 128.894,
+    "external_connection": "No external connector invented",
+    "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+  },
+  {
+    "id": "G5",
+    "parameters": {
+      "opening_width": 13.448926483573993,
+      "orientation": 2.2531382668903572,
+      "support_width": 0.65,
+      "support_depth": 0.95,
+      "support_height": 3.55,
+      "frame_height": 3.15,
+      "frame_depth": 0.32,
+      "pedestrian_width": 1.7,
+      "leaf_height": 2.65,
+      "leaf_parking": "sliding_flanks",
+      "wall_height": 3.5,
+      "threshold_offset": 0.06,
+      "threshold_depth": 6.0,
+      "wall_connection_half": 10.0,
+      "node_spacing": 12.248926483573994
+    },
+    "position": [
+      237.756,
+      76.165
+    ],
+    "threshold_elevation_m": 0.1684832,
+    "internal_surface_gap_m": 1.952,
+    "internal_connector_m2": 23.672,
+    "v9_apron_m2": 89.561,
+    "external_connection": "No external connector invented",
+    "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+  },
+  {
+    "id": "G6",
+    "parameters": {
+      "opening_width": 14.017523161672054,
+      "orientation": 1.5849529610284294,
+      "support_width": 0.65,
+      "support_depth": 0.95,
+      "support_height": 3.55,
+      "frame_height": 3.15,
+      "frame_depth": 0.32,
+      "pedestrian_width": 1.7,
+      "leaf_height": 2.65,
+      "leaf_parking": "sliding_flanks",
+      "wall_height": 3.5,
+      "threshold_offset": 0.06,
+      "threshold_depth": 6.0,
+      "wall_connection_half": 10.0,
+      "node_spacing": 12.817523161672055
+    },
+    "position": [
+      346.622,
+      -236.753
+    ],
+    "threshold_elevation_m": -0.06007799999999999,
+    "internal_surface_gap_m": 3.693,
+    "internal_connector_m2": 32.723,
+    "v9_apron_m2": 102.679,
+    "external_connection": "No external connector invented",
+    "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+  }
+]

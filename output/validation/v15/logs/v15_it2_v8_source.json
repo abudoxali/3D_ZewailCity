@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe",
+    "-b",
+    "output/validation/v15/candidate/output/Zewail_City_3D.blend",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "output/validation/v15/candidate/src/validate_v8_source.py"
+  ],
+  "exit_code": 0,
+  "seconds": 7.58,
+  "started_utc": "2026-11-09T09:48:48.886955+00:00"
+}

@@ -1,0 +1,21 @@
+00:02.281  blend            | Read blend: "C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend"
+BlenderMCP addon registered
+[paths] CIN_Academic_Public_Route: 720 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Academic_Public_Route.json
+[paths] CIN_Admin_Closeup: 300 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Admin_Closeup.json
+[paths] CIN_Aerial_Flyover: 360 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Aerial_Flyover.json
+[paths] CIN_Dormitory_Candidate_Garden: 540 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Dormitory_Candidate_Garden.json
+[paths] CIN_G2_Provisional_Gate: 180 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_G2_Provisional_Gate.json
+[paths] CIN_G3_Provisional_Gate: 180 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_G3_Provisional_Gate.json
+[paths] CIN_G4_Provisional_Gate: 180 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_G4_Provisional_Gate.json
+[paths] CIN_G5_Provisional_Gate: 180 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_G5_Provisional_Gate.json
+[paths] CIN_G6_Provisional_Gate: 180 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_G6_Provisional_Gate.json
+[paths] CIN_Ground_Approach: 720 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Ground_Approach.json
+[paths] CIN_Main_Gate: 300 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Main_Gate.json
+[paths] CIN_Overview_Orbit: 601 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_Overview_Orbit.json
+[paths] CIN_V6_Photo_Walkthrough: 5250 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_V6_Photo_Walkthrough.json
+[paths] CIN_V7_Architectural_Showcase: 2831 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\CIN_V7_Architectural_Showcase.json
+[paths] TOUR_Guided: 4560 samples -> C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\tours\TOUR_Guided.json
+BlenderMCP addon unregistered
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

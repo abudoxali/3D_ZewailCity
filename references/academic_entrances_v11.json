@@ -1,0 +1,118 @@
+{
+  "classification": "ACADEMIC BUILDING ENTRANCES (independent of perimeter gates G1-G6)",
+  "lettering_hypothesis": "Sequential lettering counter-clockwise from Gate (A); only A, C, F names are photo-read.",
+  "entrances": [
+    {
+      "id": "F",
+      "name": "UST / Gate (F)",
+      "name_ar": "UST / البوابة (و)",
+      "level": "ground (+1.56 landing)",
+      "position_blender": [
+        103.0,
+        -223.0,
+        1.5599999999999998
+      ],
+      "orientation_deg": 0.0,
+      "connected_walkway": "east walk to the dormitory approach",
+      "evidence": "P14 PHOTO VERIFIED form + names; owner 13 corner position; exact face ESTIMATED",
+      "traversal": "nine steps to the doors (no interior modelled)",
+      "label": true
+    },
+    {
+      "id": "B?",
+      "name": "Academic side entrance (name unverified)",
+      "name_ar": "مدخل جانبي",
+      "level": "ground (+0.66 landing)",
+      "position_blender": [
+        -102.5,
+        -226.0,
+        0.66
+      ],
+      "orientation_deg": 180.0,
+      "connected_walkway": "west walk",
+      "evidence": "Owner X mark (11); form ESTIMATED; name UNVERIFIED",
+      "traversal": "reach the doors",
+      "label": false
+    },
+    {
+      "id": "C",
+      "name": "Gate (C)",
+      "name_ar": "البوابة (ج)",
+      "level": "ground (+0.66 landing)",
+      "position_blender": [
+        -70.56,
+        -319.56,
+        0.66
+      ],
+      "orientation_deg": -135.0,
+      "connected_walkway": "rear campus walk",
+      "evidence": "P12 PHOTO VERIFIED form/name; position = owner X mark + sequential-lettering hypothesis (ESTIMATED)",
+      "traversal": "reach the doors (no interior modelled)",
+      "label": true
+    },
+    {
+      "id": "E?",
+      "name": "Academic entrance (name unverified)",
+      "name_ar": "مدخل",
+      "level": "ground (+0.66 landing)",
+      "position_blender": [
+        70.56,
+        -319.56,
+        0.66
+      ],
+      "orientation_deg": -45.0,
+      "connected_walkway": "rear campus walk",
+      "evidence": "Owner X mark; form copied from P12 (ESTIMATED); name UNVERIFIED",
+      "traversal": "reach the doors (no interior modelled)",
+      "label": false
+    },
+    {
+      "id": "D?",
+      "name": "Rear passage (name unverified)",
+      "name_ar": "الممر الخلفي",
+      "level": "ground",
+      "position_blender": [
+        0.0,
+        -350.0,
+        0.21
+      ],
+      "orientation_deg": 270.0,
+      "connected_walkway": "inner court ↔ rear campus (owner 09)",
+      "evidence": "OWNER CONFIRMED connection; opening width/height ESTIMATED",
+      "traversal": "walk-through",
+      "label": false
+    },
+    {
+      "id": "A",
+      "name": "Gate (A)",
+      "name_ar": "البوابة (أ)",
+      "level": "ground + upper terrace",
+      "position_blender": [
+        0.0,
+        -219.0,
+        4.41
+      ],
+      "orientation_deg": 90.0,
+      "connected_walkway": "forecourt → two great stairs → terrace; lower passage → inner court",
+      "evidence": "PHOTO VERIFIED name/form (D05, P09); geometry ESTIMATED",
+      "traversal": "walk-through (passage) + both stairs",
+      "label": true
+    },
+    {
+      "id": "HALL",
+      "name": "Upper hall / court bridge",
+      "name_ar": "القاعة العلوية",
+      "level": "upper (4.41 m)",
+      "position_blender": [
+        0.0,
+        -258.0,
+        4.41
+      ],
+      "orientation_deg": 270.0,
+      "connected_walkway": "terrace → covered hall → bridge overlook",
+      "evidence": "OWNER MARK 11 + P15 bridge; dimensions ESTIMATED",
+      "traversal": "walkable deck with railed voids",
+      "label": false
+    }
+  ]
+}

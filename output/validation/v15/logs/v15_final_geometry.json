@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe",
+    "-b",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "tools/v15_geometry_fingerprints.py",
+    "--",
+    "v15_final"
+  ],
+  "exit_code": 0,
+  "seconds": 12.53,
+  "started_utc": "2026-11-09T11:17:08.138145+00:00"
+}

@@ -1,0 +1,238 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-06T17:31:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1143261889,
+  "lat": 29.9566252,
+  "lon": 31.0765283,
+  "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "374",
+    "name": "Zewail Rd. (Wahat Rd.)",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 11750376869,
+  "lat": 30.0816120,
+  "lon": 31.0179464,
+  "tags": {
+    "amenity": "college",
+    "name": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري",
+    "name:en": "Arab Academy for Science, Technology & Maritime Transport, Smart Village Campus",
+    "toilets:wheelchair": "yes",
+    "website": "https://aast.edu/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12615835836,
+  "lat": 29.9929763,
+  "lon": 31.1475960,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا الحلمية"
+  }
+},
+{
+  "type": "node",
+  "id": 14205601088,
+  "lat": 29.9906139,
+  "lon": 31.1365296,
+  "tags": {
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/Easyplusdentalcare",
+    "contact:whatsapp": "+20-121-277-0300",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "mobile": "+20-121-277-0300",
+    "name": "دكتور محمد عباس حلمي اسنان",
+    "name:ar": "دكتور محمد عباس حلمي اسنان",
+    "name:en": "Dr. Mohamed Abbas Helmi",
+    "opening_hours": "Mo-Th,Sa,Su 12:00-24:00",
+    "phone": "+20-121-277-0300"
+  }
+},
+{
+  "type": "way",
+  "id": 94592281,
+  "center": {
+    "lat": 29.9954496,
+    "lon": 30.9655790
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "محور 26 يوليو",
+    "addr:street:en": "26th of July Axis",
+    "amenity": "university",
+    "check_date": "2025-11-24",
+    "name": "جامعة مصر للعلوم والتكنولوجيا",
+    "name:ar": "جامعة مصر للعلوم والتكنولوجيا",
+    "name:en": "Misr University For Science And Technology",
+    "opening_hours": "Sa-Th 08:00-21:00",
+    "phone": "+20238354686",
+    "website": "https://www.must.edu.eg/",
+    "wheelchair": "yes",
+    "wikidata": "Q14565823",
+    "wikipedia": "ar:جامعة مصر للعلوم والتكنولوجيا"
+  }
+},
+{
+  "type": "way",
+  "id": 264910207,
+  "center": {
+    "lat": 30.0002609,
+    "lon": 30.9639860
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "أرض ملك جامعة مصر للعلوم والتكنولوجيا",
+    "name:ar": "أرض ملك جامعة مصر للعلوم والتكنولوجيا",
+    "name:en": "MUST Land"
+  }
+},
+{
+  "type": "way",
+  "id": 680100001,
+  "center": {
+    "lat": 30.0445973,
+    "lon": 31.1401369
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع حلمي الماحي",
+    "name:ar": "شارع حلمي الماحي",
+    "name:en": "Hilmi Al Mahi Street"
+  }
+},
+{
+  "type": "way",
+  "id": 680358364,
+  "center": {
+    "lat": 30.0207933,
+    "lon": 31.1356459
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع حسن حلمي",
+    "name:ar": "شارع حسن حلمي",
+    "name:en": "Hassn Helmi Street"
+  }
+},
+{
+  "type": "way",
+  "id": 689139276,
+  "center": {
+    "lat": 30.0680992,
+    "lon": 31.1881238
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "حارة حلمي أبو سنه",
+    "name:ar": "حارة حلمي أبو سنه",
+    "name:en": "Helmi Abou Sana Alley"
+  }
+},
+{
+  "type": "way",
+  "id": 719300660,
+  "center": {
+    "lat": 30.0258578,
+    "lon": 31.1691476
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "حارة حلمي الفيومي",
+    "name:ar": "حارة حلمي الفيومي",
+    "name:en": "Helmi Al Fayoumi Alley"
+  }
+},
+{
+  "type": "way",
+  "id": 723831124,
+  "center": {
+    "lat": 30.0167892,
+    "lon": 31.1398481
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "حارة فرج حلمي",
+    "name:ar": "حارة فرج حلمي",
+    "name:en": "Farag Helmi Alley"
+  }
+},
+{
+  "type": "way",
+  "id": 724725967,
+  "center": {
+    "lat": 30.0113743,
+    "lon": 31.1544963
+  },
+  "tags": {
+    "alt_name": "شارع عشره",
+    "alt_name:en": "Ashra Street",
+    "highway": "residential",
+    "name": "شارع شهدي حلمي أبو وليد",
+    "name:ar": "شارع شهدي حلمي أبو وليد",
+    "name:en": "Shahdi Helmi Abou Walid Street"
+  }
+},
+{
+  "type": "way",
+  "id": 727274497,
+  "center": {
+    "lat": 30.0198628,
+    "lon": 31.1803521
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع حلمي",
+    "name:ar": "شارع حلمي",
+    "name:en": "Helmi Street"
+  }
+},
+{
+  "type": "way",
+  "id": 727839918,
+  "center": {
+    "lat": 30.0212374,
+    "lon": 31.1757089
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "حارة حلمي عبد العاطي",
+    "name:ar": "حارة حلمي عبد العاطي",
+    "name:en": "Helmi Abd Al Ati Alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1319215906,
+  "center": {
+    "lat": 29.9980272,
+    "lon": 30.9654897
+  },
+  "tags": {
+    "building": "train_station",
+    "construction": "yes",
+    "monorail": "yes",
+    "name": "جامعة مصر للعلوم والتكنولوجيا",
+    "name:ar": "جامعة مصر للعلوم والتكنولوجيا",
+    "name:en": "MISR University of Science and Technology",
+    "network": "مونوريل غرب القاهرة",
+    "public_transport": "station",
+    "railway": "station"
+  }
+}
+
+  ]
+}

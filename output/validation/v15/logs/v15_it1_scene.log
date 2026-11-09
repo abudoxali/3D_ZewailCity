@@ -1,0 +1,255 @@
+00:02.344  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+BlenderMCP addon registered
+[build] materials and assets ready
+[build] V4 survey layout ready; rebuilding V5 ground topology
+[ground-v5] foundation bases extended: 73
+[ground-v5] collecting survey surfaces
+[ground-v5] surface unions ready
+[ground-v10] junction fillets 166 pieces 1229.47 m2; 6 rejected; curb returns 150.79 m2
+[ground-v5] raised bed components trimmed off roads: 5
+[ground-v11] {"footway_connectors": 19, "sliver_area_m2": 5686.11, "trees_moved": 0, "trees_removed": 1}
+[ground-v5] meshing M_Asphalt
+[ground-v5] meshing M_Paver_Road_Grey
+[ground-waveC] G1 exterior asphalt 764.887 m2; plane 314.6
+[ground-v5] meshing M_Concrete_Curb
+[ground-waveC] kerb profile vertices 53197 preserved cap vertices 6239
+[ground-v5] meshing M_V6_Plaza_Inlay
+[ground-v5] meshing M_V6_Plaza_Grey
+[ground-v5] meshing M_V6_Plaza_Light
+[ground-v5] meshing M_V6_Garden_Pavers
+[ground-v5] meshing M_Paving_Limestone
+[ground-v5] meshing M_Paving_Light
+[ground-v5] meshing M_Groundcover_Planted
+[ground-v5] meshing M_Grass_Lawn
+[ground-v5] meshing M_Planted_Soil_Sparse
+[ground-v5] meshing M_White_Pebbles
+[ground-v5] meshing M_Compacted_Earth
+[ground-v5] meshing M_V7_Paving_Edge_Restraint
+[ground-v5] meshing M_V7_Paving_Edge_Restraint
+[ground-v5] meshing M_V15_Planted_Bed_Soil
+[ground-v5] meshing M_Grass_Lawn_V15_Median
+[ground-v5] meshing graded terrain
+[v15-corridor] {"partition": {"bed_m2": 3138.9, "bed_inner_m2": 1727.9, "median_m2": 694.0, "band_m2": 28.0, "edge_to_kerb_m2": 29.13}, "feather": {"boundary_segments": 424, "width_m": 7.0, "zone": [-150.0, 40.0, 150.0, 384.6]}, "kerb_units": {"units": 2181, "lines": 51, "face_lines_road": 78, "face_lines_bed": 4, "triangles": 148308, "mean_width_m": 0.261, "unit_m": 1.0, "curved_unit_m": 0.5, "covered_m2": 522.7, "zone_curb_m2": 540.63}, "profiled_kerb_faces_removed": 8430, "topology": {"surface_overlap_m2": 9.146826046448948e-13, "plot_uncovered_m2": 2.4800821220190423e-13, "all_topology_checks_pass": true}}
+[ground-v5] {"road_area_m2": 243016.71794381813, "surface_overlap_m2": 9.146826046448948e-13, "plot_uncovered_m2": 2.4800821220190423e-13}
+[build] V7 evening lights {'street': 63, 'plaza': 0} entrance 13
+11:18:13 | INFO: Data are loaded, start creating Blender stuff
+11:18:13 | INFO: Blender create Mesh node mesh.001
+11:18:14 | INFO: Blender create Mesh node Plane.002
+11:18:14 | INFO: Blender create Mesh node Circle.001
+11:18:14 | INFO: Blender create Mesh node Circle
+11:18:14 | INFO: Blender create Mesh node Cylinder.027
+11:18:14 | INFO: Blender create Mesh node Cylinder.118
+11:18:14 | INFO: Blender create Mesh node Cylinder.092
+11:18:14 | INFO: Blender create Mesh node Cylinder.051
+11:18:14 | INFO: glTF import finished in 0.30s
+11:19:04 | INFO: Data are loaded, start creating Blender stuff
+11:19:04 | INFO: Blender create Mesh node Date bunch supporting stalk
+11:19:04 | INFO: Blender create Mesh node Date bunch supporting stalk.001
+11:19:04 | INFO: Blender create Mesh node Sphere
+11:19:04 | INFO: Blender create Mesh node Sphere.001
+11:19:04 | INFO: Blender create Mesh node Sphere.002
+11:19:04 | INFO: Blender create Mesh node Sphere.003
+11:19:04 | INFO: Blender create Mesh node Sphere.004
+11:19:04 | INFO: Blender create Mesh node Sphere.005
+11:19:04 | INFO: Blender create Mesh node Sphere.006
+11:19:04 | INFO: Blender create Mesh node Sphere.007
+11:19:04 | INFO: Blender create Mesh node Sphere.008
+11:19:04 | INFO: Blender create Mesh node Sphere.009
+11:19:04 | INFO: Blender create Mesh node Sphere.010
+11:19:04 | INFO: Blender create Mesh node Sphere.011
+11:19:04 | INFO: Blender create Mesh node Sphere.012
+11:19:04 | INFO: Blender create Mesh node Sphere.013
+11:19:04 | INFO: Blender create Mesh node Sphere.014
+11:19:04 | INFO: Blender create Mesh node Sphere.015
+11:19:04 | INFO: Blender create Mesh node Sphere.016
+11:19:04 | INFO: Blender create Mesh node Sphere.017
+11:19:04 | INFO: Blender create Mesh node Sphere.018
+11:19:04 | INFO: Blender create Mesh node Sphere.019
+11:19:04 | INFO: Blender create Mesh node Sphere.020
+11:19:04 | INFO: Blender create Mesh node Sphere.021
+11:19:04 | INFO: Blender create Mesh node Sphere.022
+11:19:04 | INFO: Blender create Mesh node Sphere.023
+11:19:04 | INFO: Blender create Mesh node Sphere.024
+11:19:04 | INFO: Blender create Mesh node Sphere.025
+11:19:04 | INFO: Blender create Mesh node Sphere.026
+11:19:04 | INFO: Blender create Mesh node Sphere.027
+11:19:04 | INFO: Blender create Mesh node Sphere.028
+11:19:04 | INFO: Blender create Mesh node Sphere.029
+11:19:04 | INFO: Blender create Mesh node Sphere.030
+11:19:04 | INFO: Blender create Mesh node Sphere.031
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.001
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.002
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.003
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.004
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.005
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.006
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.007
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.008
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.009
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.010
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.011
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.012
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.013
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.014
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.015
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.016
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.017
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.018
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.019
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.020
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.021
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.022
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.023
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.024
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.025
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.026
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.027
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.028
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.029
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.030
+11:19:04 | INFO: Blender create Mesh node Date fruit pedicel.031
+11:19:04 | INFO: Blender create Mesh node Date palm feather leaflets
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.001
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.002
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.003
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.004
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.005
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.006
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.007
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.008
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.009
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.010
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.011
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.012
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.013
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.014
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.015
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.016
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.017
+11:19:04 | INFO: Blender create Mesh node Date palm frond stem.018
+11:19:04 | INFO: Blender create Mesh node Palm trunk
+11:19:04 | INFO: Blender create Mesh node Palm trunk leaf scar
+11:19:04 | INFO: Blender create Mesh node Palm trunk leaf scar.001
+11:19:04 | INFO: Blender create Mesh node Palm trunk leaf scar.002
+11:19:04 | INFO: Blender create Mesh node Palm trunk leaf scar.003
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.004
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.005
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.006
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.007
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.008
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.009
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.010
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.011
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.012
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.013
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.014
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.015
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.016
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.017
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.018
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.019
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.020
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.021
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.022
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.023
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.024
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.025
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.026
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.027
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.028
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.029
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.030
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.031
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.032
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.033
+11:19:05 | INFO: Blender create Mesh node Palm trunk leaf scar.034
+11:19:05 | INFO: glTF import finished in 0.66s
+11:19:06 | INFO: Data are loaded, start creating Blender stuff
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.001
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.002
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.003
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.004
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.005
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.006
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.007
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.008
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.009
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.010
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.011
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.012
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.013
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.014
+11:19:06 | INFO: Blender create Mesh node Arching frond rachis.015
+11:19:06 | INFO: Blender create Mesh node Sphere
+11:19:06 | INFO: Blender create Mesh node Palm leaflets 0
+11:19:06 | INFO: Blender create Mesh node Palm leaflets 1
+11:19:06 | INFO: Blender create Mesh node Palm leaflets 2
+11:19:06 | INFO: Blender create Mesh node Palm trunk
+11:19:06 | INFO: Blender create Mesh node Torus
+11:19:06 | INFO: Blender create Mesh node Torus.001
+11:19:06 | INFO: Blender create Mesh node Torus.002
+11:19:06 | INFO: Blender create Mesh node Torus.003
+11:19:06 | INFO: Blender create Mesh node Torus.004
+11:19:06 | INFO: Blender create Mesh node Torus.005
+11:19:06 | INFO: Blender create Mesh node Torus.006
+11:19:06 | INFO: Blender create Mesh node Torus.007
+11:19:06 | INFO: Blender create Mesh node Torus.008
+11:19:06 | INFO: Blender create Mesh node Torus.009
+11:19:06 | INFO: Blender create Mesh node Torus.010
+11:19:06 | INFO: Blender create Mesh node Torus.011
+11:19:06 | INFO: Blender create Mesh node Torus.012
+11:19:06 | INFO: Blender create Mesh node Torus.013
+11:19:06 | INFO: Blender create Mesh node Torus.014
+11:19:06 | INFO: Blender create Mesh node Torus.015
+11:19:06 | INFO: Blender create Mesh node Torus.016
+11:19:06 | INFO: Blender create Mesh node Torus.017
+11:19:06 | INFO: Blender create Mesh node Torus.018
+11:19:06 | INFO: Blender create Mesh node Torus.019
+11:19:06 | INFO: Blender create Mesh node Torus.020
+11:19:06 | INFO: Blender create Mesh node Torus.021
+11:19:06 | INFO: Blender create Mesh node Torus.022
+11:19:06 | INFO: Blender create Mesh node Torus.023
+11:19:06 | INFO: Blender create Mesh node Torus.024
+11:19:06 | INFO: Blender create Mesh node Torus.025
+11:19:06 | INFO: Blender create Mesh node Torus.026
+11:19:06 | INFO: Blender create Mesh node Torus.027
+11:19:06 | INFO: Blender create Mesh node Torus.028
+11:19:06 | INFO: Blender create Mesh node Torus.029
+11:19:06 | INFO: Blender create Mesh node Torus.030
+11:19:06 | INFO: Blender create Mesh node Torus.031
+11:19:06 | INFO: Blender create Mesh node Torus.032
+11:19:06 | INFO: Blender create Mesh node Torus.033
+11:19:06 | INFO: Blender create Mesh node Torus.034
+11:19:06 | INFO: Blender create Mesh node Torus.035
+11:19:06 | INFO: Blender create Mesh node Torus.036
+11:19:06 | INFO: Blender create Mesh node Torus.037
+11:19:06 | INFO: Blender create Mesh node Torus.038
+11:19:06 | INFO: Blender create Mesh node Torus.039
+11:19:06 | INFO: Blender create Mesh node Torus.040
+11:19:06 | INFO: Blender create Mesh node Torus.041
+11:19:06 | INFO: Blender create Mesh node Torus.042
+11:19:06 | INFO: Blender create Mesh node Torus.043
+11:19:06 | INFO: glTF import finished in 0.39s
+[V13 integration] {"date_palms": 35, "fan_palms_as_palm_detailed": 21, "shrubs": "unchanged V12.1 shrubs (leaf-geometry shrubs rejected in QA)", "asset_triangles": {"ASSET_V13_Pachira_C": 20551, "ASSET_V13_Pachira_D": 28105, "ASSET_V13_Date_Palm": 56000, "ASSET_V13_Palm_Detailed": 37904}, "procedural_meshes_remaining_users": {"ASSET_Tree_0": 0, "ASSET_Tree_1": 0, "ASSET_Tree_2": 0, "ASSET_Palm_0": 0, "ASSET_Palm_1": 0, "ASSET_Palm_2": 0, "ASSET_Palm_3": 0, "ASSET_Fan_Palm_0": 0, "ASSET_Fan_Palm_1": 0, "ASSET_Fan_Palm_2": 0, "ASSET_Shrub_Green_0": 274, "ASSET_Shrub_Green_1": 279, "ASSET_V7_Round_Shrub_0": 74, "ASSET_V7_Round_Shrub_1": 74}}
+11:19:13 | INFO: Data are loaded, start creating Blender stuff
+11:19:13 | INFO: Blender create Mesh node Plane.092
+11:19:13 | INFO: Blender create Mesh node Plane.047
+11:19:13 | INFO: Blender create Mesh node Plane.059
+11:19:13 | INFO: Blender create Mesh node Plane.067
+11:19:13 | INFO: Blender create Mesh node Plane.088
+11:19:13 | INFO: Blender create Mesh node Plane.054
+11:19:13 | INFO: Blender create Mesh node Plane.077
+11:19:13 | INFO: Blender create Mesh node Plane.081
+11:19:13 | INFO: glTF import finished in 0.15s
+[v15-corridor] {"partition": {"bed_m2": 3138.9, "bed_inner_m2": 1727.9, "median_m2": 694.0, "band_m2": 28.0, "edge_to_kerb_m2": 29.13}, "feather": {"boundary_segments": 424, "width_m": 7.0, "zone": [-150.0, 40.0, 150.0, 384.6]}, "kerb_units": {"units": 2181, "lines": 51, "face_lines_road": 78, "face_lines_bed": 4, "triangles": 148308, "mean_width_m": 0.261, "unit_m": 1.0, "curved_unit_m": 0.5, "covered_m2": 522.7, "zone_curb_m2": 540.63}, "profiled_kerb_faces_removed": 8430, "topology": {"surface_overlap_m2": 9.146826046448948e-13, "plot_uncovered_m2": 2.4800821220190423e-13, "all_topology_checks_pass": true}, "groundcover": {"instances": 2108, "rows_m": 0.75, "clump_tris": [781, 837, 884, 929], "asset": "Poly Haven crystalline_iceplant (CC0)", "trunk_clearance_m": 0.7}}
+Info: Packed 16 file(s)
+Info: Saved as "Zewail_City_3D.blend"
+[build] device=OPTIX objects=4156 meshes=623 materials=97 vegetation={'palm': 36, 'fan': 21, 'tree': 573, 'shrub': 607, 'xero': 169} furniture={'lamp': 51, 'car': 159} shots=15
+[build] saved C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend in 430.8s
+BlenderMCP addon unregistered
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

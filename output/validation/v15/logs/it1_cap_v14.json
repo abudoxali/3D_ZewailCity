@@ -1,0 +1,19 @@
+{
+  "command": [
+    "godot_console",
+    "--path",
+    "C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/baseline_v14_godot",
+    "--resolution",
+    "1920x1080",
+    "res://tests/V9Capture.tscn",
+    "--",
+    "--tag=v14",
+    "--out=C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/it1/v14",
+    "--only=G1_exterior_eye,V13_approach_aerial,main_approach_road,V15_median_eye,V15_crossover_bands_eye,V15_verge_bed_close,V15_kerb_close,V15_ring_junction_kerbs,V15_g1_inside_kerbs,admin_entrance_axis,V14_g1_gate_sand,V12_approach_close",
+    "--preset=high",
+    "--uncapped"
+  ],
+  "exit_code": 0,
+  "seconds": 28.7,
+  "started_utc": "2026-11-09T09:31:19.462002+00:00"
+}

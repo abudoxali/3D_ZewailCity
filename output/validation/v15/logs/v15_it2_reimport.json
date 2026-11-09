@@ -1,0 +1,12 @@
+{
+  "command": [
+    "godot_console",
+    "--headless",
+    "--path",
+    "output/validation/v15/candidate/game/godot",
+    "--import"
+  ],
+  "exit_code": 0,
+  "seconds": 26.71,
+  "started_utc": "2026-11-09T09:49:19.720876+00:00"
+}

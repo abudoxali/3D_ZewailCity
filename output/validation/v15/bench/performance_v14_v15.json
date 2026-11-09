@@ -1,0 +1,114 @@
+{
+  "method": "RTX 4070, 1920x1080 High, FOV 84.25, VSync off/max_fps 0, 12 stored views (V14 set + V15_median_eye, V13_approach_aerial), 90 warmup + 180 measured frames; V14,V15 alternating x2",
+  "v14": {
+    "runs": 2,
+    "adapter": "NVIDIA GeForce RTX 4070",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fov": 84.25,
+    "vsync": [
+      0,
+      0
+    ],
+    "max_fps": [
+      0,
+      0
+    ],
+    "aggregate_fps": 186.6,
+    "aggregate_fps_per_run": [
+      185.9,
+      187.4
+    ],
+    "mean_frame_ms": 5.358,
+    "slowest_view": "V13_approach_aerial",
+    "slowest_fps": 135.3,
+    "worst_p99_ms": 8.38,
+    "per_view_fps": {
+      "G1_exterior_eye": 161.3,
+      "O16_dome_axis_terrace": 187.8,
+      "P13_court_photo": 267.0,
+      "V13_approach_aerial": 135.3,
+      "V15_median_eye": 159.1,
+      "academic_central_passage": 255.1,
+      "academic_stair_left": 246.6,
+      "admin_entrance_axis": 191.4,
+      "dorm_garden_paths": 201.2,
+      "drone_overview": 166.4,
+      "main_approach_road": 150.4,
+      "ring_road_eye": 221.2
+    },
+    "draw_range": [
+      337.0,
+      1281.0
+    ],
+    "primitive_range": [
+      5069259.0,
+      6809441.0
+    ],
+    "texture_memory_bytes": 1297464320.0,
+    "load_ms": [
+      1584,
+      1642
+    ]
+  },
+  "v15": {
+    "runs": 2,
+    "adapter": "NVIDIA GeForce RTX 4070",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fov": 84.25,
+    "vsync": [
+      0,
+      0
+    ],
+    "max_fps": [
+      0,
+      0
+    ],
+    "aggregate_fps": 177.9,
+    "aggregate_fps_per_run": [
+      176.3,
+      179.5
+    ],
+    "mean_frame_ms": 5.621,
+    "slowest_view": "V13_approach_aerial",
+    "slowest_fps": 127.4,
+    "worst_p99_ms": 9.01,
+    "per_view_fps": {
+      "G1_exterior_eye": 151.7,
+      "O16_dome_axis_terrace": 184.3,
+      "P13_court_photo": 267.7,
+      "V13_approach_aerial": 127.4,
+      "V15_median_eye": 141.6,
+      "academic_central_passage": 254.8,
+      "academic_stair_left": 250.9,
+      "admin_entrance_axis": 186.2,
+      "dorm_garden_paths": 201.8,
+      "drone_overview": 161.9,
+      "main_approach_road": 128.5,
+      "ring_road_eye": 217.4
+    },
+    "draw_range": [
+      347.0,
+      1312.0
+    ],
+    "primitive_range": [
+      5359004.0,
+      7712365.0
+    ],
+    "texture_memory_bytes": 1355505664.0,
+    "load_ms": [
+      1879,
+      1894
+    ]
+  },
+  "v15_vs_v14_percent": -4.7,
+  "targets": {
+    "all_views_ge_60": true,
+    "slowest_ge_90": true
+  }
+}

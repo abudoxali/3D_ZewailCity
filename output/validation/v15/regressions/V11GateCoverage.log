@@ -1,0 +1,23 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1515 ms (+58 ms prepare): { "gate_leaves": 19, "load_ms": 1515, "prepare_ms": 58, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1622 ms (campus { "gate_leaves": 19, "load_ms": 1515, "prepare_ms": 58, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] G1 closed complete frontage rays every 0.5 m, both directions  {"misses":[]}
+[PASS] G1 closed player grid and edge attempts both directions  {"failures":[]}
+[PASS] G1 open usable passage both directions  {"failures":[]}
+[PASS] G2 closed complete frontage rays every 0.5 m, both directions  {"misses":[]}
+[PASS] G2 closed player grid and edge attempts both directions  {"failures":[]}
+[PASS] G2 open usable passage both directions  {"failures":[]}
+[PASS] G3 closed complete frontage rays every 0.5 m, both directions  {"misses":[]}
+[PASS] G3 closed player grid and edge attempts both directions  {"failures":[]}
+[PASS] G3 open usable passage both directions  {"failures":[]}
+[PASS] G4 closed complete frontage rays every 0.5 m, both directions  {"misses":[]}
+[PASS] G4 closed player grid and edge attempts both directions  {"failures":[]}
+[PASS] G4 open usable passage both directions  {"failures":[]}
+[PASS] G5 closed complete frontage rays every 0.5 m, both directions  {"misses":[]}
+[PASS] G5 closed player grid and edge attempts both directions  {"failures":[]}
+[PASS] G5 open usable passage both directions  {"failures":[]}
+[PASS] G6 closed complete frontage rays every 0.5 m, both directions  {"misses":[]}
+[PASS] G6 closed player grid and edge attempts both directions  {"failures":[]}
+[PASS] G6 open usable passage both directions  {"failures":[]}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/v11_gate_coverage.json

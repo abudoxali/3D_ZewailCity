@@ -1,0 +1,46 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "airborne_frames": 1,
+        "failures": [],
+        "final": [
+          370.13,
+          1.1,
+          630.89
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188783347606659,
+        "max_gap_at": {
+          "feet_y": -0.139405488967896,
+          "floor": [
+            124.33,
+            -0.33,
+            516.32
+          ],
+          "on_floor": true,
+          "player": [
+            124.33,
+            0.74,
+            516.32
+          ],
+          "target": [
+            150.0,
+            520.0
+          ],
+          "velocity": [
+            8.23,
+            0.0,
+            -0.36
+          ]
+        }
+      },
+      "name": "continuous two stairs > portal > stepped court ramp > rear soil > dormitory garden",
+      "pass": true
+    }
+  ],
+  "method": "scripted existing player physics; one initial placement; no intermediate teleport/fly/jump/no-clip",
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

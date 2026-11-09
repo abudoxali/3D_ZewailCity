@@ -1,0 +1,7355 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "misses": []
+      },
+      "name": "G1 closed complete frontage rays every 0.5 m, both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G1 closed player grid and edge attempts both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G1 open usable passage both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "misses": []
+      },
+      "name": "G2 closed complete frontage rays every 0.5 m, both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G2 closed player grid and edge attempts both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G2 open usable passage both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "misses": []
+      },
+      "name": "G3 closed complete frontage rays every 0.5 m, both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G3 closed player grid and edge attempts both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G3 open usable passage both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "misses": []
+      },
+      "name": "G4 closed complete frontage rays every 0.5 m, both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G4 closed player grid and edge attempts both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G4 open usable passage both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "misses": []
+      },
+      "name": "G5 closed complete frontage rays every 0.5 m, both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G5 closed player grid and edge attempts both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G5 open usable passage both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "misses": []
+      },
+      "name": "G6 closed complete frontage rays every 0.5 m, both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G6 closed player grid and edge attempts both directions",
+      "pass": true
+    },
+    {
+      "detail": {
+        "failures": []
+      },
+      "name": "G6 open usable passage both directions",
+      "pass": true
+    }
+  ],
+  "samples": [
+    {
+      "direction": -1.0,
+      "end": [
+        -19.0,
+        1.1,
+        -314.15
+      ],
+      "gate": "G1",
+      "lateral": -19.0,
+      "normal_progress": 0.448699951171875,
+      "open": false,
+      "pass": true,
+      "start": [
+        -19.0,
+        1.09,
+        -310.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -19.0,
+        1.1,
+        -315.05
+      ],
+      "gate": "G1",
+      "lateral": -19.0,
+      "normal_progress": -0.44866943359375,
+      "open": false,
+      "pass": true,
+      "start": [
+        -19.0,
+        1.09,
+        -318.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -11.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": -11.3,
+      "normal_progress": 0.448663330078125,
+      "open": false,
+      "pass": true,
+      "start": [
+        -11.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -11.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": -11.3,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        -11.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -10.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": -10.3,
+      "normal_progress": 0.448663330078125,
+      "open": false,
+      "pass": true,
+      "start": [
+        -10.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -10.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": -10.3,
+      "normal_progress": -0.4487060546875,
+      "open": false,
+      "pass": true,
+      "start": [
+        -10.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -9.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": -9.3,
+      "normal_progress": 0.448663330078125,
+      "open": false,
+      "pass": true,
+      "start": [
+        -9.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -9.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": -9.3,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        -9.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -8.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": -8.3,
+      "normal_progress": 0.44869384765625,
+      "open": false,
+      "pass": true,
+      "start": [
+        -8.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -8.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": -8.3,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        -8.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -7.7,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": -7.7,
+      "normal_progress": 0.44869384765625,
+      "open": false,
+      "pass": true,
+      "start": [
+        -7.7,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -7.7,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": -7.7,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        -7.7,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        7.7,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": 7.7,
+      "normal_progress": 0.44869384765625,
+      "open": false,
+      "pass": true,
+      "start": [
+        7.7,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        7.7,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": 7.7,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        7.7,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        8.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": 8.3,
+      "normal_progress": 0.44869384765625,
+      "open": false,
+      "pass": true,
+      "start": [
+        8.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        8.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": 8.3,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        8.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        9.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": 9.3,
+      "normal_progress": 0.448663330078125,
+      "open": false,
+      "pass": true,
+      "start": [
+        9.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        9.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": 9.3,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        9.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        10.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": 10.3,
+      "normal_progress": 0.448663330078125,
+      "open": false,
+      "pass": true,
+      "start": [
+        10.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        10.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": 10.3,
+      "normal_progress": -0.4487060546875,
+      "open": false,
+      "pass": true,
+      "start": [
+        10.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        11.3,
+        0.95,
+        -322.25
+      ],
+      "gate": "G1",
+      "lateral": 11.3,
+      "normal_progress": 0.448663330078125,
+      "open": false,
+      "pass": true,
+      "start": [
+        11.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        11.3,
+        0.95,
+        -323.15
+      ],
+      "gate": "G1",
+      "lateral": 11.3,
+      "normal_progress": -0.448675537109375,
+      "open": false,
+      "pass": true,
+      "start": [
+        11.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        19.0,
+        1.1,
+        -314.15
+      ],
+      "gate": "G1",
+      "lateral": 19.0,
+      "normal_progress": 0.448699951171875,
+      "open": false,
+      "pass": true,
+      "start": [
+        19.0,
+        1.09,
+        -310.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        19.0,
+        1.1,
+        -315.05
+      ],
+      "gate": "G1",
+      "lateral": 19.0,
+      "normal_progress": -0.44866943359375,
+      "open": false,
+      "pass": true,
+      "start": [
+        19.0,
+        1.09,
+        -318.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -19.0,
+        1.1,
+        -321.3
+      ],
+      "gate": "G1",
+      "lateral": -19.0,
+      "normal_progress": -6.704833984375,
+      "open": true,
+      "pass": true,
+      "start": [
+        -19.0,
+        1.09,
+        -310.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -19.0,
+        1.1,
+        -307.89
+      ],
+      "gate": "G1",
+      "lateral": -19.0,
+      "normal_progress": 6.70626831054688,
+      "open": true,
+      "pass": true,
+      "start": [
+        -19.0,
+        1.09,
+        -318.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -11.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": -11.3,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        -11.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -11.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": -11.3,
+      "normal_progress": 6.70598754882812,
+      "open": true,
+      "pass": true,
+      "start": [
+        -11.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -10.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": -10.3,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        -10.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -10.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": -10.3,
+      "normal_progress": 6.70549926757812,
+      "open": true,
+      "pass": true,
+      "start": [
+        -10.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -9.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": -9.3,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        -9.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -9.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": -9.3,
+      "normal_progress": 6.70549926757812,
+      "open": true,
+      "pass": true,
+      "start": [
+        -9.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -8.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": -8.3,
+      "normal_progress": -6.70523681640625,
+      "open": true,
+      "pass": true,
+      "start": [
+        -8.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -8.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": -8.3,
+      "normal_progress": 6.70543823242187,
+      "open": true,
+      "pass": true,
+      "start": [
+        -8.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -7.7,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": -7.7,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        -7.7,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -7.7,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": -7.7,
+      "normal_progress": 6.70543823242187,
+      "open": true,
+      "pass": true,
+      "start": [
+        -7.7,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        7.7,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": 7.7,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        7.7,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        7.7,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": 7.7,
+      "normal_progress": 6.70543823242187,
+      "open": true,
+      "pass": true,
+      "start": [
+        7.7,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        8.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": 8.3,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        8.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        8.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": 8.3,
+      "normal_progress": 6.70543823242187,
+      "open": true,
+      "pass": true,
+      "start": [
+        8.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        9.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": 9.3,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        9.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        9.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": 9.3,
+      "normal_progress": 6.70549926757812,
+      "open": true,
+      "pass": true,
+      "start": [
+        9.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        10.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": 10.3,
+      "normal_progress": -6.70520629882813,
+      "open": true,
+      "pass": true,
+      "start": [
+        10.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        10.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": 10.3,
+      "normal_progress": 6.70546875,
+      "open": true,
+      "pass": true,
+      "start": [
+        10.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        11.3,
+        0.95,
+        -329.41
+      ],
+      "gate": "G1",
+      "lateral": 11.3,
+      "normal_progress": -6.70517578125,
+      "open": true,
+      "pass": true,
+      "start": [
+        11.3,
+        0.94,
+        -318.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        11.3,
+        0.95,
+        -315.99
+      ],
+      "gate": "G1",
+      "lateral": 11.3,
+      "normal_progress": 6.70595703125,
+      "open": true,
+      "pass": true,
+      "start": [
+        11.3,
+        0.94,
+        -326.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        19.0,
+        1.1,
+        -321.3
+      ],
+      "gate": "G1",
+      "lateral": 19.0,
+      "normal_progress": -6.704833984375,
+      "open": true,
+      "pass": true,
+      "start": [
+        19.0,
+        1.09,
+        -310.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        19.0,
+        1.1,
+        -307.89
+      ],
+      "gate": "G1",
+      "lateral": 19.0,
+      "normal_progress": 6.70626831054688,
+      "open": true,
+      "pass": true,
+      "start": [
+        19.0,
+        1.09,
+        -318.6
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        0.52,
+        0.44,
+        639.86
+      ],
+      "gate": "G2",
+      "lateral": -6.0,
+      "normal_progress": 0.45010734796524,
+      "open": false,
+      "pass": true,
+      "start": [
+        0.26,
+        0.43,
+        636.32
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        0.58,
+        0.44,
+        640.76
+      ],
+      "gate": "G2",
+      "lateral": -6.0,
+      "normal_progress": -0.447380113601685,
+      "open": false,
+      "pass": true,
+      "start": [
+        0.84,
+        0.42,
+        644.3
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        1.51,
+        0.42,
+        639.8
+      ],
+      "gate": "G2",
+      "lateral": -5.0,
+      "normal_progress": 0.441186141967773,
+      "open": false,
+      "pass": true,
+      "start": [
+        1.25,
+        0.43,
+        636.25
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        1.58,
+        0.44,
+        640.68
+      ],
+      "gate": "G2",
+      "lateral": -5.0,
+      "normal_progress": -0.447401928901672,
+      "open": false,
+      "pass": true,
+      "start": [
+        1.84,
+        0.42,
+        644.23
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        2.51,
+        0.42,
+        639.72
+      ],
+      "gate": "G2",
+      "lateral": -4.0,
+      "normal_progress": 0.441273999214172,
+      "open": false,
+      "pass": true,
+      "start": [
+        2.25,
+        0.43,
+        636.17
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        2.58,
+        0.44,
+        640.6
+      ],
+      "gate": "G2",
+      "lateral": -4.0,
+      "normal_progress": -0.442526626586914,
+      "open": false,
+      "pass": true,
+      "start": [
+        2.84,
+        0.61,
+        644.15
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        3.51,
+        0.44,
+        639.64
+      ],
+      "gate": "G2",
+      "lateral": -3.0,
+      "normal_progress": 0.45011146068573,
+      "open": false,
+      "pass": true,
+      "start": [
+        3.25,
+        0.43,
+        636.1
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        3.58,
+        0.44,
+        640.53
+      ],
+      "gate": "G2",
+      "lateral": -3.0,
+      "normal_progress": -0.441838312149048,
+      "open": false,
+      "pass": true,
+      "start": [
+        3.83,
+        0.43,
+        644.08
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        4.51,
+        0.42,
+        639.58
+      ],
+      "gate": "G2",
+      "lateral": -2.0,
+      "normal_progress": 0.43934018611908,
+      "open": false,
+      "pass": true,
+      "start": [
+        4.25,
+        0.43,
+        636.03
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        4.57,
+        0.44,
+        640.45
+      ],
+      "gate": "G2",
+      "lateral": -2.0,
+      "normal_progress": -0.438368248939514,
+      "open": false,
+      "pass": true,
+      "start": [
+        4.83,
+        0.37,
+        644.01
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        5.5,
+        0.42,
+        639.5
+      ],
+      "gate": "G2",
+      "lateral": -1.0,
+      "normal_progress": 0.441842687129974,
+      "open": false,
+      "pass": true,
+      "start": [
+        5.24,
+        0.43,
+        635.95
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        5.57,
+        0.44,
+        640.38
+      ],
+      "gate": "G2",
+      "lateral": -1.0,
+      "normal_progress": -0.439153003692627,
+      "open": false,
+      "pass": true,
+      "start": [
+        5.83,
+        0.37,
+        643.93
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        6.5,
+        0.44,
+        639.42
+      ],
+      "gate": "G2",
+      "lateral": 0.0,
+      "normal_progress": 0.450254929065704,
+      "open": false,
+      "pass": true,
+      "start": [
+        6.24,
+        0.43,
+        635.88
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        6.56,
+        0.44,
+        640.31
+      ],
+      "gate": "G2",
+      "lateral": 0.0,
+      "normal_progress": -0.437936115264893,
+      "open": false,
+      "pass": true,
+      "start": [
+        6.83,
+        0.37,
+        643.86
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        7.5,
+        0.44,
+        639.35
+      ],
+      "gate": "G2",
+      "lateral": 1.0,
+      "normal_progress": 0.447468709945679,
+      "open": false,
+      "pass": true,
+      "start": [
+        7.24,
+        0.43,
+        635.81
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        7.56,
+        0.44,
+        640.24
+      ],
+      "gate": "G2",
+      "lateral": 1.0,
+      "normal_progress": -0.439184832572937,
+      "open": false,
+      "pass": true,
+      "start": [
+        7.82,
+        0.37,
+        643.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        8.49,
+        0.43,
+        639.29
+      ],
+      "gate": "G2",
+      "lateral": 2.0,
+      "normal_progress": 0.439137291908264,
+      "open": false,
+      "pass": true,
+      "start": [
+        8.23,
+        0.45,
+        635.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        8.56,
+        0.44,
+        640.16
+      ],
+      "gate": "G2",
+      "lateral": 2.0,
+      "normal_progress": -0.439034628868103,
+      "open": false,
+      "pass": true,
+      "start": [
+        8.82,
+        0.37,
+        643.71
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        9.49,
+        0.44,
+        639.21
+      ],
+      "gate": "G2",
+      "lateral": 3.0,
+      "normal_progress": 0.44752014875412,
+      "open": false,
+      "pass": true,
+      "start": [
+        9.23,
+        0.43,
+        635.66
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        9.55,
+        0.44,
+        640.09
+      ],
+      "gate": "G2",
+      "lateral": 3.0,
+      "normal_progress": -0.442259120941162,
+      "open": false,
+      "pass": true,
+      "start": [
+        9.82,
+        0.44,
+        643.64
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        10.49,
+        0.44,
+        639.13
+      ],
+      "gate": "G2",
+      "lateral": 4.0,
+      "normal_progress": 0.447510135173798,
+      "open": false,
+      "pass": true,
+      "start": [
+        10.23,
+        0.43,
+        635.59
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        10.51,
+        0.44,
+        640.03
+      ],
+      "gate": "G2",
+      "lateral": 4.0,
+      "normal_progress": -0.447477746009827,
+      "open": false,
+      "pass": true,
+      "start": [
+        10.81,
+        0.52,
+        643.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        11.49,
+        0.44,
+        639.06
+      ],
+      "gate": "G2",
+      "lateral": 5.0,
+      "normal_progress": 0.447515201568603,
+      "open": false,
+      "pass": true,
+      "start": [
+        11.23,
+        0.43,
+        635.52
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        11.55,
+        0.44,
+        639.95
+      ],
+      "gate": "G2",
+      "lateral": 5.0,
+      "normal_progress": -0.450081276893616,
+      "open": false,
+      "pass": true,
+      "start": [
+        11.81,
+        0.42,
+        643.49
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        12.48,
+        0.44,
+        638.99
+      ],
+      "gate": "G2",
+      "lateral": 6.0,
+      "normal_progress": 0.447535824775696,
+      "open": false,
+      "pass": true,
+      "start": [
+        12.22,
+        0.43,
+        635.44
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        12.55,
+        0.44,
+        639.88
+      ],
+      "gate": "G2",
+      "lateral": 6.0,
+      "normal_progress": -0.450050401687622,
+      "open": false,
+      "pass": true,
+      "start": [
+        12.81,
+        0.42,
+        643.42
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -0.05,
+        0.44,
+        639.9
+      ],
+      "gate": "G2",
+      "lateral": -6.57049258234911,
+      "normal_progress": 0.450068306922913,
+      "open": false,
+      "pass": true,
+      "start": [
+        -0.31,
+        0.43,
+        636.36
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        0.01,
+        0.44,
+        640.8
+      ],
+      "gate": "G2",
+      "lateral": -6.57049258234911,
+      "normal_progress": -0.447403478622437,
+      "open": false,
+      "pass": true,
+      "start": [
+        0.27,
+        0.42,
+        644.34
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        13.05,
+        0.44,
+        638.94
+      ],
+      "gate": "G2",
+      "lateral": 6.57049258234911,
+      "normal_progress": 0.447522473335266,
+      "open": false,
+      "pass": true,
+      "start": [
+        12.79,
+        0.43,
+        635.4
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        13.12,
+        0.44,
+        639.84
+      ],
+      "gate": "G2",
+      "lateral": 6.57049258234911,
+      "normal_progress": -0.450011658668518,
+      "open": false,
+      "pass": true,
+      "start": [
+        13.38,
+        0.42,
+        643.38
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        23.39,
+        0.41,
+        637.45
+      ],
+      "gate": "G2",
+      "lateral": 16.9909851646982,
+      "normal_progress": 0.432669472694397,
+      "open": false,
+      "pass": true,
+      "start": [
+        23.13,
+        0.39,
+        633.89
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        23.46,
+        0.41,
+        638.32
+      ],
+      "gate": "G2",
+      "lateral": 16.9909851646982,
+      "normal_progress": -0.442441213130951,
+      "open": false,
+      "pass": true,
+      "start": [
+        23.72,
+        0.41,
+        641.87
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -1.17,
+        0.46,
+        637.66
+      ],
+      "gate": "G2",
+      "lateral": -7.52049258234911,
+      "normal_progress": 2.77264232635498,
+      "open": false,
+      "pass": true,
+      "start": [
+        -1.26,
+        0.43,
+        636.43
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -1.09,
+        0.47,
+        640.8
+      ],
+      "gate": "G2",
+      "lateral": -7.52049258234911,
+      "normal_progress": -0.372957515716553,
+      "open": false,
+      "pass": true,
+      "start": [
+        -0.68,
+        0.42,
+        644.41
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        13.83,
+        0.46,
+        636.55
+      ],
+      "gate": "G2",
+      "lateral": 7.52049258234911,
+      "normal_progress": 2.78050739765167,
+      "open": false,
+      "pass": true,
+      "start": [
+        13.74,
+        0.43,
+        635.33
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        14.22,
+        0.47,
+        639.66
+      ],
+      "gate": "G2",
+      "lateral": 7.52049258234911,
+      "normal_progress": -0.356326508522034,
+      "open": false,
+      "pass": true,
+      "start": [
+        14.33,
+        0.42,
+        643.31
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        1.04,
+        0.44,
+        646.99
+      ],
+      "gate": "G2",
+      "lateral": -6.0,
+      "normal_progress": -6.70348148345947,
+      "open": true,
+      "pass": true,
+      "start": [
+        0.26,
+        0.43,
+        636.32
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        0.06,
+        0.44,
+        633.62
+      ],
+      "gate": "G2",
+      "lateral": -6.0,
+      "normal_progress": 6.70383186340332,
+      "open": true,
+      "pass": true,
+      "start": [
+        0.84,
+        0.42,
+        644.3
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        2.04,
+        0.44,
+        646.92
+      ],
+      "gate": "G2",
+      "lateral": -5.0,
+      "normal_progress": -6.70500831604004,
+      "open": true,
+      "pass": true,
+      "start": [
+        1.25,
+        0.43,
+        636.25
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        1.06,
+        0.45,
+        633.55
+      ],
+      "gate": "G2",
+      "lateral": -5.0,
+      "normal_progress": 6.70320863723755,
+      "open": true,
+      "pass": true,
+      "start": [
+        1.84,
+        0.42,
+        644.23
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        3.08,
+        0.52,
+        646.77
+      ],
+      "gate": "G2",
+      "lateral": -4.0,
+      "normal_progress": -6.62654428482056,
+      "open": true,
+      "pass": true,
+      "start": [
+        2.25,
+        0.43,
+        636.17
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        1.84,
+        0.44,
+        633.57
+      ],
+      "gate": "G2",
+      "lateral": -4.0,
+      "normal_progress": 6.63171453475952,
+      "open": true,
+      "pass": true,
+      "start": [
+        2.84,
+        0.61,
+        644.15
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        4.04,
+        0.43,
+        646.74
+      ],
+      "gate": "G2",
+      "lateral": -3.0,
+      "normal_progress": -6.66437273025513,
+      "open": true,
+      "pass": true,
+      "start": [
+        3.25,
+        0.43,
+        636.1
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        3.04,
+        0.5,
+        633.44
+      ],
+      "gate": "G2",
+      "lateral": -3.0,
+      "normal_progress": 6.66511936187744,
+      "open": true,
+      "pass": true,
+      "start": [
+        3.83,
+        0.43,
+        644.08
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        5.03,
+        0.39,
+        646.66
+      ],
+      "gate": "G2",
+      "lateral": -2.0,
+      "normal_progress": -6.66456346511841,
+      "open": true,
+      "pass": true,
+      "start": [
+        4.25,
+        0.43,
+        636.03
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        4.06,
+        0.4,
+        633.37
+      ],
+      "gate": "G2",
+      "lateral": -2.0,
+      "normal_progress": 6.66350193023682,
+      "open": true,
+      "pass": true,
+      "start": [
+        4.83,
+        0.37,
+        644.01
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        6.02,
+        0.39,
+        646.59
+      ],
+      "gate": "G2",
+      "lateral": -1.0,
+      "normal_progress": -6.66169385910034,
+      "open": true,
+      "pass": true,
+      "start": [
+        5.24,
+        0.43,
+        635.95
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        5.05,
+        0.4,
+        633.28
+      ],
+      "gate": "G2",
+      "lateral": -1.0,
+      "normal_progress": 6.68447275161743,
+      "open": true,
+      "pass": true,
+      "start": [
+        5.83,
+        0.37,
+        643.93
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        7.02,
+        0.39,
+        646.52
+      ],
+      "gate": "G2",
+      "lateral": 0.0,
+      "normal_progress": -6.66705303192139,
+      "open": true,
+      "pass": true,
+      "start": [
+        6.24,
+        0.43,
+        635.88
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        6.04,
+        0.4,
+        633.21
+      ],
+      "gate": "G2",
+      "lateral": 0.0,
+      "normal_progress": 6.68233366012573,
+      "open": true,
+      "pass": true,
+      "start": [
+        6.83,
+        0.37,
+        643.86
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        8.02,
+        0.39,
+        646.44
+      ],
+      "gate": "G2",
+      "lateral": 1.0,
+      "normal_progress": -6.66218690872192,
+      "open": true,
+      "pass": true,
+      "start": [
+        7.24,
+        0.43,
+        635.81
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        7.04,
+        0.4,
+        633.15
+      ],
+      "gate": "G2",
+      "lateral": 1.0,
+      "normal_progress": 6.66376895904541,
+      "open": true,
+      "pass": true,
+      "start": [
+        7.82,
+        0.37,
+        643.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        9.01,
+        0.39,
+        646.37
+      ],
+      "gate": "G2",
+      "lateral": 2.0,
+      "normal_progress": -6.66500978469849,
+      "open": true,
+      "pass": true,
+      "start": [
+        8.23,
+        0.45,
+        635.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        8.04,
+        0.4,
+        633.09
+      ],
+      "gate": "G2",
+      "lateral": 2.0,
+      "normal_progress": 6.65520210266113,
+      "open": true,
+      "pass": true,
+      "start": [
+        8.82,
+        0.37,
+        643.71
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        10.01,
+        0.39,
+        646.3
+      ],
+      "gate": "G2",
+      "lateral": 3.0,
+      "normal_progress": -6.66809825897217,
+      "open": true,
+      "pass": true,
+      "start": [
+        9.23,
+        0.43,
+        635.66
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        9.06,
+        0.49,
+        633.01
+      ],
+      "gate": "G2",
+      "lateral": 3.0,
+      "normal_progress": 6.65639657974243,
+      "open": true,
+      "pass": true,
+      "start": [
+        9.82,
+        0.44,
+        643.64
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        10.97,
+        0.49,
+        646.19
+      ],
+      "gate": "G2",
+      "lateral": 4.0,
+      "normal_progress": -6.62606649398804,
+      "open": true,
+      "pass": true,
+      "start": [
+        10.23,
+        0.43,
+        635.59
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        9.99,
+        0.62,
+        632.97
+      ],
+      "gate": "G2",
+      "lateral": 4.0,
+      "normal_progress": 6.6306697845459,
+      "open": true,
+      "pass": true,
+      "start": [
+        10.81,
+        0.52,
+        643.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        12.27,
+        0.44,
+        646.46
+      ],
+      "gate": "G2",
+      "lateral": 5.0,
+      "normal_progress": -6.98892669677734,
+      "open": true,
+      "pass": true,
+      "start": [
+        11.23,
+        0.43,
+        635.52
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        11.03,
+        0.45,
+        632.82
+      ],
+      "gate": "G2",
+      "lateral": 5.0,
+      "normal_progress": 6.70345230102539,
+      "open": true,
+      "pass": true,
+      "start": [
+        11.81,
+        0.42,
+        643.49
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        13.01,
+        0.44,
+        646.12
+      ],
+      "gate": "G2",
+      "lateral": 6.0,
+      "normal_progress": -6.70361356735229,
+      "open": true,
+      "pass": true,
+      "start": [
+        12.22,
+        0.43,
+        635.44
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        12.03,
+        0.45,
+        632.75
+      ],
+      "gate": "G2",
+      "lateral": 6.0,
+      "normal_progress": 6.70323820114136,
+      "open": true,
+      "pass": true,
+      "start": [
+        12.81,
+        0.42,
+        643.42
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        0.47,
+        0.44,
+        647.04
+      ],
+      "gate": "G2",
+      "lateral": -6.57049258234911,
+      "normal_progress": -6.70359210968018,
+      "open": true,
+      "pass": true,
+      "start": [
+        -0.31,
+        0.43,
+        636.36
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -0.51,
+        0.45,
+        633.67
+      ],
+      "gate": "G2",
+      "lateral": -6.57049258234911,
+      "normal_progress": 6.70350284576416,
+      "open": true,
+      "pass": true,
+      "start": [
+        0.27,
+        0.42,
+        644.34
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        13.58,
+        0.44,
+        646.08
+      ],
+      "gate": "G2",
+      "lateral": 6.57049258234911,
+      "normal_progress": -6.70344333648682,
+      "open": true,
+      "pass": true,
+      "start": [
+        12.79,
+        0.43,
+        635.4
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        12.6,
+        0.45,
+        632.7
+      ],
+      "gate": "G2",
+      "lateral": 6.57049258234911,
+      "normal_progress": 6.70376844406128,
+      "open": true,
+      "pass": true,
+      "start": [
+        13.38,
+        0.42,
+        643.38
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        23.91,
+        0.42,
+        644.57
+      ],
+      "gate": "G2",
+      "lateral": 16.9909851646982,
+      "normal_progress": -6.70245199203491,
+      "open": true,
+      "pass": true,
+      "start": [
+        23.13,
+        0.39,
+        633.89
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        22.93,
+        0.4,
+        631.19
+      ],
+      "gate": "G2",
+      "lateral": 16.9909851646982,
+      "normal_progress": 6.70394868850708,
+      "open": true,
+      "pass": true,
+      "start": [
+        23.72,
+        0.41,
+        641.87
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -270.68,
+        1.01,
+        -137.51
+      ],
+      "gate": "G3",
+      "lateral": -5.0,
+      "normal_progress": 0.444105339050293,
+      "open": false,
+      "pass": true,
+      "start": [
+        -267.19,
+        0.99,
+        -136.83
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -271.55,
+        0.99,
+        -137.69
+      ],
+      "gate": "G3",
+      "lateral": -5.0,
+      "normal_progress": -0.442225742340088,
+      "open": false,
+      "pass": true,
+      "start": [
+        -275.04,
+        0.95,
+        -138.39
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -270.88,
+        1.01,
+        -136.54
+      ],
+      "gate": "G3",
+      "lateral": -4.0,
+      "normal_progress": 0.444138896465301,
+      "open": false,
+      "pass": true,
+      "start": [
+        -267.39,
+        0.99,
+        -135.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -271.74,
+        0.99,
+        -136.72
+      ],
+      "gate": "G3",
+      "lateral": -4.0,
+      "normal_progress": -0.442008304595947,
+      "open": false,
+      "pass": true,
+      "start": [
+        -275.23,
+        0.95,
+        -137.41
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -271.08,
+        0.99,
+        -135.56
+      ],
+      "gate": "G3",
+      "lateral": -3.0,
+      "normal_progress": 0.43118531703949,
+      "open": false,
+      "pass": true,
+      "start": [
+        -267.58,
+        0.99,
+        -134.87
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -271.94,
+        0.99,
+        -135.74
+      ],
+      "gate": "G3",
+      "lateral": -3.0,
+      "normal_progress": -0.442150640487671,
+      "open": false,
+      "pass": true,
+      "start": [
+        -275.43,
+        0.95,
+        -136.43
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -271.28,
+        0.99,
+        -134.58
+      ],
+      "gate": "G3",
+      "lateral": -2.0,
+      "normal_progress": 0.432203841209412,
+      "open": false,
+      "pass": true,
+      "start": [
+        -267.78,
+        0.99,
+        -133.89
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -272.14,
+        0.99,
+        -134.75
+      ],
+      "gate": "G3",
+      "lateral": -2.0,
+      "normal_progress": -0.442346858978272,
+      "open": false,
+      "pass": true,
+      "start": [
+        -275.63,
+        0.95,
+        -135.45
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -271.47,
+        0.99,
+        -133.6
+      ],
+      "gate": "G3",
+      "lateral": -1.0,
+      "normal_progress": 0.431555879116058,
+      "open": false,
+      "pass": true,
+      "start": [
+        -267.98,
+        0.99,
+        -132.9
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -272.33,
+        0.99,
+        -133.77
+      ],
+      "gate": "G3",
+      "lateral": -1.0,
+      "normal_progress": -0.442246723175049,
+      "open": false,
+      "pass": true,
+      "start": [
+        -275.82,
+        0.94,
+        -134.47
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -271.66,
+        0.99,
+        -132.62
+      ],
+      "gate": "G3",
+      "lateral": 0.0,
+      "normal_progress": 0.442431879043579,
+      "open": false,
+      "pass": true,
+      "start": [
+        -268.17,
+        0.99,
+        -131.92
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -272.54,
+        1.01,
+        -132.8
+      ],
+      "gate": "G3",
+      "lateral": 0.0,
+      "normal_progress": -0.453542160987854,
+      "open": false,
+      "pass": true,
+      "start": [
+        -276.02,
+        0.94,
+        -133.49
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -271.86,
+        0.99,
+        -131.64
+      ],
+      "gate": "G3",
+      "lateral": 1.0,
+      "normal_progress": 0.44244225025177,
+      "open": false,
+      "pass": true,
+      "start": [
+        -268.37,
+        0.99,
+        -130.94
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -272.71,
+        1.0,
+        -131.81
+      ],
+      "gate": "G3",
+      "lateral": 1.0,
+      "normal_progress": -0.431510019302368,
+      "open": false,
+      "pass": true,
+      "start": [
+        -276.21,
+        0.94,
+        -132.51
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -272.05,
+        0.99,
+        -130.66
+      ],
+      "gate": "G3",
+      "lateral": 2.0,
+      "normal_progress": 0.442775559425354,
+      "open": false,
+      "pass": true,
+      "start": [
+        -268.56,
+        0.99,
+        -129.96
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -272.91,
+        1.0,
+        -130.83
+      ],
+      "gate": "G3",
+      "lateral": 2.0,
+      "normal_progress": -0.430907297134399,
+      "open": false,
+      "pass": true,
+      "start": [
+        -276.41,
+        0.94,
+        -131.53
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -272.25,
+        0.98,
+        -129.68
+      ],
+      "gate": "G3",
+      "lateral": 3.0,
+      "normal_progress": 0.443599593639374,
+      "open": false,
+      "pass": true,
+      "start": [
+        -268.76,
+        0.99,
+        -128.98
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -273.1,
+        1.0,
+        -129.85
+      ],
+      "gate": "G3",
+      "lateral": 3.0,
+      "normal_progress": -0.430672454833984,
+      "open": false,
+      "pass": true,
+      "start": [
+        -276.6,
+        0.94,
+        -130.55
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -272.44,
+        0.98,
+        -128.7
+      ],
+      "gate": "G3",
+      "lateral": 4.0,
+      "normal_progress": 0.442494583129883,
+      "open": false,
+      "pass": true,
+      "start": [
+        -268.95,
+        0.98,
+        -128.0
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -273.3,
+        1.0,
+        -128.87
+      ],
+      "gate": "G3",
+      "lateral": 4.0,
+      "normal_progress": -0.431036281585693,
+      "open": false,
+      "pass": true,
+      "start": [
+        -276.8,
+        0.94,
+        -129.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -272.64,
+        0.98,
+        -127.72
+      ],
+      "gate": "G3",
+      "lateral": 5.0,
+      "normal_progress": 0.442589473724365,
+      "open": false,
+      "pass": true,
+      "start": [
+        -269.15,
+        0.99,
+        -127.02
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -273.5,
+        0.98,
+        -127.89
+      ],
+      "gate": "G3",
+      "lateral": 5.0,
+      "normal_progress": -0.431461381912231,
+      "open": false,
+      "pass": true,
+      "start": [
+        -276.99,
+        0.94,
+        -128.59
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -270.6,
+        0.99,
+        -137.98
+      ],
+      "gate": "G3",
+      "lateral": -5.46337933898945,
+      "normal_progress": 0.432624530792236,
+      "open": false,
+      "pass": true,
+      "start": [
+        -267.1,
+        0.99,
+        -137.28
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -271.46,
+        0.99,
+        -138.15
+      ],
+      "gate": "G3",
+      "lateral": -5.46337933898945,
+      "normal_progress": -0.442512559890747,
+      "open": false,
+      "pass": true,
+      "start": [
+        -274.95,
+        0.95,
+        -138.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -272.72,
+        1.0,
+        -127.26
+      ],
+      "gate": "G3",
+      "lateral": 5.46337933898945,
+      "normal_progress": 0.455944848060608,
+      "open": false,
+      "pass": true,
+      "start": [
+        -269.24,
+        0.98,
+        -126.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -273.59,
+        0.98,
+        -127.43
+      ],
+      "gate": "G3",
+      "lateral": 5.46337933898945,
+      "normal_progress": -0.433021116256714,
+      "open": false,
+      "pass": true,
+      "start": [
+        -277.09,
+        0.94,
+        -128.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -273.82,
+        0.95,
+        -117.98
+      ],
+      "gate": "G3",
+      "lateral": 14.7767586779789,
+      "normal_progress": 0.439133834838867,
+      "open": false,
+      "pass": true,
+      "start": [
+        -270.33,
+        1.15,
+        -117.29
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -274.7,
+        0.94,
+        -118.16
+      ],
+      "gate": "G3",
+      "lateral": 14.7767586779789,
+      "normal_progress": -0.45496563911438,
+      "open": false,
+      "pass": true,
+      "start": [
+        -278.17,
+        0.97,
+        -118.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -268.13,
+        1.02,
+        -138.45
+      ],
+      "gate": "G3",
+      "lateral": -6.41337933898945,
+      "normal_progress": 2.76299793720245,
+      "open": false,
+      "pass": true,
+      "start": [
+        -266.91,
+        1.12,
+        -138.21
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -271.16,
+        1.03,
+        -139.22
+      ],
+      "gate": "G3",
+      "lateral": -6.41337933898945,
+      "normal_progress": -0.358507919311523,
+      "open": false,
+      "pass": true,
+      "start": [
+        -274.76,
+        0.95,
+        -139.78
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -270.63,
+        1.02,
+        -125.87
+      ],
+      "gate": "G3",
+      "lateral": 6.41337933898945,
+      "normal_progress": 2.77335913181305,
+      "open": false,
+      "pass": true,
+      "start": [
+        -269.43,
+        1.07,
+        -125.63
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -273.74,
+        1.02,
+        -126.36
+      ],
+      "gate": "G3",
+      "lateral": 6.41337933898945,
+      "normal_progress": -0.375034856796265,
+      "open": false,
+      "pass": true,
+      "start": [
+        -277.27,
+        0.94,
+        -127.2
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -277.69,
+        0.99,
+        -138.91
+      ],
+      "gate": "G3",
+      "lateral": -5.0,
+      "normal_progress": -6.70603399276733,
+      "open": true,
+      "pass": true,
+      "start": [
+        -267.19,
+        0.99,
+        -136.83
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -264.61,
+        1.01,
+        -136.31
+      ],
+      "gate": "G3",
+      "lateral": -5.0,
+      "normal_progress": 6.62967700958252,
+      "open": true,
+      "pass": true,
+      "start": [
+        -275.04,
+        0.95,
+        -138.39
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -277.89,
+        0.98,
+        -137.94
+      ],
+      "gate": "G3",
+      "lateral": -4.0,
+      "normal_progress": -6.70356063842773,
+      "open": true,
+      "pass": true,
+      "start": [
+        -267.39,
+        0.99,
+        -135.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.35,
+        1.01,
+        -135.44
+      ],
+      "gate": "G3",
+      "lateral": -4.0,
+      "normal_progress": 6.08324975967407,
+      "open": true,
+      "pass": true,
+      "start": [
+        -275.23,
+        0.95,
+        -137.41
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -278.08,
+        0.98,
+        -136.96
+      ],
+      "gate": "G3",
+      "lateral": -3.0,
+      "normal_progress": -6.70336561203003,
+      "open": true,
+      "pass": true,
+      "start": [
+        -267.58,
+        0.99,
+        -134.87
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -264.93,
+        1.01,
+        -134.34
+      ],
+      "gate": "G3",
+      "lateral": -3.0,
+      "normal_progress": 6.70342178344727,
+      "open": true,
+      "pass": true,
+      "start": [
+        -275.43,
+        0.95,
+        -136.43
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -278.28,
+        0.98,
+        -135.98
+      ],
+      "gate": "G3",
+      "lateral": -2.0,
+      "normal_progress": -6.70315818786621,
+      "open": true,
+      "pass": true,
+      "start": [
+        -267.78,
+        0.99,
+        -133.89
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.13,
+        1.01,
+        -133.36
+      ],
+      "gate": "G3",
+      "lateral": -2.0,
+      "normal_progress": 6.70319576263428,
+      "open": true,
+      "pass": true,
+      "start": [
+        -275.63,
+        0.95,
+        -135.45
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -278.47,
+        0.98,
+        -135.0
+      ],
+      "gate": "G3",
+      "lateral": -1.0,
+      "normal_progress": -6.70289640426636,
+      "open": true,
+      "pass": true,
+      "start": [
+        -267.98,
+        0.99,
+        -132.9
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.32,
+        1.01,
+        -132.38
+      ],
+      "gate": "G3",
+      "lateral": -1.0,
+      "normal_progress": 6.7032958984375,
+      "open": true,
+      "pass": true,
+      "start": [
+        -275.82,
+        0.94,
+        -134.47
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -278.67,
+        0.98,
+        -134.02
+      ],
+      "gate": "G3",
+      "lateral": 0.0,
+      "normal_progress": -6.70288925170898,
+      "open": true,
+      "pass": true,
+      "start": [
+        -268.17,
+        0.99,
+        -131.92
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.52,
+        1.01,
+        -131.39
+      ],
+      "gate": "G3",
+      "lateral": 0.0,
+      "normal_progress": 6.70346183776855,
+      "open": true,
+      "pass": true,
+      "start": [
+        -276.02,
+        0.94,
+        -133.49
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -278.86,
+        0.98,
+        -133.04
+      ],
+      "gate": "G3",
+      "lateral": 1.0,
+      "normal_progress": -6.70235471725464,
+      "open": true,
+      "pass": true,
+      "start": [
+        -268.37,
+        0.99,
+        -130.94
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.72,
+        1.0,
+        -130.41
+      ],
+      "gate": "G3",
+      "lateral": 1.0,
+      "normal_progress": 6.70347185134888,
+      "open": true,
+      "pass": true,
+      "start": [
+        -276.21,
+        0.94,
+        -132.51
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -279.06,
+        0.97,
+        -132.06
+      ],
+      "gate": "G3",
+      "lateral": 2.0,
+      "normal_progress": -6.70353298187256,
+      "open": true,
+      "pass": true,
+      "start": [
+        -268.56,
+        0.99,
+        -129.96
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.91,
+        1.0,
+        -129.43
+      ],
+      "gate": "G3",
+      "lateral": 2.0,
+      "normal_progress": 6.70380516052246,
+      "open": true,
+      "pass": true,
+      "start": [
+        -276.41,
+        0.94,
+        -131.53
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -279.25,
+        0.97,
+        -131.08
+      ],
+      "gate": "G3",
+      "lateral": 3.0,
+      "normal_progress": -6.7012246131897,
+      "open": true,
+      "pass": true,
+      "start": [
+        -268.76,
+        0.99,
+        -128.98
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -266.11,
+        1.0,
+        -128.45
+      ],
+      "gate": "G3",
+      "lateral": 3.0,
+      "normal_progress": 6.7040397644043,
+      "open": true,
+      "pass": true,
+      "start": [
+        -276.6,
+        0.94,
+        -130.55
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -279.45,
+        0.97,
+        -130.1
+      ],
+      "gate": "G3",
+      "lateral": 4.0,
+      "normal_progress": -6.70236234664917,
+      "open": true,
+      "pass": true,
+      "start": [
+        -268.95,
+        0.98,
+        -128.0
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -265.99,
+        1.0,
+        -127.41
+      ],
+      "gate": "G3",
+      "lateral": 4.0,
+      "normal_progress": 7.02186126708984,
+      "open": true,
+      "pass": true,
+      "start": [
+        -276.8,
+        0.94,
+        -129.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -279.64,
+        0.98,
+        -129.12
+      ],
+      "gate": "G3",
+      "lateral": 5.0,
+      "normal_progress": -6.70229320526123,
+      "open": true,
+      "pass": true,
+      "start": [
+        -269.15,
+        0.99,
+        -127.02
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -266.18,
+        1.0,
+        -126.43
+      ],
+      "gate": "G3",
+      "lateral": 5.0,
+      "normal_progress": 7.025119972229,
+      "open": true,
+      "pass": true,
+      "start": [
+        -276.99,
+        0.94,
+        -128.59
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -277.6,
+        0.99,
+        -139.38
+      ],
+      "gate": "G3",
+      "lateral": -5.46337933898945,
+      "normal_progress": -6.7015793800354,
+      "open": true,
+      "pass": true,
+      "start": [
+        -267.1,
+        0.99,
+        -137.28
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -264.14,
+        1.01,
+        -136.69
+      ],
+      "gate": "G3",
+      "lateral": -5.46337933898945,
+      "normal_progress": 7.02293462753296,
+      "open": true,
+      "pass": true,
+      "start": [
+        -274.95,
+        0.95,
+        -138.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -279.74,
+        0.98,
+        -128.66
+      ],
+      "gate": "G3",
+      "lateral": 5.46337933898945,
+      "normal_progress": -6.70215873718262,
+      "open": true,
+      "pass": true,
+      "start": [
+        -269.24,
+        0.98,
+        -126.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -266.66,
+        1.0,
+        -126.05
+      ],
+      "gate": "G3",
+      "lateral": 5.46337933898945,
+      "normal_progress": 6.62941379547119,
+      "open": true,
+      "pass": true,
+      "start": [
+        -277.09,
+        0.94,
+        -128.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -280.83,
+        1.01,
+        -119.38
+      ],
+      "gate": "G3",
+      "lateral": 14.7767586779789,
+      "normal_progress": -6.70696716308594,
+      "open": true,
+      "pass": true,
+      "start": [
+        -270.33,
+        1.15,
+        -117.29
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -267.72,
+        0.98,
+        -116.77
+      ],
+      "gate": "G3",
+      "lateral": 14.7767586779789,
+      "normal_progress": 6.66087074279785,
+      "open": true,
+      "pass": true,
+      "start": [
+        -278.17,
+        0.97,
+        -118.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -342.79,
+        0.7,
+        231.97
+      ],
+      "gate": "G4",
+      "lateral": -6.0,
+      "normal_progress": 0.442201685905457,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.24,
+        0.68,
+        232.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.67,
+        0.7,
+        231.93
+      ],
+      "gate": "G4",
+      "lateral": -6.0,
+      "normal_progress": -0.444922494888306,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.23,
+        0.63,
+        231.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -342.84,
+        0.7,
+        232.97
+      ],
+      "gate": "G4",
+      "lateral": -5.0,
+      "normal_progress": 0.441465866565704,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.28,
+        0.68,
+        233.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.71,
+        0.68,
+        232.93
+      ],
+      "gate": "G4",
+      "lateral": -5.0,
+      "normal_progress": -0.431754398345947,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.27,
+        0.63,
+        232.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -342.88,
+        0.7,
+        233.98
+      ],
+      "gate": "G4",
+      "lateral": -4.0,
+      "normal_progress": 0.452648234367371,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.33,
+        0.68,
+        234.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.77,
+        0.7,
+        233.93
+      ],
+      "gate": "G4",
+      "lateral": -4.0,
+      "normal_progress": -0.444935607910156,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.32,
+        0.63,
+        233.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -342.94,
+        0.68,
+        234.98
+      ],
+      "gate": "G4",
+      "lateral": -3.0,
+      "normal_progress": 0.441077363491058,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.38,
+        0.68,
+        235.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.81,
+        0.69,
+        234.93
+      ],
+      "gate": "G4",
+      "lateral": -3.0,
+      "normal_progress": -0.431755590438843,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.37,
+        0.63,
+        234.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -342.99,
+        0.68,
+        235.98
+      ],
+      "gate": "G4",
+      "lateral": -2.0,
+      "normal_progress": 0.439004135131836,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.43,
+        0.68,
+        236.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.86,
+        0.69,
+        235.92
+      ],
+      "gate": "G4",
+      "lateral": -2.0,
+      "normal_progress": -0.43146984577179,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.42,
+        0.63,
+        235.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.02,
+        0.69,
+        236.97
+      ],
+      "gate": "G4",
+      "lateral": -1.0,
+      "normal_progress": 0.452645075321197,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.48,
+        0.68,
+        237.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.9,
+        0.69,
+        236.92
+      ],
+      "gate": "G4",
+      "lateral": -1.0,
+      "normal_progress": -0.43127863407135,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.47,
+        0.63,
+        236.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.08,
+        0.69,
+        237.96
+      ],
+      "gate": "G4",
+      "lateral": 0.0,
+      "normal_progress": 0.442384970188141,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.53,
+        0.68,
+        238.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.96,
+        0.69,
+        237.92
+      ],
+      "gate": "G4",
+      "lateral": 0.0,
+      "normal_progress": -0.442421245574951,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.52,
+        0.63,
+        237.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.13,
+        0.69,
+        238.96
+      ],
+      "gate": "G4",
+      "lateral": 1.0,
+      "normal_progress": 0.444971632957458,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.58,
+        0.68,
+        239.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.01,
+        0.68,
+        238.92
+      ],
+      "gate": "G4",
+      "lateral": 1.0,
+      "normal_progress": -0.441954064369202,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.57,
+        0.63,
+        238.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.18,
+        0.67,
+        239.97
+      ],
+      "gate": "G4",
+      "lateral": 2.0,
+      "normal_progress": 0.43681914806366,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.62,
+        0.68,
+        240.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.06,
+        0.69,
+        239.92
+      ],
+      "gate": "G4",
+      "lateral": 2.0,
+      "normal_progress": -0.442190337181091,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.62,
+        0.63,
+        239.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.24,
+        0.68,
+        240.96
+      ],
+      "gate": "G4",
+      "lateral": 3.0,
+      "normal_progress": 0.43175722360611,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.67,
+        0.67,
+        241.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.11,
+        0.67,
+        240.92
+      ],
+      "gate": "G4",
+      "lateral": 3.0,
+      "normal_progress": -0.442272710800171,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.66,
+        0.63,
+        240.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.28,
+        0.67,
+        241.96
+      ],
+      "gate": "G4",
+      "lateral": 4.0,
+      "normal_progress": 0.434617471694946,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.72,
+        0.67,
+        242.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.16,
+        0.68,
+        241.92
+      ],
+      "gate": "G4",
+      "lateral": 4.0,
+      "normal_progress": -0.442441987991333,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.71,
+        0.63,
+        241.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.33,
+        0.67,
+        242.96
+      ],
+      "gate": "G4",
+      "lateral": 5.0,
+      "normal_progress": 0.431750965118408,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.77,
+        0.68,
+        243.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.21,
+        0.68,
+        242.92
+      ],
+      "gate": "G4",
+      "lateral": 5.0,
+      "normal_progress": -0.442283439636231,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.76,
+        0.63,
+        242.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.37,
+        0.69,
+        243.96
+      ],
+      "gate": "G4",
+      "lateral": 6.0,
+      "normal_progress": 0.444981408119202,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.82,
+        0.68,
+        244.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.26,
+        0.67,
+        243.91
+      ],
+      "gate": "G4",
+      "lateral": 6.0,
+      "normal_progress": -0.442733812332153,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.81,
+        0.62,
+        243.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -342.74,
+        0.68,
+        230.89
+      ],
+      "gate": "G4",
+      "lateral": -7.07733895518329,
+      "normal_progress": 0.442357432842255,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.18,
+        0.68,
+        231.07
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.62,
+        0.7,
+        230.85
+      ],
+      "gate": "G4",
+      "lateral": -7.07733895518329,
+      "normal_progress": -0.444936323165894,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.17,
+        0.64,
+        230.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.44,
+        0.67,
+        245.03
+      ],
+      "gate": "G4",
+      "lateral": 7.07733895518329,
+      "normal_progress": 0.431940984725952,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.87,
+        0.67,
+        245.21
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.31,
+        0.69,
+        244.99
+      ],
+      "gate": "G4",
+      "lateral": 7.07733895518329,
+      "normal_progress": -0.442861366271973,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.86,
+        0.62,
+        244.82
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -343.21,
+        0.59,
+        255.98
+      ],
+      "gate": "G4",
+      "lateral": 18.0046779103666,
+      "normal_progress": 0.442211282253265,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.66,
+        0.61,
+        256.16
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.1,
+        0.62,
+        255.94
+      ],
+      "gate": "G4",
+      "lateral": 18.0046779103666,
+      "normal_progress": -0.44631062746048,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.65,
+        0.61,
+        255.77
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -340.36,
+        0.71,
+        230.06
+      ],
+      "gate": "G4",
+      "lateral": -8.02733895518329,
+      "normal_progress": 2.77267785072327,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.14,
+        0.66,
+        230.12
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -343.5,
+        0.72,
+        229.76
+      ],
+      "gate": "G4",
+      "lateral": -8.02733895518329,
+      "normal_progress": -0.372535157203674,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.13,
+        0.64,
+        229.73
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -341.14,
+        0.71,
+        246.1
+      ],
+      "gate": "G4",
+      "lateral": 8.02733895518329,
+      "normal_progress": 2.77762145996094,
+      "open": false,
+      "pass": true,
+      "start": [
+        -339.92,
+        0.65,
+        246.16
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -344.29,
+        0.72,
+        246.09
+      ],
+      "gate": "G4",
+      "lateral": 8.02733895518329,
+      "normal_progress": -0.373635816574097,
+      "open": false,
+      "pass": true,
+      "start": [
+        -347.91,
+        0.62,
+        245.77
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -349.93,
+        0.65,
+        231.63
+      ],
+      "gate": "G4",
+      "lateral": -6.0,
+      "normal_progress": -6.70670585632324,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.24,
+        0.68,
+        232.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.54,
+        0.67,
+        232.29
+      ],
+      "gate": "G4",
+      "lateral": -6.0,
+      "normal_progress": 6.69867868423462,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.23,
+        0.63,
+        231.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -349.98,
+        0.66,
+        232.62
+      ],
+      "gate": "G4",
+      "lateral": -5.0,
+      "normal_progress": -6.70518665313721,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.28,
+        0.68,
+        233.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.58,
+        0.66,
+        233.28
+      ],
+      "gate": "G4",
+      "lateral": -5.0,
+      "normal_progress": 6.70375127792358,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.27,
+        0.63,
+        232.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.02,
+        0.66,
+        233.63
+      ],
+      "gate": "G4",
+      "lateral": -4.0,
+      "normal_progress": -6.69894390106201,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.33,
+        0.7,
+        234.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.63,
+        0.69,
+        234.27
+      ],
+      "gate": "G4",
+      "lateral": -4.0,
+      "normal_progress": 6.70377559661865,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.32,
+        0.63,
+        233.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.06,
+        0.66,
+        234.63
+      ],
+      "gate": "G4",
+      "lateral": -3.0,
+      "normal_progress": -6.69512729644775,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.38,
+        0.68,
+        235.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.68,
+        0.73,
+        235.28
+      ],
+      "gate": "G4",
+      "lateral": -3.0,
+      "normal_progress": 6.70010919570923,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.37,
+        0.63,
+        234.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.12,
+        0.65,
+        235.63
+      ],
+      "gate": "G4",
+      "lateral": -2.0,
+      "normal_progress": -6.69762687683105,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.43,
+        0.68,
+        236.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.72,
+        0.7,
+        236.27
+      ],
+      "gate": "G4",
+      "lateral": -2.0,
+      "normal_progress": 6.7084114074707,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.42,
+        0.63,
+        235.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.17,
+        0.66,
+        236.62
+      ],
+      "gate": "G4",
+      "lateral": -1.0,
+      "normal_progress": -6.70096950531006,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.48,
+        0.68,
+        237.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.77,
+        0.7,
+        237.27
+      ],
+      "gate": "G4",
+      "lateral": -1.0,
+      "normal_progress": 6.70732469558716,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.47,
+        0.63,
+        236.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.22,
+        0.65,
+        237.61
+      ],
+      "gate": "G4",
+      "lateral": 0.0,
+      "normal_progress": -6.70512180328369,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.53,
+        0.68,
+        238.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.82,
+        0.69,
+        238.27
+      ],
+      "gate": "G4",
+      "lateral": 0.0,
+      "normal_progress": 6.70576448440552,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.52,
+        0.63,
+        237.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.27,
+        0.65,
+        238.61
+      ],
+      "gate": "G4",
+      "lateral": 1.0,
+      "normal_progress": -6.7061713218689,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.58,
+        0.68,
+        239.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.87,
+        0.7,
+        239.27
+      ],
+      "gate": "G4",
+      "lateral": 1.0,
+      "normal_progress": 6.70566291809082,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.57,
+        0.63,
+        238.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.32,
+        0.65,
+        239.62
+      ],
+      "gate": "G4",
+      "lateral": 2.0,
+      "normal_progress": -6.70981960296631,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.62,
+        0.68,
+        240.14
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.92,
+        0.69,
+        240.27
+      ],
+      "gate": "G4",
+      "lateral": 2.0,
+      "normal_progress": 6.70542640686035,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.62,
+        0.63,
+        239.75
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.37,
+        0.65,
+        240.61
+      ],
+      "gate": "G4",
+      "lateral": 3.0,
+      "normal_progress": -6.70438556671143,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.67,
+        0.67,
+        241.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.97,
+        0.67,
+        241.27
+      ],
+      "gate": "G4",
+      "lateral": 3.0,
+      "normal_progress": 6.70502300262451,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.66,
+        0.63,
+        240.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.41,
+        0.65,
+        241.61
+      ],
+      "gate": "G4",
+      "lateral": 4.0,
+      "normal_progress": -6.70161609649658,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.72,
+        0.67,
+        242.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -337.02,
+        0.64,
+        242.26
+      ],
+      "gate": "G4",
+      "lateral": 4.0,
+      "normal_progress": 6.70421285629272,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.71,
+        0.63,
+        241.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.46,
+        0.64,
+        242.61
+      ],
+      "gate": "G4",
+      "lateral": 5.0,
+      "normal_progress": -6.70584325790405,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.77,
+        0.68,
+        243.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -337.07,
+        0.64,
+        243.26
+      ],
+      "gate": "G4",
+      "lateral": 5.0,
+      "normal_progress": 6.70476837158203,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.76,
+        0.63,
+        242.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.51,
+        0.65,
+        243.61
+      ],
+      "gate": "G4",
+      "lateral": 6.0,
+      "normal_progress": -6.70570402145386,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.82,
+        0.68,
+        244.13
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -337.12,
+        0.64,
+        244.26
+      ],
+      "gate": "G4",
+      "lateral": 6.0,
+      "normal_progress": 6.7041971206665,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.81,
+        0.62,
+        243.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -349.87,
+        0.66,
+        230.55
+      ],
+      "gate": "G4",
+      "lateral": -7.07733895518329,
+      "normal_progress": -6.70372896194458,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.18,
+        0.68,
+        231.07
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.48,
+        0.67,
+        231.2
+      ],
+      "gate": "G4",
+      "lateral": -7.07733895518329,
+      "normal_progress": 6.70257444381714,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.17,
+        0.64,
+        230.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.56,
+        0.65,
+        244.69
+      ],
+      "gate": "G4",
+      "lateral": 7.07733895518329,
+      "normal_progress": -6.70426349639893,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.87,
+        0.67,
+        245.21
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -337.17,
+        0.64,
+        245.34
+      ],
+      "gate": "G4",
+      "lateral": 7.07733895518329,
+      "normal_progress": 6.70403833389282,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.86,
+        0.62,
+        244.82
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        -350.35,
+        0.63,
+        255.64
+      ],
+      "gate": "G4",
+      "lateral": 18.0046779103666,
+      "normal_progress": -6.70521907806396,
+      "open": true,
+      "pass": true,
+      "start": [
+        -339.66,
+        0.61,
+        256.16
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        -336.95,
+        0.63,
+        256.29
+      ],
+      "gate": "G4",
+      "lateral": 18.0046779103666,
+      "normal_progress": 6.70388145446777,
+      "open": true,
+      "pass": true,
+      "start": [
+        -347.65,
+        0.61,
+        255.77
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        242.12,
+        1.06,
+        -71.98
+      ],
+      "gate": "G5",
+      "lateral": -6.0,
+      "normal_progress": 0.448077869415283,
+      "open": false,
+      "pass": true,
+      "start": [
+        239.37,
+        1.04,
+        -69.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        242.82,
+        1.06,
+        -72.55
+      ],
+      "gate": "G5",
+      "lateral": -6.0,
+      "normal_progress": -0.449375200271606,
+      "open": false,
+      "pass": true,
+      "start": [
+        245.58,
+        1.0,
+        -74.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        241.49,
+        1.06,
+        -72.76
+      ],
+      "gate": "G5",
+      "lateral": -5.0,
+      "normal_progress": 0.448054027557373,
+      "open": false,
+      "pass": true,
+      "start": [
+        238.74,
+        1.04,
+        -70.52
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        242.19,
+        1.06,
+        -73.32
+      ],
+      "gate": "G5",
+      "lateral": -5.0,
+      "normal_progress": -0.449354219436646,
+      "open": false,
+      "pass": true,
+      "start": [
+        244.94,
+        1.0,
+        -75.56
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        240.86,
+        1.06,
+        -73.53
+      ],
+      "gate": "G5",
+      "lateral": -4.0,
+      "normal_progress": 0.448079061508179,
+      "open": false,
+      "pass": true,
+      "start": [
+        238.11,
+        1.04,
+        -71.29
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        241.56,
+        1.06,
+        -74.1
+      ],
+      "gate": "G5",
+      "lateral": -4.0,
+      "normal_progress": -0.449364829063416,
+      "open": false,
+      "pass": true,
+      "start": [
+        244.31,
+        1.0,
+        -76.34
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        240.23,
+        1.06,
+        -74.31
+      ],
+      "gate": "G5",
+      "lateral": -3.0,
+      "normal_progress": 0.448101353645325,
+      "open": false,
+      "pass": true,
+      "start": [
+        237.47,
+        1.04,
+        -72.07
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        240.93,
+        1.06,
+        -74.88
+      ],
+      "gate": "G5",
+      "lateral": -3.0,
+      "normal_progress": -0.449348735809326,
+      "open": false,
+      "pass": true,
+      "start": [
+        243.68,
+        1.0,
+        -77.12
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        239.6,
+        1.06,
+        -75.09
+      ],
+      "gate": "G5",
+      "lateral": -2.0,
+      "normal_progress": 0.448072922229767,
+      "open": false,
+      "pass": true,
+      "start": [
+        236.84,
+        1.04,
+        -72.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        240.3,
+        1.06,
+        -75.65
+      ],
+      "gate": "G5",
+      "lateral": -2.0,
+      "normal_progress": -0.449355888366699,
+      "open": false,
+      "pass": true,
+      "start": [
+        243.05,
+        1.0,
+        -77.89
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        238.97,
+        1.06,
+        -75.86
+      ],
+      "gate": "G5",
+      "lateral": -1.0,
+      "normal_progress": 0.448096108436584,
+      "open": false,
+      "pass": true,
+      "start": [
+        236.21,
+        1.04,
+        -73.62
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        239.67,
+        1.06,
+        -76.43
+      ],
+      "gate": "G5",
+      "lateral": -1.0,
+      "normal_progress": -0.449362325668335,
+      "open": false,
+      "pass": true,
+      "start": [
+        242.42,
+        1.0,
+        -78.67
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        238.34,
+        1.06,
+        -76.64
+      ],
+      "gate": "G5",
+      "lateral": 0.0,
+      "normal_progress": 0.449574720859528,
+      "open": false,
+      "pass": true,
+      "start": [
+        235.58,
+        1.04,
+        -74.4
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        239.04,
+        1.06,
+        -77.21
+      ],
+      "gate": "G5",
+      "lateral": 0.0,
+      "normal_progress": -0.449516820907593,
+      "open": false,
+      "pass": true,
+      "start": [
+        241.79,
+        1.0,
+        -79.44
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        237.71,
+        1.06,
+        -77.41
+      ],
+      "gate": "G5",
+      "lateral": 1.0,
+      "normal_progress": 0.449369859695435,
+      "open": false,
+      "pass": true,
+      "start": [
+        234.95,
+        1.04,
+        -75.18
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        238.4,
+        1.06,
+        -77.98
+      ],
+      "gate": "G5",
+      "lateral": 1.0,
+      "normal_progress": -0.448072957992554,
+      "open": false,
+      "pass": true,
+      "start": [
+        241.16,
+        1.0,
+        -80.22
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        237.08,
+        1.06,
+        -78.19
+      ],
+      "gate": "G5",
+      "lateral": 2.0,
+      "normal_progress": 0.449364137649536,
+      "open": false,
+      "pass": true,
+      "start": [
+        234.32,
+        1.04,
+        -75.95
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        237.77,
+        1.06,
+        -78.76
+      ],
+      "gate": "G5",
+      "lateral": 2.0,
+      "normal_progress": -0.448086905479431,
+      "open": false,
+      "pass": true,
+      "start": [
+        240.53,
+        1.0,
+        -81.0
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        236.45,
+        1.06,
+        -78.97
+      ],
+      "gate": "G5",
+      "lateral": 3.0,
+      "normal_progress": 0.449382019042969,
+      "open": false,
+      "pass": true,
+      "start": [
+        233.69,
+        1.04,
+        -76.73
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        237.14,
+        1.06,
+        -79.53
+      ],
+      "gate": "G5",
+      "lateral": 3.0,
+      "normal_progress": -0.44807116985321,
+      "open": false,
+      "pass": true,
+      "start": [
+        239.9,
+        1.0,
+        -81.77
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        235.82,
+        1.06,
+        -79.74
+      ],
+      "gate": "G5",
+      "lateral": 4.0,
+      "normal_progress": 0.449395132064819,
+      "open": false,
+      "pass": true,
+      "start": [
+        233.06,
+        1.04,
+        -77.5
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        236.51,
+        1.06,
+        -80.31
+      ],
+      "gate": "G5",
+      "lateral": 4.0,
+      "normal_progress": -0.448045778274536,
+      "open": false,
+      "pass": true,
+      "start": [
+        239.27,
+        1.0,
+        -82.55
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        235.19,
+        1.06,
+        -80.52
+      ],
+      "gate": "G5",
+      "lateral": 5.0,
+      "normal_progress": 0.449361753463745,
+      "open": false,
+      "pass": true,
+      "start": [
+        232.43,
+        1.04,
+        -78.28
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        235.88,
+        1.06,
+        -81.08
+      ],
+      "gate": "G5",
+      "lateral": 5.0,
+      "normal_progress": -0.448059368133545,
+      "open": false,
+      "pass": true,
+      "start": [
+        238.64,
+        1.0,
+        -83.32
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        234.56,
+        1.06,
+        -81.29
+      ],
+      "gate": "G5",
+      "lateral": 6.0,
+      "normal_progress": 0.44933934211731,
+      "open": false,
+      "pass": true,
+      "start": [
+        231.8,
+        1.05,
+        -79.06
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        235.25,
+        1.07,
+        -81.86
+      ],
+      "gate": "G5",
+      "lateral": 6.0,
+      "normal_progress": -0.448112416267395,
+      "open": false,
+      "pass": true,
+      "start": [
+        238.01,
+        1.0,
+        -84.1
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        242.3,
+        1.06,
+        -71.77
+      ],
+      "gate": "G5",
+      "lateral": -6.274463241787,
+      "normal_progress": 0.448090982437134,
+      "open": false,
+      "pass": true,
+      "start": [
+        239.54,
+        1.04,
+        -69.53
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        242.99,
+        1.06,
+        -72.34
+      ],
+      "gate": "G5",
+      "lateral": -6.274463241787,
+      "normal_progress": -0.449379730224609,
+      "open": false,
+      "pass": true,
+      "start": [
+        245.75,
+        1.0,
+        -74.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        234.38,
+        1.06,
+        -81.51
+      ],
+      "gate": "G5",
+      "lateral": 6.274463241787,
+      "normal_progress": 0.449361991882324,
+      "open": false,
+      "pass": true,
+      "start": [
+        231.63,
+        1.05,
+        -79.27
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        235.08,
+        1.06,
+        -82.07
+      ],
+      "gate": "G5",
+      "lateral": 6.274463241787,
+      "normal_progress": -0.448070573806763,
+      "open": false,
+      "pass": true,
+      "start": [
+        237.83,
+        1.0,
+        -84.31
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        227.41,
+        1.02,
+        -88.9
+      ],
+      "gate": "G5",
+      "lateral": 16.398926483574,
+      "normal_progress": 0.448322486877441,
+      "open": false,
+      "pass": true,
+      "start": [
+        224.66,
+        1.22,
+        -86.65
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        228.11,
+        1.02,
+        -89.46
+      ],
+      "gate": "G5",
+      "lateral": 16.398926483574,
+      "normal_progress": -0.449155616760254,
+      "open": false,
+      "pass": true,
+      "start": [
+        230.87,
+        0.99,
+        -91.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        241.09,
+        1.08,
+        -69.56
+      ],
+      "gate": "G5",
+      "lateral": -7.224463241787,
+      "normal_progress": 2.77922697067261,
+      "open": false,
+      "pass": true,
+      "start": [
+        240.14,
+        1.04,
+        -68.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        243.63,
+        1.09,
+        -71.44
+      ],
+      "gate": "G5",
+      "lateral": -7.224463241787,
+      "normal_progress": -0.375026750564575,
+      "open": false,
+      "pass": true,
+      "start": [
+        246.35,
+        1.0,
+        -73.84
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        232.01,
+        1.12,
+        -80.76
+      ],
+      "gate": "G5",
+      "lateral": 7.224463241787,
+      "normal_progress": 2.76088948249817,
+      "open": false,
+      "pass": true,
+      "start": [
+        231.03,
+        1.05,
+        -80.01
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        234.32,
+        1.09,
+        -82.89
+      ],
+      "gate": "G5",
+      "lateral": 7.224463241787,
+      "normal_progress": -0.372997093200684,
+      "open": false,
+      "pass": true,
+      "start": [
+        237.24,
+        1.0,
+        -85.05
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        247.67,
+        1.03,
+        -76.49
+      ],
+      "gate": "G5",
+      "lateral": -6.0,
+      "normal_progress": -6.70248489379883,
+      "open": true,
+      "pass": true,
+      "start": [
+        239.37,
+        1.04,
+        -69.74
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        237.27,
+        1.06,
+        -68.04
+      ],
+      "gate": "G5",
+      "lateral": -6.0,
+      "normal_progress": 6.70217294692993,
+      "open": true,
+      "pass": true,
+      "start": [
+        245.58,
+        1.0,
+        -74.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        247.04,
+        1.03,
+        -77.27
+      ],
+      "gate": "G5",
+      "lateral": -5.0,
+      "normal_progress": -6.70365552902222,
+      "open": true,
+      "pass": true,
+      "start": [
+        238.74,
+        1.04,
+        -70.52
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        236.64,
+        1.06,
+        -68.81
+      ],
+      "gate": "G5",
+      "lateral": -5.0,
+      "normal_progress": 6.70368642807007,
+      "open": true,
+      "pass": true,
+      "start": [
+        244.94,
+        1.0,
+        -75.56
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        246.41,
+        1.03,
+        -78.04
+      ],
+      "gate": "G5",
+      "lateral": -4.0,
+      "normal_progress": -6.70385341644287,
+      "open": true,
+      "pass": true,
+      "start": [
+        238.11,
+        1.04,
+        -71.29
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        236.01,
+        1.06,
+        -69.59
+      ],
+      "gate": "G5",
+      "lateral": -4.0,
+      "normal_progress": 6.7037841796875,
+      "open": true,
+      "pass": true,
+      "start": [
+        244.31,
+        1.0,
+        -76.34
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        245.78,
+        1.03,
+        -78.82
+      ],
+      "gate": "G5",
+      "lateral": -3.0,
+      "normal_progress": -6.70255308151245,
+      "open": true,
+      "pass": true,
+      "start": [
+        237.47,
+        1.04,
+        -72.07
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        235.38,
+        1.06,
+        -70.37
+      ],
+      "gate": "G5",
+      "lateral": -3.0,
+      "normal_progress": 6.70373983383179,
+      "open": true,
+      "pass": true,
+      "start": [
+        243.68,
+        1.0,
+        -77.12
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        245.15,
+        1.03,
+        -79.6
+      ],
+      "gate": "G5",
+      "lateral": -2.0,
+      "normal_progress": -6.70271329879761,
+      "open": true,
+      "pass": true,
+      "start": [
+        236.84,
+        1.04,
+        -72.85
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        234.75,
+        1.06,
+        -71.14
+      ],
+      "gate": "G5",
+      "lateral": -2.0,
+      "normal_progress": 6.70364780426025,
+      "open": true,
+      "pass": true,
+      "start": [
+        243.05,
+        1.0,
+        -77.89
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        244.52,
+        1.03,
+        -80.37
+      ],
+      "gate": "G5",
+      "lateral": -1.0,
+      "normal_progress": -6.70251159667969,
+      "open": true,
+      "pass": true,
+      "start": [
+        236.21,
+        1.04,
+        -73.62
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        234.12,
+        1.06,
+        -71.92
+      ],
+      "gate": "G5",
+      "lateral": -1.0,
+      "normal_progress": 6.7038013458252,
+      "open": true,
+      "pass": true,
+      "start": [
+        242.42,
+        1.0,
+        -78.67
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        243.89,
+        1.03,
+        -81.15
+      ],
+      "gate": "G5",
+      "lateral": 0.0,
+      "normal_progress": -6.70283489227295,
+      "open": true,
+      "pass": true,
+      "start": [
+        235.58,
+        1.04,
+        -74.4
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        233.49,
+        1.06,
+        -72.69
+      ],
+      "gate": "G5",
+      "lateral": 0.0,
+      "normal_progress": 6.70339698791504,
+      "open": true,
+      "pass": true,
+      "start": [
+        241.79,
+        1.0,
+        -79.44
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        243.26,
+        1.02,
+        -81.93
+      ],
+      "gate": "G5",
+      "lateral": 1.0,
+      "normal_progress": -6.70438175201416,
+      "open": true,
+      "pass": true,
+      "start": [
+        234.95,
+        1.04,
+        -75.18
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        232.85,
+        1.06,
+        -73.47
+      ],
+      "gate": "G5",
+      "lateral": 1.0,
+      "normal_progress": 6.703586769104,
+      "open": true,
+      "pass": true,
+      "start": [
+        241.16,
+        1.0,
+        -80.22
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        242.63,
+        1.02,
+        -82.7
+      ],
+      "gate": "G5",
+      "lateral": 2.0,
+      "normal_progress": -6.70267944335937,
+      "open": true,
+      "pass": true,
+      "start": [
+        234.32,
+        1.04,
+        -75.95
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        232.22,
+        1.06,
+        -74.25
+      ],
+      "gate": "G5",
+      "lateral": 2.0,
+      "normal_progress": 6.7033016204834,
+      "open": true,
+      "pass": true,
+      "start": [
+        240.53,
+        1.0,
+        -81.0
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        242.0,
+        1.02,
+        -83.48
+      ],
+      "gate": "G5",
+      "lateral": 3.0,
+      "normal_progress": -6.7022912979126,
+      "open": true,
+      "pass": true,
+      "start": [
+        233.69,
+        1.04,
+        -76.73
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        231.59,
+        1.06,
+        -75.02
+      ],
+      "gate": "G5",
+      "lateral": 3.0,
+      "normal_progress": 6.70420951843262,
+      "open": true,
+      "pass": true,
+      "start": [
+        239.9,
+        1.0,
+        -81.77
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        241.37,
+        1.02,
+        -84.25
+      ],
+      "gate": "G5",
+      "lateral": 4.0,
+      "normal_progress": -6.70206098556519,
+      "open": true,
+      "pass": true,
+      "start": [
+        233.06,
+        1.04,
+        -77.5
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        230.96,
+        1.06,
+        -75.8
+      ],
+      "gate": "G5",
+      "lateral": 4.0,
+      "normal_progress": 6.70437498092651,
+      "open": true,
+      "pass": true,
+      "start": [
+        239.27,
+        1.0,
+        -82.55
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        240.74,
+        1.02,
+        -85.03
+      ],
+      "gate": "G5",
+      "lateral": 5.0,
+      "normal_progress": -6.70338611602783,
+      "open": true,
+      "pass": true,
+      "start": [
+        232.43,
+        1.04,
+        -78.28
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        230.33,
+        1.06,
+        -76.57
+      ],
+      "gate": "G5",
+      "lateral": 5.0,
+      "normal_progress": 6.70472068786621,
+      "open": true,
+      "pass": true,
+      "start": [
+        238.64,
+        1.0,
+        -83.32
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        240.11,
+        1.0,
+        -85.81
+      ],
+      "gate": "G5",
+      "lateral": 6.0,
+      "normal_progress": -6.704372215271,
+      "open": true,
+      "pass": true,
+      "start": [
+        231.8,
+        1.05,
+        -79.06
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        229.7,
+        1.06,
+        -77.35
+      ],
+      "gate": "G5",
+      "lateral": 6.0,
+      "normal_progress": 6.70210857391357,
+      "open": true,
+      "pass": true,
+      "start": [
+        238.01,
+        1.0,
+        -84.1
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        247.85,
+        1.03,
+        -76.28
+      ],
+      "gate": "G5",
+      "lateral": -6.274463241787,
+      "normal_progress": -6.70249538421631,
+      "open": true,
+      "pass": true,
+      "start": [
+        239.54,
+        1.04,
+        -69.53
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        237.44,
+        1.06,
+        -67.82
+      ],
+      "gate": "G5",
+      "lateral": -6.274463241787,
+      "normal_progress": 6.70233030319214,
+      "open": true,
+      "pass": true,
+      "start": [
+        245.75,
+        1.0,
+        -74.57
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        239.93,
+        1.02,
+        -86.02
+      ],
+      "gate": "G5",
+      "lateral": 6.274463241787,
+      "normal_progress": -6.70316963195801,
+      "open": true,
+      "pass": true,
+      "start": [
+        231.63,
+        1.05,
+        -79.27
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        229.53,
+        1.06,
+        -77.56
+      ],
+      "gate": "G5",
+      "lateral": 6.274463241787,
+      "normal_progress": 6.70313425064087,
+      "open": true,
+      "pass": true,
+      "start": [
+        237.83,
+        1.0,
+        -84.31
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        232.96,
+        1.01,
+        -93.4
+      ],
+      "gate": "G5",
+      "lateral": 16.398926483574,
+      "normal_progress": -6.70108776092529,
+      "open": true,
+      "pass": true,
+      "start": [
+        224.66,
+        1.22,
+        -86.65
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        222.58,
+        1.07,
+        -84.96
+      ],
+      "gate": "G5",
+      "lateral": 16.398926483574,
+      "normal_progress": 6.68055982589722,
+      "open": true,
+      "pass": true,
+      "start": [
+        230.87,
+        0.99,
+        -91.7
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.46,
+        0.83,
+        242.74
+      ],
+      "gate": "G6",
+      "lateral": -6.0,
+      "normal_progress": 0.444618654251099,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.91,
+        0.81,
+        242.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.36,
+        0.83,
+        242.73
+      ],
+      "gate": "G6",
+      "lateral": -6.0,
+      "normal_progress": -0.452944803237915,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.91,
+        0.77,
+        242.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.46,
+        0.81,
+        241.74
+      ],
+      "gate": "G6",
+      "lateral": -5.0,
+      "normal_progress": 0.431636524200439,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.89,
+        0.81,
+        241.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.34,
+        0.82,
+        241.73
+      ],
+      "gate": "G6",
+      "lateral": -5.0,
+      "normal_progress": -0.444129872322083,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.89,
+        0.77,
+        241.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.45,
+        0.81,
+        240.74
+      ],
+      "gate": "G6",
+      "lateral": -4.0,
+      "normal_progress": 0.431653034687042,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.88,
+        0.81,
+        240.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.32,
+        0.82,
+        240.73
+      ],
+      "gate": "G6",
+      "lateral": -4.0,
+      "normal_progress": -0.443030285835266,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.88,
+        0.77,
+        240.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.43,
+        0.81,
+        239.74
+      ],
+      "gate": "G6",
+      "lateral": -3.0,
+      "normal_progress": 0.431133103370666,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.86,
+        0.81,
+        239.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.31,
+        0.83,
+        239.73
+      ],
+      "gate": "G6",
+      "lateral": -3.0,
+      "normal_progress": -0.442419338226318,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.86,
+        0.77,
+        239.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.42,
+        0.81,
+        238.74
+      ],
+      "gate": "G6",
+      "lateral": -2.0,
+      "normal_progress": 0.431298267841339,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.85,
+        0.81,
+        238.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.29,
+        0.81,
+        238.73
+      ],
+      "gate": "G6",
+      "lateral": -2.0,
+      "normal_progress": -0.442292499542236,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.85,
+        0.77,
+        238.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.4,
+        0.83,
+        237.74
+      ],
+      "gate": "G6",
+      "lateral": -1.0,
+      "normal_progress": 0.435269486904144,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.84,
+        0.81,
+        237.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.29,
+        0.83,
+        237.73
+      ],
+      "gate": "G6",
+      "lateral": -1.0,
+      "normal_progress": -0.453028130531311,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.84,
+        0.77,
+        237.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.37,
+        0.83,
+        236.74
+      ],
+      "gate": "G6",
+      "lateral": 0.0,
+      "normal_progress": 0.449714732170105,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.82,
+        0.82,
+        236.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.26,
+        0.83,
+        236.73
+      ],
+      "gate": "G6",
+      "lateral": 0.0,
+      "normal_progress": -0.442945051193237,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.82,
+        0.78,
+        236.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.37,
+        0.82,
+        235.74
+      ],
+      "gate": "G6",
+      "lateral": 1.0,
+      "normal_progress": 0.442237091064453,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.81,
+        0.82,
+        235.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.24,
+        0.83,
+        235.73
+      ],
+      "gate": "G6",
+      "lateral": 1.0,
+      "normal_progress": -0.432177829742432,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.81,
+        0.78,
+        235.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.34,
+        0.83,
+        234.75
+      ],
+      "gate": "G6",
+      "lateral": 2.0,
+      "normal_progress": 0.452930700778961,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.79,
+        0.82,
+        234.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.23,
+        0.83,
+        234.73
+      ],
+      "gate": "G6",
+      "lateral": 2.0,
+      "normal_progress": -0.432234811782837,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.79,
+        0.78,
+        234.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.33,
+        0.83,
+        233.75
+      ],
+      "gate": "G6",
+      "lateral": 3.0,
+      "normal_progress": 0.452895534038544,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.78,
+        0.82,
+        233.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.21,
+        0.83,
+        233.73
+      ],
+      "gate": "G6",
+      "lateral": 3.0,
+      "normal_progress": -0.432108449935913,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.78,
+        0.78,
+        233.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.32,
+        0.84,
+        232.74
+      ],
+      "gate": "G6",
+      "lateral": 4.0,
+      "normal_progress": 0.442963254451752,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.77,
+        0.82,
+        232.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.2,
+        0.83,
+        232.73
+      ],
+      "gate": "G6",
+      "lateral": 4.0,
+      "normal_progress": -0.431860375404358,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.76,
+        0.78,
+        232.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.3,
+        0.82,
+        231.76
+      ],
+      "gate": "G6",
+      "lateral": 5.0,
+      "normal_progress": 0.451948714256287,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.75,
+        0.82,
+        231.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.18,
+        0.83,
+        231.73
+      ],
+      "gate": "G6",
+      "lateral": 5.0,
+      "normal_progress": -0.432100224494934,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.75,
+        0.78,
+        231.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.29,
+        0.82,
+        230.74
+      ],
+      "gate": "G6",
+      "lateral": 6.0,
+      "normal_progress": 0.44243301153183,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.74,
+        0.82,
+        230.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.17,
+        0.82,
+        230.73
+      ],
+      "gate": "G6",
+      "lateral": 6.0,
+      "normal_progress": -0.432382035255432,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.74,
+        0.78,
+        230.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.48,
+        0.81,
+        243.3
+      ],
+      "gate": "G6",
+      "lateral": -6.55876158083603,
+      "normal_progress": 0.431959879398346,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.92,
+        0.81,
+        243.35
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.37,
+        0.83,
+        243.29
+      ],
+      "gate": "G6",
+      "lateral": -6.55876158083603,
+      "normal_progress": -0.452922034263611,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.91,
+        0.77,
+        243.24
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        347.29,
+        0.82,
+        230.18
+      ],
+      "gate": "G6",
+      "lateral": 6.55876158083603,
+      "normal_progress": 0.44177360534668,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.73,
+        0.82,
+        230.23
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.16,
+        0.82,
+        230.17
+      ],
+      "gate": "G6",
+      "lateral": 6.55876158083603,
+      "normal_progress": -0.432591247558594,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.73,
+        0.78,
+        230.12
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        346.39,
+        0.8,
+        219.79
+      ],
+      "gate": "G6",
+      "lateral": 16.9675231616721,
+      "normal_progress": 0.440360483527184,
+      "open": false,
+      "pass": true,
+      "start": [
+        342.8,
+        0.85,
+        219.84
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        347.27,
+        0.8,
+        219.77
+      ],
+      "gate": "G6",
+      "lateral": 16.9675231616721,
+      "normal_progress": -0.442322540283203,
+      "open": false,
+      "pass": true,
+      "start": [
+        350.83,
+        0.84,
+        219.72
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        345.15,
+        0.85,
+        244.28
+      ],
+      "gate": "G6",
+      "lateral": -7.50876158083603,
+      "normal_progress": 2.77522666454315,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.93,
+        0.89,
+        244.3
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.3,
+        0.86,
+        244.4
+      ],
+      "gate": "G6",
+      "lateral": -7.50876158083603,
+      "normal_progress": -0.372858333587647,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.93,
+        0.77,
+        244.19
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        344.95,
+        0.86,
+        229.26
+      ],
+      "gate": "G6",
+      "lateral": 7.50876158083603,
+      "normal_progress": 2.76893801689148,
+      "open": false,
+      "pass": true,
+      "start": [
+        343.72,
+        0.93,
+        229.28
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        348.09,
+        0.86,
+        229.06
+      ],
+      "gate": "G6",
+      "lateral": 7.50876158083603,
+      "normal_progress": -0.372847366333008,
+      "open": false,
+      "pass": true,
+      "start": [
+        351.72,
+        0.79,
+        229.17
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.61,
+        0.82,
+        242.64
+      ],
+      "gate": "G6",
+      "lateral": -6.0,
+      "normal_progress": -6.70414476394653,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.91,
+        0.81,
+        242.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.28,
+        0.83,
+        242.83
+      ],
+      "gate": "G6",
+      "lateral": -6.0,
+      "normal_progress": 6.62962312698364,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.91,
+        0.77,
+        242.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.6,
+        0.82,
+        241.64
+      ],
+      "gate": "G6",
+      "lateral": -5.0,
+      "normal_progress": -6.70494680404663,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.89,
+        0.81,
+        241.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.26,
+        0.83,
+        241.83
+      ],
+      "gate": "G6",
+      "lateral": -5.0,
+      "normal_progress": 6.62958164215088,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.89,
+        0.77,
+        241.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.58,
+        0.82,
+        240.64
+      ],
+      "gate": "G6",
+      "lateral": -4.0,
+      "normal_progress": -6.70481042861938,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.88,
+        0.81,
+        240.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.25,
+        0.81,
+        240.83
+      ],
+      "gate": "G6",
+      "lateral": -4.0,
+      "normal_progress": 6.63154239654541,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.88,
+        0.77,
+        240.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.57,
+        0.82,
+        239.64
+      ],
+      "gate": "G6",
+      "lateral": -3.0,
+      "normal_progress": -6.70371513366699,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.86,
+        0.81,
+        239.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.16,
+        0.83,
+        239.83
+      ],
+      "gate": "G6",
+      "lateral": -3.0,
+      "normal_progress": 6.70339794158936,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.86,
+        0.77,
+        239.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.55,
+        0.82,
+        238.64
+      ],
+      "gate": "G6",
+      "lateral": -2.0,
+      "normal_progress": -6.70351963043213,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.85,
+        0.81,
+        238.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.15,
+        0.83,
+        238.83
+      ],
+      "gate": "G6",
+      "lateral": -2.0,
+      "normal_progress": 6.70351333618164,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.85,
+        0.77,
+        238.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.55,
+        0.82,
+        237.64
+      ],
+      "gate": "G6",
+      "lateral": -1.0,
+      "normal_progress": -6.71035318374634,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.84,
+        0.81,
+        237.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.13,
+        0.83,
+        237.83
+      ],
+      "gate": "G6",
+      "lateral": -1.0,
+      "normal_progress": 6.70363922119141,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.84,
+        0.77,
+        237.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.53,
+        0.82,
+        236.64
+      ],
+      "gate": "G6",
+      "lateral": 0.0,
+      "normal_progress": -6.70887784957886,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.82,
+        0.82,
+        236.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.13,
+        0.83,
+        236.83
+      ],
+      "gate": "G6",
+      "lateral": 0.0,
+      "normal_progress": 6.6958701133728,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.82,
+        0.78,
+        236.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.51,
+        0.82,
+        235.65
+      ],
+      "gate": "G6",
+      "lateral": 1.0,
+      "normal_progress": -6.6992486000061,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.81,
+        0.82,
+        235.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.1,
+        0.83,
+        235.84
+      ],
+      "gate": "G6",
+      "lateral": 1.0,
+      "normal_progress": 6.70703859329224,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.81,
+        0.78,
+        235.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.49,
+        0.82,
+        234.65
+      ],
+      "gate": "G6",
+      "lateral": 2.0,
+      "normal_progress": -6.69736175537109,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.79,
+        0.82,
+        234.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.09,
+        0.83,
+        234.84
+      ],
+      "gate": "G6",
+      "lateral": 2.0,
+      "normal_progress": 6.70538682937622,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.79,
+        0.78,
+        234.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.48,
+        0.83,
+        233.65
+      ],
+      "gate": "G6",
+      "lateral": 3.0,
+      "normal_progress": -6.69904451370239,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.78,
+        0.82,
+        233.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.08,
+        0.84,
+        233.83
+      ],
+      "gate": "G6",
+      "lateral": 3.0,
+      "normal_progress": 6.70301742553711,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.78,
+        0.78,
+        233.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.47,
+        0.83,
+        232.64
+      ],
+      "gate": "G6",
+      "lateral": 4.0,
+      "normal_progress": -6.70192747116089,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.77,
+        0.82,
+        232.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.08,
+        0.82,
+        233.0
+      ],
+      "gate": "G6",
+      "lateral": 4.0,
+      "normal_progress": 6.68527097702026,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.76,
+        0.78,
+        232.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.46,
+        0.83,
+        231.65
+      ],
+      "gate": "G6",
+      "lateral": 5.0,
+      "normal_progress": -6.70444755554199,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.75,
+        0.82,
+        231.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.13,
+        0.82,
+        231.84
+      ],
+      "gate": "G6",
+      "lateral": 5.0,
+      "normal_progress": 6.62658042907715,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.75,
+        0.78,
+        231.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.44,
+        0.84,
+        230.64
+      ],
+      "gate": "G6",
+      "lateral": 6.0,
+      "normal_progress": -6.70230464935303,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.74,
+        0.82,
+        230.79
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        340.71,
+        0.84,
+        230.84
+      ],
+      "gate": "G6",
+      "lateral": 6.0,
+      "normal_progress": 7.02289552688599,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.74,
+        0.78,
+        230.68
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.62,
+        0.81,
+        243.2
+      ],
+      "gate": "G6",
+      "lateral": -6.55876158083603,
+      "normal_progress": -6.70570449829102,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.92,
+        0.81,
+        243.35
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        341.29,
+        0.83,
+        243.39
+      ],
+      "gate": "G6",
+      "lateral": -6.55876158083603,
+      "normal_progress": 6.62616128921509,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.91,
+        0.77,
+        243.24
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        354.43,
+        0.84,
+        230.08
+      ],
+      "gate": "G6",
+      "lateral": 6.55876158083603,
+      "normal_progress": -6.70212297439575,
+      "open": true,
+      "pass": true,
+      "start": [
+        343.73,
+        0.82,
+        230.23
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        340.69,
+        0.84,
+        230.28
+      ],
+      "gate": "G6",
+      "lateral": 6.55876158083603,
+      "normal_progress": 7.03676052093506,
+      "open": true,
+      "pass": true,
+      "start": [
+        351.73,
+        0.78,
+        230.12
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": -1.0,
+      "end": [
+        353.74,
+        0.89,
+        219.68
+      ],
+      "gate": "G6",
+      "lateral": 16.9675231616721,
+      "normal_progress": -6.91222314834595,
+      "open": true,
+      "pass": true,
+      "start": [
+        342.8,
+        0.85,
+        219.84
+      ],
+      "valid_start": true
+    },
+    {
+      "direction": 1.0,
+      "end": [
+        340.17,
+        0.85,
+        219.88
+      ],
+      "gate": "G6",
+      "lateral": 16.9675231616721,
+      "normal_progress": 6.6608211517334,
+      "open": true,
+      "pass": true,
+      "start": [
+        350.83,
+        0.84,
+        219.72
+      ],
+      "valid_start": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

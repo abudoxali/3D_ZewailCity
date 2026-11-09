@@ -1,0 +1,1114 @@
+{
+ "apply": true,
+ "archive_root": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z",
+ "moved_to_archive": [
+  {
+   "from": "backups",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\backups",
+   "bytes": 15516016048,
+   "files": 8947
+  },
+  {
+   "from": "v10_pre_v11_20261108T105635Z",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v10_pre_v11_20261108T105635Z",
+   "bytes": 0,
+   "files": 0
+  },
+  {
+   "from": "releases/ZewailCityExplorer_Windows",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\releases\\ZewailCityExplorer_Windows",
+   "bytes": 214511304,
+   "files": 1
+  },
+  {
+   "from": "src",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\src",
+   "bytes": 2092885,
+   "files": 134
+  },
+  {
+   "from": "game",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\game",
+   "bytes": 358088560,
+   "files": 795
+  },
+  {
+   "from": "README.md",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\README.md",
+   "bytes": 63748,
+   "files": 1
+  },
+  {
+   "from": "output/Zewail_City_3D.blend",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\Zewail_City_3D.blend",
+   "bytes": 22900162,
+   "files": 1
+  },
+  {
+   "from": "output/Zewail_City_3D.blend1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\Zewail_City_3D.blend1",
+   "bytes": 1914004,
+   "files": 1
+  },
+  {
+   "from": "output/comparison",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\comparison",
+   "bytes": 5184133,
+   "files": 1
+  },
+  {
+   "from": "output/exports",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\exports",
+   "bytes": 71396096,
+   "files": 1
+  },
+  {
+   "from": "output/game_ready",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\game_ready",
+   "bytes": 412962550,
+   "files": 188
+  },
+  {
+   "from": "output/previews",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\previews",
+   "bytes": 54451793,
+   "files": 37
+  },
+  {
+   "from": "output/tours",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\tours",
+   "bytes": 2798418913,
+   "files": 345
+  },
+  {
+   "from": "output/verification_report.json",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\verification_report.json",
+   "bytes": 7072,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/baseline_v14_godot",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v15\\baseline_v14_godot",
+   "bytes": 834826787,
+   "files": 1557
+  },
+  {
+   "from": "output/validation/_godot_capture_v4.log",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_godot_capture_v4.log",
+   "bytes": 0,
+   "files": 1
+  },
+  {
+   "from": "output/validation/_godot_validate_v4.log",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_godot_validate_v4.log",
+   "bytes": 4812,
+   "files": 1
+  },
+  {
+   "from": "output/validation/_plan_model.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_plan_model.png",
+   "bytes": 1731692,
+   "files": 1
+  },
+  {
+   "from": "output/validation/_render_A01.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_render_A01.png",
+   "bytes": 1093443,
+   "files": 1
+  },
+  {
+   "from": "output/validation/_render_A02.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_render_A02.png",
+   "bytes": 1518614,
+   "files": 1
+  },
+  {
+   "from": "output/validation/_render_A03.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_render_A03.png",
+   "bytes": 1865460,
+   "files": 1
+  },
+  {
+   "from": "output/validation/_windows_export.log",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\_windows_export.log",
+   "bytes": 23792,
+   "files": 1
+  },
+  {
+   "from": "output/validation/admin_front_elevation_massing.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\admin_front_elevation_massing.png",
+   "bytes": 880817,
+   "files": 1
+  },
+  {
+   "from": "output/validation/blender_gui_v7.log",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\blender_gui_v7.log",
+   "bytes": 7465,
+   "files": 1
+  },
+  {
+   "from": "output/validation/blender_gui_v8.log",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\blender_gui_v8.log",
+   "bytes": 119,
+   "files": 1
+  },
+  {
+   "from": "output/validation/blockout_aerial.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\blockout_aerial.png",
+   "bytes": 2189603,
+   "files": 1
+  },
+  {
+   "from": "output/validation/compare_A01.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\compare_A01.png",
+   "bytes": 2564340,
+   "files": 1
+  },
+  {
+   "from": "output/validation/compare_A02.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\compare_A02.png",
+   "bytes": 1622300,
+   "files": 1
+  },
+  {
+   "from": "output/validation/compare_A03.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\compare_A03.png",
+   "bytes": 1202685,
+   "files": 1
+  },
+  {
+   "from": "output/validation/godot_editor_v7.log",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\godot_editor_v7.log",
+   "bytes": 195,
+   "files": 1
+  },
+  {
+   "from": "output/validation/godot_performance.json",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\godot_performance.json",
+   "bytes": 6122,
+   "files": 1
+  },
+  {
+   "from": "output/validation/godot_performance_uncapped.json",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\godot_performance_uncapped.json",
+   "bytes": 3092,
+   "files": 1
+  },
+  {
+   "from": "output/validation/godot_validation.json",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\godot_validation.json",
+   "bytes": 15106,
+   "files": 1
+  },
+  {
+   "from": "output/validation/massing_overview.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\massing_overview.png",
+   "bytes": 2046972,
+   "files": 1
+  },
+  {
+   "from": "output/validation/MISMATCH_REPORT.md",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\MISMATCH_REPORT.md",
+   "bytes": 5341,
+   "files": 1
+  },
+  {
+   "from": "output/validation/output",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\output",
+   "bytes": 5657,
+   "files": 1
+  },
+  {
+   "from": "output/validation/plan_overlay.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\plan_overlay.png",
+   "bytes": 1872664,
+   "files": 1
+  },
+  {
+   "from": "output/validation/plan_side_by_side.png",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\plan_side_by_side.png",
+   "bytes": 2783299,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v10",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v10",
+   "bytes": 127508762,
+   "files": 231
+  },
+  {
+   "from": "output/validation/v11",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v11",
+   "bytes": 2005399682,
+   "files": 1537
+  },
+  {
+   "from": "output/validation/v12",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v12",
+   "bytes": 4248048168,
+   "files": 5590
+  },
+  {
+   "from": "output/validation/v13",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v13",
+   "bytes": 2583047308,
+   "files": 2902
+  },
+  {
+   "from": "output/validation/v14",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v14",
+   "bytes": 2466454733,
+   "files": 2848
+  },
+  {
+   "from": "output/validation/v4",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v4",
+   "bytes": 36206508,
+   "files": 29
+  },
+  {
+   "from": "output/validation/v5",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v5",
+   "bytes": 109067278,
+   "files": 201
+  },
+  {
+   "from": "output/validation/v6",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v6",
+   "bytes": 98728878,
+   "files": 249
+  },
+  {
+   "from": "output/validation/v7",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v7",
+   "bytes": 328015341,
+   "files": 355
+  },
+  {
+   "from": "output/validation/v8",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v8",
+   "bytes": 373415413,
+   "files": 432
+  },
+  {
+   "from": "output/validation/v9",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\v9",
+   "bytes": 190240352,
+   "files": 314
+  },
+  {
+   "from": "output/validation/windows_build",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\output\\validation\\windows_build",
+   "bytes": 722951,
+   "files": 3
+  },
+  {
+   "from": "tools/compare_v10.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v10.py",
+   "bytes": 5580,
+   "files": 1
+  },
+  {
+   "from": "tools/compare_v11.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v11.py",
+   "bytes": 3072,
+   "files": 1
+  },
+  {
+   "from": "tools/compare_v5.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v5.py",
+   "bytes": 4174,
+   "files": 1
+  },
+  {
+   "from": "tools/compare_v6.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v6.py",
+   "bytes": 3201,
+   "files": 1
+  },
+  {
+   "from": "tools/compare_v7.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v7.py",
+   "bytes": 5269,
+   "files": 1
+  },
+  {
+   "from": "tools/compare_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v8.py",
+   "bytes": 1882,
+   "files": 1
+  },
+  {
+   "from": "tools/compare_v9.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\compare_v9.py",
+   "bytes": 4437,
+   "files": 1
+  },
+  {
+   "from": "tools/finalize_live_source.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\finalize_live_source.py",
+   "bytes": 974,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_academic.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_academic.py",
+   "bytes": 663,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_delivery_live.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_delivery_live.py",
+   "bytes": 1095,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_dorm_v6.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_dorm_v6.py",
+   "bytes": 867,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_final_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_final_v8.py",
+   "bytes": 511,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_gates.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_gates.py",
+   "bytes": 460,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_live.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_live.py",
+   "bytes": 863,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_phase_a.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_phase_a.py",
+   "bytes": 584,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_v6_movie.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_v6_movie.py",
+   "bytes": 2614,
+   "files": 1
+  },
+  {
+   "from": "tools/inspect_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\inspect_v8.py",
+   "bytes": 905,
+   "files": 1
+  },
+  {
+   "from": "tools/mcp_render_final_v6.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\mcp_render_final_v6.py",
+   "bytes": 923,
+   "files": 1
+  },
+  {
+   "from": "tools/mcp_render_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\mcp_render_v8.py",
+   "bytes": 709,
+   "files": 1
+  },
+  {
+   "from": "tools/mcp_reopen_final_v6.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\mcp_reopen_final_v6.py",
+   "bytes": 521,
+   "files": 1
+  },
+  {
+   "from": "tools/preserve_live.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\preserve_live.py",
+   "bytes": 391,
+   "files": 1
+  },
+  {
+   "from": "tools/preserve_v4_release.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\preserve_v4_release.py",
+   "bytes": 749,
+   "files": 1
+  },
+  {
+   "from": "tools/probe_v8_entry.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\probe_v8_entry.py",
+   "bytes": 782,
+   "files": 1
+  },
+  {
+   "from": "tools/probe_v9_contacts.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\probe_v9_contacts.py",
+   "bytes": 4613,
+   "files": 1
+  },
+  {
+   "from": "tools/rebuild_live_v5.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\rebuild_live_v5.py",
+   "bytes": 804,
+   "files": 1
+  },
+  {
+   "from": "tools/rebuild_live_v6.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\rebuild_live_v6.py",
+   "bytes": 761,
+   "files": 1
+  },
+  {
+   "from": "tools/rebuild_live_v7.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\rebuild_live_v7.py",
+   "bytes": 1461,
+   "files": 1
+  },
+  {
+   "from": "tools/rebuild_live_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\rebuild_live_v8.py",
+   "bytes": 1772,
+   "files": 1
+  },
+  {
+   "from": "tools/render_live_ground.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\render_live_ground.py",
+   "bytes": 801,
+   "files": 1
+  },
+  {
+   "from": "tools/render_v5.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\render_v5.ps1",
+   "bytes": 1304,
+   "files": 1
+  },
+  {
+   "from": "tools/render_v6.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\render_v6.ps1",
+   "bytes": 1030,
+   "files": 1
+  },
+  {
+   "from": "tools/render_v7.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\render_v7.ps1",
+   "bytes": 1030,
+   "files": 1
+  },
+  {
+   "from": "tools/reopen_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\reopen_v8.py",
+   "bytes": 568,
+   "files": 1
+  },
+  {
+   "from": "tools/start_live_bridge.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\start_live_bridge.py",
+   "bytes": 157,
+   "files": 1
+  },
+  {
+   "from": "tools/v10_add_capture_poses.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v10_add_capture_poses.py",
+   "bytes": 4003,
+   "files": 1
+  },
+  {
+   "from": "tools/v10_admin_harness.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v10_admin_harness.py",
+   "bytes": 15819,
+   "files": 1
+  },
+  {
+   "from": "tools/v10_backup.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v10_backup.py",
+   "bytes": 1651,
+   "files": 1
+  },
+  {
+   "from": "tools/v10_junction_topdown.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v10_junction_topdown.py",
+   "bytes": 1231,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_add_capture_poses.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_add_capture_poses.py",
+   "bytes": 4061,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_backup.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_backup.py",
+   "bytes": 1672,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_backup_verify.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_backup_verify.py",
+   "bytes": 985,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_blender_views.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_blender_views.py",
+   "bytes": 2266,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_encode_tour.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_encode_tour.py",
+   "bytes": 2149,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_final_report.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_final_report.py",
+   "bytes": 5799,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_inspect_live.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_inspect_live.py",
+   "bytes": 1237,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_issue_report.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_issue_report.py",
+   "bytes": 8982,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_mesh_audit.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_mesh_audit.py",
+   "bytes": 1575,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_prepare_evidence.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_prepare_evidence.py",
+   "bytes": 1954,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_run.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_run.py",
+   "bytes": 1173,
+   "files": 1
+  },
+  {
+   "from": "tools/v11_verify_delivery.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v11_verify_delivery.py",
+   "bytes": 16183,
+   "files": 1
+  },
+  {
+   "from": "tools/v121_boards.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v121_boards.py",
+   "bytes": 1801,
+   "files": 1
+  },
+  {
+   "from": "tools/v121_capture.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v121_capture.sh",
+   "bytes": 961,
+   "files": 1
+  },
+  {
+   "from": "tools/v121_final_verify.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v121_final_verify.sh",
+   "bytes": 1422,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_add_road_poses.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_add_road_poses.py",
+   "bytes": 1654,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_bench_report.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_bench_report.py",
+   "bytes": 2097,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_candidate_rebuild.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_candidate_rebuild.sh",
+   "bytes": 1416,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_capture_final.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_capture_final.ps1",
+   "bytes": 2370,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_configure_candidate.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_configure_candidate.py",
+   "bytes": 2970,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_evidence.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_evidence.py",
+   "bytes": 3228,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_fetch_vegetation.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_fetch_vegetation.py",
+   "bytes": 1196,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_fetch_whole_plant.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_fetch_whole_plant.py",
+   "bytes": 1253,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_final_boards.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_final_boards.py",
+   "bytes": 1546,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_final_verify.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_final_verify.sh",
+   "bytes": 2661,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_geometry_fingerprints.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_geometry_fingerprints.py",
+   "bytes": 2302,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_install_materials.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_install_materials.py",
+   "bytes": 1909,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_manifest.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_manifest.py",
+   "bytes": 4590,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_optimize_imports.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_optimize_imports.py",
+   "bytes": 838,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_recovery.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_recovery.py",
+   "bytes": 1326,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_regressions.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_regressions.py",
+   "bytes": 1583,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_report.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_report.py",
+   "bytes": 4584,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_run.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_run.py",
+   "bytes": 924,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_sheet.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_sheet.py",
+   "bytes": 656,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_stair_tile.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_stair_tile.py",
+   "bytes": 1717,
+   "files": 1
+  },
+  {
+   "from": "tools/v12_tone_targets.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v12_tone_targets.py",
+   "bytes": 2398,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_bench.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_bench.sh",
+   "bytes": 989,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_bench_report.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_bench_report.py",
+   "bytes": 2186,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_boards.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_boards.py",
+   "bytes": 1505,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_capture.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_capture.sh",
+   "bytes": 1734,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_final.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_final.sh",
+   "bytes": 1241,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_geometry_fingerprints.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_geometry_fingerprints.py",
+   "bytes": 2324,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_manifest.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_manifest.py",
+   "bytes": 4454,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_optimize_imports.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_optimize_imports.py",
+   "bytes": 829,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_previews.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_previews.py",
+   "bytes": 690,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_rebuild.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_rebuild.sh",
+   "bytes": 1548,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_regressions.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_regressions.py",
+   "bytes": 1574,
+   "files": 1
+  },
+  {
+   "from": "tools/v13_run.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v13_run.py",
+   "bytes": 915,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_bench.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_bench.sh",
+   "bytes": 954,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_bench_report.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_bench_report.py",
+   "bytes": 2048,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_boards.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_boards.py",
+   "bytes": 1250,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_capture.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_capture.sh",
+   "bytes": 1682,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_final.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_final.sh",
+   "bytes": 1483,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_final_norebuild.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_final_norebuild.sh",
+   "bytes": 1489,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_geometry_fingerprints.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_geometry_fingerprints.py",
+   "bytes": 2309,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_optimize_imports.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_optimize_imports.py",
+   "bytes": 829,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_preservation.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_preservation.py",
+   "bytes": 1815,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_previews.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_previews.py",
+   "bytes": 690,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_rebuild.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_rebuild.sh",
+   "bytes": 1548,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_regressions.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_regressions.py",
+   "bytes": 1574,
+   "files": 1
+  },
+  {
+   "from": "tools/v14_run.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v14_run.py",
+   "bytes": 915,
+   "files": 1
+  },
+  {
+   "from": "tools/v15_rebuild_noscene.sh",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\v15_rebuild_noscene.sh",
+   "bytes": 1292,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_delivery_v5.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_delivery_v5.py",
+   "bytes": 3901,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_delivery_v6.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_delivery_v6.py",
+   "bytes": 7350,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_delivery_v7.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_delivery_v7.py",
+   "bytes": 7083,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_delivery_v8.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_delivery_v8.py",
+   "bytes": 5464,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_delivery_v9.py",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_delivery_v9.py",
+   "bytes": 4271,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v10.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v10.ps1",
+   "bytes": 2810,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v11.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v11.ps1",
+   "bytes": 2844,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v12.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v12.ps1",
+   "bytes": 2456,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v121.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v121.ps1",
+   "bytes": 2467,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v13.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v13.ps1",
+   "bytes": 2495,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v14.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v14.ps1",
+   "bytes": 2471,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v5.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v5.ps1",
+   "bytes": 2226,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v6.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v6.ps1",
+   "bytes": 2170,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v7.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v7.ps1",
+   "bytes": 2207,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v8.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v8.ps1",
+   "bytes": 2829,
+   "files": 1
+  },
+  {
+   "from": "tools/verify_windows_v9.ps1",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\tools\\verify_windows_v9.ps1",
+   "bytes": 2803,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/game/godot/tests/V9LeakProbe.tscn",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\game\\godot\\tests\\V9LeakProbe.tscn",
+   "bytes": 177,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/game/godot/tests/v9_leak_probe.gd",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\game\\godot\\tests\\v9_leak_probe.gd",
+   "bytes": 3869,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/game/godot/tests/v9_leak_probe.gd.uid",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\game\\godot\\tests\\v9_leak_probe.gd.uid",
+   "bytes": 19,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/game/godot/v11",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\game\\godot\\v11",
+   "bytes": 252113951,
+   "files": 337
+  },
+  {
+   "from": "output/validation/v15/candidate/output/v12_integration.json",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\output\\v12_integration.json",
+   "bytes": 216394,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/Zewail_V6_Reference_Kit",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\Zewail_V6_Reference_Kit",
+   "bytes": 1583464,
+   "files": 17
+  },
+  {
+   "from": "output/validation/v15/candidate/tools",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261109T112458Z\\v15_candidate_leftovers\\tools",
+   "bytes": 5770967,
+   "files": 195
+  }
+ ],
+ "promoted": [
+  {
+   "from": "output/validation/v15/candidate/src",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\src",
+   "bytes": 1572508,
+   "files": 91
+  },
+  {
+   "from": "output/validation/v15/candidate/game",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\game",
+   "bytes": 674713755,
+   "files": 1288
+  },
+  {
+   "from": "output/validation/v15/candidate/output/Zewail_City_3D.blend",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\Zewail_City_3D.blend",
+   "bytes": 66457467,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/output/game_ready",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\game_ready",
+   "bytes": 497711905,
+   "files": 204
+  },
+  {
+   "from": "output/validation/v15/candidate/output/exports",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\exports",
+   "bytes": 118987268,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/output/previews",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\previews",
+   "bytes": 10570439,
+   "files": 7
+  },
+  {
+   "from": "output/validation/v15/candidate/output/tours",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\tours",
+   "bytes": 1105139,
+   "files": 16
+  },
+  {
+   "from": "output/validation/v15/candidate/output/v12_material_diagnostics.json",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\v12_material_diagnostics.json",
+   "bytes": 8184,
+   "files": 1
+  },
+  {
+   "from": "output/validation/v15/candidate/output/validation/v11",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\validation\\generator_logs",
+   "bytes": 884820,
+   "files": 28
+  },
+  {
+   "from": "output/validation/v15/candidate/releases/ZewailCityExplorer_Windows_V15",
+   "to": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\releases\\ZewailCityExplorer_Windows_V15",
+   "bytes": 344767088,
+   "files": 1
+  }
+ ],
+ "merged_references": [
+  "academic_entrances_v11.json",
+  "assets",
+  "internal_building_entries_v6.json",
+  "six_gate_inventory.json"
+ ],
+ "missing": [],
+ "archive_bytes": 33141091243
+}

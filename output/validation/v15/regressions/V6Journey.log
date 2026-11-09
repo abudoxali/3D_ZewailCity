@@ -1,0 +1,6 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1538 ms (+52 ms prepare): { "gate_leaves": 19, "load_ms": 1538, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1624 ms (campus { "gate_leaves": 19, "load_ms": 1538, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] continuous two stairs > portal > stepped court ramp > rear soil > dormitory garden  {"airborne_frames":1,"failures":[],"final":[370.13,1.1,630.89],"floor_losses":0,"max_floor_gap_m":0.188783347606659,"max_gap_at":{"feet_y":-0.139405488967896,"floor":[124.33,-0.33,516.32],"on_floor":true,"player":[124.33,0.74,516.32],"target":[150.0,520.0],"velocity":[8.23,0.0,-0.36]}}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/complete_journey_runtime.json

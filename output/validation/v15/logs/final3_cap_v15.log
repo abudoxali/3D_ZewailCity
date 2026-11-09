@@ -1,0 +1,37 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070
+
+[campus] loaded in 1864 ms (+107 ms prepare): { "gate_leaves": 19, "load_ms": 1864, "prepare_ms": 107, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 2194 ms (campus { "gate_leaves": 19, "load_ms": 1864, "prepare_ms": 107, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[v9-capture] reusing stored poses from v8: reconstructed from the V8 backup Blender ground (ray cast), see tools/v9_rebuild_v8_poses.py | V10: fixed absolute poses added by tools/v10_add_capture_poses.py | V10: fixed absolute poses added by tools/v10_add_capture_poses.py | V10: fixed absolute poses added by tools/v10_add_capture_poses.py | V11: owner-screenshot poses added by tools/v11_add_capture_poses.py | V11: owner-screenshot poses added by tools/v11_add_capture_poses.py | V11: owner-screenshot poses added by tools/v11_add_capture_poses.py
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V12_G1_close.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V12_approach_close.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V12_junction_dropoff_eye.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V12_junction_ring_east_eye.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V13_approach_aerial.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V14_g1_median_nose.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V14_g1_gate_sand.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V14_g1_forecourt_beds.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V14_junction_admin_close.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V14_ring_sidewalk_step.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_G1_exterior_eye.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_main_approach_road.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_ring_road_eye.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_dorm_garden_paths.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_drone_overview.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_P13_court_photo.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_academic_court_aerial.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_admin_entrance_axis.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_admin_lobby_threshold.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_junction_dropoff_ring.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_O02_G1_inside.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_O03_G1_paving_curb.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_O07_academic_front.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V15_crossover_bands_eye.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V15_median_eye.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V15_verge_bed_close.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V15_kerb_close.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V15_ring_junction_kerbs.png
+[v9-capture] C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15/game_captures/v15_V15_g1_inside_kerbs.png
+WARNING: 7 RIDs of type "Texture" were leaked.
+   at: finalize (servers/rendering/rendering_device.cpp:7505)

@@ -1,0 +1,9 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1526 ms (+52 ms prepare): { "gate_leaves": 19, "load_ms": 1526, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1611 ms (campus { "gate_leaves": 19, "load_ms": 1526, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] rear natural soil and estimated earth path  {"airborne_frames":0,"failures":[],"final":[0.0,0.5,504.54],"floor_losses":0,"max_floor_gap_m":0.0191434025764465,"max_gap_at":{"feet_y":-0.0706753134727478,"floor":[0.0,-0.09,372.73],"on_floor":true,"player":[0.0,0.8,372.73],"target":[0.0,430.0],"velocity":[0.0,0.0,4.37]}}
+[PASS] dormitory candidate ingress and photo garden path  {"airborne_frames":0,"failures":[],"final":[370.33,1.1,630.72],"floor_losses":0,"max_floor_gap_m":0.0189727544784546,"max_gap_at":{"feet_y":0.115881025791168,"floor":[424.96,0.1,560.42],"on_floor":true,"player":[424.96,0.99,560.42],"target":[424.904998779297,562.992980957031],"velocity":[-0.1,0.0,4.36]}}
+[PASS] dormitory approach spawn grounded  {}
+[PASS] dormitory identity remains explicitly unconfirmed  {}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/dormitory_runtime.json

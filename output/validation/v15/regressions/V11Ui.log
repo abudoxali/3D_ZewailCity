@@ -1,0 +1,44 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[PASS] menu builds and defaults to RTL
+[PASS] main action focusable: StartExploration
+[PASS] main action focusable: GuidedTour
+[PASS] main action focusable: LocationSelection
+[PASS] main action focusable: GraphicsSettings
+[PASS] main action focusable: Exit
+[PASS] exactly five main actions
+[PASS] first action receives focus
+[PASS] keyboard down moves focus
+[PASS] Enter activates focused tour action
+[PASS] mouse click activates exploration
+[PASS] every catalog entry has Arabic and English
+[PASS] Noto Arabic font has all Arabic catalog glyphs
+[PASS] all current asset names and tour captions localized
+[PASS] gate formatting contract
+[PASS] interact is E
+[PASS] page builds and has focus: graphics
+[PASS] page builds and has focus: help
+[PASS] page builds and has focus: locations
+[PASS] page builds and has focus: camera
+[PASS] page builds and has focus: tours
+[PASS] page builds and has focus: more
+[PASS] page builds and has focus: about
+[PASS] help scrolls with keyboard/controller navigation
+[PASS] Esc returns from submenu
+[PASS] English changes layout and action text
+[PASS] pause exposes resume and home
+[PASS] gamepad cancel resumes from pause
+[PASS] HUD group and prompt API
+[PASS] prompt clears
+[PASS] empty prompt stays hidden
+[PASS] localized loading indicator visible
+[PASS] loading indicator clears
+[PASS] all four presets emit changed
+[PASS] settings save succeeds
+[PASS] settings load succeeds
+[PASS] all settings round-trip
+[PASS] shadow override maps atlas and distance
+[PASS] FPS limit applies to Engine
+[PASS] preset UI applies real setting
+[PASS] invalid persisted settings sanitized
+[v11_ui] {"failed":0,"headless":true,"passed":41,"renderer":"","results":[{"name":"menu builds and defaults to RTL","pass":true},{"name":"main action focusable: StartExploration","pass":true},{"name":"main action focusable: GuidedTour","pass":true},{"name":"main action focusable: LocationSelection","pass":true},{"name":"main action focusable: GraphicsSettings","pass":true},{"name":"main action focusable: Exit","pass":true},{"name":"exactly five main actions","pass":true},{"name":"first action receives focus","pass":true},{"name":"keyboard down moves focus","pass":true},{"name":"Enter activates focused tour action","pass":true},{"name":"mouse click activates exploration","pass":true},{"name":"every catalog entry has Arabic and English","pass":true},{"name":"Noto Arabic font has all Arabic catalog glyphs","pass":true},{"name":"all current asset names and tour captions localized","pass":true},{"name":"gate formatting contract","pass":true},{"name":"interact is E","pass":true},{"name":"page builds and has focus: graphics","pass":true},{"name":"page builds and has focus: help","pass":true},{"name":"page builds and has focus: locations","pass":true},{"name":"page builds and has focus: camera","pass":true},{"name":"page builds and has focus: tours","pass":true},{"name":"page builds and has focus: more","pass":true},{"name":"page builds and has focus: about","pass":true},{"name":"help scrolls with keyboard/controller navigation","pass":true},{"name":"Esc returns from submenu","pass":true},{"name":"English changes layout and action text","pass":true},{"name":"pause exposes resume and home","pass":true},{"name":"gamepad cancel resumes from pause","pass":true},{"name":"HUD group and prompt API","pass":true},{"name":"prompt clears","pass":true},{"name":"empty prompt stays hidden","pass":true},{"name":"localized loading indicator visible","pass":true},{"name":"loading indicator clears","pass":true},{"name":"all four presets emit changed","pass":true},{"name":"settings save succeeds","pass":true},{"name":"settings load succeeds","pass":true},{"name":"all settings round-trip","pass":true},{"name":"shadow override maps atlas and distance","pass":true},{"name":"FPS limit applies to Engine","pass":true},{"name":"preset UI applies real setting","pass":true},{"name":"invalid persisted settings sanitized","pass":true}]}

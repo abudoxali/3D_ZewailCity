@@ -1,0 +1,341 @@
+{
+  "checks": [
+    {
+      "name": "G2 masonry supports and steel leaves replace markers",
+      "pass": true,
+      "detail": {
+        "shell_faces": 84,
+        "detail_faces": 740
+      }
+    },
+    {
+      "name": "G2 provisional state and parametric editability",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G2 no physical yellow provisional lettering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G2 foundations below local datum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G3 masonry supports and steel leaves replace markers",
+      "pass": true,
+      "detail": {
+        "shell_faces": 84,
+        "detail_faces": 878
+      }
+    },
+    {
+      "name": "G3 provisional state and parametric editability",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G3 no physical yellow provisional lettering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G3 foundations below local datum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G4 masonry supports and steel leaves replace markers",
+      "pass": true,
+      "detail": {
+        "shell_faces": 84,
+        "detail_faces": 502
+      }
+    },
+    {
+      "name": "G4 provisional state and parametric editability",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G4 no physical yellow provisional lettering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G4 foundations below local datum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G5 masonry supports and steel leaves replace markers",
+      "pass": true,
+      "detail": {
+        "shell_faces": 84,
+        "detail_faces": 704
+      }
+    },
+    {
+      "name": "G5 provisional state and parametric editability",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G5 no physical yellow provisional lettering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G5 foundations below local datum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G6 masonry supports and steel leaves replace markers",
+      "pass": true,
+      "detail": {
+        "shell_faces": 84,
+        "detail_faces": 838
+      }
+    },
+    {
+      "name": "G6 provisional state and parametric editability",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G6 no physical yellow provisional lettering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G6 foundations below local datum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "perimeter subdivided and datum applied exactly once",
+      "pass": true,
+      "detail": 1065
+    },
+    {
+      "name": "wall footing vertices embedded 450 mm below datum",
+      "pass": true,
+      "detail": {
+        "footing_vertices": 4260,
+        "max_error_m": 4.2329155480747005e-07
+      }
+    },
+    {
+      "name": "main portal proportion retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "gate stone cream-beige rather than orange",
+      "pass": true,
+      "detail": [
+        0.6800000071525574,
+        0.6349999904632568,
+        0.5400000214576721,
+        1.0
+      ]
+    },
+    {
+      "name": "gate stone roughness and recessed joints",
+      "pass": true,
+      "detail": 0.699999988079071
+    },
+    {
+      "name": "ground partition disjoint and complete",
+      "pass": true,
+      "detail": {
+        "surface_overlap_m2": 8.919897188444253e-13,
+        "plot_uncovered_m2": 2.4800821220190423e-13,
+        "centreline_gaps": []
+      }
+    },
+    {
+      "name": "five integrated aprons, no invented external links",
+      "pass": true,
+      "detail": [
+        {
+          "id": "G2",
+          "parameters": {
+            "opening_width": 14.040985164698228,
+            "orientation": 0.07315853752854463,
+            "support_width": 0.65,
+            "support_depth": 0.95,
+            "support_height": 3.55,
+            "frame_height": 3.15,
+            "frame_depth": 0.32,
+            "pedestrian_width": 1.7,
+            "leaf_height": 2.65,
+            "leaf_parking": "sliding_flanks",
+            "wall_height": 3.5,
+            "threshold_offset": 0.06,
+            "threshold_depth": 6.0,
+            "wall_connection_half": 10.0,
+            "node_spacing": 12.840985164698228
+          },
+          "position": [
+            6.445,
+            -638.674
+          ],
+          "threshold_elevation_m": -0.44965020000000006,
+          "internal_surface_gap_m": 3.977,
+          "internal_connector_m2": 25.008,
+          "v9_apron_m2": 83.486,
+          "external_connection": "UNRESOLVED: mapped branches end ~25 m before external road; no extension",
+          "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+        },
+        {
+          "id": "G3",
+          "parameters": {
+            "opening_width": 11.826758677978908,
+            "orientation": -1.7677592805287667,
+            "support_width": 0.65,
+            "support_depth": 0.95,
+            "support_height": 3.55,
+            "frame_height": 3.15,
+            "frame_depth": 0.32,
+            "pedestrian_width": 1.7,
+            "leaf_height": 2.65,
+            "leaf_parking": "sliding_flanks",
+            "wall_height": 3.5,
+            "threshold_offset": 0.06,
+            "threshold_depth": 6.0,
+            "wall_connection_half": 10.0,
+            "node_spacing": 10.62675867797891
+          },
+          "position": [
+            -270.917,
+            132.472
+          ],
+          "threshold_elevation_m": 0.11179420000000001,
+          "internal_surface_gap_m": 3.659,
+          "internal_connector_m2": 32.548,
+          "v9_apron_m2": 89.382,
+          "external_connection": "No external connector invented",
+          "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+        },
+        {
+          "id": "G4",
+          "parameters": {
+            "opening_width": 15.054677910366586,
+            "orientation": -1.6195309328830627,
+            "support_width": 0.65,
+            "support_depth": 0.95,
+            "support_height": 3.55,
+            "frame_height": 3.15,
+            "frame_depth": 0.32,
+            "pedestrian_width": 1.7,
+            "leaf_height": 2.65,
+            "leaf_parking": "sliding_flanks",
+            "wall_height": 3.5,
+            "threshold_offset": 0.06,
+            "threshold_depth": 6.0,
+            "wall_connection_half": 10.0,
+            "node_spacing": 13.854677910366586
+          },
+          "position": [
+            -342.324,
+            -238.001
+          ],
+          "threshold_elevation_m": -0.19886560000000003,
+          "internal_surface_gap_m": 7.54,
+          "internal_connector_m2": 52.732,
+          "v9_apron_m2": 128.894,
+          "external_connection": "No external connector invented",
+          "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+        },
+        {
+          "id": "G5",
+          "parameters": {
+            "opening_width": 13.448926483573993,
+            "orientation": 2.2531382668903572,
+            "support_width": 0.65,
+            "support_depth": 0.95,
+            "support_height": 3.55,
+            "frame_height": 3.15,
+            "frame_depth": 0.32,
+            "pedestrian_width": 1.7,
+            "leaf_height": 2.65,
+            "leaf_parking": "sliding_flanks",
+            "wall_height": 3.5,
+            "threshold_offset": 0.06,
+            "threshold_depth": 6.0,
+            "wall_connection_half": 10.0,
+            "node_spacing": 12.248926483573994
+          },
+          "position": [
+            237.756,
+            76.165
+          ],
+          "threshold_elevation_m": 0.1684832,
+          "internal_surface_gap_m": 1.952,
+          "internal_connector_m2": 23.672,
+          "v9_apron_m2": 89.561,
+          "external_connection": "No external connector invented",
+          "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+        },
+        {
+          "id": "G6",
+          "parameters": {
+            "opening_width": 14.017523161672054,
+            "orientation": 1.5849529610284294,
+            "support_width": 0.65,
+            "support_depth": 0.95,
+            "support_height": 3.55,
+            "frame_height": 3.15,
+            "frame_depth": 0.32,
+            "pedestrian_width": 1.7,
+            "leaf_height": 2.65,
+            "leaf_parking": "sliding_flanks",
+            "wall_height": 3.5,
+            "threshold_offset": 0.06,
+            "threshold_depth": 6.0,
+            "wall_connection_half": 10.0,
+            "node_spacing": 12.817523161672055
+          },
+          "position": [
+            346.622,
+            -236.753
+          ],
+          "threshold_elevation_m": -0.06007799999999999,
+          "internal_surface_gap_m": 3.693,
+          "internal_connector_m2": 32.723,
+          "v9_apron_m2": 102.679,
+          "external_connection": "No external connector invented",
+          "evidence": "PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated"
+        }
+      ]
+    },
+    {
+      "name": "Academic_Stair_Left original safe riser and landing geometry retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Academic_Stair_Right original safe riser and landing geometry retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Administration ramp toe flush to 0.06 m road and outward top normal",
+      "pass": true,
+      "detail": {
+        "toe_z": 0.06323501467704773,
+        "top_normal": [
+          -8.546024332645175e-09,
+          0.06457086652517319,
+          0.997913122177124
+        ]
+      }
+    }
+  ],
+  "all_pass": true,
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

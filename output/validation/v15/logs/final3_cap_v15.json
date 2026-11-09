@@ -1,0 +1,19 @@
+{
+  "command": [
+    "godot_console",
+    "--path",
+    "C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/candidate/game/godot",
+    "--resolution",
+    "1920x1080",
+    "res://tests/V9Capture.tscn",
+    "--",
+    "--tag=v15",
+    "--out=C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/final3/v15",
+    "--only=G1_exterior_eye,O02_G1_inside,V12_G1_close,O03_G1_paving_curb,V14_g1_median_nose,V14_g1_gate_sand,V14_g1_forecourt_beds,V15_g1_inside_kerbs,V13_approach_aerial,main_approach_road,V12_approach_close,V15_median_eye,V15_crossover_bands_eye,V15_verge_bed_close,V15_kerb_close,V15_ring_junction_kerbs,V12_junction_dropoff_eye,junction_dropoff_ring,V12_junction_ring_east_eye,V14_junction_admin_close,V14_ring_sidewalk_step,ring_road_eye,admin_entrance_axis,admin_lobby_threshold,O07_academic_front,P13_court_photo,dorm_garden_paths,drone_overview,academic_court_aerial",
+    "--preset=high",
+    "--uncapped"
+  ],
+  "exit_code": 0,
+  "seconds": 63.73,
+  "started_utc": "2026-11-09T11:13:25.900813+00:00"
+}

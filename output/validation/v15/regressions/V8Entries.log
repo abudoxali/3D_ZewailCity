@@ -1,0 +1,14 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1551 ms (+57 ms prepare): { "gate_leaves": 19, "load_ms": 1551, "prepare_ms": 57, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1641 ms (campus { "gate_leaves": 19, "load_ms": 1551, "prepare_ms": 57, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] Administration steps reach a supported landing  {"airborne_frames":0,"failures":[],"final":[2.3,1.61,-25.4],"floor_losses":0,"max_floor_gap_m":0.188631296157837,"max_gap_at":{"feet_y":0.39863133430481,"floor":[2.3,0.21,-30.95],"on_floor":true,"player":[2.3,1.27,-30.95],"target":[2.29999995231628,-30.0],"velocity":[0.0,0.0,0.79]}}
+[PASS] Administration landing matches top stair 0.72 m  {"feet_y":0.737564086914063}
+[PASS] Administration ramp toe meets road within 2 cm  {"road_y":0.0601990222930908,"toe_y":0.0632350444793701}
+[PASS] Administration provisional 6.5% ramp ascent  {"airborne_frames":0,"failures":[],"final":[11.0,1.61,-25.4],"floor_losses":0,"max_floor_gap_m":0.0794689059257507,"max_gap_at":{"feet_y":0.241797924041748,"floor":[11.0,0.16,-38.37],"on_floor":true,"player":[11.0,1.12,-38.37],"target":[11.0,-35.0],"velocity":[0.0,0.0,4.37]}}
+[PASS] Administration ramp reaches landing  {"feet_y":0.738836765289307}
+[PASS] Administration ramp descent  {"airborne_frames":0,"failures":[],"final":[11.0,0.95,-41.58],"floor_losses":0,"max_floor_gap_m":0.0640650391578674,"max_gap_at":{"feet_y":0.227411270141602,"floor":[11.0,0.16,-38.35],"on_floor":true,"player":[11.0,1.1,-38.35],"target":[11.0,-42.0],"velocity":[0.0,0.0,-4.19]}}
+[PASS] Administration facade retained x=-16.0  {}
+[PASS] Administration facade retained x=16.0  {}
+[PASS] Administration ramp side rail solid  {}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/v8_entries_runtime.json

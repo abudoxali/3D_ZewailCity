@@ -1,0 +1,42 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1525 ms (+53 ms prepare): { "gate_leaves": 19, "load_ms": 1525, "prepare_ms": 53, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1611 ms (campus { "gate_leaves": 19, "load_ms": 1525, "prepare_ms": 53, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] V11 gate controller loaded the sliding leaves  {"leaves":19}
+[PASS] V11 six interactive gates G1-G6  {"gates":["G1","G2","G3","G4","G5","G6"]}
+[PASS] G1 east lane starts closed  {}
+[PASS] G1 closed leaf stops a walking player  {"leaf_z":-322.7,"z":-323.145874023438}
+[PASS] G1 opened: east lane clear at body height  {}
+[PASS] G1 open lane lets the player through  {"z":-314.309173583984}
+[PASS] G1 closed again: both lanes blocked  {}
+[PASS] G1 animated opening completes  {}
+[PASS] G1 bypass strip closed by return wall x=-1.0  {}
+[PASS] G1 bypass strip closed by return wall x=1.0  {}
+[PASS] G2 starts open with a clear vehicle opening  {}
+[PASS] G2 closed leaves block the opening  {}
+[PASS] G2 closed gate stops a walking player  {"pos":[6.47,0.44,640.33],"signed_distance_to_leaf_m":-0.449336099624634}
+[PASS] G2 reopened  {}
+[PASS] G3 starts open with a clear vehicle opening  {}
+[PASS] G3 closed leaves block the opening  {}
+[PASS] G3 closed gate stops a walking player  {"pos":[-273.27,1.0,-129.11],"signed_distance_to_leaf_m":-0.444289493560791}
+[PASS] G3 reopened  {}
+[PASS] G4 starts open with a clear vehicle opening  {}
+[PASS] G4 closed leaves block the opening  {}
+[PASS] G4 closed gate stops a walking player  {"pos":[-343.97,0.69,238.09],"signed_distance_to_leaf_m":-0.442260670661926}
+[PASS] G4 reopened  {}
+[PASS] G5 starts open with a clear vehicle opening  {}
+[PASS] G5 closed leaves block the opening  {}
+[PASS] G5 closed gate stops a walking player  {"pos":[238.81,1.04,-77.47],"signed_distance_to_leaf_m":-0.438172388076782}
+[PASS] G5 reopened  {}
+[PASS] G6 starts open with a clear vehicle opening  {}
+[PASS] G6 closed leaves block the opening  {}
+[PASS] G6 closed gate stops a walking player  {"pos":[348.27,0.83,236.83],"signed_distance_to_leaf_m":-0.447945880889893}
+[PASS] G6 reopened  {}
+[PASS] walking near G3 shows the gate prompt  {"prompt":"اضغط E لإغلاق البوابة G3"}
+[PASS] E key toggles the nearest gate G3  {}
+[PASS] gate prompt hidden while flying  {}
+[PASS] E while flying does not operate the gate  {}
+[PASS] pause suppresses prompt and E interaction  {}
+[PASS] resume restores gate prompt in place  {}
+[PASS] photo mode suppresses gate interaction  {}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/v11_gates_runtime.json

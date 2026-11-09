@@ -1,0 +1,4 @@
+# The Blender interpreter needs Shapely in tools/vendor; tool Python uses tools/.venv.
+shapely==2.2.0
+mcp==1.30.0
+pillow==13.0.0

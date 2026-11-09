@@ -1,0 +1,13 @@
+{
+  "command": [
+    "godot_console",
+    "--headless",
+    "--path",
+    "output/validation/v15/candidate/game/godot",
+    "--export-release",
+    "Windows Desktop"
+  ],
+  "exit_code": 0,
+  "seconds": 4.19,
+  "started_utc": "2026-11-09T11:18:48.211643+00:00"
+}

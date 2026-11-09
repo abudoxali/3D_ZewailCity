@@ -1,0 +1,241 @@
+{
+  "checks": [
+    {
+      "name": "source blend hash matches exported scene",
+      "pass": true,
+      "detail": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\validation\\v15\\candidate\\output\\Zewail_City_3D.blend"
+    },
+    {
+      "name": "procedural generators match exported asset provenance",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all game render meshes have complete UV layers",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all game render meshes have materials",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "structural meshes retain metre scale",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "nondegenerate faces have finite unit normals",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Academic render bounds stay in the surveyed Academic precinct",
+      "pass": true,
+      "detail": [
+        -349.4700012207031,
+        -166.5
+      ]
+    },
+    {
+      "name": "all baked PBR resources resolve",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "six gates retain evidence labels",
+      "pass": true,
+      "detail": [
+        [
+          "G1",
+          "PHOTO_AND_MAP"
+        ],
+        [
+          "G2",
+          "PROVISIONAL_MAP_CLUSTER"
+        ],
+        [
+          "G3",
+          "PROVISIONAL_MAP_CLUSTER"
+        ],
+        [
+          "G4",
+          "PROVISIONAL_MAP_CLUSTER"
+        ],
+        [
+          "G5",
+          "PROVISIONAL_MAP_CLUSTER"
+        ],
+        [
+          "G6",
+          "PROVISIONAL_MAP_CLUSTER"
+        ]
+      ]
+    },
+    {
+      "name": "fourteen spawn records",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "name": "V11 Academic entrance registry separate from the six boundary gates",
+      "pass": true,
+      "detail": [
+        [
+          "F",
+          "UST / Gate (F)"
+        ],
+        [
+          "B?",
+          "Academic side entrance (name unverified)"
+        ],
+        [
+          "C",
+          "Gate (C)"
+        ],
+        [
+          "E?",
+          "Academic entrance (name unverified)"
+        ],
+        [
+          "D?",
+          "Rear passage (name unverified)"
+        ],
+        [
+          "A",
+          "Gate (A)"
+        ],
+        [
+          "HALL",
+          "Upper hall / court bridge"
+        ]
+      ]
+    },
+    {
+      "name": "V11 vehicle AND pedestrian interactive leaves for G1-G6",
+      "pass": true,
+      "detail": [
+        [
+          "G1",
+          "E",
+          true
+        ],
+        [
+          "G1",
+          "W",
+          false
+        ],
+        [
+          "G1",
+          "PedW",
+          false
+        ],
+        [
+          "G1",
+          "PedE",
+          false
+        ],
+        [
+          "G2",
+          "Ped",
+          false
+        ],
+        [
+          "G2",
+          "A",
+          false
+        ],
+        [
+          "G2",
+          "B",
+          false
+        ],
+        [
+          "G3",
+          "Ped",
+          false
+        ],
+        [
+          "G3",
+          "A",
+          false
+        ],
+        [
+          "G3",
+          "B",
+          false
+        ],
+        [
+          "G4",
+          "Ped",
+          false
+        ],
+        [
+          "G4",
+          "A",
+          false
+        ],
+        [
+          "G4",
+          "B",
+          false
+        ],
+        [
+          "G5",
+          "Ped",
+          false
+        ],
+        [
+          "G5",
+          "A",
+          false
+        ],
+        [
+          "G5",
+          "B",
+          false
+        ],
+        [
+          "G6",
+          "Ped",
+          false
+        ],
+        [
+          "G6",
+          "A",
+          false
+        ],
+        [
+          "G6",
+          "B",
+          false
+        ]
+      ]
+    },
+    {
+      "name": "V7 evening lights explicit, kind-labelled and range-bounded (32 garden bollards)",
+      "pass": true,
+      "detail": {
+        "bollard": 32,
+        "court_pole": 13,
+        "entrance": 13,
+        "street": 63
+      }
+    },
+    {
+      "name": "V7 ground collision simplified (surface-guarded) and smaller than its render source",
+      "pass": true,
+      "detail": {
+        "before": 636810,
+        "after": 302976
+      }
+    },
+    {
+      "name": "Godot GLB and manifest copies exactly match exports",
+      "pass": true,
+      "detail": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\validation\\v15\\candidate\\game\\godot\\assets\\campus"
+    }
+  ],
+  "all_pass": true
+}

@@ -1,0 +1,17 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1523 ms (+53 ms prepare): { "gate_leaves": 19, "load_ms": 1523, "prepare_ms": 53, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1608 ms (campus { "gate_leaves": 19, "load_ms": 1523, "prepare_ms": 53, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] G1 closed capsule flood has NO edge/perimeter bypass  {"cells":44671,"grid_m":0.4,"half_width_m":68.0,"normal_bounds":[-32.0,20.0],"reachable":false}
+[PASS] G1 open capsule flood finds a route  {"cells":44671,"grid_m":0.4,"half_width_m":68.0,"normal_bounds":[-32.0,20.0],"reachable":true}
+[PASS] G2 closed capsule flood has NO edge/perimeter bypass  {"cells":7503,"grid_m":0.4,"half_width_m":24.4409851646982,"normal_bounds":[-12.0,12.0],"reachable":false}
+[PASS] G2 open capsule flood finds a route  {"cells":7503,"grid_m":0.4,"half_width_m":24.4409851646982,"normal_bounds":[-12.0,12.0],"reachable":true}
+[PASS] G3 closed capsule flood has NO edge/perimeter bypass  {"cells":6832,"grid_m":0.4,"half_width_m":22.2267586779789,"normal_bounds":[-12.0,12.0],"reachable":false}
+[PASS] G3 open capsule flood finds a route  {"cells":6832,"grid_m":0.4,"half_width_m":22.2267586779789,"normal_bounds":[-12.0,12.0],"reachable":true}
+[PASS] G4 closed capsule flood has NO edge/perimeter bypass  {"cells":7808,"grid_m":0.4,"half_width_m":25.4546779103666,"normal_bounds":[-12.0,12.0],"reachable":false}
+[PASS] G4 open capsule flood finds a route  {"cells":7808,"grid_m":0.4,"half_width_m":25.4546779103666,"normal_bounds":[-12.0,12.0],"reachable":true}
+[PASS] G5 closed capsule flood has NO edge/perimeter bypass  {"cells":7320,"grid_m":0.4,"half_width_m":23.848926483574,"normal_bounds":[-12.0,12.0],"reachable":false}
+[PASS] G5 open capsule flood finds a route  {"cells":7320,"grid_m":0.4,"half_width_m":23.848926483574,"normal_bounds":[-12.0,12.0],"reachable":true}
+[PASS] G6 closed capsule flood has NO edge/perimeter bypass  {"cells":7503,"grid_m":0.4,"half_width_m":24.4175231616721,"normal_bounds":[-12.0,12.0],"reachable":false}
+[PASS] G6 open capsule flood finds a route  {"cells":7503,"grid_m":0.4,"half_width_m":24.4175231616721,"normal_bounds":[-12.0,12.0],"reachable":true}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/v11_perimeter_seal.json

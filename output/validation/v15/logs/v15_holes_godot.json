@@ -1,0 +1,14 @@
+{
+  "command": [
+    "godot_console",
+    "--headless",
+    "--fixed-fps",
+    "60",
+    "--path",
+    "output/validation/v15/candidate/game/godot",
+    "res://tests/V15Corridor.tscn"
+  ],
+  "exit_code": 0,
+  "seconds": 8.89,
+  "started_utc": "2026-11-09T10:38:14.606058+00:00"
+}

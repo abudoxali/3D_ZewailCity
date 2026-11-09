@@ -1,0 +1,77 @@
+[
+ {
+  "name": "CIN_Academic_Public_Route",
+  "file": "CIN_Academic_Public_Route.json",
+  "samples": 720
+ },
+ {
+  "name": "CIN_Admin_Closeup",
+  "file": "CIN_Admin_Closeup.json",
+  "samples": 300
+ },
+ {
+  "name": "CIN_Aerial_Flyover",
+  "file": "CIN_Aerial_Flyover.json",
+  "samples": 360
+ },
+ {
+  "name": "CIN_Dormitory_Candidate_Garden",
+  "file": "CIN_Dormitory_Candidate_Garden.json",
+  "samples": 540
+ },
+ {
+  "name": "CIN_G2_Provisional_Gate",
+  "file": "CIN_G2_Provisional_Gate.json",
+  "samples": 180
+ },
+ {
+  "name": "CIN_G3_Provisional_Gate",
+  "file": "CIN_G3_Provisional_Gate.json",
+  "samples": 180
+ },
+ {
+  "name": "CIN_G4_Provisional_Gate",
+  "file": "CIN_G4_Provisional_Gate.json",
+  "samples": 180
+ },
+ {
+  "name": "CIN_G5_Provisional_Gate",
+  "file": "CIN_G5_Provisional_Gate.json",
+  "samples": 180
+ },
+ {
+  "name": "CIN_G6_Provisional_Gate",
+  "file": "CIN_G6_Provisional_Gate.json",
+  "samples": 180
+ },
+ {
+  "name": "CIN_Ground_Approach",
+  "file": "CIN_Ground_Approach.json",
+  "samples": 720
+ },
+ {
+  "name": "CIN_Main_Gate",
+  "file": "CIN_Main_Gate.json",
+  "samples": 300
+ },
+ {
+  "name": "CIN_Overview_Orbit",
+  "file": "CIN_Overview_Orbit.json",
+  "samples": 601
+ },
+ {
+  "name": "CIN_V6_Photo_Walkthrough",
+  "file": "CIN_V6_Photo_Walkthrough.json",
+  "samples": 5250
+ },
+ {
+  "name": "CIN_V7_Architectural_Showcase",
+  "file": "CIN_V7_Architectural_Showcase.json",
+  "samples": 2831
+ },
+ {
+  "name": "TOUR_Guided",
+  "file": "TOUR_Guided.json",
+  "samples": 4560
+ }
+]

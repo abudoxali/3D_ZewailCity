@@ -1,0 +1,327 @@
+{
+  "adapter": "NVIDIA GeForce RTX 4070",
+  "failed": 0,
+  "input_control": {
+    "frames_with_os_focus": 12070,
+    "real_event_kinds": {
+
+    },
+    "real_events_blocked": 0,
+    "window_no_focus_flag": true
+  },
+  "packaged_manifest_glb_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "passed": 38,
+  "results": [
+    {
+      "detail": {
+        "gate_leaves": 19,
+        "landmarks": 20,
+        "load_ms": 1469,
+        "prepare_ms": 94,
+        "prop_batches": 18,
+        "spawns": 14,
+        "static_bodies": 15,
+        "v7_ground_shader_materials": 19,
+        "v9_masked_ground_surfaces": 12,
+        "veg_batches": 168
+      },
+      "name": "campus loaded",
+      "pass": true
+    },
+    {
+      "detail": {
+        "state": "menu"
+      },
+      "name": "main menu shown at startup",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Arabic RTL packaged menu",
+      "pass": true
+    },
+    {
+      "detail": {
+        "state": "explore"
+      },
+      "name": "start exploration from the menu",
+      "pass": true
+    },
+    {
+      "detail": {
+        "speed_mps": 4.26
+      },
+      "name": "walk (W)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "speed_mps": 8.87
+      },
+      "name": "sprint (Shift+W)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "mode": "fly"
+      },
+      "name": "toggle drone mode (F)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "climb_m": 38.6
+      },
+      "name": "fly up (Space/E)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "mode": "walk"
+      },
+      "name": "back to walking, lands",
+      "pass": true
+    },
+    {
+      "detail": {
+        "pos": [
+          -19.0,
+          1.1,
+          -327.1
+        ]
+      },
+      "name": "spawn 7 (outside the main gate) is grounded",
+      "pass": true
+    },
+    {
+      "detail": {
+        "z": -298.6
+      },
+      "name": "walk through the pedestrian gate into the campus",
+      "pass": true
+    },
+    {
+      "detail": {
+        "state": "menu"
+      },
+      "name": "pause menu (Esc)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "state": "explore"
+      },
+      "name": "resume from the pause menu (Esc)",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V15 content shipped",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "All 15 V14 PBR textures, HDRI sky, tone targets and license manifest packaged",
+      "pass": true
+    },
+    {
+      "detail": {
+        "external_access": "UNRESOLVED_SAND_GAP_25M",
+        "progress_m": 6.24725914001465
+      },
+      "name": "V8 packaged local threshold G2",
+      "pass": true
+    },
+    {
+      "detail": {
+        "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION",
+        "progress_m": 6.26480960845947
+      },
+      "name": "V8 packaged local threshold G3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION",
+        "progress_m": 6.26720714569092
+      },
+      "name": "V8 packaged local threshold G4",
+      "pass": true
+    },
+    {
+      "detail": {
+        "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION",
+        "progress_m": 6.26553440093994
+      },
+      "name": "V8 packaged local threshold G5",
+      "pass": true
+    },
+    {
+      "detail": {
+        "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION",
+        "progress_m": 6.26625442504883
+      },
+      "name": "V8 packaged local threshold G6",
+      "pass": true
+    },
+    {
+      "detail": {
+        "position": [
+          -0.00000784736766945571,
+          1.10376012325287,
+          294.7978515625
+        ]
+      },
+      "name": "V6 Academic passage to courtyard in Windows build",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V6 courtyard spawn grounded",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V6 dormitory candidate spawn grounded",
+      "pass": true
+    },
+    {
+      "detail": {
+        "position": [
+          -12.7966957092285,
+          5.30347013473511,
+          229.96272277832
+        ]
+      },
+      "name": "V6 packaged major stair -13.0",
+      "pass": true
+    },
+    {
+      "detail": {
+        "position": [
+          12.7997827529907,
+          5.30277824401855,
+          229.966018676758
+        ]
+      },
+      "name": "V6 packaged major stair 13.0",
+      "pass": true
+    },
+    {
+      "detail": {
+        "position": [
+          0.000628961657639593,
+          1.61369919776917,
+          -14.8335952758789
+        ]
+      },
+      "name": "V10 packaged Administration doorway to lobby",
+      "pass": true
+    },
+    {
+      "detail": {
+        "bollards": 32,
+        "lights": 121
+      },
+      "name": "V7 packaged evening lights (all modelled luminaires, 32 garden bollards)",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V6 packaged daylight restore",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V11 Academic entrance registry separate from boundary gates",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V11 packaged E closes G3 including pedestrian leaf",
+      "pass": true
+    },
+    {
+      "detail": {
+        "signed_distance_to_leaf_m": 0.450215470790863
+      },
+      "name": "V11 packaged closed G3 stops walking",
+      "pass": true
+    },
+    {
+      "detail": {
+        "signed_distance_to_leaf_m": -8.06797580718994
+      },
+      "name": "V11 packaged E opens G3 and walking passage",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V7 photo mode entered (free camera, HUD hidden)",
+      "pass": true
+    },
+    {
+      "detail": {
+        "moved_m": 6.37
+      },
+      "name": "V7 photo mode camera moves",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V7 photo mode evening preset",
+      "pass": true
+    },
+    {
+      "detail": {
+        "path": "C:/Users/Abud/AppData/Roaming/Godot/app_userdata/Zewail City Campus Explorer/screenshots/zewail_photo_2026-11-09T13-30-03.png",
+        "size": [
+          3840,
+          2160
+        ]
+      },
+      "name": "V7 photo mode 2x capture",
+      "pass": true
+    },
+    {
+      "detail": {
+        "offset_m": 0.0
+      },
+      "name": "V7 photo mode returns to exact prior state",
+      "pass": true
+    },
+    {
+      "detail": {
+        "avg_fps": 165.214530168433,
+        "duration_s": 5.005613,
+        "frames": 827,
+        "max_ms": 8.073,
+        "p99_ms": 7.478
+      },
+      "name": "Exported 1080p High sample at least 60 FPS",
+      "pass": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158",
+  "version": "15.0.0"
+}

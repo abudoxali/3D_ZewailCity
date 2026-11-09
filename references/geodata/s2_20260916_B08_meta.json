@@ -1,0 +1,21 @@
+{
+ "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/36/R/UU/2026/9/S2A_36RUU_20260916_0_L2A/B08.tif",
+ "utm_zone": "36N (EPSG:32636)",
+ "origin_utm": [
+  312490,
+  3314780
+ ],
+ "pixel_m": 10,
+ "size": [
+  181,
+  181
+ ],
+ "centre_latlon": [
+  29.9415,
+  31.0665
+ ],
+ "centre_utm": [
+  313391.21817342006,
+  3313875.021980529
+ ]
+}

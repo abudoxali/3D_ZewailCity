@@ -1,0 +1,162 @@
+{
+  "P09": {
+    "filename": "photo_2026-11-07_15-14-14.jpg",
+    "location": [
+      0,
+      -224.1,
+      6.11
+    ],
+    "target": [
+      0,
+      -45,
+      12
+    ],
+    "lens_mm": 30,
+    "resolution": [
+      1280,
+      1086
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Academic upper landing looking +Y; dome/admin sightline anchors yaw; FOV/height estimated."
+  },
+  "P13": {
+    "filename": "photo_2026-11-07_15-14-31.jpg",
+    "location": [
+      61,
+      -269,
+      1.95
+    ],
+    "target": [
+      35,
+      -333,
+      10
+    ],
+    "lens_mm": 24,
+    "resolution": [
+      960,
+      1280
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Academic inner arc; ground-eye height, tangent view, curvature and projecting bays fitted approximately."
+  },
+  "P15": {
+    "filename": "photo_2026-11-07_15-14-36.jpg",
+    "location": [
+      26,
+      -285,
+      2.55
+    ],
+    "target": [
+      -1,
+      -249,
+      11
+    ],
+    "lens_mm": 25,
+    "resolution": [
+      960,
+      1280
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Inner court toward central bridge; portal/terrace correspondence is a spatial hypothesis."
+  },
+  "P16": {
+    "filename": "photo_2026-11-07_15-14-46.jpg",
+    "location": [
+      424,
+      -566,
+      9.2
+    ],
+    "target": [
+      385,
+      -623,
+      9
+    ],
+    "lens_mm": 26,
+    "resolution": [
+      1031,
+      1280
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Southern OSM candidate court; facade rhythm / garden design only, geographic identity UNVERIFIED."
+  },
+  "P04": {
+    "filename": "photo_2026-11-07_15-13-59.jpg",
+    "location": [
+      425,
+      -568,
+      10.5
+    ],
+    "target": [
+      385,
+      -621,
+      9
+    ],
+    "lens_mm": 25,
+    "resolution": [
+      1280,
+      1065
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Dusk reference of same garden-design cluster; candidate block location unconfirmed."
+  },
+  "P12": {
+    "filename": "photo_2026-11-07_15-14-26.jpg",
+    "location": [
+      25,
+      -389,
+      1.9
+    ],
+    "target": [
+      0,
+      -348,
+      11
+    ],
+    "lens_mm": 25,
+    "resolution": [
+      960,
+      1280
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Outer curved Academic rear-bay hypothesis; Gate C angle/location not independently established."
+  },
+  "P14": {
+    "filename": "photo_2026-11-07_15-14-34.jpg",
+    "location": [
+      112,
+      -249,
+      1.9
+    ],
+    "target": [
+      52,
+      -193,
+      13
+    ],
+    "lens_mm": 24,
+    "resolution": [
+      960,
+      1280
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "East-prong hypothesis: admin dome lies to image right; Gate F exact wing/position UNVERIFIED."
+  },
+  "Court_Overview": {
+    "filename": "",
+    "location": [
+      115,
+      -375,
+      70
+    ],
+    "target": [
+      0,
+      -278,
+      3
+    ],
+    "lens_mm": 32,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fit": "APPROXIMATE, NOT A CALIBRATED PHOTO MATCH",
+    "assumptions": "Overview, NOT CAMERA-ALIGNED to an owner photograph."
+  }
+}

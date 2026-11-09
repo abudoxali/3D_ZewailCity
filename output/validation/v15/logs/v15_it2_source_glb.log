@@ -1,0 +1,328 @@
+00:02.187  blend            | Read blend: "C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend"
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+11:45:27 | INFO: Starting glTF 2.0 export
+11:45:27 | INFO: Extracting primitive: AB_Academic_Building
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_Academic_Building_Details
+11:45:27 | INFO: Primitives created: 8
+11:45:27 | INFO: Extracting primitive: AB_Academic_Building_Glass
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: Academic_Court_Poles_Details
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: Academic_Court_Seat_Blocks
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: Academic_Entrance_Downlights
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: Academic_Roof
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: Academic_Stair_Left
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: Academic_Stair_Right
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: Academic_Terraced_Court_Details
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: Academic_V11_Balustrades
+11:45:27 | INFO: Primitives created: 4
+11:45:27 | INFO: Extracting primitive: Academic_V11_GateA_Fascia
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: AB_Administration_Cultural_Building
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Administration_Cultural_Building_Details
+11:45:27 | INFO: Primitives created: 9
+11:45:27 | INFO: Extracting primitive: AB_Administration_Cultural_Building_Glass
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: AB_East_Research_Institute_Nano
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_East_Research_Institute_Nano_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_East_Research_Institute_Nano_Glass
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_East_Residential_Pair_Estimated
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_East_Residential_Pair_Estimated_Details
+11:45:27 | INFO: Primitives created: 8
+11:45:27 | INFO: Extracting primitive: AB_East_Residential_Pair_Estimated_Glass
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: Dorm_Garden_Hedges_Details
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: Dorm_Garden_Shrub_Rows_Details
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_Gate_G2_Provisional
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: AB_Gate_G2_Provisional_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Gate_G3_Provisional
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: AB_Gate_G3_Provisional_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Gate_G4_Provisional
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: AB_Gate_G4_Provisional_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Gate_G5_Provisional
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: AB_Gate_G5_Provisional_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Gate_G6_Provisional
+11:45:27 | INFO: Primitives created: 3
+11:45:27 | INFO: Extracting primitive: AB_Gate_G6_Provisional_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Helmy_Institute_Medical_Sciences
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_Helmy_Institute_Medical_Sciences_Details
+11:45:27 | INFO: Primitives created: 5
+11:45:27 | INFO: Extracting primitive: AB_Helmy_Institute_Medical_Sciences_Glass
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: Institute_Photo_Pergola_Details
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: AB_Main_Gate_Complex
+11:45:27 | INFO: Primitives created: 4
+11:45:27 | INFO: Extracting primitive: AB_Main_Gate_Complex_Details
+11:45:27 | INFO: Primitives created: 8
+11:45:27 | INFO: Extracting primitive: ASSET_V7_Round_Shrub_0
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: ASSET_V7_Round_Shrub_1
+11:45:27 | INFO: Primitives created: 1
+11:45:27 | INFO: Extracting primitive: ASSET_V6_Dorm_Bollard
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: ASSET_V6_Garden_Evergreen
+11:45:27 | INFO: Primitives created: 2
+11:45:27 | INFO: Extracting primitive: ASSET_V13_Pachira_C
+11:45:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:45:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:45:28 | INFO: Primitives created: 2
+11:45:28 | INFO: Extracting primitive: ASSET_V13_Palm_Detailed
+11:45:28 | INFO: Primitives created: 5
+11:45:28 | INFO: Extracting primitive: Flower_Beds_V5_Trimmed
+11:45:28 | INFO: Primitives created: 5
+11:45:28 | INFO: Extracting primitive: GATELEAF_G1_E_dx484_dy0_s1
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G1_PedE_dx260_dy0_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G1_PedW_dx-260_dy0_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G1_W_dx-484_dy0_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G2_A_dx-735_dy-54_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G2_B_dx735_dy54_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G2_Ped_dx199_dy15_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G3_A_dx123_dy614_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G3_B_dx-123_dy-614_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G3_Ped_dx-39_dy-196_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G4_A_dx38_dy787_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G4_B_dx-38_dy-787_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G4_Ped_dx-10_dy-200_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G5_A_dx446_dy-549_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G5_B_dx-446_dy549_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G5_Ped_dx-126_dy155_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G6_A_dx10_dy-736_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G6_B_dx-10_dy736_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: GATELEAF_G6_Ped_dx-3_dy200_s0
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: Ground_Campus_Plot.001
+11:45:28 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: Ground_Desert_Sand.001
+11:45:28 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_4
+11:45:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:45:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_3
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_1
+11:45:28 | INFO: Primitives created: 1
+11:45:28 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_2
+11:45:28 | INFO: Primitives created: 1
+11:45:29 | INFO: Extracting primitive: ASSET_Street_Lamp
+11:45:29 | INFO: Primitives created: 2
+11:45:29 | INFO: Extracting primitive: ASSET_Street_Lamp_Double
+11:45:29 | INFO: Primitives created: 2
+11:45:29 | INFO: Extracting primitive: Lawns.001
+11:45:29 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+11:45:29 | INFO: Primitives created: 7
+11:45:29 | INFO: Extracting primitive: ASSET_V13_Date_Palm
+11:45:29 | INFO: Primitives created: 4
+11:45:29 | INFO: Extracting primitive: Pergola_Admin_Side
+11:45:29 | INFO: Primitives created: 1
+11:45:29 | INFO: Extracting primitive: Perimeter_Wall
+11:45:29 | INFO: Primitives created: 3
+11:45:29 | INFO: Extracting primitive: Plaza_Academic_Courtyard
+11:45:29 | INFO: Primitives created: 3
+11:45:29 | INFO: Extracting primitive: Plaza_Paving.001
+11:45:29 | INFO: Primitives created: 6
+11:45:29 | INFO: Extracting primitive: Road_Curb_Edges_Profile
+11:45:30 | INFO: Primitives created: 1
+11:45:30 | INFO: Extracting primitive: Road_Curb_Precast_Units
+11:45:30 | INFO: Primitives created: 1
+11:45:30 | INFO: Extracting primitive: Road_Markings_M_Road_Marking_White
+11:45:30 | INFO: Primitives created: 1
+11:45:30 | INFO: Extracting primitive: Road_Network_External
+11:45:30 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+11:45:30 | INFO: Primitives created: 1
+11:45:30 | INFO: Extracting primitive: Road_Network_Internal
+11:45:30 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+11:45:30 | INFO: Primitives created: 3
+11:45:30 | INFO: Extracting primitive: ASSET_Shrub_Green_0
+11:45:30 | INFO: Primitives created: 1
+11:45:30 | INFO: Extracting primitive: ASSET_Cycad_0
+11:45:30 | INFO: Primitives created: 2
+11:45:30 | INFO: Extracting primitive: ASSET_Shrub_Green_1
+11:45:30 | INFO: Primitives created: 1
+11:45:30 | INFO: Extracting primitive: ASSET_V13_Pachira_D
+11:45:30 | INFO: Primitives created: 2
+11:45:31 | INFO: Extracting primitive: ASSET_Cypress_0
+11:45:31 | INFO: Primitives created: 2
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | WARNING: No quadratic light falloff node attached to emission strength property
+11:45:32 | INFO: Extracting primitive: ASSET_Agave_1
+11:45:32 | INFO: Primitives created: 1
+11:45:32 | INFO: Extracting primitive: ASSET_Barrel_Cactus
+11:45:32 | INFO: Primitives created: 1
+11:45:32 | INFO: Extracting primitive: ASSET_Agave_0
+11:45:32 | INFO: Primitives created: 1
+11:45:32 | INFO: Extracting primitive: ASSET_Euphorbia_0
+11:45:32 | INFO: Primitives created: 1
+11:47:53 | INFO: Finished glTF 2.0 export in 146.49946475028992 s
+
+[export] wrote C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\exports\Zewail_City_3D.glb (118.0 MB)
+BlenderMCP addon unregistered
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

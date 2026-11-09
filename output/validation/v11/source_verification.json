@@ -1,0 +1,415 @@
+{
+  "blend": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\Zewail_City_3D.blend",
+  "blender": "5.2.3 LTS",
+  "checks": [
+    {
+      "check": "real geometry",
+      "pass": true,
+      "detail": "5071 meshes, 18743412 tris"
+    },
+    {
+      "check": "collections populated",
+      "pass": true,
+      "detail": "27 collections; empty/missing: []"
+    },
+    {
+      "check": "cameras present",
+      "pass": true,
+      "detail": [
+        "CAM_Aerial",
+        "CAM_Isometric",
+        "CAM_Masterplan_Top",
+        "CAM_Admin_Front_Elevation",
+        "CAM_Ref_A01",
+        "CAM_Ref_A02",
+        "CAM_Detail",
+        "CAM_Plan_Overlay"
+      ]
+    },
+    {
+      "check": "materials assigned",
+      "pass": true,
+      "detail": "0 mesh objects without material: []"
+    },
+    {
+      "check": "metric units",
+      "pass": true,
+      "detail": "METRIC scale=1.0"
+    },
+    {
+      "check": "V6 court levels are physical geometry; V11 entrance registry and Academic upper-level objects exist",
+      "pass": true,
+      "detail": {
+        "terrace_z_range": [
+          0.20000000298023224,
+          1.1549999713897705
+        ],
+        "entrances": [
+          "F",
+          "B?",
+          "C",
+          "E?",
+          "D?",
+          "A",
+          "HALL"
+        ]
+      }
+    },
+    {
+      "check": "V7 paving edge restraint is a separate flush material region",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "V7 road markings 12 mm above asphalt (V6 4 mm)",
+      "pass": true,
+      "detail": {
+        "marking_minus_datum": [
+          0.07199503799323967,
+          0.07200491993149338
+        ]
+      }
+    },
+    {
+      "check": "V7 graded soil shoulders at raised edges",
+      "pass": true,
+      "detail": {
+        "lifted_vertices": 19959,
+        "vertices": 66155
+      }
+    },
+    {
+      "check": "V7 court tiers concentric with inner glazing (outer radius ~62.5 m incl. tread; ramp foot outside)",
+      "pass": true,
+      "detail": {
+        "max_tier_radius_m": 62.5,
+        "ramp_foot_y": -312.0
+      }
+    },
+    {
+      "check": "V7 dormitory candidate six storeys (roof 21.4 m, cores above roof)",
+      "pass": true,
+      "detail": {
+        "roof_z": 21.399999618530273,
+        "core_top_z": 25.299999237060547,
+        "identity": "Student accommodation candidate; geographic identity UNVERIFIED"
+      }
+    },
+    {
+      "check": "V7 evening luminaires generated (off in daylight source)",
+      "pass": true,
+      "detail": {
+        "court_pole": 13,
+        "bollard": 32,
+        "street": 63,
+        "entrance": 13
+      }
+    },
+    {
+      "check": "V7 architectural showcase camera path present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all 16 owner photo originals retain supplied SHA-256",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "check": "building heights plausible (base at ground, 4-70 m tall)",
+      "pass": true,
+      "detail": "ok"
+    },
+    {
+      "check": "no floating vegetation/furniture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Academic roof stays over the Academic footprint after separation",
+      "pass": true,
+      "detail": {
+        "roof_bbox": [
+          -99.0,
+          -348.0,
+          99.0,
+          -169.0
+        ],
+        "academic_bbox": [
+          -102.65999603271484,
+          -348.0,
+          104.62000274658203,
+          -169.0
+        ]
+      }
+    },
+    {
+      "check": "survey-anchor consistency (admin on axis, institute & academic positions)",
+      "pass": true,
+      "detail": {
+        "admin_bbox": [
+          -81.6,
+          -94.4,
+          81.6,
+          40.0
+        ],
+        "admin_axis_offset_m": 0.0,
+        "admin_width_m": 163.1,
+        "helmy_centre_error_m": 0.0,
+        "nano_centre_error_m": 0.0,
+        "academic_bbox": [
+          -102.7,
+          -348.0,
+          104.6,
+          -169.0
+        ]
+      }
+    },
+    {
+      "check": "main gate complex on the axis at the gate line, frame ~18.7 m high",
+      "pass": true,
+      "detail": {
+        "bbox": [
+          -62.0,
+          308.3,
+          62.0,
+          329.3
+        ],
+        "max_z_m": 18.7,
+        "gate_y": 314.6
+      }
+    },
+    {
+      "check": "unverified proposals kept separate (excluded from view layer and renders)",
+      "pass": true,
+      "detail": "18 blockouts"
+    },
+    {
+      "check": "no missing external resources",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "preview renders exist and are not blank",
+      "pass": true,
+      "detail": {
+        "aerial.png": {
+          "size": [
+            1920,
+            1080
+          ],
+          "mean": 0.623,
+          "std": 0.091
+        },
+        "masterplan_top.png": {
+          "size": [
+            1920,
+            1080
+          ],
+          "mean": 0.656,
+          "std": 0.034
+        },
+        "isometric.png": {
+          "size": [
+            1920,
+            1080
+          ],
+          "mean": 0.643,
+          "std": 0.099
+        },
+        "admin_front_elevation.png": {
+          "size": [
+            1920,
+            1080
+          ],
+          "mean": 0.611,
+          "std": 0.153
+        },
+        "entrance.png": {
+          "size": [
+            1920,
+            1080
+          ],
+          "mean": 0.578,
+          "std": 0.138
+        },
+        "details.png": {
+          "size": [
+            1920,
+            1080
+          ],
+          "mean": 0.427,
+          "std": 0.165
+        }
+      }
+    },
+    {
+      "check": "GLB re-imports with geometry",
+      "pass": true,
+      "detail": {
+        "path": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\exports\\Zewail_City_3D.glb",
+        "size_mb": 119.0,
+        "imported_objects": 5079,
+        "imported_meshes": 4892,
+        "imported_cameras": 49
+      }
+    },
+    {
+      "check": "GLB excludes unverified proposal blockouts",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "objects_total": 5258,
+  "objects_by_type": {
+    "MESH": 5071,
+    "LIGHT": 122,
+    "CAMERA": 49,
+    "EMPTY": 16
+  },
+  "mesh_datablocks": 114,
+  "materials": 89,
+  "evaluated_triangles": 18743412,
+  "collections": {
+    "Academic_Courtyard": 4,
+    "Academic_Entrance": 2,
+    "Academic_Facades": 2,
+    "Academic_Roof": 1,
+    "Academic_Stairs": 3,
+    "Architectural_Details": 11,
+    "Cameras": 65,
+    "Campus_Ground": 2,
+    "Cinematic_Paths": 30,
+    "Dormitory_Estimated_Garden": 188,
+    "Lighting": 122,
+    "Main_Buildings": 2,
+    "Main_Gate_Complex": 2,
+    "Optional_Vehicles_Disabled": 159,
+    "Palms": 56,
+    "Photo_Institute_Context_Estimated": 1,
+    "Planters_And_Hedges": 2,
+    "Provisional_Campus_Gates": 5,
+    "Roads_And_Pathways": 7,
+    "Secondary_Buildings": 4,
+    "Shrubs": 4124,
+    "Site_Furniture": 84,
+    "Trees": 558,
+    "Unverified_Masterplan_Proposals": 18,
+    "V11_Gate_Leaves": 19,
+    "Vegetation": 4740,
+    "Windows_And_Glass": 5
+  },
+  "building_z_ranges_m": {
+    "AB_Administration_Cultural_Building": [
+      -0.19,
+      23.35
+    ],
+    "AB_Academic_Building": [
+      -0.19,
+      24.0
+    ],
+    "AB_Helmy_Institute_Medical_Sciences": [
+      -0.19,
+      20.0
+    ],
+    "AB_East_Research_Institute_Nano": [
+      -0.19,
+      26.0
+    ],
+    "AB_East_Residential_Pair_Estimated": [
+      -0.19,
+      21.4
+    ],
+    "AB_East_Residential_Collision_Proxy": [
+      0.21,
+      25.0
+    ]
+  },
+  "plan_anchor_consistency": {
+    "admin_bbox": [
+      -81.6,
+      -94.4,
+      81.6,
+      40.0
+    ],
+    "admin_axis_offset_m": 0.0,
+    "admin_width_m": 163.1,
+    "helmy_centre_error_m": 0.0,
+    "nano_centre_error_m": 0.0,
+    "academic_bbox": [
+      -102.7,
+      -348.0,
+      104.6,
+      -169.0
+    ]
+  },
+  "main_gate": {
+    "bbox": [
+      -62.0,
+      308.3,
+      62.0,
+      329.3
+    ],
+    "max_z_m": 18.7,
+    "gate_y": 314.6
+  },
+  "previews": {
+    "aerial.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.623,
+      "std": 0.091
+    },
+    "masterplan_top.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.656,
+      "std": 0.034
+    },
+    "isometric.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.643,
+      "std": 0.099
+    },
+    "admin_front_elevation.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.611,
+      "std": 0.153
+    },
+    "entrance.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.578,
+      "std": 0.138
+    },
+    "details.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "mean": 0.427,
+      "std": 0.165
+    }
+  },
+  "glb": {
+    "path": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\exports\\Zewail_City_3D.glb",
+    "size_mb": 119.0,
+    "imported_objects": 5079,
+    "imported_meshes": 4892,
+    "imported_cameras": 49
+  },
+  "all_pass": true,
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

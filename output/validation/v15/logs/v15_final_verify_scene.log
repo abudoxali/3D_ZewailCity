@@ -1,0 +1,124 @@
+00:02.297  blend            | Read blend: "C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend"
+BlenderMCP addon registered
+12:26:30 | INFO: Data are loaded, start creating Blender stuff
+12:26:30 | INFO: Blender create Mesh node AB_Academic_Building
+12:26:30 | INFO: Blender create Mesh node AB_Academic_Building_Details
+12:26:30 | INFO: Blender create Mesh node AB_Academic_Building_Glass
+12:26:30 | INFO: Blender create Mesh node Academic_Court_Poles_Details
+12:26:30 | INFO: Blender create Mesh node Academic_Court_Seat_Blocks
+12:26:30 | INFO: Blender create Mesh node Academic_Entrance_Downlights
+12:26:30 | INFO: Blender create Mesh node Academic_Roof
+12:26:30 | INFO: Blender create Mesh node Academic_Stair_Left
+12:26:30 | INFO: Blender create Mesh node Academic_Stair_Right
+12:26:30 | INFO: Blender create Mesh node Academic_Terraced_Court_Details
+12:26:30 | INFO: Blender create Mesh node Academic_V11_Balustrades
+12:26:30 | INFO: Blender create Mesh node Academic_V11_GateA_Fascia
+12:26:30 | INFO: Blender create Mesh node AB_Administration_Cultural_Building
+12:26:30 | INFO: Blender create Mesh node AB_Administration_Cultural_Building_Details
+12:26:31 | INFO: Blender create Mesh node AB_Administration_Cultural_Building_Glass
+12:26:31 | INFO: Blender create Mesh node AB_East_Research_Institute_Nano
+12:26:31 | INFO: Blender create Mesh node AB_East_Research_Institute_Nano_Details
+12:26:31 | INFO: Blender create Mesh node AB_East_Research_Institute_Nano_Glass
+12:26:31 | INFO: Blender create Mesh node AB_East_Residential_Pair_Estimated
+12:26:31 | INFO: Blender create Mesh node AB_East_Residential_Pair_Estimated_Details
+12:26:31 | INFO: Blender create Mesh node AB_East_Residential_Pair_Estimated_Glass
+12:26:31 | INFO: Blender create Mesh node Dorm_Garden_Hedges_Details
+12:26:31 | INFO: Blender create Mesh node Dorm_Garden_Shrub_Rows_Details
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G2_Provisional
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G2_Provisional_Details
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G3_Provisional
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G3_Provisional_Details
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G4_Provisional
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G4_Provisional_Details
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G5_Provisional
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G5_Provisional_Details
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G6_Provisional
+12:26:31 | INFO: Blender create Mesh node AB_Gate_G6_Provisional_Details
+12:26:31 | INFO: Blender create Mesh node AB_Helmy_Institute_Medical_Sciences
+12:26:31 | INFO: Blender create Mesh node AB_Helmy_Institute_Medical_Sciences_Details
+12:26:31 | INFO: Blender create Mesh node AB_Helmy_Institute_Medical_Sciences_Glass
+12:26:31 | INFO: Blender create Mesh node Institute_Photo_Pergola_Details
+12:26:31 | INFO: Blender create Mesh node AB_Main_Gate_Complex
+12:26:31 | INFO: Blender create Mesh node AB_Main_Gate_Complex_Details
+12:26:32 | INFO: Blender create Mesh node ASSET_V7_Round_Shrub_0
+12:26:32 | INFO: Blender create Mesh node ASSET_V7_Round_Shrub_1
+12:26:32 | INFO: Blender create Mesh node ASSET_V6_Dorm_Bollard
+12:26:32 | INFO: Blender create Mesh node ASSET_V6_Garden_Evergreen
+12:26:32 | INFO: Blender create Mesh node ASSET_V13_Pachira_C
+12:26:32 | INFO: Blender create Mesh node ASSET_V13_Palm_Detailed
+12:26:32 | INFO: Blender create Mesh node Flower_Beds_V5_Trimmed
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G1_E_dx484_dy0_s1
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G1_PedE_dx260_dy0_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G1_PedW_dx-260_dy0_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G1_W_dx-484_dy0_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G2_A_dx-735_dy-54_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G2_B_dx735_dy54_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G2_Ped_dx199_dy15_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G3_A_dx123_dy614_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G3_B_dx-123_dy-614_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G3_Ped_dx-39_dy-196_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G4_A_dx38_dy787_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G4_B_dx-38_dy-787_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G4_Ped_dx-10_dy-200_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G5_A_dx446_dy-549_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G5_B_dx-446_dy549_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G5_Ped_dx-126_dy155_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G6_A_dx10_dy-736_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G6_B_dx-10_dy736_s0
+12:26:32 | INFO: Blender create Mesh node GATELEAF_G6_Ped_dx-3_dy200_s0
+12:26:32 | INFO: Blender create Mesh node Ground_Campus_Plot.001
+12:26:32 | INFO: Blender create Mesh node Ground_Desert_Sand.001
+12:26:33 | INFO: Blender create Mesh node ASSET_V15_Groundcover_Iceplant_4
+12:26:33 | INFO: Blender create Mesh node ASSET_V15_Groundcover_Iceplant_3
+12:26:33 | INFO: Blender create Mesh node ASSET_V15_Groundcover_Iceplant_1
+12:26:33 | INFO: Blender create Mesh node ASSET_V15_Groundcover_Iceplant_2
+12:26:33 | INFO: Blender create Mesh node ASSET_Street_Lamp
+12:26:33 | INFO: Blender create Mesh node ASSET_Street_Lamp_Double
+12:26:33 | INFO: Blender create Mesh node Lawns.001
+12:26:33 | INFO: Blender create Mesh node ASSET_V13_Date_Palm
+12:26:33 | INFO: Blender create Mesh node Pergola_Admin_Side
+12:26:33 | INFO: Blender create Mesh node Perimeter_Wall
+12:26:33 | INFO: Blender create Mesh node Plaza_Academic_Courtyard
+12:26:33 | INFO: Blender create Mesh node Plaza_Paving.001
+12:26:34 | INFO: Blender create Mesh node Road_Curb_Edges_Profile
+12:26:34 | INFO: Blender create Mesh node Road_Curb_Precast_Units
+12:26:35 | INFO: Blender create Mesh node Road_Markings_M_Road_Marking_White
+12:26:35 | INFO: Blender create Mesh node Road_Network_External
+12:26:35 | INFO: Blender create Mesh node Road_Network_Internal
+12:26:35 | INFO: Blender create Mesh node ASSET_Cycad_0
+12:26:35 | INFO: Blender create Mesh node ASSET_Shrub_Green_1
+12:26:35 | INFO: Blender create Mesh node ASSET_Shrub_Green_0
+12:26:35 | INFO: Blender create Mesh node ASSET_V13_Pachira_D
+12:26:35 | INFO: Blender create Mesh node ASSET_Cypress_0
+12:26:35 | INFO: Blender create Mesh node ASSET_Agave_1
+12:26:35 | INFO: Blender create Mesh node ASSET_Barrel_Cactus
+12:26:35 | INFO: Blender create Mesh node ASSET_Agave_0
+12:26:35 | INFO: Blender create Mesh node ASSET_Euphorbia_0
+12:26:36 | INFO: glTF import finished in 5.46s
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+[verify] PASS  real geometry
+[verify] PASS  collections populated
+[verify] PASS  cameras present
+[verify] PASS  materials assigned
+[verify] PASS  metric units
+[verify] PASS  V6 court levels are physical geometry; V11 entrance registry and Academic upper-level objects exist
+[verify] PASS  V7 paving edge restraint is a separate flush material region
+[verify] PASS  V7 road markings 12 mm above asphalt (V6 4 mm)
+[verify] PASS  V7 graded soil shoulders at raised edges
+[verify] PASS  V7 court tiers concentric with inner glazing (outer radius ~62.5 m incl. tread; ramp foot outside)
+[verify] PASS  V7 dormitory candidate six storeys (roof 21.4 m, cores above roof)
+[verify] PASS  V7 evening luminaires generated (off in daylight source)
+[verify] PASS  V7 architectural showcase camera path present
+[verify] PASS  all 16 owner photo originals retain supplied SHA-256
+[verify] PASS  building heights plausible (base at ground, 4-70 m tall)
+[verify] PASS  no floating vegetation/furniture
+[verify] PASS  Academic roof stays over the Academic footprint after separation
+[verify] PASS  survey-anchor consistency (admin on axis, institute & academic positions)
+[verify] PASS  main gate complex on the axis at the gate line, frame ~18.7 m high
+[verify] PASS  unverified proposals kept separate (excluded from view layer and renders)
+[verify] PASS  no missing external resources
+[verify] PASS  preview renders exist and are not blank
+[verify] PASS  GLB re-imports with geometry
+[verify] PASS  GLB excludes unverified proposal blockouts
+[verify] report: C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\validation\v11\source_verification.json
+BlenderMCP addon unregistered

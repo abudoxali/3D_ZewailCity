@@ -1,0 +1,12 @@
+{
+  "command": [
+    "godot_console",
+    "--headless",
+    "--path",
+    "output/validation/v15/candidate/game/godot",
+    "res://tests/V12Materials.tscn"
+  ],
+  "exit_code": 0,
+  "seconds": 2.13,
+  "started_utc": "2026-11-09T11:17:05.887373+00:00"
+}

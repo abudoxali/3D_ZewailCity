@@ -1,0 +1,519 @@
+00:02.266  blend            | Read blend: "C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend"
+BlenderMCP addon registered
+[game] BLD_Administration_Cultural: 27488 tris, collider 8704 tris
+[game] BLD_Academic: 84497 tris, collider 26299 tris
+[game] BLD_Helmy_Institute: 6492 tris, collider 1556 tris
+[game] BLD_East_Research_Institute: 6120 tris, collider 712 tris
+[game] BLD_Main_Gate: 5796 tris, collider 900 tris
+Warning: No mesh data to join
+[game] BLD_Perimeter_Wall: 44904 tris, collider 44904 tris
+[game] BLD_East_Residential_Estimated: 226090 tris, collider 23293 tris
+[game] BLD_Gate_G2_Provisional: 1652 tris, collider 240 tris
+[game] BLD_Gate_G3_Provisional: 1836 tris, collider 240 tris
+[game] BLD_Gate_G4_Provisional: 1332 tris, collider 240 tris
+[game] BLD_Gate_G5_Provisional: 1604 tris, collider 240 tris
+[game] BLD_Gate_G6_Provisional: 1780 tris, collider 216 tris
+[game] instances: vegetation 2932, props 83, unique meshes 22
+[game] ground collider: SW_Curb_Precast_Units is visual-only, not collided
+[game] ground collider: kerb collision from Kerb_Box_Collision_Proxy (179985 tris), visual profile not collided
+[game] ground collider tiles simplified 5146/5420 (surface guard kept 274)
+00:20.891  geom.mesh        | ERROR Face 116563 is a duplicate of 116228
+00:20.891  geom.mesh        | ERROR Face 236714 is a duplicate of 236590
+00:20.891  geom.mesh        | ERROR Face 252285 is a duplicate of 252169
+00:20.891  geom.mesh        | ERROR Face 252327 is a duplicate of 252308
+00:20.891  geom.mesh        | ERROR Face 264732 is a duplicate of 264723
+00:20.891  geom.mesh        | ERROR Face 264826 is a duplicate of 264722
+00:20.891  geom.mesh        | ERROR Face 265808 is a duplicate of 265096
+00:20.891  geom.mesh        | ERROR Face 265830 is a duplicate of 264855
+00:20.891  geom.mesh        | ERROR Face 266391 is a duplicate of 266230
+00:20.891  geom.mesh        | ERROR Face 266869 is a duplicate of 266086
+00:20.891  geom.mesh        | ERROR Face 266877 is a duplicate of 265936
+00:20.891  geom.mesh        | ERROR Face 267150 is a duplicate of 265993
+00:20.891  geom.mesh        | ERROR Face 267151 is a duplicate of 266597
+00:20.891  geom.mesh        | ERROR Face 267152 is a duplicate of 266281
+00:20.891  geom.mesh        | ERROR Face 60531 is a duplicate of 60202
+[game] ground collider validate: {'repaired': True, 'before_v_e_l_f': (336661, 578772, 889940, 293875), 'after_v_e_l_f': (336661, 578772, 889895, 293860)}
+[game] ground collider: 631762 -> 302175 tris
+[game] colliders: 614 trunks (12280 tris), 83 props (1780 tris)
+00:21.125  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+[game] reused verified texture bake M_Agave_Leaf
+C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\src\build_game_assets.py:762: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  gm.use_nodes = True
+[game] baked M_Agave_Leaf (0.2s)
+[game] baked M_Asphalt (0.0s)
+[game] reused verified texture bake M_Barrel_Cactus
+[game] baked M_Barrel_Cactus (0.0s)
+[game] reused verified texture bake M_Compacted_Earth
+[game] baked M_Compacted_Earth (0.0s)
+[game] reused verified texture bake M_Concrete_Curb
+[game] baked M_Concrete_Curb (0.0s)
+[game] reused verified texture bake M_Copper_Dome
+[game] baked M_Copper_Dome (0.0s)
+[game] reused verified texture bake M_Copper_Dome_Band
+[game] baked M_Copper_Dome_Band (0.0s)
+[game] reused verified texture bake M_Copper_Drum
+[game] baked M_Copper_Drum (0.0s)
+[game] reused verified texture bake M_Cycad_Frond
+[game] baked M_Cycad_Frond (0.0s)
+[game] reused verified texture bake M_Cypress_Foliage
+[game] baked M_Cypress_Foliage (0.0s)
+[game] reused verified texture bake M_Desert_Sand
+[game] baked M_Desert_Sand (0.0s)
+[game] reused verified texture bake M_Euphorbia_Red
+[game] baked M_Euphorbia_Red (0.0s)
+[game] reused verified texture bake M_Gate_Sandstone_Tiles
+[game] baked M_Gate_Sandstone_Tiles (0.0s)
+[game] reused verified texture bake M_Graded_Campus_Soil
+[game] baked M_Graded_Campus_Soil (0.0s)
+[game] reused verified texture bake M_Granite_Band
+[game] baked M_Granite_Band (0.0s)
+[game] reused verified texture bake M_Granite_Dark
+[game] baked M_Granite_Dark (0.0s)
+[game] reused verified texture bake M_Grass_Lawn
+[game] baked M_Grass_Lawn (0.0s)
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+[game] baked M_Grass_Lawn_V15_Median (6.5s)
+[game] reused verified texture bake M_Groundcover_Planted
+[game] baked M_Groundcover_Planted (0.0s)
+[game] reused verified texture bake M_Hedge
+[game] baked M_Hedge (0.0s)
+[game] reused verified texture bake M_Ledgestone_Dark
+[game] baked M_Ledgestone_Dark (0.0s)
+[game] reused verified texture bake M_Palm_Trunk
+[game] baked M_Palm_Trunk (0.0s)
+[game] reused verified texture bake M_Paver_Road_Grey
+[game] baked M_Paver_Road_Grey (0.0s)
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+[game] baked M_Paver_Road_Grey_V15_Band (5.5s)
+[game] reused verified texture bake M_Paving_Light
+[game] baked M_Paving_Light (0.0s)
+[game] reused verified texture bake M_Paving_Limestone
+[game] baked M_Paving_Limestone (0.0s)
+[game] reused verified texture bake M_Planted_Soil_Sparse
+[game] baked M_Planted_Soil_Sparse (0.0s)
+[game] reused verified texture bake M_Planter_Soil
+[game] baked M_Planter_Soil (0.0s)
+[game] reused verified texture bake M_Red_Mulch
+[game] baked M_Red_Mulch (0.0s)
+[game] reused verified texture bake M_Roof_Membrane
+[game] baked M_Roof_Membrane (0.0s)
+[game] reused verified texture bake M_Shrub_Bougainvillea
+[game] baked M_Shrub_Bougainvillea (0.0s)
+[game] reused verified texture bake M_Shrub_Green
+[game] baked M_Shrub_Green (0.0s)
+[game] reused verified texture bake M_Shrub_Orange
+[game] baked M_Shrub_Orange (0.0s)
+[game] reused verified texture bake M_Stone_Cladding
+[game] baked M_Stone_Cladding (0.0s)
+[game] reused verified texture bake M_Stone_White
+[game] baked M_Stone_White (0.0s)
+[game] reused verified texture bake M_Stucco_Ochre
+[game] baked M_Stucco_Ochre (0.0s)
+[game] reused verified texture bake M_Tree_Bark
+[game] baked M_Tree_Bark (0.0s)
+[game] reused verified texture bake M_V15_Planted_Bed_Soil
+[game] baked M_V15_Planted_Bed_Soil (0.0s)
+[game] reused verified texture bake M_V6_Garden_Pavers
+[game] baked M_V6_Garden_Pavers (0.0s)
+[game] reused verified texture bake M_V6_Plaza_Grey
+[game] baked M_V6_Plaza_Grey (0.0s)
+[game] reused verified texture bake M_V6_Plaza_Inlay
+[game] baked M_V6_Plaza_Inlay (0.0s)
+[game] reused verified texture bake M_V6_Plaza_Light
+[game] baked M_V6_Plaza_Light (0.0s)
+[game] reused verified texture bake M_V6_Residential_Stone
+[game] baked M_V6_Residential_Stone (0.0s)
+[game] reused verified texture bake M_V7_Paving_Edge_Restraint
+[game] baked M_V7_Paving_Edge_Restraint (0.0s)
+[game] reused verified texture bake M_V7_Residential_Plinth
+[game] baked M_V7_Residential_Plinth (0.0s)
+[game] reused verified texture bake M_White_Pebbles
+[game] baked M_White_Pebbles (0.0s)
+[game] reused verified texture bake M_Wood_Pergola
+[game] baked M_Wood_Pergola (0.0s)
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+11:42:19 | INFO: Starting glTF 2.0 export
+11:42:19 | INFO: Extracting primitive: BLD_Administration_Cultural
+11:42:19 | INFO: Primitives created: 13
+11:42:19 | INFO: Extracting primitive: COL_BLD_Administration_Cultural_mesh
+11:42:19 | INFO: Primitives created: 1
+11:42:19 | INFO: Finished glTF 2.0 export in 0.6034977436065674 s
+
+11:42:19 | INFO: Starting glTF 2.0 export
+11:42:19 | INFO: Extracting primitive: BLD_Academic
+11:42:20 | INFO: Primitives created: 13
+11:42:20 | INFO: Extracting primitive: COL_BLD_Academic_mesh
+11:42:20 | INFO: Primitives created: 1
+11:42:20 | INFO: Finished glTF 2.0 export in 0.5188484191894531 s
+
+11:42:20 | INFO: Starting glTF 2.0 export
+11:42:20 | INFO: Extracting primitive: BLD_Helmy_Institute
+11:42:20 | INFO: Primitives created: 8
+11:42:20 | INFO: Extracting primitive: COL_BLD_Helmy_Institute_mesh
+11:42:20 | INFO: Primitives created: 1
+11:42:20 | INFO: Finished glTF 2.0 export in 0.3119075298309326 s
+
+11:42:20 | INFO: Starting glTF 2.0 export
+11:42:21 | INFO: Extracting primitive: BLD_East_Research_Institute
+11:42:21 | INFO: Primitives created: 6
+11:42:21 | INFO: Extracting primitive: COL_BLD_East_Research_Institute_mesh
+11:42:21 | INFO: Primitives created: 1
+11:42:21 | INFO: Finished glTF 2.0 export in 0.21884417533874512 s
+
+11:42:21 | INFO: Starting glTF 2.0 export
+11:42:21 | INFO: Extracting primitive: BLD_Main_Gate
+11:42:21 | INFO: Primitives created: 9
+11:42:21 | INFO: Extracting primitive: COL_BLD_Main_Gate_mesh
+11:42:21 | INFO: Primitives created: 1
+11:42:21 | INFO: Finished glTF 2.0 export in 0.5731711387634277 s
+
+11:42:22 | INFO: Starting glTF 2.0 export
+11:42:22 | INFO: Extracting primitive: BLD_Perimeter_Wall
+11:42:22 | INFO: Primitives created: 3
+11:42:22 | INFO: Extracting primitive: COL_BLD_Perimeter_Wall_mesh
+11:42:22 | INFO: Primitives created: 1
+11:42:22 | INFO: Finished glTF 2.0 export in 0.3812294006347656 s
+
+11:42:22 | INFO: Starting glTF 2.0 export
+11:42:22 | INFO: Extracting primitive: BLD_East_Residential_Estimated
+11:42:23 | INFO: Primitives created: 13
+11:42:23 | INFO: Extracting primitive: COL_BLD_East_Residential_Estimated_mesh
+11:42:23 | INFO: Primitives created: 1
+11:42:23 | INFO: Finished glTF 2.0 export in 0.6795058250427246 s
+
+11:42:23 | INFO: Starting glTF 2.0 export
+11:42:23 | INFO: Extracting primitive: BLD_Gate_G2_Provisional
+11:42:23 | INFO: Primitives created: 7
+11:42:23 | INFO: Extracting primitive: COL_BLD_Gate_G2_Provisional_mesh
+11:42:23 | INFO: Primitives created: 1
+11:42:23 | INFO: Finished glTF 2.0 export in 0.3771398067474365 s
+
+11:42:23 | INFO: Starting glTF 2.0 export
+11:42:23 | INFO: Extracting primitive: BLD_Gate_G3_Provisional
+11:42:24 | INFO: Primitives created: 7
+11:42:24 | INFO: Extracting primitive: COL_BLD_Gate_G3_Provisional_mesh
+11:42:24 | INFO: Primitives created: 1
+11:42:24 | INFO: Finished glTF 2.0 export in 0.37177610397338867 s
+
+11:42:24 | INFO: Starting glTF 2.0 export
+11:42:24 | INFO: Extracting primitive: BLD_Gate_G4_Provisional
+11:42:24 | INFO: Primitives created: 7
+11:42:24 | INFO: Extracting primitive: COL_BLD_Gate_G4_Provisional_mesh
+11:42:24 | INFO: Primitives created: 1
+11:42:24 | INFO: Finished glTF 2.0 export in 0.3824806213378906 s
+
+11:42:24 | INFO: Starting glTF 2.0 export
+11:42:25 | INFO: Extracting primitive: BLD_Gate_G5_Provisional
+11:42:25 | INFO: Primitives created: 7
+11:42:25 | INFO: Extracting primitive: COL_BLD_Gate_G5_Provisional_mesh
+11:42:25 | INFO: Primitives created: 1
+11:42:25 | INFO: Finished glTF 2.0 export in 0.38359665870666504 s
+
+11:42:25 | INFO: Starting glTF 2.0 export
+11:42:25 | INFO: Extracting primitive: BLD_Gate_G6_Provisional
+11:42:25 | INFO: Primitives created: 7
+11:42:25 | INFO: Extracting primitive: COL_BLD_Gate_G6_Provisional_mesh
+11:42:25 | INFO: Primitives created: 1
+11:42:25 | INFO: Finished glTF 2.0 export in 0.4249567985534668 s
+
+11:42:26 | INFO: Starting glTF 2.0 export
+11:42:26 | INFO: Extracting primitive: ASSET_Agave_0
+11:42:26 | INFO: Primitives created: 1
+11:42:26 | INFO: Finished glTF 2.0 export in 0.10493206977844238 s
+
+11:42:26 | INFO: Starting glTF 2.0 export
+11:42:26 | INFO: Extracting primitive: ASSET_Agave_1
+11:42:26 | INFO: Primitives created: 1
+11:42:26 | INFO: Finished glTF 2.0 export in 0.09123492240905762 s
+
+11:42:26 | INFO: Starting glTF 2.0 export
+11:42:27 | INFO: Extracting primitive: ASSET_Barrel_Cactus
+11:42:27 | INFO: Primitives created: 1
+11:42:27 | INFO: Finished glTF 2.0 export in 0.10999011993408203 s
+
+11:42:27 | INFO: Starting glTF 2.0 export
+11:42:27 | INFO: Extracting primitive: ASSET_Cycad_0
+11:42:27 | INFO: Primitives created: 2
+11:42:27 | INFO: Finished glTF 2.0 export in 0.14210081100463867 s
+
+11:42:27 | INFO: Starting glTF 2.0 export
+11:42:27 | INFO: Extracting primitive: ASSET_Cypress_0
+11:42:27 | INFO: Primitives created: 2
+11:42:27 | INFO: Finished glTF 2.0 export in 0.15097951889038086 s
+
+11:42:28 | INFO: Starting glTF 2.0 export
+11:42:28 | INFO: Extracting primitive: ASSET_Euphorbia_0
+11:42:28 | INFO: Primitives created: 1
+11:42:28 | INFO: Finished glTF 2.0 export in 0.1064906120300293 s
+
+11:42:28 | INFO: Starting glTF 2.0 export
+11:42:28 | INFO: Extracting primitive: ASSET_Shrub_Green_0
+11:42:28 | INFO: Primitives created: 1
+11:42:28 | INFO: Finished glTF 2.0 export in 0.09740114212036133 s
+
+11:42:28 | INFO: Starting glTF 2.0 export
+11:42:28 | INFO: Extracting primitive: ASSET_Shrub_Green_1
+11:42:29 | INFO: Primitives created: 1
+11:42:29 | INFO: Finished glTF 2.0 export in 0.09325051307678223 s
+
+11:42:29 | INFO: Starting glTF 2.0 export
+11:42:29 | INFO: Extracting primitive: ASSET_Street_Lamp
+11:42:29 | INFO: Primitives created: 2
+11:42:29 | INFO: Finished glTF 2.0 export in 0.08132410049438477 s
+
+11:42:29 | INFO: Starting glTF 2.0 export
+11:42:29 | INFO: Extracting primitive: ASSET_Street_Lamp_Double
+11:42:29 | INFO: Primitives created: 2
+11:42:29 | INFO: Finished glTF 2.0 export in 0.07953500747680664 s
+
+11:42:29 | INFO: Starting glTF 2.0 export
+11:42:29 | INFO: Extracting primitive: ASSET_V13_Date_Palm
+11:42:29 | INFO: Primitives created: 4
+11:42:29 | INFO: Finished glTF 2.0 export in 0.16192936897277832 s
+
+11:42:30 | INFO: Starting glTF 2.0 export
+11:42:30 | INFO: Extracting primitive: ASSET_V13_Pachira_C
+11:42:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:30 | INFO: Primitives created: 2
+11:42:30 | INFO: Finished glTF 2.0 export in 0.24309825897216797 s
+
+11:42:30 | INFO: Starting glTF 2.0 export
+11:42:30 | INFO: Extracting primitive: ASSET_V13_Pachira_D
+11:42:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:30 | INFO: Primitives created: 2
+11:42:30 | INFO: Finished glTF 2.0 export in 0.12285757064819336 s
+
+11:42:30 | INFO: Starting glTF 2.0 export
+11:42:30 | INFO: Extracting primitive: ASSET_V13_Palm_Detailed
+11:42:30 | INFO: Primitives created: 5
+11:42:30 | INFO: Finished glTF 2.0 export in 0.13245773315429688 s
+
+11:42:31 | INFO: Starting glTF 2.0 export
+11:42:31 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_1
+11:42:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Finished glTF 2.0 export in 0.22003173828125 s
+
+11:42:31 | INFO: Starting glTF 2.0 export
+11:42:31 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_2
+11:42:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Finished glTF 2.0 export in 0.17853069305419922 s
+
+11:42:32 | INFO: Starting glTF 2.0 export
+11:42:32 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_3
+11:42:32 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:32 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:32 | INFO: Primitives created: 1
+11:42:32 | INFO: Finished glTF 2.0 export in 0.1991138458251953 s
+
+11:42:32 | INFO: Starting glTF 2.0 export
+11:42:32 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_4
+11:42:32 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:32 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:32 | INFO: Primitives created: 1
+11:42:32 | INFO: Finished glTF 2.0 export in 0.1740589141845703 s
+
+11:42:33 | INFO: Starting glTF 2.0 export
+11:42:33 | INFO: Extracting primitive: ASSET_V6_Dorm_Bollard
+11:42:33 | INFO: Primitives created: 2
+11:42:33 | INFO: Finished glTF 2.0 export in 0.07841968536376953 s
+
+11:42:33 | INFO: Starting glTF 2.0 export
+11:42:33 | INFO: Extracting primitive: ASSET_V6_Garden_Evergreen
+11:42:33 | INFO: Primitives created: 2
+11:42:33 | INFO: Finished glTF 2.0 export in 0.12152457237243652 s
+
+11:42:33 | INFO: Starting glTF 2.0 export
+11:42:33 | INFO: Extracting primitive: ASSET_V7_Round_Shrub_0
+11:42:33 | INFO: Primitives created: 1
+11:42:33 | INFO: Finished glTF 2.0 export in 0.09621763229370117 s
+
+11:42:33 | INFO: Starting glTF 2.0 export
+11:42:34 | INFO: Extracting primitive: ASSET_V7_Round_Shrub_1
+11:42:34 | INFO: Primitives created: 1
+11:42:34 | INFO: Finished glTF 2.0 export in 0.0975341796875 s
+
+11:42:34 | INFO: Starting glTF 2.0 export
+11:42:34 | INFO: Extracting primitive: BLD_Academic
+11:42:34 | INFO: Primitives created: 13
+11:42:34 | INFO: Extracting primitive: BLD_Administration_Cultural
+11:42:34 | INFO: Primitives created: 13
+11:42:34 | INFO: Extracting primitive: COL_BLD_Academic_mesh
+11:42:34 | INFO: Primitives created: 1
+11:42:34 | INFO: Extracting primitive: COL_BLD_Administration_Cultural_mesh
+11:42:34 | INFO: Primitives created: 1
+11:42:34 | INFO: Extracting primitive: COL_BLD_East_Research_Institute_mesh
+11:42:34 | INFO: Primitives created: 1
+11:42:34 | INFO: Extracting primitive: COL_BLD_East_Residential_Estimated_mesh
+11:42:34 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Gate_G2_Provisional_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Gate_G3_Provisional_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Gate_G4_Provisional_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Gate_G5_Provisional_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Gate_G6_Provisional_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Helmy_Institute_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Main_Gate_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_BLD_Perimeter_Wall_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_Ground_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_Props_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: COL_Vegetation_Trunks_mesh
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: BLD_Gate_G2_Provisional
+11:42:35 | INFO: Primitives created: 7
+11:42:35 | INFO: Extracting primitive: BLD_Gate_G3_Provisional
+11:42:35 | INFO: Primitives created: 7
+11:42:35 | INFO: Extracting primitive: BLD_Gate_G4_Provisional
+11:42:35 | INFO: Primitives created: 7
+11:42:35 | INFO: Extracting primitive: BLD_Gate_G5_Provisional
+11:42:35 | INFO: Primitives created: 7
+11:42:35 | INFO: Extracting primitive: BLD_Gate_G6_Provisional
+11:42:35 | INFO: Primitives created: 7
+11:42:35 | INFO: Extracting primitive: BLD_Main_Gate
+11:42:35 | INFO: Primitives created: 9
+11:42:35 | INFO: Extracting primitive: BLD_Perimeter_Wall
+11:42:35 | INFO: Primitives created: 3
+11:42:35 | INFO: Extracting primitive: GATELEAF_G1_E_dx484_dy0_s1
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G1_PedE_dx260_dy0_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G1_PedW_dx-260_dy0_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G1_W_dx-484_dy0_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G2_A_dx-735_dy-54_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G2_B_dx735_dy54_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G2_Ped_dx199_dy15_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G3_A_dx123_dy614_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G3_B_dx-123_dy-614_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G3_Ped_dx-39_dy-196_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G4_A_dx38_dy787_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G4_B_dx-38_dy-787_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G4_Ped_dx-10_dy-200_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G5_A_dx446_dy-549_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G5_B_dx-446_dy549_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G5_Ped_dx-126_dy155_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G6_A_dx10_dy-736_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G6_B_dx-10_dy736_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: GATELEAF_G6_Ped_dx-3_dy200_s0
+11:42:35 | INFO: Primitives created: 1
+11:42:35 | INFO: Extracting primitive: BLD_East_Research_Institute
+11:42:35 | INFO: Primitives created: 6
+11:42:35 | INFO: Extracting primitive: BLD_East_Residential_Estimated
+11:42:36 | INFO: Primitives created: 13
+11:42:36 | INFO: Extracting primitive: BLD_Helmy_Institute
+11:42:36 | INFO: Primitives created: 8
+11:42:36 | INFO: Extracting primitive: ASSET_Street_Lamp
+11:42:36 | INFO: Primitives created: 2
+11:42:36 | INFO: Extracting primitive: ASSET_Street_Lamp_Double
+11:42:36 | INFO: Primitives created: 2
+11:42:36 | INFO: Extracting primitive: ASSET_V6_Dorm_Bollard
+11:42:36 | INFO: Primitives created: 2
+11:42:36 | INFO: Extracting primitive: Pergola_Admin_Side
+11:42:36 | INFO: Primitives created: 1
+11:42:36 | INFO: Extracting primitive: Road_Markings_M_Road_Marking_White
+11:42:36 | INFO: Primitives created: 1
+11:42:36 | INFO: Extracting primitive: Road_Network_External
+11:42:36 | INFO: Primitives created: 1
+11:42:36 | INFO: Extracting primitive: Road_Network_Internal
+11:42:36 | INFO: Primitives created: 3
+11:42:36 | INFO: Extracting primitive: Road_Curb_Edges_Profile
+11:42:37 | INFO: Primitives created: 1
+11:42:37 | INFO: Extracting primitive: Road_Curb_Precast_Units
+11:42:37 | INFO: Primitives created: 1
+11:42:37 | INFO: Extracting primitive: Plaza_Academic_Courtyard
+11:42:37 | INFO: Primitives created: 3
+11:42:37 | INFO: Extracting primitive: Plaza_Paving.001
+11:42:37 | INFO: Primitives created: 6
+11:42:37 | INFO: Extracting primitive: Ground_Campus_Plot.001
+11:42:38 | INFO: Primitives created: 1
+11:42:38 | INFO: Extracting primitive: Ground_Desert_Sand.001
+11:42:38 | INFO: Primitives created: 1
+11:42:38 | INFO: Extracting primitive: Lawns.001
+11:42:39 | INFO: Primitives created: 7
+11:42:39 | INFO: Extracting primitive: ASSET_Agave_0
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_Agave_1
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_Barrel_Cactus
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_Cycad_0
+11:42:39 | INFO: Primitives created: 2
+11:42:39 | INFO: Extracting primitive: ASSET_Cypress_0
+11:42:39 | INFO: Primitives created: 2
+11:42:39 | INFO: Extracting primitive: ASSET_Euphorbia_0
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_Shrub_Green_0
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_Shrub_Green_1
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_V6_Garden_Evergreen
+11:42:39 | INFO: Primitives created: 2
+11:42:39 | INFO: Extracting primitive: ASSET_V7_Round_Shrub_0
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_V7_Round_Shrub_1
+11:42:39 | INFO: Primitives created: 1
+11:42:39 | INFO: Extracting primitive: ASSET_V13_Date_Palm
+11:42:39 | INFO: Primitives created: 4
+11:42:40 | INFO: Extracting primitive: ASSET_V13_Pachira_C
+11:42:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:40 | INFO: Primitives created: 2
+11:42:40 | INFO: Extracting primitive: ASSET_V13_Pachira_D
+11:42:40 | INFO: Primitives created: 2
+11:42:41 | INFO: Extracting primitive: ASSET_V13_Palm_Detailed
+11:42:41 | INFO: Primitives created: 5
+11:42:41 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_1
+11:42:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:41 | INFO: Primitives created: 1
+11:42:41 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_2
+11:42:41 | INFO: Primitives created: 1
+11:42:42 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_3
+11:42:42 | INFO: Primitives created: 1
+11:42:42 | INFO: Extracting primitive: ASSET_V15_Groundcover_Iceplant_4
+11:42:42 | INFO: Primitives created: 1
+11:42:42 | INFO: Extracting primitive: Flower_Beds_V5_Trimmed
+11:42:42 | INFO: Primitives created: 5
+11:42:43 | INFO: Finished glTF 2.0 export in 9.262101411819458 s
+
+Info: Saved as "Zewail_City_Game.blend"
+[game] copied campus_full.glb + manifest to C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\game\godot\assets\campus
+[game] render tris 17239030, collision tris 423779, campus_full.glb 198.51 MB, 71.8s
+BlenderMCP addon unregistered
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

@@ -1,0 +1,151 @@
+{
+  "timestamp_utc": "2026-11-09T11:28:37.490918+00:00",
+  "suites": [
+    {
+      "suite": "Validate",
+      "exit_code": 0,
+      "passed_lines": 54,
+      "failures": [],
+      "seconds": 9.27,
+      "log": "output\\validation\\v15\\regressions\\Validate.log"
+    },
+    {
+      "suite": "V5Ground",
+      "exit_code": 0,
+      "passed_lines": 5,
+      "failures": [],
+      "seconds": 4.08,
+      "log": "output\\validation\\v15\\regressions\\V5Ground.log"
+    },
+    {
+      "suite": "V5Gates",
+      "exit_code": 0,
+      "passed_lines": 12,
+      "failures": [],
+      "seconds": 3.62,
+      "log": "output\\validation\\v15\\regressions\\V5Gates.log"
+    },
+    {
+      "suite": "V5Academic",
+      "exit_code": 0,
+      "passed_lines": 27,
+      "failures": [],
+      "seconds": 7.79,
+      "log": "output\\validation\\v15\\regressions\\V5Academic.log"
+    },
+    {
+      "suite": "V5Dormitory",
+      "exit_code": 0,
+      "passed_lines": 4,
+      "failures": [],
+      "seconds": 4.74,
+      "log": "output\\validation\\v15\\regressions\\V5Dormitory.log"
+    },
+    {
+      "suite": "V6Academic",
+      "exit_code": 0,
+      "passed_lines": 32,
+      "failures": [],
+      "seconds": 9.0,
+      "log": "output\\validation\\v15\\regressions\\V6Academic.log"
+    },
+    {
+      "suite": "V6Dormitory",
+      "exit_code": 0,
+      "passed_lines": 12,
+      "failures": [],
+      "seconds": 9.82,
+      "log": "output\\validation\\v15\\regressions\\V6Dormitory.log"
+    },
+    {
+      "suite": "V5Journey",
+      "exit_code": 0,
+      "passed_lines": 1,
+      "failures": [],
+      "seconds": 6.79,
+      "log": "output\\validation\\v15\\regressions\\V5Journey.log"
+    },
+    {
+      "suite": "V6Journey",
+      "exit_code": 0,
+      "passed_lines": 1,
+      "failures": [],
+      "seconds": 7.23,
+      "log": "output\\validation\\v15\\regressions\\V6Journey.log"
+    },
+    {
+      "suite": "V8Gates",
+      "exit_code": 0,
+      "passed_lines": 27,
+      "failures": [],
+      "seconds": 4.65,
+      "log": "output\\validation\\v15\\regressions\\V8Gates.log"
+    },
+    {
+      "suite": "V8Entries",
+      "exit_code": 0,
+      "passed_lines": 9,
+      "failures": [],
+      "seconds": 3.08,
+      "log": "output\\validation\\v15\\regressions\\V8Entries.log"
+    },
+    {
+      "suite": "V10AdminEntry",
+      "exit_code": 0,
+      "passed_lines": 23,
+      "failures": [],
+      "seconds": 4.17,
+      "log": "output\\validation\\v15\\regressions\\V10AdminEntry.log"
+    },
+    {
+      "suite": "V11Gates",
+      "exit_code": 0,
+      "passed_lines": 37,
+      "failures": [],
+      "seconds": 3.9,
+      "log": "output\\validation\\v15\\regressions\\V11Gates.log"
+    },
+    {
+      "suite": "V11GateCoverage",
+      "exit_code": 0,
+      "passed_lines": 18,
+      "failures": [],
+      "seconds": 49.07,
+      "log": "output\\validation\\v15\\regressions\\V11GateCoverage.log"
+    },
+    {
+      "suite": "V11PerimeterSeal",
+      "exit_code": 0,
+      "passed_lines": 12,
+      "failures": [],
+      "seconds": 3.34,
+      "log": "output\\validation\\v15\\regressions\\V11PerimeterSeal.log"
+    },
+    {
+      "suite": "V11FullJourney",
+      "exit_code": 0,
+      "passed_lines": 2,
+      "failures": [],
+      "seconds": 11.68,
+      "log": "output\\validation\\v15\\regressions\\V11FullJourney.log"
+    },
+    {
+      "suite": "V11Ui",
+      "exit_code": 0,
+      "passed_lines": 41,
+      "failures": [],
+      "seconds": 0.47,
+      "log": "output\\validation\\v15\\regressions\\V11Ui.log"
+    },
+    {
+      "suite": "V15Corridor",
+      "exit_code": 0,
+      "passed_lines": 9,
+      "failures": [],
+      "seconds": 8.9,
+      "log": "output\\validation\\v15\\regressions\\V15Corridor.log"
+    }
+  ],
+  "passed_suites": 18,
+  "assertions": 326
+}

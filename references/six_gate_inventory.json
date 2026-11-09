@@ -1,0 +1,352 @@
+{
+  "orientation": {
+    "gate_axis_bearing_deg": 323.46,
+    "looking_inward_deg": 143.46,
+    "owner_right_axis": "-X, bearing 233.46 SW",
+    "owner_left_axis": "+X, bearing 53.46 NE"
+  },
+  "excluded_nearby_nodes": [
+    8478493504,
+    8478493505
+  ],
+  "note": "Two adjacent lane nodes form one entrance; six clusters are a map-based interpretation of the owner requirement, not confirmation of current architecture.",
+  "gates": [
+    {
+      "id": "G1",
+      "label": "Main/front gate",
+      "osm_nodes": [
+        5225739523,
+        5225739528
+      ],
+      "osm_position_blender_m": [
+        0.0,
+        314.6
+      ],
+      "model_position_blender_m": [
+        0.0,
+        314.6
+      ],
+      "wall_angle_radians": -3.1308538503779935,
+      "boundary_projection_offset_m": 0.0,
+      "inward": [
+        -0.0,
+        -1.0
+      ],
+      "owner_gate_count": 6,
+      "status": "PHOTO_AND_MAP",
+      "appearance": "C01/C02/D02/D03; V4 portal retained",
+      "pedestrian_route": "V4 open pedestrian door",
+      "unknowns": [],
+      "spawn": "SPAWN_07_Main_Gate_Exterior",
+      "object": "AB_Main_Gate_Complex",
+      "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+      "functional_context_hypothesis": "main axis front",
+      "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated."
+    },
+    {
+      "id": "G2",
+      "label": "Rear gate",
+      "osm_nodes": [
+        5225739664,
+        5225739665
+      ],
+      "osm_position_blender_m": [
+        6.23,
+        -635.745
+      ],
+      "model_position_blender_m": [
+        6.445,
+        -638.674
+      ],
+      "wall_angle_radians": 0.07315853752854463,
+      "boundary_projection_offset_m": 2.937,
+      "inward": [
+        -0.015391201465161196,
+        0.9998815484433438
+      ],
+      "owner_gate_count": 6,
+      "status": "PROVISIONAL_MAP_CLUSTER",
+      "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+      "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+      "unknowns": [
+        "current gate existence/state",
+        "owner A/B identity",
+        "precise location",
+        "opening dimensions",
+        "architectural appearance",
+        "pedestrian/vehicle access class"
+      ],
+      "spawn": "SPAWN_08_Gate_G2",
+      "object": "AB_Gate_G2_Provisional",
+      "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+      "functional_context_hypothesis": "main axis rear (map centre offset ~6 m; not a surveyed correction)",
+      "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+      "parameters_v8": {
+        "opening_width": 14.040985164698228,
+        "orientation": 0.07315853752854463,
+        "support_width": 0.65,
+        "support_depth": 0.95,
+        "support_height": 3.55,
+        "frame_height": 3.15,
+        "frame_depth": 0.32,
+        "pedestrian_width": 1.7,
+        "leaf_height": 2.65,
+        "leaf_parking": "sliding_flanks",
+        "wall_height": 3.5,
+        "threshold_offset": 0.06,
+        "threshold_depth": 6.0,
+        "wall_connection_half": 20.44098516469823,
+        "node_spacing": 12.840985164698228,
+        "v11_leg_width": 2.4,
+        "v11_portal_height": 9.6,
+        "v11_lintel": 2.2,
+        "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+      },
+      "external_access": "UNRESOLVED_SAND_GAP_25M"
+    },
+    {
+      "id": "G3",
+      "label": "Right-side gate A",
+      "osm_nodes": [
+        5225739797,
+        8478493617
+      ],
+      "osm_position_blender_m": [
+        -272.51,
+        132.79
+      ],
+      "model_position_blender_m": [
+        -270.917,
+        132.472
+      ],
+      "wall_angle_radians": -1.7677592805287667,
+      "boundary_projection_offset_m": 1.625,
+      "inward": [
+        0.6094059643281168,
+        -0.792858354714963
+      ],
+      "owner_gate_count": 6,
+      "status": "PROVISIONAL_MAP_CLUSTER",
+      "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+      "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+      "unknowns": [
+        "current gate existence/state",
+        "owner A/B identity",
+        "precise location",
+        "opening dimensions",
+        "architectural appearance",
+        "pedestrian/vehicle access class"
+      ],
+      "spawn": "SPAWN_09_Gate_G3",
+      "object": "AB_Gate_G3_Provisional",
+      "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+      "functional_context_hypothesis": "owner-right upper parking connection",
+      "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+      "parameters_v8": {
+        "opening_width": 11.826758677978908,
+        "orientation": -1.7677592805287667,
+        "support_width": 0.65,
+        "support_depth": 0.95,
+        "support_height": 3.55,
+        "frame_height": 3.15,
+        "frame_depth": 0.32,
+        "pedestrian_width": 1.7,
+        "leaf_height": 2.65,
+        "leaf_parking": "sliding_flanks",
+        "wall_height": 3.5,
+        "threshold_offset": 0.06,
+        "threshold_depth": 6.0,
+        "wall_connection_half": 18.226758677978907,
+        "node_spacing": 10.62675867797891,
+        "v11_leg_width": 2.4,
+        "v11_portal_height": 9.6,
+        "v11_lintel": 2.2,
+        "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+      },
+      "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+    },
+    {
+      "id": "G4",
+      "label": "Right-side gate B",
+      "osm_nodes": [
+        5225739800,
+        6424866649
+      ],
+      "osm_position_blender_m": [
+        -346.95,
+        -237.775
+      ],
+      "model_position_blender_m": [
+        -342.324,
+        -238.001
+      ],
+      "wall_angle_radians": -1.6195309328830627,
+      "boundary_projection_offset_m": 4.631,
+      "inward": [
+        0.9986203486302286,
+        0.0525109445891105
+      ],
+      "owner_gate_count": 6,
+      "status": "PROVISIONAL_MAP_CLUSTER",
+      "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+      "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+      "unknowns": [
+        "current gate existence/state",
+        "owner A/B identity",
+        "precise location",
+        "opening dimensions",
+        "architectural appearance",
+        "pedestrian/vehicle access class"
+      ],
+      "spawn": "SPAWN_10_Gate_G4",
+      "object": "AB_Gate_G4_Provisional",
+      "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+      "functional_context_hypothesis": "owner-right Academic side-road terminus",
+      "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+      "parameters_v8": {
+        "opening_width": 15.054677910366586,
+        "orientation": -1.6195309328830627,
+        "support_width": 0.65,
+        "support_depth": 0.95,
+        "support_height": 3.55,
+        "frame_height": 3.15,
+        "frame_depth": 0.32,
+        "pedestrian_width": 1.7,
+        "leaf_height": 2.65,
+        "leaf_parking": "sliding_flanks",
+        "wall_height": 3.5,
+        "threshold_offset": 0.06,
+        "threshold_depth": 6.0,
+        "wall_connection_half": 21.454677910366588,
+        "node_spacing": 13.854677910366586,
+        "v11_leg_width": 2.4,
+        "v11_portal_height": 9.6,
+        "v11_lintel": 2.2,
+        "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+      },
+      "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+    },
+    {
+      "id": "G5",
+      "label": "Left-side gate A",
+      "osm_nodes": [
+        5225739729,
+        8478493632
+      ],
+      "osm_position_blender_m": [
+        242.075,
+        79.675
+      ],
+      "model_position_blender_m": [
+        237.756,
+        76.165
+      ],
+      "wall_angle_radians": 2.2531382668903572,
+      "boundary_projection_offset_m": 5.566,
+      "inward": [
+        -0.6260160543371223,
+        -0.7798101690233215
+      ],
+      "owner_gate_count": 6,
+      "status": "PROVISIONAL_MAP_CLUSTER",
+      "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+      "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+      "unknowns": [
+        "current gate existence/state",
+        "owner A/B identity",
+        "precise location",
+        "opening dimensions",
+        "architectural appearance",
+        "pedestrian/vehicle access class"
+      ],
+      "spawn": "SPAWN_11_Gate_G5",
+      "object": "AB_Gate_G5_Provisional",
+      "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+      "functional_context_hypothesis": "owner-left upper parking connection",
+      "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+      "parameters_v8": {
+        "opening_width": 13.448926483573993,
+        "orientation": 2.2531382668903572,
+        "support_width": 0.65,
+        "support_depth": 0.95,
+        "support_height": 3.55,
+        "frame_height": 3.15,
+        "frame_depth": 0.32,
+        "pedestrian_width": 1.7,
+        "leaf_height": 2.65,
+        "leaf_parking": "sliding_flanks",
+        "wall_height": 3.5,
+        "threshold_offset": 0.06,
+        "threshold_depth": 6.0,
+        "wall_connection_half": 19.848926483573994,
+        "node_spacing": 12.248926483573994,
+        "v11_leg_width": 2.4,
+        "v11_portal_height": 9.6,
+        "v11_lintel": 2.2,
+        "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+      },
+      "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+    },
+    {
+      "id": "G6",
+      "label": "Left-side gate B",
+      "osm_nodes": [
+        5225739801,
+        8478493550
+      ],
+      "osm_position_blender_m": [
+        350.345,
+        -236.7
+      ],
+      "model_position_blender_m": [
+        346.622,
+        -236.753
+      ],
+      "wall_angle_radians": 1.5849529610284294,
+      "boundary_projection_offset_m": 3.724,
+      "inward": [
+        -0.9988340803313167,
+        0.0482750449890284
+      ],
+      "owner_gate_count": 6,
+      "status": "PROVISIONAL_MAP_CLUSTER",
+      "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+      "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+      "unknowns": [
+        "current gate existence/state",
+        "owner A/B identity",
+        "precise location",
+        "opening dimensions",
+        "architectural appearance",
+        "pedestrian/vehicle access class"
+      ],
+      "spawn": "SPAWN_12_Gate_G6",
+      "object": "AB_Gate_G6_Provisional",
+      "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+      "functional_context_hypothesis": "owner-left Academic side-road terminus",
+      "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+      "parameters_v8": {
+        "opening_width": 14.017523161672054,
+        "orientation": 1.5849529610284294,
+        "support_width": 0.65,
+        "support_depth": 0.95,
+        "support_height": 3.55,
+        "frame_height": 3.15,
+        "frame_depth": 0.32,
+        "pedestrian_width": 1.7,
+        "leaf_height": 2.65,
+        "leaf_parking": "sliding_flanks",
+        "wall_height": 3.5,
+        "threshold_offset": 0.06,
+        "threshold_depth": 6.0,
+        "wall_connection_half": 20.417523161672054,
+        "node_spacing": 12.817523161672055,
+        "v11_leg_width": 2.4,
+        "v11_portal_height": 9.6,
+        "v11_lintel": 2.2,
+        "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+      },
+      "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1564 ms (+55 ms prepare): { "gate_leaves": 19, "load_ms": 1564, "prepare_ms": 55, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1659 ms (campus { "gate_leaves": 19, "load_ms": 1564, "prepare_ms": 55, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] campus loaded with collision and batched instances  {"gate_leaves":19,"landmarks":20,"load_ms":1564,"prepare_ms":55,"prop_batches":18,"spawns":14,"static_bodies":15,"v7_ground_shader_materials":19,"v9_masked_ground_surfaces":12,"veg_batches":168}
+[PASS] spawn grounded: SPAWN_01_Main_Entrance  {"feet_y":0.19,"ground_y":0.19,"on_floor":true,"pos":[15.0,1.06,-308.0],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_02_Administration  {"feet_y":0.19,"ground_y":0.19,"on_floor":true,"pos":[0.0,1.07,-35.0],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_03_Academic  {"feet_y":0.21,"ground_y":0.21,"on_floor":true,"pos":[0.0,1.09,176.0],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_04_Institutes  {"feet_y":0.02,"ground_y":0.02,"on_floor":true,"pos":[-112.87,0.89,49.0],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_05_Central_Overview  {"feet_y":0.39,"ground_y":0.38,"on_floor":true,"pos":[16.3,1.27,-205.0],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_06_East_Institute  {"feet_y":0.05,"ground_y":0.05,"on_floor":true,"pos":[117.74,0.93,45.5],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_07_Main_Gate_Exterior  {"feet_y":0.21,"ground_y":0.21,"on_floor":true,"pos":[-19.0,1.09,-327.1],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_08_Gate_G2  {"feet_y":-0.49,"ground_y":-0.49,"on_floor":true,"pos":[6.32,0.38,630.67],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_09_Gate_G3  {"feet_y":0.11,"ground_y":0.11,"on_floor":true,"pos":[-266.04,0.98,-126.13],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_10_Gate_G4  {"feet_y":-0.2,"ground_y":-0.2,"on_floor":true,"pos":[-334.33,0.68,237.58],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_11_Gate_G5  {"feet_y":0.16,"ground_y":0.16,"on_floor":true,"pos":[232.75,1.04,-69.93],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_12_Gate_G6  {"feet_y":-0.06,"ground_y":-0.06,"on_floor":true,"pos":[338.63,0.81,236.37],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_13_Academic_Courtyard  {"feet_y":0.21,"ground_y":0.21,"on_floor":true,"pos":[0.0,1.09,280.0],"settle_move_m":0.0}
+[PASS] spawn grounded: SPAWN_14_Dormitory_Candidate  {"feet_y":0.01,"ground_y":0.01,"on_floor":true,"pos":[425.0,0.89,555.0],"settle_move_m":0.0}
+[PASS] walk moves the player (W)  {"avg_speed_mps":4.26}
+[PASS] sprint is faster (Shift+W)  {"avg_speed_mps":8.91}
+[PASS] strafe and back-pedal (A, D, S)  {"moved_m":3.69}
+[PASS] jump rises and lands (Space)  {"apex_m":1.13}
+[PASS] gravity: falls 25 m and lands on the ground  {"feet_y":0.33}
+[PASS] wall collision: Administration (front, up the portico steps)  {"hit":"COL_BLD_Administration_Cultural","moved_m":25.23,"stopped_short_by_m":0.35,"wall_distance_m":25.58}
+[PASS] wall collision: Academic Building (courtyard wing beside public route)  {"hit":"COL_BLD_Academic","moved_m":5.66,"stopped_short_by_m":0.36,"wall_distance_m":6.02}
+[PASS] wall collision: Helmy Institute  {"hit":"COL_BLD_Helmy_Institute","moved_m":13.44,"stopped_short_by_m":0.36,"wall_distance_m":13.8}
+[PASS] wall collision: East research institute  {"hit":"COL_BLD_East_Research_Institute","moved_m":13.46,"stopped_short_by_m":0.54,"wall_distance_m":14.0}
+[PASS] curb: steps down to the road and back up onto the sidewalk  {"back_y":0.21,"road_y":0.08,"sidewalk_y":0.19}
+[PASS] gate: walk from the exterior spawn through the pedestrian gate into the campus  {"end":[-19.0,0.97,-298.48],"gate_line_z":-314.6,"spawn":"SPAWN_07_Main_Gate_Exterior","start":[-19.0,1.09,-327.1]}
+[PASS] gate: portal frame leg is solid  {"hit":"COL_BLD_Main_Gate","moved_m":5.21,"obstacle_m":5.58}
+[PASS] gate: closed steel lane gate is solid  {"hit":"GateBody_GATELEAF_G1_E","moved_m":7.46,"obstacle_m":7.82}
+[PASS] fly: ascend (Space/E)  {"climb_m":52.6}
+[PASS] fly: move forward  {"moved_m":38.4}
+[PASS] fly: descend (Ctrl/Q)  {"y":34.8}
+[PASS] fly with collision is blocked by the facade  {"alt_change_m":0.38,"moved_m":13.22,"wall_m":13.58}
+[PASS] fly no-clip passes through (C)  {"moved_m":40.18}
+[PASS] fly -> walk glides down and lands  {"feet_y":0.38}
+[PASS] reset (R) returns to the last spawn  {"spawn":"SPAWN_05_Central_Overview"}
+[PASS] HUD location at the admin forecourt  {"landmark":"Administration & Cultural Building"}
+[PASS] unconfirmed identity is flagged  {"landmark":"East research institute (identity unconfirmed)"}
+[PASS] tour path clear of geometry: CIN_Academic_Public_Route  {"clipping_samples":0,"duration_s":23.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":720}
+[PASS] tour path clear of geometry: CIN_Admin_Closeup  {"clipping_samples":0,"duration_s":9.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":16.0,"samples":300}
+[PASS] tour path clear of geometry: CIN_Aerial_Flyover  {"clipping_samples":0,"duration_s":11.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":32.0,"samples":360}
+[PASS] tour path clear of geometry: CIN_Dormitory_Candidate_Garden  {"clipping_samples":0,"duration_s":17.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":4.0,"samples":540}
+[PASS] tour path clear of geometry: CIN_G2_Provisional_Gate  {"clipping_samples":0,"duration_s":5.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":180}
+[PASS] tour path clear of geometry: CIN_G3_Provisional_Gate  {"clipping_samples":0,"duration_s":5.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":180}
+[PASS] tour path clear of geometry: CIN_G4_Provisional_Gate  {"clipping_samples":0,"duration_s":5.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":180}
+[PASS] tour path clear of geometry: CIN_G5_Provisional_Gate  {"clipping_samples":0,"duration_s":5.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":180}
+[PASS] tour path clear of geometry: CIN_G6_Provisional_Gate  {"clipping_samples":0,"duration_s":5.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":180}
+[PASS] tour path clear of geometry: CIN_Ground_Approach  {"clipping_samples":0,"duration_s":23.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":720}
+[PASS] tour path clear of geometry: CIN_Main_Gate  {"clipping_samples":0,"duration_s":9.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":300}
+[PASS] tour path clear of geometry: CIN_Overview_Orbit  {"clipping_samples":0,"duration_s":20.0,"first_clips":[],"hard_cuts":28,"min_clearance_m":32.0,"samples":601}
+[PASS] tour path clear of geometry: CIN_V6_Photo_Walkthrough  {"clipping_samples":0,"duration_s":174.9667,"first_clips":[],"hard_cuts":0,"min_clearance_m":2.0,"samples":5250}
+[PASS] tour path clear of geometry: CIN_V7_Architectural_Showcase  {"clipping_samples":0,"duration_s":94.3333,"first_clips":[],"hard_cuts":10,"min_clearance_m":1.0,"samples":2831}
+[PASS] tour path clear of geometry: TOUR_Guided  {"clipping_samples":0,"duration_s":151.9667,"first_clips":[],"hard_cuts":153,"min_clearance_m":2.0,"samples":4560}
+[PASS] tour plays, pauses (P) and resumes  {"t":[0.5,0.5,1.0]}
+[PASS] tour exits with Esc  {"state":"explore"}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/godot_validation.json
+[validate] 54 passed, 0 failed

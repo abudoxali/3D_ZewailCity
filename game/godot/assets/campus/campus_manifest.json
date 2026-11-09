@@ -1,0 +1,5350 @@
+{
+ "generated": "2026-11-09 13:06:02",
+ "source_blend": "output\\Zewail_City_3D.blend",
+ "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158",
+ "game_glb_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+ "generator_sha256": {
+  "src\\build_scene.py": "40683b096f930a0677f266c772355da7cb6de0ec6279f25c6e6987a9dbe43fe1",
+  "src\\build_game_assets.py": "0551bc7af2bfd8aecc205391cb6e233fcfe0900809dd5dda1c01b7ce2068141b",
+  "src\\utilities\\__init__.py": "1fe1379bffe43064379c17c15a38385e4812949ea7c1c9505ac5486b05e9c9fa",
+  "src\\utilities\\academic_public.py": "a86ee2008e3b11a64bbbc10c82051b8e15b777e5d802db74fe92dea8463e7148",
+  "src\\utilities\\architecture.py": "3234409e280a5e3e5c524df1c5183b578793465442948c624636e3342c81837b",
+  "src\\utilities\\buildings.py": "e0e84f95ae79febfbd7a11a5380baf98c8af819ce91d63b873cc715b7790d54b",
+  "src\\utilities\\cinematics.py": "594531e8ee338ed679b3980c3c38e88faf159c8e135d94ea56d26fa768ce728e",
+  "src\\utilities\\dormitory.py": "54f82a9c986372e6af1b2fa91f510469e2720c3f36587a2507aeb65e94f14df7",
+  "src\\utilities\\game_points.py": "44ee8ef69cdb9df3b1c11eb16ff5d6e073616025bb928475de699ae646e91728",
+  "src\\utilities\\gate.py": "0291bb0c2c2cd6d18f425ae453aca123dbfe21b55d16fadb23ded29b261fb1f3",
+  "src\\utilities\\gate_inventory.py": "bc2f141320be79467c9e89caf8af86664d74099a6b1e7747b3b3aa5d003017c1",
+  "src\\utilities\\geometry.py": "45dbf5fcce17e06ec85dc8443701ed678b60779beae8131af6d429d4dafcc7c3",
+  "src\\utilities\\ground_system.py": "718c6abbc5393ce02867bcdc96d68480bdf6bdafbbaec9979edffaf9b16f9c02",
+  "src\\utilities\\materials.py": "2c43fa5a81e52b2a161f99790b876e1eba965ae71e6509857f3bb7edda06afaa",
+  "src\\utilities\\proposals.py": "b8745c343364b0eeb754b1c9934ad0579ab1b8d5663ebd0dfa6a05b4c29d873e",
+  "src\\utilities\\scene_setup.py": "b5ad90b9ebcd0b5c91b50e5a0cbc12cc6dbae3f8357ff6db2a65c21b3c71cb97",
+  "src\\utilities\\site.py": "1e0316e9f27d54d4422a617a1323434d1de60c38eb49a41279b53dc7395db9c5",
+  "src\\utilities\\site_plan.py": "c25bbe76e422edce3e87d414f4260f1887c97ce12975c97be045618232e34adb",
+  "src\\utilities\\survey.py": "5f70d73d289fdecf4b80dceeca850b43c21eb32ca63335c7f4ad2352af37d18f",
+  "src\\utilities\\v10_admin_entrance.py": "8c2ee5570645d3b5e8f0503f3c3d40b327a917f1fe74423bb01fd6d9228dfbb6",
+  "src\\utilities\\v11_academic.py": "0b13d67b6178832bdff7d0dbdcdf6673cfb77c48e303cf87b707f0506a1b1507",
+  "src\\utilities\\v11_gates.py": "7b613a88bdeaaa9e000d0b6939e04c9de9311b2f7775b11ff02dd4fc31b07087",
+  "src\\utilities\\v11_ground.py": "96264d63cff044cefd06fc983d519884775abe57f8f40e2c3ef8840f1b1301e7",
+  "src\\utilities\\v12_realism.py": "fbc03f1523e74622361374ced7f36da321aea21f7d473c29e4ad4bfa69c6b77d",
+  "src\\utilities\\v15_corridor.py": "ac2202fa300e6c7a348ea73640c96b88439da9ac2943d188d56a22c2cfa273fb",
+  "src\\utilities\\v5_cameras.py": "1c27b3b3719577878d4fee5b75f49f12d2e8406f7d635aa4c75f1f97ef54e77f",
+  "src\\utilities\\v6_academic.py": "85692492ad9e457ca9a1ba4517381d254cd30150d4926ad71a78abbd4109bc55",
+  "src\\utilities\\v6_building_entries.py": "01f60728720193b76108e953e0e71a63c2382f465748b6339b6e6df9a9416715",
+  "src\\utilities\\v6_context.py": "ce3f996909e2588bfb343b52c3c5ff3346295c41e712bc047fe2a35c880d49c5",
+  "src\\utilities\\v6_photo_cameras.py": "543c647d1f3e4e440608f7ce3f8ad93eb7203f5f25fad148576b410eb64ed2f1",
+  "src\\utilities\\v6_walkthrough.py": "b66bd3c4c335400fd0d3f95da248019f5d5ebad12307df92ce4953f660b628ee",
+  "src\\utilities\\v7_lighting.py": "c52aa761d408009e3361153dc18eb866a8fd64135fffc95daaeb59333d11b542",
+  "src\\utilities\\v7_showcase.py": "7e4d35bd92842b5a8821bdbb589774a0b1b33414bc2912d0611469afdbfc41f4",
+  "src\\utilities\\v8_gates.py": "87c2fb21da8242d747cd212962c1958eca4a5a05c2f5190e12e064c64cb15a83",
+  "src\\utilities\\v9_ground_materials.py": "7b915fea226a4eabe45c3ae23f02dd14a393ea84cb47f07de02832111e83b851",
+  "src\\utilities\\vegetation.py": "99e36dd8ea4f92f546fe8368a7a3ad9c54cb4893596ace004252326ddb592408"
+ },
+ "coordinate_system": {
+  "blender": "metres, origin = dome centre, +Y = toward north gate, Z up",
+  "godot": "glTF Y-up: godot = (x_b, z_b, -y_b)"
+ },
+ "totals": {
+  "Game_Terrain": {
+   "objects": 4,
+   "tris": 296691
+  },
+  "Game_Roads": {
+   "objects": 4,
+   "tris": 121851
+  },
+  "Game_Sidewalks": {
+   "objects": 5,
+   "tris": 494005
+  },
+  "Game_Administration": {
+   "objects": 2,
+   "tris": 27488
+  },
+  "Game_Academic": {
+   "objects": 2,
+   "tris": 84497
+  },
+  "Game_Institutes": {
+   "objects": 4,
+   "tris": 238702
+  },
+  "Game_Gate": {
+   "objects": 27,
+   "tris": 70376
+  },
+  "Game_Vegetation": {
+   "objects": 4740,
+   "tris": 17185099
+  },
+  "Game_Props": {
+   "objects": 85,
+   "tris": 7920
+  },
+  "Game_Collision": {
+   "objects": 16,
+   "tris": 424580
+  },
+  "Game_Landmarks": {
+   "objects": 21,
+   "tris": 0
+  },
+  "Game_Spawn_Points": {
+   "objects": 15,
+   "tris": 0
+  }
+ },
+ "render_tris": 18526629,
+ "collision_tris": 424580,
+ "collision_layers": {
+  "1": "world_static (terrain, roads, buildings, props)",
+  "2": "player",
+  "3": "dynamic_props (future)",
+  "4": "npc (future)",
+  "5": "vehicles (future)",
+  "6": "interactables (future: doors, info points)",
+  "7": "triggers (landmark areas)"
+ },
+ "objects": [
+  {
+   "name": "TER_Desert_Sand",
+   "collection": "Game_Terrain",
+   "tris": 89445,
+   "materials": [
+    "GM_Desert_Sand"
+   ]
+  },
+  {
+   "name": "TER_Campus_Plot",
+   "collection": "Game_Terrain",
+   "tris": 110283,
+   "materials": [
+    "GM_Graded_Campus_Soil"
+   ]
+  },
+  {
+   "name": "TER_Lawns",
+   "collection": "Game_Terrain",
+   "tris": 96963,
+   "materials": [
+    "GM_Grass_Lawn",
+    "GM_Planted_Soil_Sparse",
+    "GM_White_Pebbles",
+    "GM_Compacted_Earth",
+    "GM_V15_Planted_Bed_Soil",
+    "GM_Grass_Lawn_V15_Median"
+   ]
+  },
+  {
+   "name": "RD_Markings_M_Marking_White",
+   "collection": "Game_Roads",
+   "tris": 40525,
+   "materials": [
+    "GM_Road_Marking_White"
+   ]
+  },
+  {
+   "name": "RD_Network_External",
+   "collection": "Game_Roads",
+   "tris": 41477,
+   "materials": [
+    "GM_Asphalt"
+   ]
+  },
+  {
+   "name": "RD_Network_Internal",
+   "collection": "Game_Roads",
+   "tris": 39849,
+   "materials": [
+    "GM_Paver_Road_Grey",
+    "GM_Paver_Road_Grey_V15_Band",
+    "GM_Asphalt"
+   ]
+  },
+  {
+   "name": "SW_Curb_Edges",
+   "collection": "Game_Sidewalks",
+   "tris": 272741,
+   "materials": [
+    "GM_Concrete_Curb"
+   ]
+  },
+  {
+   "name": "SW_Curb_Precast_Units",
+   "collection": "Game_Sidewalks",
+   "tris": 146540,
+   "materials": [
+    "GM_Concrete_Curb"
+   ]
+  },
+  {
+   "name": "SW_Plaza_Paving",
+   "collection": "Game_Sidewalks",
+   "tris": 71157,
+   "materials": [
+    "GM_V6_Plaza_Inlay",
+    "GM_V6_Plaza_Grey",
+    "GM_V6_Plaza_Light",
+    "GM_V6_Garden_Pavers",
+    "GM_Paving_Limestone",
+    "GM_Paving_Light",
+    "GM_V7_Paving_Edge_Restraint"
+   ]
+  },
+  {
+   "name": "SW_Plaza_Academic_Courtyard",
+   "collection": "Game_Sidewalks",
+   "tris": 3567,
+   "materials": [
+    "GM_V6_Plaza_Grey",
+    "GM_V6_Plaza_Light",
+    "GM_Paving_Limestone",
+    "GM_Paving_Light",
+    "GM_V7_Paving_Edge_Restraint"
+   ]
+  },
+  {
+   "name": "BLD_Administration_Cultural",
+   "collection": "Game_Administration",
+   "tris": 27488,
+   "materials": [
+    "GM_Stone_Cladding",
+    "GM_V10_Ceiling_Plaster",
+    "GM_V10_Lobby_Glass",
+    "GM_Metal_Mullion",
+    "GM_V6_Plaza_Light",
+    "GM_Roof_Membrane",
+    "GM_Granite_Band",
+    "GM_Metal_Aluminium",
+    "GM_Stone_White",
+    "GM_Copper_Drum",
+    "GM_Copper_Dome",
+    "GM_Copper_Dome_Band",
+    "GM_Glass_Dark"
+   ]
+  },
+  {
+   "name": "BLD_Academic",
+   "collection": "Game_Academic",
+   "tris": 84497,
+   "materials": [
+    "GM_Stone_Cladding",
+    "GM_Roof_Membrane",
+    "GM_Granite_Band",
+    "GM_Metal_Mullion",
+    "GM_Metal_Aluminium",
+    "GM_Stone_White",
+    "GM_Lamp_Lens",
+    "GM_V6_Plaza_Light",
+    "GM_Granite_Dark",
+    "GM_Glass_Dark",
+    "GM_V6_Court_Glass",
+    "GM_Planter_Soil",
+    "GM_Hedge"
+   ]
+  },
+  {
+   "name": "BLD_Helmy_Institute",
+   "collection": "Game_Institutes",
+   "tris": 6492,
+   "materials": [
+    "GM_Stone_Cladding",
+    "GM_Roof_Membrane",
+    "GM_Granite_Band",
+    "GM_Metal_Mullion",
+    "GM_Metal_Aluminium",
+    "GM_Glass_Blue_Tint",
+    "GM_Glass_Dark",
+    "GM_Wood_Pergola"
+   ]
+  },
+  {
+   "name": "BLD_East_Research_Institute",
+   "collection": "Game_Institutes",
+   "tris": 6120,
+   "materials": [
+    "GM_Stone_Cladding",
+    "GM_Roof_Membrane",
+    "GM_Granite_Band",
+    "GM_Metal_Mullion",
+    "GM_Metal_Aluminium",
+    "GM_Glass_Dark"
+   ]
+  },
+  {
+   "name": "BLD_East_Residential_Estimated",
+   "collection": "Game_Institutes",
+   "tris": 226090,
+   "materials": [
+    "GM_V6_Residential_Stone",
+    "GM_Roof_Membrane",
+    "GM_Stone_Cladding",
+    "GM_Metal_Aluminium",
+    "GM_V7_Curtain_Greyblue",
+    "GM_V7_Curtain_Beige",
+    "GM_V7_Residential_Plinth",
+    "GM_Metal_Mullion",
+    "GM_V7_Residential_Glass",
+    "GM_V6_Residential_Window_Lit",
+    "GM_Glass_Dark",
+    "GM_Hedge",
+    "GM_Shrub_Green"
+   ]
+  },
+  {
+   "name": "BLD_Main_Gate",
+   "collection": "Game_Gate",
+   "tris": 5796,
+   "materials": [
+    "GM_Gate_Sandstone_Tiles",
+    "GM_Stucco_Ochre",
+    "GM_Ledgestone_Dark",
+    "GM_Concrete_Curb",
+    "GM_Roof_Membrane",
+    "GM_Steel_Gate_Dark",
+    "GM_Logo_Brushed_Bronze",
+    "GM_Granite_Band",
+    "GM_Metal_Aluminium"
+   ]
+  },
+  {
+   "name": "BLD_Perimeter_Wall",
+   "collection": "Game_Gate",
+   "tris": 44904,
+   "materials": [
+    "GM_Concrete_Curb",
+    "GM_Stucco_Ochre",
+    "GM_Gate_Sandstone_Tiles"
+   ]
+  },
+  {
+   "name": "BLD_Gate_G2_Provisional",
+   "collection": "Game_Gate",
+   "tris": 1652,
+   "materials": [
+    "GM_Concrete_Curb",
+    "GM_Gate_Sandstone_Tiles",
+    "GM_Stucco_Ochre",
+    "GM_Ledgestone_Dark",
+    "GM_Roof_Membrane",
+    "GM_Stone_White",
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "BLD_Gate_G3_Provisional",
+   "collection": "Game_Gate",
+   "tris": 1836,
+   "materials": [
+    "GM_Concrete_Curb",
+    "GM_Gate_Sandstone_Tiles",
+    "GM_Stucco_Ochre",
+    "GM_Ledgestone_Dark",
+    "GM_Roof_Membrane",
+    "GM_Stone_White",
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "BLD_Gate_G4_Provisional",
+   "collection": "Game_Gate",
+   "tris": 1332,
+   "materials": [
+    "GM_Concrete_Curb",
+    "GM_Gate_Sandstone_Tiles",
+    "GM_Stucco_Ochre",
+    "GM_Ledgestone_Dark",
+    "GM_Roof_Membrane",
+    "GM_Stone_White",
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "BLD_Gate_G5_Provisional",
+   "collection": "Game_Gate",
+   "tris": 1604,
+   "materials": [
+    "GM_Concrete_Curb",
+    "GM_Gate_Sandstone_Tiles",
+    "GM_Stucco_Ochre",
+    "GM_Ledgestone_Dark",
+    "GM_Roof_Membrane",
+    "GM_Stone_White",
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "BLD_Gate_G6_Provisional",
+   "collection": "Game_Gate",
+   "tris": 1780,
+   "materials": [
+    "GM_Concrete_Curb",
+    "GM_Gate_Sandstone_Tiles",
+    "GM_Stucco_Ochre",
+    "GM_Ledgestone_Dark",
+    "GM_Roof_Membrane",
+    "GM_Stone_White",
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G1_E_dx484_dy0_s1",
+   "collection": "Game_Gate",
+   "tris": 576,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G1_W_dx-484_dy0_s0",
+   "collection": "Game_Gate",
+   "tris": 576,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G1_PedW_dx-260_dy0_s0",
+   "collection": "Game_Gate",
+   "tris": 336,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G1_PedE_dx260_dy0_s0",
+   "collection": "Game_Gate",
+   "tris": 336,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G2_Ped_dx199_dy15_s0",
+   "collection": "Game_Gate",
+   "tris": 264,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G2_A_dx-735_dy-54_s0",
+   "collection": "Game_Gate",
+   "tris": 852,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G2_B_dx735_dy54_s0",
+   "collection": "Game_Gate",
+   "tris": 852,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G3_Ped_dx-39_dy-196_s0",
+   "collection": "Game_Gate",
+   "tris": 264,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G3_A_dx123_dy614_s0",
+   "collection": "Game_Gate",
+   "tris": 732,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G3_B_dx-123_dy-614_s0",
+   "collection": "Game_Gate",
+   "tris": 732,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G4_Ped_dx-10_dy-200_s0",
+   "collection": "Game_Gate",
+   "tris": 264,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G4_A_dx38_dy787_s0",
+   "collection": "Game_Gate",
+   "tris": 900,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G4_B_dx-38_dy-787_s0",
+   "collection": "Game_Gate",
+   "tris": 900,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G5_Ped_dx-126_dy155_s0",
+   "collection": "Game_Gate",
+   "tris": 264,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G5_A_dx446_dy-549_s0",
+   "collection": "Game_Gate",
+   "tris": 828,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G5_B_dx-446_dy549_s0",
+   "collection": "Game_Gate",
+   "tris": 828,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G6_Ped_dx-3_dy200_s0",
+   "collection": "Game_Gate",
+   "tris": 264,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G6_A_dx10_dy-736_s0",
+   "collection": "Game_Gate",
+   "tris": 852,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "GATELEAF_G6_B_dx-10_dy736_s0",
+   "collection": "Game_Gate",
+   "tris": 852,
+   "materials": [
+    "GM_Steel_Gate_Dark"
+   ]
+  },
+  {
+   "name": "VEG_Flower_Beds_Static",
+   "collection": "Game_Vegetation",
+   "tris": 4084,
+   "materials": [
+    "GM_White_Pebbles",
+    "GM_Red_Mulch",
+    "GM_Shrub_Bougainvillea",
+    "GM_Shrub_Orange",
+    "GM_Planter_Soil"
+   ]
+  },
+  {
+   "name": "PROP_Pergola_Admin_Side",
+   "collection": "Game_Props",
+   "tris": 444,
+   "materials": [
+    "GM_Wood_Pergola"
+   ]
+  },
+  {
+   "name": "COL_BLD_Administration_Cultural-colonly",
+   "collection": "Game_Collision",
+   "tris": 8704,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Academic-colonly",
+   "collection": "Game_Collision",
+   "tris": 26299,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Helmy_Institute-colonly",
+   "collection": "Game_Collision",
+   "tris": 1556,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_East_Research_Institute-colonly",
+   "collection": "Game_Collision",
+   "tris": 712,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Main_Gate-colonly",
+   "collection": "Game_Collision",
+   "tris": 900,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Perimeter_Wall-colonly",
+   "collection": "Game_Collision",
+   "tris": 44904,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_East_Residential_Estimated-colonly",
+   "collection": "Game_Collision",
+   "tris": 23293,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Gate_G2_Provisional-colonly",
+   "collection": "Game_Collision",
+   "tris": 240,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Gate_G3_Provisional-colonly",
+   "collection": "Game_Collision",
+   "tris": 240,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Gate_G4_Provisional-colonly",
+   "collection": "Game_Collision",
+   "tris": 240,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Gate_G5_Provisional-colonly",
+   "collection": "Game_Collision",
+   "tris": 240,
+   "materials": []
+  },
+  {
+   "name": "COL_BLD_Gate_G6_Provisional-colonly",
+   "collection": "Game_Collision",
+   "tris": 216,
+   "materials": []
+  },
+  {
+   "name": "COL_Ground-colonly",
+   "collection": "Game_Collision",
+   "tris": 302976,
+   "materials": []
+  },
+  {
+   "name": "COL_Vegetation_Trunks-colonly",
+   "collection": "Game_Collision",
+   "tris": 12280,
+   "materials": []
+  },
+  {
+   "name": "COL_Props-colonly",
+   "collection": "Game_Collision",
+   "tris": 1780,
+   "materials": []
+  }
+ ],
+ "buildings": [
+  {
+   "name": "BLD_Administration_Cultural",
+   "file": "buildings\\BLD_Administration_Cultural.glb",
+   "origin_blender": [
+    0.0,
+    -27.024999618530273,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Academic",
+   "file": "buildings\\BLD_Academic.glb",
+   "origin_blender": [
+    0.9800033569335938,
+    -258.5,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Helmy_Institute",
+   "file": "buildings\\BLD_Helmy_Institute.glb",
+   "origin_blender": [
+    -133.42999267578125,
+    -69.31999969482422,
+    0.0
+   ],
+   "rotation_z_deg": -45.33
+  },
+  {
+   "name": "BLD_East_Research_Institute",
+   "file": "buildings\\BLD_East_Research_Institute.glb",
+   "origin_blender": [
+    146.8000030517578,
+    -62.810001373291016,
+    0.0
+   ],
+   "rotation_z_deg": 42.03
+  },
+  {
+   "name": "BLD_Main_Gate",
+   "file": "buildings\\BLD_Main_Gate.glb",
+   "origin_blender": [
+    0.0,
+    318.80999755859375,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Perimeter_Wall",
+   "file": "buildings\\BLD_Perimeter_Wall.glb",
+   "origin_blender": [
+    24.084548950195312,
+    -167.4569549560547,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_East_Residential_Estimated",
+   "file": "buildings\\BLD_East_Residential_Estimated.glb",
+   "origin_blender": [
+    360.67999267578125,
+    -523.6649780273438,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Gate_G2_Provisional",
+   "file": "buildings\\BLD_Gate_G2_Provisional.glb",
+   "origin_blender": [
+    6.445000648498535,
+    -638.6739501953125,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Gate_G3_Provisional",
+   "file": "buildings\\BLD_Gate_G3_Provisional.glb",
+   "origin_blender": [
+    -270.9169921875,
+    132.4720001220703,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Gate_G4_Provisional",
+   "file": "buildings\\BLD_Gate_G4_Provisional.glb",
+   "origin_blender": [
+    -342.323974609375,
+    -238.00099182128906,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Gate_G5_Provisional",
+   "file": "buildings\\BLD_Gate_G5_Provisional.glb",
+   "origin_blender": [
+    237.75601196289062,
+    76.16500091552734,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  },
+  {
+   "name": "BLD_Gate_G6_Provisional",
+   "file": "buildings\\BLD_Gate_G6_Provisional.glb",
+   "origin_blender": [
+    346.62200927734375,
+    -236.75299072265625,
+    0.0
+   ],
+   "rotation_z_deg": 0.0
+  }
+ ],
+ "assets": [
+  {
+   "asset": "ASSET_Agave_0",
+   "file": "assets\\ASSET_Agave_0.glb",
+   "tris": 48,
+   "instances": 25
+  },
+  {
+   "asset": "ASSET_Agave_1",
+   "file": "assets\\ASSET_Agave_1.glb",
+   "tris": 48,
+   "instances": 34
+  },
+  {
+   "asset": "ASSET_Barrel_Cactus",
+   "file": "assets\\ASSET_Barrel_Cactus.glb",
+   "tris": 80,
+   "instances": 69
+  },
+  {
+   "asset": "ASSET_Cycad_0",
+   "file": "assets\\ASSET_Cycad_0.glb",
+   "tris": 164,
+   "instances": 44
+  },
+  {
+   "asset": "ASSET_Cypress_0",
+   "file": "assets\\ASSET_Cypress_0.glb",
+   "tris": 144,
+   "instances": 64
+  },
+  {
+   "asset": "ASSET_Euphorbia_0",
+   "file": "assets\\ASSET_Euphorbia_0.glb",
+   "tris": 96,
+   "instances": 26
+  },
+  {
+   "asset": "ASSET_Shrub_Green_0",
+   "file": "assets\\ASSET_Shrub_Green_0.glb",
+   "tris": 60,
+   "instances": 219
+  },
+  {
+   "asset": "ASSET_Shrub_Green_1",
+   "file": "assets\\ASSET_Shrub_Green_1.glb",
+   "tris": 60,
+   "instances": 210
+  },
+  {
+   "asset": "ASSET_Street_Lamp",
+   "file": "assets\\ASSET_Street_Lamp.glb",
+   "tris": 108,
+   "instances": 39
+  },
+  {
+   "asset": "ASSET_Street_Lamp_Double",
+   "file": "assets\\ASSET_Street_Lamp_Double.glb",
+   "tris": 144,
+   "instances": 12
+  },
+  {
+   "asset": "ASSET_V13_Date_Palm",
+   "file": "assets\\ASSET_V13_Date_Palm.glb",
+   "tris": 56000,
+   "instances": 35
+  },
+  {
+   "asset": "ASSET_V13_Pachira_C",
+   "file": "assets\\ASSET_V13_Pachira_C.glb",
+   "tris": 20551,
+   "instances": 250
+  },
+  {
+   "asset": "ASSET_V13_Pachira_D",
+   "file": "assets\\ASSET_V13_Pachira_D.glb",
+   "tris": 28105,
+   "instances": 240
+  },
+  {
+   "asset": "ASSET_V13_Palm_Detailed",
+   "file": "assets\\ASSET_V13_Palm_Detailed.glb",
+   "tris": 37904,
+   "instances": 21
+  },
+  {
+   "asset": "ASSET_V15_Groundcover_Iceplant_1",
+   "file": "assets\\ASSET_V15_Groundcover_Iceplant_1.glb",
+   "tris": 695,
+   "instances": 871
+  },
+  {
+   "asset": "ASSET_V15_Groundcover_Iceplant_2",
+   "file": "assets\\ASSET_V15_Groundcover_Iceplant_2.glb",
+   "tris": 611,
+   "instances": 821
+  },
+  {
+   "asset": "ASSET_V15_Groundcover_Iceplant_3",
+   "file": "assets\\ASSET_V15_Groundcover_Iceplant_3.glb",
+   "tris": 805,
+   "instances": 837
+  },
+  {
+   "asset": "ASSET_V15_Groundcover_Iceplant_4",
+   "file": "assets\\ASSET_V15_Groundcover_Iceplant_4.glb",
+   "tris": 855,
+   "instances": 820
+  },
+  {
+   "asset": "ASSET_V6_Dorm_Bollard",
+   "file": "assets\\ASSET_V6_Dorm_Bollard.glb",
+   "tris": 48,
+   "instances": 32
+  },
+  {
+   "asset": "ASSET_V6_Garden_Evergreen",
+   "file": "assets\\ASSET_V6_Garden_Evergreen.glb",
+   "tris": 1060,
+   "instances": 4
+  },
+  {
+   "asset": "ASSET_V7_Round_Shrub_0",
+   "file": "assets\\ASSET_V7_Round_Shrub_0.glb",
+   "tris": 20,
+   "instances": 74
+  },
+  {
+   "asset": "ASSET_V7_Round_Shrub_1",
+   "file": "assets\\ASSET_V7_Round_Shrub_1.glb",
+   "tris": 20,
+   "instances": 74
+  }
+ ],
+ "materials": [
+  {
+   "source": "M_Agave_Leaf",
+   "game": "GM_Agave_Leaf",
+   "tile_m": 6.0,
+   "albedo": "T_agave_leaf_albedo.png",
+   "normal": null,
+   "roughness": "T_agave_leaf_roughness.png"
+  },
+  {
+   "source": "M_Asphalt",
+   "game": "GM_Asphalt",
+   "tile_m": 2.1,
+   "albedo": "asphalt_01_diff_1k.jpg",
+   "normal": "asphalt_01_nor_gl_1k.jpg",
+   "roughness": "asphalt_01_rough_1k.jpg"
+  },
+  {
+   "source": "M_Barrel_Cactus",
+   "game": "GM_Barrel_Cactus",
+   "tile_m": 6.0,
+   "albedo": "T_barrel_cactus_albedo.png",
+   "normal": "T_barrel_cactus_normal.png",
+   "roughness": "T_barrel_cactus_roughness.png"
+  },
+  {
+   "source": "M_Compacted_Earth",
+   "game": "GM_Compacted_Earth",
+   "tile_m": 6.0,
+   "albedo": "T_compacted_earth_albedo.png",
+   "normal": "T_compacted_earth_normal.png",
+   "roughness": "T_compacted_earth_roughness.png"
+  },
+  {
+   "source": "M_Concrete_Curb",
+   "game": "GM_Concrete_Curb",
+   "tile_m": 2.0,
+   "albedo": "T_concrete_curb_albedo.png",
+   "normal": "T_concrete_curb_normal.png",
+   "roughness": "T_concrete_curb_roughness.png"
+  },
+  {
+   "source": "M_Copper_Dome",
+   "game": "GM_Copper_Dome",
+   "tile_m": 6.0,
+   "albedo": "T_copper_dome_albedo.png",
+   "normal": null,
+   "roughness": "T_copper_dome_roughness.png"
+  },
+  {
+   "source": "M_Copper_Dome_Band",
+   "game": "GM_Copper_Dome_Band",
+   "tile_m": 6.0,
+   "albedo": "T_copper_dome_band_albedo.png",
+   "normal": null,
+   "roughness": "T_copper_dome_band_roughness.png"
+  },
+  {
+   "source": "M_Copper_Drum",
+   "game": "GM_Copper_Drum",
+   "tile_m": 6.0,
+   "albedo": "T_copper_drum_albedo.png",
+   "normal": null,
+   "roughness": "T_copper_drum_roughness.png"
+  },
+  {
+   "source": "M_Cycad_Frond",
+   "game": "GM_Cycad_Frond",
+   "tile_m": 6.0,
+   "albedo": "T_cycad_frond_albedo.png",
+   "normal": null,
+   "roughness": "T_cycad_frond_roughness.png"
+  },
+  {
+   "source": "M_Cypress_Foliage",
+   "game": "GM_Cypress_Foliage",
+   "tile_m": 6.0,
+   "albedo": "T_cypress_foliage_albedo.png",
+   "normal": "T_cypress_foliage_normal.png",
+   "roughness": "T_cypress_foliage_roughness.png"
+  },
+  {
+   "source": "M_Desert_Sand",
+   "game": "GM_Desert_Sand",
+   "tile_m": 6.0,
+   "albedo": "T_desert_sand_albedo.png",
+   "normal": "T_desert_sand_normal.png",
+   "roughness": "T_desert_sand_roughness.png"
+  },
+  {
+   "source": "M_Euphorbia_Red",
+   "game": "GM_Euphorbia_Red",
+   "tile_m": 6.0,
+   "albedo": "T_euphorbia_red_albedo.png",
+   "normal": null,
+   "roughness": "T_euphorbia_red_roughness.png"
+  },
+  {
+   "source": "M_Gate_Sandstone_Tiles",
+   "game": "GM_Gate_Sandstone_Tiles",
+   "tile_m": 4.8,
+   "albedo": "T_gate_sandstone_tiles_albedo.png",
+   "normal": "T_gate_sandstone_tiles_normal.png",
+   "roughness": "T_gate_sandstone_tiles_roughness.png"
+  },
+  {
+   "source": "M_Glass_Blue_Tint",
+   "game": "GM_Glass_Blue_Tint",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Glass_Dark",
+   "game": "GM_Glass_Dark",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Graded_Campus_Soil",
+   "game": "GM_Graded_Campus_Soil",
+   "tile_m": 6.0,
+   "albedo": "T_graded_campus_soil_albedo.png",
+   "normal": "T_graded_campus_soil_normal.png",
+   "roughness": "T_graded_campus_soil_roughness.png"
+  },
+  {
+   "source": "M_Granite_Band",
+   "game": "GM_Granite_Band",
+   "tile_m": 3.0,
+   "albedo": "T_granite_band_albedo.png",
+   "normal": null,
+   "roughness": "T_granite_band_roughness.png"
+  },
+  {
+   "source": "M_Granite_Dark",
+   "game": "GM_Granite_Dark",
+   "tile_m": 3.0,
+   "albedo": "T_granite_dark_albedo.png",
+   "normal": null,
+   "roughness": "T_granite_dark_roughness.png"
+  },
+  {
+   "source": "M_Grass_Lawn",
+   "game": "GM_Grass_Lawn",
+   "tile_m": 3.0,
+   "albedo": "T_grass_lawn_albedo.png",
+   "normal": "T_grass_lawn_normal.png",
+   "roughness": "T_grass_lawn_roughness.png"
+  },
+  {
+   "source": "M_Grass_Lawn_V15_Median",
+   "game": "GM_Grass_Lawn_V15_Median",
+   "tile_m": 8.0,
+   "albedo": "T_grass_lawn_v15_median_albedo.png",
+   "normal": "T_grass_lawn_v15_median_normal.png",
+   "roughness": "T_grass_lawn_v15_median_roughness.png"
+  },
+  {
+   "source": "M_Hedge",
+   "game": "GM_Hedge",
+   "tile_m": 6.0,
+   "albedo": "T_hedge_albedo.png",
+   "normal": "T_hedge_normal.png",
+   "roughness": "T_hedge_roughness.png"
+  },
+  {
+   "source": "M_Lamp_Lens",
+   "game": "GM_Lamp_Lens",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Lamp_Pole",
+   "game": "GM_Lamp_Pole",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Ledgestone_Dark",
+   "game": "GM_Ledgestone_Dark",
+   "tile_m": 2.4,
+   "albedo": "T_ledgestone_dark_albedo.png",
+   "normal": "T_ledgestone_dark_normal.png",
+   "roughness": "T_ledgestone_dark_roughness.png"
+  },
+  {
+   "source": "M_Logo_Brushed_Bronze",
+   "game": "GM_Logo_Brushed_Bronze",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Metal_Aluminium",
+   "game": "GM_Metal_Aluminium",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Metal_Mullion",
+   "game": "GM_Metal_Mullion",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Palm_Trunk",
+   "game": "GM_Palm_Trunk",
+   "tile_m": 2.0,
+   "albedo": "T_palm_trunk_albedo.png",
+   "normal": "T_palm_trunk_normal.png",
+   "roughness": "T_palm_trunk_roughness.png"
+  },
+  {
+   "source": "M_Paver_Road_Grey",
+   "game": "GM_Paver_Road_Grey",
+   "tile_m": 2.2,
+   "albedo": "T_paver_road_grey_albedo.png",
+   "normal": "T_paver_road_grey_normal.png",
+   "roughness": "T_paver_road_grey_roughness.png"
+  },
+  {
+   "source": "M_Paver_Road_Grey_V15_Band",
+   "game": "GM_Paver_Road_Grey_V15_Band",
+   "tile_m": 2.2,
+   "albedo": "T_paver_road_grey_v15_band_albedo.png",
+   "normal": "T_paver_road_grey_v15_band_normal.png",
+   "roughness": "T_paver_road_grey_v15_band_roughness.png"
+  },
+  {
+   "source": "M_Paving_Light",
+   "game": "GM_Paving_Light",
+   "tile_m": 4.8,
+   "albedo": "T_paving_light_albedo.png",
+   "normal": "T_paving_light_normal.png",
+   "roughness": "T_paving_light_roughness.png"
+  },
+  {
+   "source": "M_Paving_Limestone",
+   "game": "GM_Paving_Limestone",
+   "tile_m": 3.6,
+   "albedo": "T_paving_limestone_albedo.png",
+   "normal": "T_paving_limestone_normal.png",
+   "roughness": "T_paving_limestone_roughness.png"
+  },
+  {
+   "source": "M_Planted_Soil_Sparse",
+   "game": "GM_Planted_Soil_Sparse",
+   "tile_m": 6.0,
+   "albedo": "T_planted_soil_sparse_albedo.png",
+   "normal": "T_planted_soil_sparse_normal.png",
+   "roughness": "T_planted_soil_sparse_roughness.png"
+  },
+  {
+   "source": "M_Planter_Soil",
+   "game": "GM_Planter_Soil",
+   "tile_m": 2.0,
+   "albedo": "T_planter_soil_albedo.png",
+   "normal": "T_planter_soil_normal.png",
+   "roughness": "T_planter_soil_roughness.png"
+  },
+  {
+   "source": "M_Red_Mulch",
+   "game": "GM_Red_Mulch",
+   "tile_m": 2.0,
+   "albedo": "T_red_mulch_albedo.png",
+   "normal": "T_red_mulch_normal.png",
+   "roughness": "T_red_mulch_roughness.png"
+  },
+  {
+   "source": "M_Road_Marking_White",
+   "game": "GM_Road_Marking_White",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Roof_Membrane",
+   "game": "GM_Roof_Membrane",
+   "tile_m": 6.0,
+   "albedo": "T_roof_membrane_albedo.png",
+   "normal": "T_roof_membrane_normal.png",
+   "roughness": "T_roof_membrane_roughness.png"
+  },
+  {
+   "source": "M_Shrub_Bougainvillea",
+   "game": "GM_Shrub_Bougainvillea",
+   "tile_m": 6.0,
+   "albedo": "T_shrub_bougainvillea_albedo.png",
+   "normal": "T_shrub_bougainvillea_normal.png",
+   "roughness": "T_shrub_bougainvillea_roughness.png"
+  },
+  {
+   "source": "M_Shrub_Green",
+   "game": "GM_Shrub_Green",
+   "tile_m": 6.0,
+   "albedo": "T_shrub_green_albedo.png",
+   "normal": "T_shrub_green_normal.png",
+   "roughness": "T_shrub_green_roughness.png"
+  },
+  {
+   "source": "M_Shrub_Orange",
+   "game": "GM_Shrub_Orange",
+   "tile_m": 6.0,
+   "albedo": "T_shrub_orange_albedo.png",
+   "normal": "T_shrub_orange_normal.png",
+   "roughness": "T_shrub_orange_roughness.png"
+  },
+  {
+   "source": "M_Steel_Gate_Dark",
+   "game": "GM_Steel_Gate_Dark",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_Stone_Cladding",
+   "game": "GM_Stone_Cladding",
+   "tile_m": 4.8,
+   "albedo": "T_stone_cladding_albedo.png",
+   "normal": "T_stone_cladding_normal.png",
+   "roughness": "T_stone_cladding_roughness.png"
+  },
+  {
+   "source": "M_Stone_White",
+   "game": "GM_Stone_White",
+   "tile_m": 6.0,
+   "albedo": "T_stone_white_albedo.png",
+   "normal": "T_stone_white_normal.png",
+   "roughness": "T_stone_white_roughness.png"
+  },
+  {
+   "source": "M_Stucco_Ochre",
+   "game": "GM_Stucco_Ochre",
+   "tile_m": 6.0,
+   "albedo": "T_stucco_ochre_albedo.png",
+   "normal": "T_stucco_ochre_normal.png",
+   "roughness": "T_stucco_ochre_roughness.png"
+  },
+  {
+   "source": "M_Tree_Bark",
+   "game": "GM_Tree_Bark",
+   "tile_m": 2.0,
+   "albedo": "T_tree_bark_albedo.png",
+   "normal": "T_tree_bark_normal.png",
+   "roughness": "T_tree_bark_roughness.png"
+  },
+  {
+   "source": "M_V10_Ceiling_Plaster",
+   "game": "GM_V10_Ceiling_Plaster",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V10_Lobby_Glass",
+   "game": "GM_V10_Lobby_Glass",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V12_pachira_aquatica_01_bark",
+   "game": "GM_V12_pachira_aquatica_01_bark",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V12_pachira_aquatica_01_leaves",
+   "game": "GM_V12_pachira_aquatica_01_leaves",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Date_Palm_Date palm foliage",
+   "game": "GM_V13_Date_Palm_Date palm foliage",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Date_Palm_Ripe dates",
+   "game": "GM_V13_Date_Palm_Ripe dates",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Date_Palm_bark",
+   "game": "GM_V13_Date_Palm_bark",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Date_Palm_leaf",
+   "game": "GM_V13_Date_Palm_leaf",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Palm_Detailed_(0.048, 0.17, 0.022)",
+   "game": "GM_V13_Palm_Detailed_(0.048, 0.17, 0.022)",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Palm_Detailed_(0.083, 0.26, 0.035)",
+   "game": "GM_V13_Palm_Detailed_(0.083, 0.26, 0.035)",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Palm_Detailed_(0.15, 0.34, 0.052)",
+   "game": "GM_V13_Palm_Detailed_(0.15, 0.34, 0.052)",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Palm_Detailed_bark",
+   "game": "GM_V13_Palm_Detailed_bark",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V13_Palm_Detailed_leaf",
+   "game": "GM_V13_Palm_Detailed_leaf",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V15_Iceplant_crystalline_iceplant",
+   "game": "GM_V15_Iceplant_crystalline_iceplant",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V15_Planted_Bed_Soil",
+   "game": "GM_V15_Planted_Bed_Soil",
+   "tile_m": 2.0,
+   "albedo": "T_v15_planted_bed_soil_albedo.png",
+   "normal": "T_v15_planted_bed_soil_normal.png",
+   "roughness": "T_v15_planted_bed_soil_roughness.png"
+  },
+  {
+   "source": "M_V6_Court_Glass",
+   "game": "GM_V6_Court_Glass",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V6_Garden_Pavers",
+   "game": "GM_V6_Garden_Pavers",
+   "tile_m": 2.2,
+   "albedo": "T_v6_garden_pavers_albedo.png",
+   "normal": "T_v6_garden_pavers_normal.png",
+   "roughness": "T_v6_garden_pavers_roughness.png"
+  },
+  {
+   "source": "M_V6_Plaza_Grey",
+   "game": "GM_V6_Plaza_Grey",
+   "tile_m": 3.6,
+   "albedo": "T_v6_plaza_grey_albedo.png",
+   "normal": "T_v6_plaza_grey_normal.png",
+   "roughness": "T_v6_plaza_grey_roughness.png"
+  },
+  {
+   "source": "M_V6_Plaza_Inlay",
+   "game": "GM_V6_Plaza_Inlay",
+   "tile_m": 6.0,
+   "albedo": "T_v6_plaza_inlay_albedo.png",
+   "normal": null,
+   "roughness": "T_v6_plaza_inlay_roughness.png"
+  },
+  {
+   "source": "M_V6_Plaza_Light",
+   "game": "GM_V6_Plaza_Light",
+   "tile_m": 3.6,
+   "albedo": "T_v6_plaza_light_albedo.png",
+   "normal": "T_v6_plaza_light_normal.png",
+   "roughness": "T_v6_plaza_light_roughness.png"
+  },
+  {
+   "source": "M_V6_Residential_Stone",
+   "game": "GM_V6_Residential_Stone",
+   "tile_m": 4.8,
+   "albedo": "T_v6_residential_stone_albedo.png",
+   "normal": "T_v6_residential_stone_normal.png",
+   "roughness": "T_v6_residential_stone_roughness.png"
+  },
+  {
+   "source": "M_V6_Residential_Window_Lit",
+   "game": "GM_V6_Residential_Window_Lit",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V7_Curtain_Beige",
+   "game": "GM_V7_Curtain_Beige",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V7_Curtain_Greyblue",
+   "game": "GM_V7_Curtain_Greyblue",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V7_Paving_Edge_Restraint",
+   "game": "GM_V7_Paving_Edge_Restraint",
+   "tile_m": 2.0,
+   "albedo": "T_v7_paving_edge_restraint_albedo.png",
+   "normal": "T_v7_paving_edge_restraint_normal.png",
+   "roughness": "T_v7_paving_edge_restraint_roughness.png"
+  },
+  {
+   "source": "M_V7_Residential_Glass",
+   "game": "GM_V7_Residential_Glass",
+   "tile_m": 6.0,
+   "albedo": null,
+   "normal": null,
+   "roughness": null
+  },
+  {
+   "source": "M_V7_Residential_Plinth",
+   "game": "GM_V7_Residential_Plinth",
+   "tile_m": 6.0,
+   "albedo": "T_v7_residential_plinth_albedo.png",
+   "normal": "T_v7_residential_plinth_normal.png",
+   "roughness": "T_v7_residential_plinth_roughness.png"
+  },
+  {
+   "source": "M_White_Pebbles",
+   "game": "GM_White_Pebbles",
+   "tile_m": 2.0,
+   "albedo": "T_white_pebbles_albedo.png",
+   "normal": "T_white_pebbles_normal.png",
+   "roughness": "T_white_pebbles_roughness.png"
+  },
+  {
+   "source": "M_Wood_Pergola",
+   "game": "GM_Wood_Pergola",
+   "tile_m": 2.0,
+   "albedo": "T_wood_pergola_albedo.png",
+   "normal": "T_wood_pergola_normal.png",
+   "roughness": "T_wood_pergola_roughness.png"
+  }
+ ],
+ "spawn_points": [
+  {
+   "id": "SPAWN_01_Main_Entrance",
+   "label": "Main gate, inside (east walkway)",
+   "note": "Paved plaza just inside the portal frame, beside the outbound lane (C02, D02, OSM gate nodes).",
+   "blender": [
+    15.0,
+    308.0,
+    0.0
+   ],
+   "godot": [
+    15.0,
+    0.0,
+    -308.0
+   ],
+   "facing_godot": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "id": "SPAWN_02_Administration",
+   "label": "Administration & Cultural Building forecourt",
+   "note": "Forecourt paving between the portico steps and the drop-off loop (A01, A02, OSM 912696912).",
+   "blender": [
+    0.0,
+    35.0,
+    0.0
+   ],
+   "godot": [
+    0.0,
+    0.0,
+    -35.0
+   ],
+   "facing_godot": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "id": "SPAWN_03_Academic",
+   "label": "Academic Building, Gate (A) courtyard",
+   "note": "Courtyard between the two forward prongs, facing the Gate (A) front (D05, OSM 540106547).",
+   "blender": [
+    0.0,
+    -176.0,
+    0.0
+   ],
+   "godot": [
+    0.0,
+    0.0,
+    176.0
+   ],
+   "facing_godot": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "id": "SPAWN_04_Institutes",
+   "label": "Helmy Institute forecourt",
+   "note": "In front of the Helmy Institute's long facade (A05, OSM 540106545).",
+   "blender": [
+    -112.87014257280492,
+    -48.99562147140997,
+    0.0
+   ],
+   "godot": [
+    -112.87,
+    0.0,
+    48.996
+   ],
+   "facing_godot": [
+    -0.7111676730264643,
+    0.0,
+    0.7030224326734702
+   ]
+  },
+  {
+   "id": "SPAWN_05_Central_Overview",
+   "label": "Approach walkway (east), facing the admin",
+   "note": "East walkway of the approach between the planted strip and the outer bed (C02, OSM approach).",
+   "blender": [
+    16.3,
+    205.0,
+    0.0
+   ],
+   "godot": [
+    16.3,
+    0.0,
+    -205.0
+   ],
+   "facing_godot": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "id": "SPAWN_06_East_Institute",
+   "label": "East research institute forecourt",
+   "note": "In front of the east institute (OSM 540106546; A01). Identity unconfirmed.",
+   "blender": [
+    117.73652966290607,
+    -45.50179625250328,
+    0.0
+   ],
+   "godot": [
+    117.737,
+    0.0,
+    45.502
+   ],
+   "facing_godot": [
+    0.6695196243388155,
+    0.0,
+    0.7427943676585138
+   ]
+  },
+  {
+   "id": "SPAWN_07_Main_Gate_Exterior",
+   "label": "Main gate, outside (Ahmed Zewail Road side)",
+   "note": "Exterior apron in front of the west gate building, facing the portal and the pedestrian gate (C01, D03).",
+   "blender": [
+    -19.0,
+    327.1,
+    0.0
+   ],
+   "godot": [
+    -19.0,
+    0.0,
+    -327.1
+   ],
+   "facing_godot": [
+    0.19611613513818402,
+    0.0,
+    0.9805806756909201
+   ]
+  },
+  {
+   "id": "SPAWN_08_Gate_G2",
+   "label": "G2 Rear gate (provisional)",
+   "note": "OSM gate-node cluster; boundary opening and architecture estimated. Current access unconfirmed.",
+   "blender": [
+    6.321870388278711,
+    -630.6749476124533,
+    0.0
+   ],
+   "godot": [
+    6.322,
+    0.0,
+    630.675
+   ],
+   "facing_godot": [
+    0.015391201465161196,
+    0.0,
+    0.9998815484433438
+   ]
+  },
+  {
+   "id": "SPAWN_09_Gate_G3",
+   "label": "G3 Right-side gate A (provisional)",
+   "note": "OSM gate-node cluster; boundary opening and architecture estimated. Current access unconfirmed.",
+   "blender": [
+    -266.041752285375,
+    126.12913316228031,
+    0.0
+   ],
+   "godot": [
+    -266.042,
+    0.0,
+    -126.129
+   ],
+   "facing_godot": [
+    -0.6094059643281168,
+    0.0,
+    -0.792858354714963
+   ]
+  },
+  {
+   "id": "SPAWN_10_Gate_G4",
+   "label": "G4 Right-side gate B (provisional)",
+   "note": "OSM gate-node cluster; boundary opening and architecture estimated. Current access unconfirmed.",
+   "blender": [
+    -334.3350372109582,
+    -237.58091244328713,
+    0.0
+   ],
+   "godot": [
+    -334.335,
+    0.0,
+    237.581
+   ],
+   "facing_godot": [
+    -0.9986203486302286,
+    0.0,
+    0.0525109445891105
+   ]
+  },
+  {
+   "id": "SPAWN_11_Gate_G5",
+   "label": "G5 Left-side gate A (provisional)",
+   "note": "OSM gate-node cluster; boundary opening and architecture estimated. Current access unconfirmed.",
+   "blender": [
+    232.74787156530303,
+    69.92651864781344,
+    0.0
+   ],
+   "godot": [
+    232.748,
+    0.0,
+    -69.927
+   ],
+   "facing_godot": [
+    0.6260160543371223,
+    0.0,
+    -0.7798101690233215
+   ]
+  },
+  {
+   "id": "SPAWN_12_Gate_G6",
+   "label": "G6 Left-side gate B (provisional)",
+   "note": "OSM gate-node cluster; boundary opening and architecture estimated. Current access unconfirmed.",
+   "blender": [
+    338.6313273573495,
+    -236.36679964008775,
+    0.0
+   ],
+   "godot": [
+    338.631,
+    0.0,
+    236.367
+   ],
+   "facing_godot": [
+    0.9988340803313167,
+    0.0,
+    0.0482750449890284
+   ]
+  },
+  {
+   "id": "SPAWN_13_Academic_Courtyard",
+   "label": "Academic inner courtyard",
+   "note": "Owner-described courtyard and central route; dimensions and landscaping estimated.",
+   "blender": [
+    0.0,
+    -280.0,
+    0.0
+   ],
+   "godot": [
+    0.0,
+    0.0,
+    280.0
+   ],
+   "facing_godot": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "id": "SPAWN_14_Dormitory_Candidate",
+   "label": "Dormitory candidate / garden approach",
+   "note": "Five-storey pair fits owner left/rear description; identity and garden layout remain unconfirmed.",
+   "blender": [
+    425.0,
+    -555.0,
+    0.0
+   ],
+   "godot": [
+    425.0,
+    0.0,
+    555.0
+   ],
+   "facing_godot": [
+    -0.3713906763541038,
+    0.0,
+    0.9284766908852594
+   ]
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "LM_Main_Gate",
+   "label": "Main gate (portal frame and gatehouse)",
+   "verified": true,
+   "evidence": "Commons C01/C02 (2017-11-18), official D02/D03; OSM gate nodes 5225739523/5225739528.",
+   "radius": 45.0,
+   "spawn": "SPAWN_07_Main_Gate_Exterior",
+   "blender": [
+    0.0,
+    314.6,
+    9.0
+   ],
+   "godot": [
+    0.0,
+    9.0,
+    -314.6
+   ]
+  },
+  {
+   "id": "LM_Approach_Road",
+   "label": "Approach road",
+   "verified": true,
+   "evidence": "OSM 685373372 / 912696914; C02 (2017), A04.",
+   "radius": 45.0,
+   "spawn": "SPAWN_05_Central_Overview",
+   "blender": [
+    0.0,
+    200.0,
+    1.0
+   ],
+   "godot": [
+    0.0,
+    1.0,
+    -200.0
+   ]
+  },
+  {
+   "id": "LM_Flower_Bed",
+   "label": "Circular flower bed",
+   "verified": true,
+   "evidence": "A01, A02, C02 (white pebbles, dark gravel, marigold rings). Position estimated.",
+   "radius": 18.0,
+   "spawn": "SPAWN_02_Administration",
+   "blender": [
+    0.0,
+    82.0,
+    0.5
+   ],
+   "godot": [
+    0.0,
+    0.5,
+    -82.0
+   ]
+  },
+  {
+   "id": "LM_Administration",
+   "label": "Administration & Cultural Building",
+   "verified": true,
+   "evidence": "A01-A04 photographs; OSM 540106548; Hassan Allam project page.",
+   "radius": 95.0,
+   "spawn": "SPAWN_02_Administration",
+   "blender": [
+    0.0,
+    0.0,
+    12.0
+   ],
+   "godot": [
+    0.0,
+    12.0,
+    -0.0
+   ]
+  },
+  {
+   "id": "LM_Copper_Dome",
+   "label": "Copper dome",
+   "verified": true,
+   "evidence": "A01-A03 photographs (copper drum, banded shallow dome, mast).",
+   "radius": 30.0,
+   "spawn": "SPAWN_02_Administration",
+   "blender": [
+    0.0,
+    0.0,
+    30.0
+   ],
+   "godot": [
+    0.0,
+    30.0,
+    -0.0
+   ]
+  },
+  {
+   "id": "LM_Academic_Gate_A",
+   "label": "Academic Building, Gate (A)",
+   "verified": true,
+   "evidence": "Official zewailcity.edu.eg image 'Academic Building Gate A' (D05); OSM 540106547.",
+   "radius": 28.0,
+   "spawn": "SPAWN_03_Academic",
+   "blender": [
+    0.0,
+    -229.0,
+    4.0
+   ],
+   "godot": [
+    0.0,
+    4.0,
+    229.0
+   ]
+  },
+  {
+   "id": "LM_Academic",
+   "label": "Academic Building",
+   "verified": true,
+   "evidence": "OSM 540106547; A01 front blocks; D05.",
+   "radius": 115.0,
+   "spawn": "SPAWN_03_Academic",
+   "blender": [
+    0.0,
+    -230.0,
+    14.0
+   ],
+   "godot": [
+    0.0,
+    14.0,
+    230.0
+   ]
+  },
+  {
+   "id": "LM_Helmy_Institute",
+   "label": "Helmy Institute for Medical Sciences",
+   "verified": true,
+   "evidence": "SIAC project page and A05 aerial; OSM 540106545.",
+   "radius": 70.0,
+   "spawn": "SPAWN_04_Institutes",
+   "blender": [
+    -133.43,
+    -69.32,
+    10.0
+   ],
+   "godot": [
+    -133.43,
+    10.0,
+    69.32
+   ]
+  },
+  {
+   "id": "LM_East_Institute",
+   "label": "East research institute (identity unconfirmed)",
+   "verified": false,
+   "evidence": "OSM 540106546; A01. Presumed NBE Nanosciences, not confirmed.",
+   "radius": 60.0,
+   "spawn": "SPAWN_06_East_Institute",
+   "blender": [
+    146.8,
+    -62.81,
+    10.0
+   ],
+   "godot": [
+    146.8,
+    10.0,
+    62.81
+   ]
+  },
+  {
+   "id": "LM_Gate_G2",
+   "label": "G2 Rear gate (provisional)",
+   "verified": false,
+   "evidence": "OSM 5225739664,5225739665; owner reports six gates. No gate photograph.",
+   "radius": 25.0,
+   "spawn": "SPAWN_08_Gate_G2",
+   "blender": [
+    6.445,
+    -638.674,
+    2.0
+   ],
+   "godot": [
+    6.445,
+    2.0,
+    638.674
+   ]
+  },
+  {
+   "id": "LM_Gate_G3",
+   "label": "G3 Right-side gate A (provisional)",
+   "verified": false,
+   "evidence": "OSM 5225739797,8478493617; owner reports six gates. No gate photograph.",
+   "radius": 25.0,
+   "spawn": "SPAWN_09_Gate_G3",
+   "blender": [
+    -270.917,
+    132.472,
+    2.0
+   ],
+   "godot": [
+    -270.917,
+    2.0,
+    -132.472
+   ]
+  },
+  {
+   "id": "LM_Gate_G4",
+   "label": "G4 Right-side gate B (provisional)",
+   "verified": false,
+   "evidence": "OSM 5225739800,6424866649; owner reports six gates. No gate photograph.",
+   "radius": 25.0,
+   "spawn": "SPAWN_10_Gate_G4",
+   "blender": [
+    -342.324,
+    -238.001,
+    2.0
+   ],
+   "godot": [
+    -342.324,
+    2.0,
+    238.001
+   ]
+  },
+  {
+   "id": "LM_Gate_G5",
+   "label": "G5 Left-side gate A (provisional)",
+   "verified": false,
+   "evidence": "OSM 5225739729,8478493632; owner reports six gates. No gate photograph.",
+   "radius": 25.0,
+   "spawn": "SPAWN_11_Gate_G5",
+   "blender": [
+    237.756,
+    76.165,
+    2.0
+   ],
+   "godot": [
+    237.756,
+    2.0,
+    -76.165
+   ]
+  },
+  {
+   "id": "LM_Gate_G6",
+   "label": "G6 Left-side gate B (provisional)",
+   "verified": false,
+   "evidence": "OSM 5225739801,8478493550; owner reports six gates. No gate photograph.",
+   "radius": 25.0,
+   "spawn": "SPAWN_12_Gate_G6",
+   "blender": [
+    346.622,
+    -236.753,
+    2.0
+   ],
+   "godot": [
+    346.622,
+    2.0,
+    236.753
+   ]
+  },
+  {
+   "id": "LM_Academic_Courtyard",
+   "label": "Academic inner courtyard",
+   "verified": false,
+   "evidence": "Owner confirms courtyard, palms, seating and through-route. Geometry/layout estimated; cafeteria is in basement per official dining page.",
+   "radius": 58.0,
+   "spawn": "SPAWN_13_Academic_Courtyard",
+   "blender": [
+    0.0,
+    -280.0,
+    1.0
+   ],
+   "godot": [
+    0.0,
+    1.0,
+    280.0
+   ]
+  },
+  {
+   "id": "LM_Dormitory_Candidate",
+   "label": "Student dormitory candidate (identity unconfirmed)",
+   "verified": false,
+   "evidence": "OSM 540106540/541 five storeys; owner left/rear location and central garden; D01 photo does not geolocate the building.",
+   "radius": 85.0,
+   "spawn": "SPAWN_14_Dormitory_Candidate",
+   "blender": [
+    390.0,
+    -603.0,
+    1.0
+   ],
+   "godot": [
+    390.0,
+    1.0,
+    603.0
+   ]
+  },
+  {
+   "id": "LM_Building_C",
+   "label": "Academic Building, Gate (C) (position estimated)",
+   "verified": false,
+   "evidence": "P12 shows Gate (C) on the curved stone face. Placed at the owner X mark at 225 deg (sequential-lettering hypothesis); not a boundary gate.",
+   "radius": 16.0,
+   "spawn": "SPAWN_13_Academic_Courtyard",
+   "blender": [
+    -72.12489168102786,
+    -321.12489168102786,
+    3.0
+   ],
+   "godot": [
+    -72.125,
+    3.0,
+    321.125
+   ]
+  },
+  {
+   "id": "LM_Building_F",
+   "label": "UST / Gate (F) (corner position estimated)",
+   "verified": false,
+   "evidence": "P14 shows the UST panel and Gate (F); owner 13 places it at the corner. +X side-wing corner estimated; not a boundary gate.",
+   "radius": 20.0,
+   "spawn": "SPAWN_03_Academic",
+   "blender": [
+    103.0,
+    -223.0,
+    3.0
+   ],
+   "godot": [
+    103.0,
+    3.0,
+    223.0
+   ]
+  },
+  {
+   "id": "LM_Academic_Rear_Passage",
+   "label": "Academic rear passage",
+   "verified": false,
+   "evidence": "Owner 09: the court connects to the rear open area through the rear passage (ring aperture 266-274 deg). Width/height estimated.",
+   "radius": 18.0,
+   "spawn": "SPAWN_13_Academic_Courtyard",
+   "blender": [
+    0.0,
+    -350.0,
+    2.0
+   ],
+   "godot": [
+    0.0,
+    2.0,
+    350.0
+   ]
+  },
+  {
+   "id": "LM_Academic_Upper_Terrace",
+   "label": "Academic upper terrace",
+   "verified": false,
+   "evidence": "Owner: two great stairs reach an open upper terrace with railed openings overlooking the ground floor (14, P09). Dimensions estimated.",
+   "radius": 20.0,
+   "spawn": "SPAWN_03_Academic",
+   "blender": [
+    0.0,
+    -226.0,
+    5.4
+   ],
+   "godot": [
+    0.0,
+    5.4,
+    226.0
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "label": "Main/front gate",
+   "osm_nodes": [
+    5225739523,
+    5225739528
+   ],
+   "osm_position_blender_m": [
+    0.0,
+    314.6
+   ],
+   "model_position_blender_m": [
+    0.0,
+    314.6
+   ],
+   "wall_angle_radians": -3.1308538503779935,
+   "boundary_projection_offset_m": 0.0,
+   "inward": [
+    -0.0,
+    -1.0
+   ],
+   "owner_gate_count": 6,
+   "status": "PHOTO_AND_MAP",
+   "appearance": "C01/C02/D02/D03; V4 portal retained",
+   "pedestrian_route": "V4 open pedestrian door",
+   "unknowns": [],
+   "spawn": "SPAWN_07_Main_Gate_Exterior",
+   "object": "AB_Main_Gate_Complex",
+   "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+   "functional_context_hypothesis": "main axis front",
+   "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated."
+  },
+  {
+   "id": "G2",
+   "label": "Rear gate",
+   "osm_nodes": [
+    5225739664,
+    5225739665
+   ],
+   "osm_position_blender_m": [
+    6.23,
+    -635.745
+   ],
+   "model_position_blender_m": [
+    6.445,
+    -638.674
+   ],
+   "wall_angle_radians": 0.07315853752854463,
+   "boundary_projection_offset_m": 2.937,
+   "inward": [
+    -0.015391201465161196,
+    0.9998815484433438
+   ],
+   "owner_gate_count": 6,
+   "status": "PROVISIONAL_MAP_CLUSTER",
+   "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+   "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+   "unknowns": [
+    "current gate existence/state",
+    "owner A/B identity",
+    "precise location",
+    "opening dimensions",
+    "architectural appearance",
+    "pedestrian/vehicle access class"
+   ],
+   "spawn": "SPAWN_08_Gate_G2",
+   "object": "AB_Gate_G2_Provisional",
+   "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+   "functional_context_hypothesis": "main axis rear (map centre offset ~6 m; not a surveyed correction)",
+   "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+   "parameters_v8": {
+    "opening_width": 14.040985164698228,
+    "orientation": 0.07315853752854463,
+    "support_width": 0.65,
+    "support_depth": 0.95,
+    "support_height": 3.55,
+    "frame_height": 3.15,
+    "frame_depth": 0.32,
+    "pedestrian_width": 1.7,
+    "leaf_height": 2.65,
+    "leaf_parking": "sliding_flanks",
+    "wall_height": 3.5,
+    "threshold_offset": 0.06,
+    "threshold_depth": 6.0,
+    "wall_connection_half": 20.44098516469823,
+    "node_spacing": 12.840985164698228,
+    "v11_leg_width": 2.4,
+    "v11_portal_height": 9.6,
+    "v11_lintel": 2.2,
+    "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+   },
+   "external_access": "UNRESOLVED_SAND_GAP_25M"
+  },
+  {
+   "id": "G3",
+   "label": "Right-side gate A",
+   "osm_nodes": [
+    5225739797,
+    8478493617
+   ],
+   "osm_position_blender_m": [
+    -272.51,
+    132.79
+   ],
+   "model_position_blender_m": [
+    -270.917,
+    132.472
+   ],
+   "wall_angle_radians": -1.7677592805287667,
+   "boundary_projection_offset_m": 1.625,
+   "inward": [
+    0.6094059643281168,
+    -0.792858354714963
+   ],
+   "owner_gate_count": 6,
+   "status": "PROVISIONAL_MAP_CLUSTER",
+   "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+   "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+   "unknowns": [
+    "current gate existence/state",
+    "owner A/B identity",
+    "precise location",
+    "opening dimensions",
+    "architectural appearance",
+    "pedestrian/vehicle access class"
+   ],
+   "spawn": "SPAWN_09_Gate_G3",
+   "object": "AB_Gate_G3_Provisional",
+   "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+   "functional_context_hypothesis": "owner-right upper parking connection",
+   "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+   "parameters_v8": {
+    "opening_width": 11.826758677978908,
+    "orientation": -1.7677592805287667,
+    "support_width": 0.65,
+    "support_depth": 0.95,
+    "support_height": 3.55,
+    "frame_height": 3.15,
+    "frame_depth": 0.32,
+    "pedestrian_width": 1.7,
+    "leaf_height": 2.65,
+    "leaf_parking": "sliding_flanks",
+    "wall_height": 3.5,
+    "threshold_offset": 0.06,
+    "threshold_depth": 6.0,
+    "wall_connection_half": 18.226758677978907,
+    "node_spacing": 10.62675867797891,
+    "v11_leg_width": 2.4,
+    "v11_portal_height": 9.6,
+    "v11_lintel": 2.2,
+    "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+   },
+   "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+  },
+  {
+   "id": "G4",
+   "label": "Right-side gate B",
+   "osm_nodes": [
+    5225739800,
+    6424866649
+   ],
+   "osm_position_blender_m": [
+    -346.95,
+    -237.775
+   ],
+   "model_position_blender_m": [
+    -342.324,
+    -238.001
+   ],
+   "wall_angle_radians": -1.6195309328830627,
+   "boundary_projection_offset_m": 4.631,
+   "inward": [
+    0.9986203486302286,
+    0.0525109445891105
+   ],
+   "owner_gate_count": 6,
+   "status": "PROVISIONAL_MAP_CLUSTER",
+   "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+   "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+   "unknowns": [
+    "current gate existence/state",
+    "owner A/B identity",
+    "precise location",
+    "opening dimensions",
+    "architectural appearance",
+    "pedestrian/vehicle access class"
+   ],
+   "spawn": "SPAWN_10_Gate_G4",
+   "object": "AB_Gate_G4_Provisional",
+   "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+   "functional_context_hypothesis": "owner-right Academic side-road terminus",
+   "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+   "parameters_v8": {
+    "opening_width": 15.054677910366586,
+    "orientation": -1.6195309328830627,
+    "support_width": 0.65,
+    "support_depth": 0.95,
+    "support_height": 3.55,
+    "frame_height": 3.15,
+    "frame_depth": 0.32,
+    "pedestrian_width": 1.7,
+    "leaf_height": 2.65,
+    "leaf_parking": "sliding_flanks",
+    "wall_height": 3.5,
+    "threshold_offset": 0.06,
+    "threshold_depth": 6.0,
+    "wall_connection_half": 21.454677910366588,
+    "node_spacing": 13.854677910366586,
+    "v11_leg_width": 2.4,
+    "v11_portal_height": 9.6,
+    "v11_lintel": 2.2,
+    "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+   },
+   "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+  },
+  {
+   "id": "G5",
+   "label": "Left-side gate A",
+   "osm_nodes": [
+    5225739729,
+    8478493632
+   ],
+   "osm_position_blender_m": [
+    242.075,
+    79.675
+   ],
+   "model_position_blender_m": [
+    237.756,
+    76.165
+   ],
+   "wall_angle_radians": 2.2531382668903572,
+   "boundary_projection_offset_m": 5.566,
+   "inward": [
+    -0.6260160543371223,
+    -0.7798101690233215
+   ],
+   "owner_gate_count": 6,
+   "status": "PROVISIONAL_MAP_CLUSTER",
+   "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+   "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+   "unknowns": [
+    "current gate existence/state",
+    "owner A/B identity",
+    "precise location",
+    "opening dimensions",
+    "architectural appearance",
+    "pedestrian/vehicle access class"
+   ],
+   "spawn": "SPAWN_11_Gate_G5",
+   "object": "AB_Gate_G5_Provisional",
+   "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+   "functional_context_hypothesis": "owner-left upper parking connection",
+   "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+   "parameters_v8": {
+    "opening_width": 13.448926483573993,
+    "orientation": 2.2531382668903572,
+    "support_width": 0.65,
+    "support_depth": 0.95,
+    "support_height": 3.55,
+    "frame_height": 3.15,
+    "frame_depth": 0.32,
+    "pedestrian_width": 1.7,
+    "leaf_height": 2.65,
+    "leaf_parking": "sliding_flanks",
+    "wall_height": 3.5,
+    "threshold_offset": 0.06,
+    "threshold_depth": 6.0,
+    "wall_connection_half": 19.848926483573994,
+    "node_spacing": 12.248926483573994,
+    "v11_leg_width": 2.4,
+    "v11_portal_height": 9.6,
+    "v11_lintel": 2.2,
+    "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+   },
+   "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+  },
+  {
+   "id": "G6",
+   "label": "Left-side gate B",
+   "osm_nodes": [
+    5225739801,
+    8478493550
+   ],
+   "osm_position_blender_m": [
+    350.345,
+    -236.7
+   ],
+   "model_position_blender_m": [
+    346.622,
+    -236.753
+   ],
+   "wall_angle_radians": 1.5849529610284294,
+   "boundary_projection_offset_m": 3.724,
+   "inward": [
+    -0.9988340803313167,
+    0.0482750449890284
+   ],
+   "owner_gate_count": 6,
+   "status": "PROVISIONAL_MAP_CLUSTER",
+   "appearance": "V11 G1-family monumental portal (stone pylons, ledgestone inlay, numbered lintel, lattice leaves); ESTIMATED",
+   "pedestrian_route": "Framed pedestrian bay with interactive sliding leaf (ESTIMATED)",
+   "unknowns": [
+    "current gate existence/state",
+    "owner A/B identity",
+    "precise location",
+    "opening dimensions",
+    "architectural appearance",
+    "pedestrian/vehicle access class"
+   ],
+   "spawn": "SPAWN_12_Gate_G6",
+   "object": "AB_Gate_G6_Provisional",
+   "owner_v6_clarification": "Six boundary gates: main/rear opposite; one at each Academic side-road end; another near each upper parking area. Building entrances also exist and are a separate layer.",
+   "functional_context_hypothesis": "owner-left Academic side-road terminus",
+   "context_confidence": "Owner-confirmed topology; association of individual map clusters estimated.",
+   "parameters_v8": {
+    "opening_width": 14.017523161672054,
+    "orientation": 1.5849529610284294,
+    "support_width": 0.65,
+    "support_depth": 0.95,
+    "support_height": 3.55,
+    "frame_height": 3.15,
+    "frame_depth": 0.32,
+    "pedestrian_width": 1.7,
+    "leaf_height": 2.65,
+    "leaf_parking": "sliding_flanks",
+    "wall_height": 3.5,
+    "threshold_offset": 0.06,
+    "threshold_depth": 6.0,
+    "wall_connection_half": 20.417523161672054,
+    "node_spacing": 12.817523161672055,
+    "v11_leg_width": 2.4,
+    "v11_portal_height": 9.6,
+    "v11_lintel": 2.2,
+    "v11_family": "G1 portal language (stone pylons, ledgestone inlay, lintel number, lattice leaves)"
+   },
+   "external_access": "UNVERIFIED_NO_EXTERNAL_EXTENSION"
+  }
+ ],
+ "evening_lights": [
+  {
+   "kind": "bollard",
+   "blender": [
+    422.4,
+    -559.0,
+    0.9
+   ],
+   "godot": [
+    422.4,
+    0.9,
+    559.0
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    399.362,
+    -591.121,
+    0.9
+   ],
+   "godot": [
+    399.362,
+    0.9,
+    591.121
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    392.584,
+    -596.22,
+    0.9
+   ],
+   "godot": [
+    392.584,
+    0.9,
+    596.22
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    386.169,
+    -602.454,
+    0.9
+   ],
+   "godot": [
+    386.169,
+    0.9,
+    602.454
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    379.562,
+    -608.671,
+    0.9
+   ],
+   "godot": [
+    379.562,
+    0.9,
+    608.671
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    372.892,
+    -614.618,
+    0.9
+   ],
+   "godot": [
+    372.892,
+    0.9,
+    614.618
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    368.276,
+    -620.998,
+    0.9
+   ],
+   "godot": [
+    368.276,
+    0.9,
+    620.998
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    414.77,
+    -583.915,
+    0.9
+   ],
+   "godot": [
+    414.77,
+    0.9,
+    583.915
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    422.724,
+    -589.335,
+    0.9
+   ],
+   "godot": [
+    422.724,
+    0.9,
+    589.335
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    427.534,
+    -598.525,
+    0.9
+   ],
+   "godot": [
+    427.534,
+    0.9,
+    598.525
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    418.646,
+    -615.051,
+    0.9
+   ],
+   "godot": [
+    418.646,
+    0.9,
+    615.051
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    416.432,
+    -573.338,
+    0.9
+   ],
+   "godot": [
+    416.432,
+    0.9,
+    573.338
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    369.195,
+    -620.543,
+    0.9
+   ],
+   "godot": [
+    369.195,
+    0.9,
+    620.543
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    387.115,
+    -624.321,
+    0.9
+   ],
+   "godot": [
+    387.115,
+    0.9,
+    624.321
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    395.796,
+    -625.704,
+    0.9
+   ],
+   "godot": [
+    395.796,
+    0.9,
+    625.704
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    405.911,
+    -623.364,
+    0.9
+   ],
+   "godot": [
+    405.911,
+    0.9,
+    623.364
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    440.506,
+    -583.527,
+    0.9
+   ],
+   "godot": [
+    440.506,
+    0.9,
+    583.527
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    438.234,
+    -592.235,
+    0.9
+   ],
+   "godot": [
+    438.234,
+    0.9,
+    592.235
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    435.177,
+    -601.042,
+    0.9
+   ],
+   "godot": [
+    435.177,
+    0.9,
+    601.042
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    430.901,
+    -609.465,
+    0.9
+   ],
+   "godot": [
+    430.901,
+    0.9,
+    609.465
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    415.324,
+    -619.345,
+    0.9
+   ],
+   "godot": [
+    415.324,
+    0.9,
+    619.345
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    399.99,
+    -626.323,
+    0.9
+   ],
+   "godot": [
+    399.99,
+    0.9,
+    626.323
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    410.374,
+    -580.307,
+    0.9
+   ],
+   "godot": [
+    410.374,
+    0.9,
+    580.307
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    391.404,
+    -627.695,
+    0.9
+   ],
+   "godot": [
+    391.404,
+    0.9,
+    627.695
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    382.78,
+    -627.923,
+    0.9
+   ],
+   "godot": [
+    382.78,
+    0.9,
+    627.923
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    373.396,
+    -632.396,
+    0.9
+   ],
+   "godot": [
+    373.396,
+    0.9,
+    632.396
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    405.068,
+    -587.965,
+    0.9
+   ],
+   "godot": [
+    405.068,
+    0.9,
+    587.965
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    400.612,
+    -595.69,
+    0.9
+   ],
+   "godot": [
+    400.612,
+    0.9,
+    595.69
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    395.463,
+    -602.728,
+    0.9
+   ],
+   "godot": [
+    395.463,
+    0.9,
+    602.728
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    389.611,
+    -609.272,
+    0.9
+   ],
+   "godot": [
+    389.611,
+    0.9,
+    609.272
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    383.375,
+    -615.6,
+    0.9
+   ],
+   "godot": [
+    383.375,
+    0.9,
+    615.6
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "bollard",
+   "blender": [
+    380.327,
+    -625.551,
+    0.9
+   ],
+   "godot": [
+    380.327,
+    0.9,
+    625.551
+   ],
+   "energy": 1.3,
+   "range_m": 7.0,
+   "color": [
+    1.0,
+    0.7,
+    0.38
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -51.814,
+    -271.529,
+    3.9
+   ],
+   "godot": [
+    -51.814,
+    3.9,
+    271.529
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    34.785,
+    -293.523,
+    3.9
+   ],
+   "godot": [
+    34.785,
+    3.9,
+    293.523
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    41.656,
+    -287.171,
+    3.9
+   ],
+   "godot": [
+    41.656,
+    3.9,
+    287.171
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    47.385,
+    -279.772,
+    3.9
+   ],
+   "godot": [
+    47.385,
+    3.9,
+    279.772
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    51.814,
+    -271.529,
+    3.9
+   ],
+   "godot": [
+    51.814,
+    3.9,
+    271.529
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -47.385,
+    -279.772,
+    3.9
+   ],
+   "godot": [
+    -47.385,
+    3.9,
+    279.772
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -41.656,
+    -287.171,
+    3.9
+   ],
+   "godot": [
+    -41.656,
+    3.9,
+    287.171
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -34.785,
+    -293.523,
+    3.9
+   ],
+   "godot": [
+    -34.785,
+    3.9,
+    293.523
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -26.959,
+    -298.653,
+    3.9
+   ],
+   "godot": [
+    -26.959,
+    3.9,
+    298.653
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -18.395,
+    -302.422,
+    3.9
+   ],
+   "godot": [
+    -18.395,
+    3.9,
+    302.422
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    -9.325,
+    -304.725,
+    3.9
+   ],
+   "godot": [
+    -9.325,
+    3.9,
+    304.725
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    18.395,
+    -302.422,
+    3.9
+   ],
+   "godot": [
+    18.395,
+    3.9,
+    302.422
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "court_pole",
+   "blender": [
+    26.959,
+    -298.653,
+    3.9
+   ],
+   "godot": [
+    26.959,
+    3.9,
+    298.653
+   ],
+   "energy": 1.5,
+   "range_m": 11.0,
+   "color": [
+    1.0,
+    0.86,
+    0.68
+   ],
+   "spot": false
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    -3.5,
+    -246.0,
+    7.12
+   ],
+   "godot": [
+    -3.5,
+    7.12,
+    246.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    -4.0,
+    -349.25,
+    3.61
+   ],
+   "godot": [
+    -4.0,
+    3.61,
+    349.25
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    0.0,
+    -349.25,
+    3.61
+   ],
+   "godot": [
+    0.0,
+    3.61,
+    349.25
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    4.0,
+    -349.25,
+    3.61
+   ],
+   "godot": [
+    4.0,
+    3.61,
+    349.25
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    -3.5,
+    -240.0,
+    7.12
+   ],
+   "godot": [
+    -3.5,
+    7.12,
+    240.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    -3.5,
+    -234.0,
+    7.12
+   ],
+   "godot": [
+    -3.5,
+    7.12,
+    234.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    3.5,
+    -246.0,
+    7.12
+   ],
+   "godot": [
+    3.5,
+    7.12,
+    246.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    3.5,
+    -240.0,
+    7.12
+   ],
+   "godot": [
+    3.5,
+    7.12,
+    240.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    3.5,
+    -234.0,
+    7.12
+   ],
+   "godot": [
+    3.5,
+    7.12,
+    234.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    -5.0,
+    -226.8,
+    7.12
+   ],
+   "godot": [
+    -5.0,
+    7.12,
+    226.8
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    0.0,
+    -226.8,
+    7.12
+   ],
+   "godot": [
+    0.0,
+    7.12,
+    226.8
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    5.0,
+    -226.8,
+    7.12
+   ],
+   "godot": [
+    5.0,
+    7.12,
+    226.8
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "entrance",
+   "blender": [
+    56.2,
+    -205.0,
+    3.4
+   ],
+   "godot": [
+    56.2,
+    3.4,
+    205.0
+   ],
+   "energy": 3.0,
+   "range_m": 9.0,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "spot": true
+  },
+  {
+   "kind": "street",
+   "blender": [
+    299.819,
+    -183.281,
+    8.68
+   ],
+   "godot": [
+    299.819,
+    8.68,
+    183.281
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    137.283,
+    38.222,
+    9.68
+   ],
+   "godot": [
+    137.283,
+    9.68,
+    -38.222
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    98.473,
+    50.745,
+    9.68
+   ],
+   "godot": [
+    98.473,
+    9.68,
+    -50.745
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    99.572,
+    53.963,
+    9.68
+   ],
+   "godot": [
+    99.572,
+    9.68,
+    -53.963
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    59.436,
+    61.245,
+    9.68
+   ],
+   "godot": [
+    59.436,
+    9.68,
+    -61.245
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    60.11,
+    64.577,
+    9.68
+   ],
+   "godot": [
+    60.11,
+    9.68,
+    -64.577
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    19.318,
+    66.485,
+    9.68
+   ],
+   "godot": [
+    19.318,
+    9.68,
+    -66.485
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    19.522,
+    69.879,
+    9.68
+   ],
+   "godot": [
+    19.522,
+    9.68,
+    -69.879
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -21.105,
+    66.364,
+    9.68
+   ],
+   "godot": [
+    -21.105,
+    9.68,
+    -66.364
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -21.343,
+    69.756,
+    9.68
+   ],
+   "godot": [
+    -21.343,
+    9.68,
+    -69.756
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -61.158,
+    60.897,
+    9.68
+   ],
+   "godot": [
+    -61.158,
+    9.68,
+    -60.897
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    289.976,
+    -144.037,
+    8.68
+   ],
+   "godot": [
+    289.976,
+    8.68,
+    144.037
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -61.831,
+    64.229,
+    9.68
+   ],
+   "godot": [
+    -61.831,
+    9.68,
+    -64.229
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -100.167,
+    50.164,
+    9.68
+   ],
+   "godot": [
+    -100.167,
+    9.68,
+    -50.164
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -101.298,
+    53.37,
+    9.68
+   ],
+   "godot": [
+    -101.298,
+    9.68,
+    -53.37
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -137.378,
+    34.369,
+    9.68
+   ],
+   "godot": [
+    -137.378,
+    9.68,
+    -34.369
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -138.914,
+    37.403,
+    9.68
+   ],
+   "godot": [
+    -138.914,
+    9.68,
+    -37.403
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -203.962,
+    -11.235,
+    9.68
+   ],
+   "godot": [
+    -203.962,
+    9.68,
+    11.235
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -206.25,
+    -8.719,
+    9.68
+   ],
+   "godot": [
+    -206.25,
+    9.68,
+    8.719
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -232.13,
+    -40.228,
+    9.68
+   ],
+   "godot": [
+    -232.13,
+    9.68,
+    40.228
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -234.724,
+    -38.03,
+    9.68
+   ],
+   "godot": [
+    -234.724,
+    9.68,
+    38.03
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -256.215,
+    -72.694,
+    8.68
+   ],
+   "godot": [
+    -256.215,
+    8.68,
+    72.694
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    275.038,
+    -106.475,
+    8.68
+   ],
+   "godot": [
+    275.038,
+    8.68,
+    106.475
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -275.793,
+    -108.061,
+    8.68
+   ],
+   "godot": [
+    -275.793,
+    8.68,
+    108.061
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -290.521,
+    -145.744,
+    8.68
+   ],
+   "godot": [
+    -290.521,
+    8.68,
+    145.744
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -300.124,
+    -185.01,
+    8.68
+   ],
+   "godot": [
+    -300.124,
+    8.68,
+    185.01
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -303.404,
+    -265.648,
+    8.68
+   ],
+   "godot": [
+    -303.404,
+    8.68,
+    265.648
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -297.02,
+    -305.564,
+    8.68
+   ],
+   "godot": [
+    -297.02,
+    8.68,
+    305.564
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -285.411,
+    -344.286,
+    8.68
+   ],
+   "godot": [
+    -285.411,
+    8.68,
+    344.286
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -268.759,
+    -381.159,
+    8.68
+   ],
+   "godot": [
+    -268.759,
+    8.68,
+    381.159
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -247.389,
+    -415.472,
+    8.68
+   ],
+   "godot": [
+    -247.389,
+    8.68,
+    415.472
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -192.015,
+    -474.182,
+    8.68
+   ],
+   "godot": [
+    -192.015,
+    8.68,
+    474.182
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -123.2,
+    -516.279,
+    8.68
+   ],
+   "godot": [
+    -123.2,
+    8.68,
+    516.279
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    255.262,
+    -71.219,
+    8.68
+   ],
+   "godot": [
+    255.262,
+    8.68,
+    71.219
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -45.716,
+    -538.847,
+    8.68
+   ],
+   "godot": [
+    -45.716,
+    8.68,
+    538.847
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -5.435,
+    -542.248,
+    8.68
+   ],
+   "godot": [
+    -5.435,
+    8.68,
+    542.248
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    34.976,
+    -540.285,
+    8.68
+   ],
+   "godot": [
+    34.976,
+    8.68,
+    540.285
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    74.736,
+    -532.989,
+    8.68
+   ],
+   "godot": [
+    74.736,
+    8.68,
+    532.989
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    113.181,
+    -520.496,
+    8.68
+   ],
+   "godot": [
+    113.181,
+    8.68,
+    520.496
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    149.635,
+    -503.026,
+    8.68
+   ],
+   "godot": [
+    149.635,
+    8.68,
+    503.026
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    183.481,
+    -480.859,
+    8.68
+   ],
+   "godot": [
+    183.481,
+    8.68,
+    480.859
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    214.068,
+    -454.429,
+    8.68
+   ],
+   "godot": [
+    214.068,
+    8.68,
+    454.429
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    240.889,
+    -424.185,
+    8.68
+   ],
+   "godot": [
+    240.889,
+    8.68,
+    424.185
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    263.485,
+    -390.624,
+    8.68
+   ],
+   "godot": [
+    263.485,
+    8.68,
+    390.624
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    230.967,
+    -38.867,
+    9.68
+   ],
+   "godot": [
+    230.967,
+    9.68,
+    38.867
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    281.422,
+    -354.398,
+    8.68
+   ],
+   "godot": [
+    281.422,
+    8.68,
+    354.398
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    294.408,
+    -316.116,
+    8.68
+   ],
+   "godot": [
+    294.408,
+    8.68,
+    316.116
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -20.3,
+    120.0,
+    8.68
+   ],
+   "godot": [
+    -20.3,
+    8.68,
+    -120.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -20.3,
+    150.0,
+    8.68
+   ],
+   "godot": [
+    -20.3,
+    8.68,
+    -150.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -20.3,
+    180.0,
+    8.68
+   ],
+   "godot": [
+    -20.3,
+    8.68,
+    -180.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -20.3,
+    210.0,
+    8.68
+   ],
+   "godot": [
+    -20.3,
+    8.68,
+    -210.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -20.3,
+    240.0,
+    8.68
+   ],
+   "godot": [
+    -20.3,
+    8.68,
+    -240.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    -20.3,
+    270.0,
+    8.68
+   ],
+   "godot": [
+    -20.3,
+    8.68,
+    -270.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    20.3,
+    120.0,
+    8.68
+   ],
+   "godot": [
+    20.3,
+    8.68,
+    -120.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    20.3,
+    150.0,
+    8.68
+   ],
+   "godot": [
+    20.3,
+    8.68,
+    -150.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    233.538,
+    -36.643,
+    9.68
+   ],
+   "godot": [
+    233.538,
+    9.68,
+    36.643
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    20.3,
+    180.0,
+    8.68
+   ],
+   "godot": [
+    20.3,
+    8.68,
+    -180.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    20.3,
+    210.0,
+    8.68
+   ],
+   "godot": [
+    20.3,
+    8.68,
+    -210.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    20.3,
+    240.0,
+    8.68
+   ],
+   "godot": [
+    20.3,
+    8.68,
+    -240.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    20.3,
+    270.0,
+    8.68
+   ],
+   "godot": [
+    20.3,
+    8.68,
+    -270.0
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    202.626,
+    -10.042,
+    9.68
+   ],
+   "godot": [
+    202.626,
+    9.68,
+    10.042
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    204.888,
+    -7.504,
+    9.68
+   ],
+   "godot": [
+    204.888,
+    9.68,
+    7.504
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  },
+  {
+   "kind": "street",
+   "blender": [
+    135.777,
+    35.173,
+    9.68
+   ],
+   "godot": [
+    135.777,
+    9.68,
+    -35.173
+   ],
+   "energy": 2.2,
+   "range_m": 18.0,
+   "color": [
+    1.0,
+    0.86,
+    0.66
+   ],
+   "spot": false
+  }
+ ],
+ "reconstruction_version": "15.0.0",
+ "v12_asset_manifest": "res://assets/pbr/manifest.json",
+ "gate_leaves": [
+  {
+   "name": "GATELEAF_G1_E_dx484_dy0_s1",
+   "gate": "G1",
+   "leaf": "E",
+   "slide_blender_m": [
+    4.84,
+    0.0
+   ],
+   "start_closed": true
+  },
+  {
+   "name": "GATELEAF_G1_W_dx-484_dy0_s0",
+   "gate": "G1",
+   "leaf": "W",
+   "slide_blender_m": [
+    -4.84,
+    0.0
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G1_PedW_dx-260_dy0_s0",
+   "gate": "G1",
+   "leaf": "PedW",
+   "slide_blender_m": [
+    -2.6,
+    0.0
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G1_PedE_dx260_dy0_s0",
+   "gate": "G1",
+   "leaf": "PedE",
+   "slide_blender_m": [
+    2.6,
+    0.0
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G2_Ped_dx199_dy15_s0",
+   "gate": "G2",
+   "leaf": "Ped",
+   "slide_blender_m": [
+    1.9946502151059264,
+    0.14618659096470327
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G2_A_dx-735_dy-54_s0",
+   "gate": "G2",
+   "leaf": "A",
+   "slide_blender_m": [
+    -7.350777307409647,
+    -0.5387335921721247
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G2_B_dx735_dy54_s0",
+   "gate": "G2",
+   "leaf": "B",
+   "slide_blender_m": [
+    7.350777307409647,
+    0.5387335921721247
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G3_Ped_dx-39_dy-196_s0",
+   "gate": "G3",
+   "leaf": "Ped",
+   "slide_blender_m": [
+    -0.39138382320498766,
+    -1.961330849941806
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G3_A_dx123_dy614_s0",
+   "gate": "G3",
+   "leaf": "A",
+   "slide_blender_m": [
+    1.2256926759384104,
+    6.142279561224067
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G3_B_dx-123_dy-614_s0",
+   "gate": "G3",
+   "leaf": "B",
+   "slide_blender_m": [
+    -1.2256926759384104,
+    -6.142279561224067
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G4_Ped_dx-10_dy-200_s0",
+   "gate": "G4",
+   "leaf": "Ped",
+   "slide_blender_m": [
+    -0.09743063419028967,
+    -1.9976254082087757
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G4_A_dx38_dy787_s0",
+   "gate": "G4",
+   "leaf": "A",
+   "slide_blender_m": [
+    0.383747065067691,
+    7.867986222973458
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G4_B_dx-38_dy-787_s0",
+   "gate": "G4",
+   "leaf": "B",
+   "slide_blender_m": [
+    -0.383747065067691,
+    -7.867986222973458
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G5_Ped_dx-126_dy155_s0",
+   "gate": "G5",
+   "leaf": "Ped",
+   "slide_blender_m": [
+    -1.2612246534329494,
+    1.5521959842664639
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G5_A_dx446_dy-549_s0",
+   "gate": "G5",
+   "leaf": "A",
+   "slide_blender_m": [
+    4.461243725173472,
+    -5.4904767173712425
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G5_B_dx-446_dy549_s0",
+   "gate": "G5",
+   "leaf": "B",
+   "slide_blender_m": [
+    -4.461243725173472,
+    5.4904767173712425
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G6_Ped_dx-3_dy200_s0",
+   "gate": "G6",
+   "leaf": "Ped",
+   "slide_blender_m": [
+    -0.0283123227648047,
+    1.9997995930541794
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G6_A_dx10_dy-736_s0",
+   "gate": "G6",
+   "leaf": "A",
+   "slide_blender_m": [
+    0.10417181651293703,
+    -7.358024207369308
+   ],
+   "start_closed": false
+  },
+  {
+   "name": "GATELEAF_G6_B_dx-10_dy736_s0",
+   "gate": "G6",
+   "leaf": "B",
+   "slide_blender_m": [
+    -0.10417181651293703,
+    7.358024207369308
+   ],
+   "start_closed": false
+  }
+ ],
+ "academic_entrances_v11": {
+  "classification": "ACADEMIC BUILDING ENTRANCES (independent of perimeter gates G1-G6)",
+  "lettering_hypothesis": "Sequential lettering counter-clockwise from Gate (A); only A, C, F names are photo-read.",
+  "entrances": [
+   {
+    "id": "F",
+    "name": "UST / Gate (F)",
+    "name_ar": "UST / \u0627\u0644\u0628\u0648\u0627\u0628\u0629 (\u0648)",
+    "level": "ground (+1.56 landing)",
+    "position_blender": [
+     103.0,
+     -223.0,
+     1.5599999999999998
+    ],
+    "orientation_deg": 0.0,
+    "connected_walkway": "east walk to the dormitory approach",
+    "evidence": "P14 PHOTO VERIFIED form + names; owner 13 corner position; exact face ESTIMATED",
+    "traversal": "nine steps to the doors (no interior modelled)",
+    "label": true
+   },
+   {
+    "id": "B?",
+    "name": "Academic side entrance (name unverified)",
+    "name_ar": "\u0645\u062f\u062e\u0644 \u062c\u0627\u0646\u0628\u064a",
+    "level": "ground (+0.66 landing)",
+    "position_blender": [
+     -102.5,
+     -226.0,
+     0.66
+    ],
+    "orientation_deg": 180.0,
+    "connected_walkway": "west walk",
+    "evidence": "Owner X mark (11); form ESTIMATED; name UNVERIFIED",
+    "traversal": "reach the doors",
+    "label": false
+   },
+   {
+    "id": "C",
+    "name": "Gate (C)",
+    "name_ar": "\u0627\u0644\u0628\u0648\u0627\u0628\u0629 (\u062c)",
+    "level": "ground (+0.66 landing)",
+    "position_blender": [
+     -70.56,
+     -319.56,
+     0.66
+    ],
+    "orientation_deg": -135.0,
+    "connected_walkway": "rear campus walk",
+    "evidence": "P12 PHOTO VERIFIED form/name; position = owner X mark + sequential-lettering hypothesis (ESTIMATED)",
+    "traversal": "reach the doors (no interior modelled)",
+    "label": true
+   },
+   {
+    "id": "E?",
+    "name": "Academic entrance (name unverified)",
+    "name_ar": "\u0645\u062f\u062e\u0644",
+    "level": "ground (+0.66 landing)",
+    "position_blender": [
+     70.56,
+     -319.56,
+     0.66
+    ],
+    "orientation_deg": -45.0,
+    "connected_walkway": "rear campus walk",
+    "evidence": "Owner X mark; form copied from P12 (ESTIMATED); name UNVERIFIED",
+    "traversal": "reach the doors (no interior modelled)",
+    "label": false
+   },
+   {
+    "id": "D?",
+    "name": "Rear passage (name unverified)",
+    "name_ar": "\u0627\u0644\u0645\u0645\u0631 \u0627\u0644\u062e\u0644\u0641\u064a",
+    "level": "ground",
+    "position_blender": [
+     0.0,
+     -350.0,
+     0.21
+    ],
+    "orientation_deg": 270.0,
+    "connected_walkway": "inner court \u2194 rear campus (owner 09)",
+    "evidence": "OWNER CONFIRMED connection; opening width/height ESTIMATED",
+    "traversal": "walk-through",
+    "label": false
+   },
+   {
+    "id": "A",
+    "name": "Gate (A)",
+    "name_ar": "\u0627\u0644\u0628\u0648\u0627\u0628\u0629 (\u0623)",
+    "level": "ground + upper terrace",
+    "position_blender": [
+     0.0,
+     -219.0,
+     4.41
+    ],
+    "orientation_deg": 90.0,
+    "connected_walkway": "forecourt \u2192 two great stairs \u2192 terrace; lower passage \u2192 inner court",
+    "evidence": "PHOTO VERIFIED name/form (D05, P09); geometry ESTIMATED",
+    "traversal": "walk-through (passage) + both stairs",
+    "label": true
+   },
+   {
+    "id": "HALL",
+    "name": "Upper hall / court bridge",
+    "name_ar": "\u0627\u0644\u0642\u0627\u0639\u0629 \u0627\u0644\u0639\u0644\u0648\u064a\u0629",
+    "level": "upper (4.41 m)",
+    "position_blender": [
+     0.0,
+     -258.0,
+     4.41
+    ],
+    "orientation_deg": 270.0,
+    "connected_walkway": "terrace \u2192 covered hall \u2192 bridge overlook",
+    "evidence": "OWNER MARK 11 + P15 bridge; dimensions ESTIMATED",
+    "traversal": "walkable deck with railed voids",
+    "label": false
+   }
+  ]
+ },
+ "internal_building_entries": "superseded by academic_entrances_v11 (V11)",
+ "collision_approximations": {
+  "academic_stairs": "Continuous source-derived walking incline + exact landing/metal rails; visual treads retained; vertical deviation <= one estimated 0.15 m riser."
+ },
+ "files": {
+  "campus_full": "campus_full.glb",
+  "size_mb": 199.09
+ }
+}

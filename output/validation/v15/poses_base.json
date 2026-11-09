@@ -1,0 +1,1880 @@
+{
+  "G1_exterior_eye": {
+    "o": [
+      -14.0,
+      1.8504726886749268,
+      -346.0
+    ],
+    "q": [
+      0.0039336527697741985,
+      -0.9779182076454163,
+      0.018482442945241928,
+      0.20813210308551788
+    ],
+    "floor_y_at_resolve": 0.15047264099121094,
+    "floor_hit": true,
+    "floor_object": "Road_Network_Internal"
+  },
+  "G1_pedestrian_approach": {
+    "o": [
+      -21.0,
+      1.9005930423736572,
+      -288.0
+    ],
+    "q": [
+      -0.022510593757033348,
+      -0.0824594795703888,
+      -0.0018630337435752153,
+      0.996338427066803
+    ],
+    "floor_y_at_resolve": 0.2005929946899414,
+    "floor_hit": true,
+    "floor_object": "Ground_Campus_Plot"
+  },
+  "main_approach_road": {
+    "o": [
+      -12.5,
+      2.083899736404419,
+      -268.0
+    ],
+    "q": [
+      0.0,
+      0.9999740719795227,
+      0.0072028301656246185,
+      -0.0
+    ],
+    "floor_y_at_resolve": 0.3838996887207031,
+    "floor_hit": true,
+    "floor_object": "Lawns"
+  },
+  "ring_road_eye": {
+    "o": [
+      290.0,
+      1.6963999271392822,
+      152.0
+    ],
+    "q": [
+      -0.005444475449621677,
+      0.1414192169904709,
+      0.0007777822320349514,
+      0.989934504032135
+    ],
+    "floor_y_at_resolve": -0.0036001205444335938,
+    "floor_hit": true,
+    "floor_object": "Road_Network_Internal"
+  },
+  "academic_stair_left": {
+    "o": [
+      -13.0,
+      2.2100002765655518,
+      205.0
+    ],
+    "q": [
+      0.0,
+      0.9986093640327454,
+      -0.05272020399570465,
+      -0.0
+    ],
+    "floor_y_at_resolve": 0.5100002288818359,
+    "floor_hit": true,
+    "floor_object": "Flower_Beds"
+  },
+  "academic_court_paving": {
+    "o": [
+      18.0,
+      1.9100000858306885,
+      258.0
+    ],
+    "q": [
+      -0.016660958528518677,
+      -0.9555088877677917,
+      -0.05502741038799286,
+      0.28930479288101196
+    ],
+    "floor_y_at_resolve": 0.21000003814697266,
+    "floor_hit": true,
+    "floor_object": "Plaza_Academic_Courtyard"
+  },
+  "admin_ramp_landing": {
+    "o": [
+      17.5,
+      2.4627201557159424,
+      -54.0
+    ],
+    "q": [
+      -0.005845495034009218,
+      0.9844600558280945,
+      0.03339815512299538,
+      0.17230461537837982
+    ],
+    "floor_y_at_resolve": 0.7627201080322266,
+    "floor_hit": true,
+    "floor_object": "Flower_Beds"
+  },
+  "dorm_garden_paths": {
+    "o": [
+      425.0,
+      1.909999132156372,
+      568.0
+    ],
+    "q": [
+      -0.013360285200178623,
+      0.9795027375221252,
+      0.06937438994646072,
+      0.1886349767446518
+    ],
+    "floor_y_at_resolve": 0.20999908447265625,
+    "floor_hit": true,
+    "floor_object": "Plaza_Paving"
+  },
+  "desert_soil_rear": {
+    "o": [
+      20.0,
+      1.55715012550354,
+      377.0
+    ],
+    "q": [
+      -0.023017484694719315,
+      0.297224223613739,
+      0.0071674492210149765,
+      0.9545033574104309
+    ],
+    "floor_y_at_resolve": -0.14284992218017578,
+    "floor_hit": true,
+    "floor_object": "Ground_Campus_Plot"
+  },
+  "soil_road_edge_west": {
+    "o": [
+      -180.0,
+      1.7439987659454346,
+      -60.0
+    ],
+    "q": [
+      -0.013723891228437424,
+      -0.8813016414642334,
+      -0.025643328204751015,
+      0.471658319234848
+    ],
+    "floor_y_at_resolve": 0.04399871826171875,
+    "floor_hit": true,
+    "floor_object": "Lawns"
+  },
+  "planted_soil_grove": {
+    "o": [
+      -62.0,
+      1.8835995197296143,
+      -205.0
+    ],
+    "q": [
+      -0.008353990502655506,
+      -0.9500270485877991,
+      -0.02551845833659172,
+      0.31101077795028687
+    ],
+    "floor_y_at_resolve": 0.18359947204589844,
+    "floor_hit": true,
+    "floor_object": "Lawns"
+  },
+  "external_asphalt": {
+    "o": [
+      0,
+      2.0,
+      -360
+    ],
+    "q": [
+      -0.21822962308086932,
+      0,
+      0,
+      0.9758974493306055
+    ],
+    "floor_y_at_resolve": 0.3,
+    "floor_hit": true
+  },
+  "wall_inside_soil": {
+    "o": [
+      -300.0,
+      1.667999505996704,
+      40.0
+    ],
+    "q": [
+      -0.011973810382187366,
+      0.3826512396335602,
+      0.004959714598953724,
+      0.9238019585609436
+    ],
+    "floor_y_at_resolve": -0.03200054168701172,
+    "floor_hit": true,
+    "floor_object": "Road_Network_Internal"
+  },
+  "G2_inside": {
+    "o": [
+      14.100000381469727,
+      1.266740083694458,
+      620.0999755859375
+    ],
+    "q": [
+      -0.0014528100145980716,
+      0.9807776808738708,
+      0.007307613734155893,
+      0.19498617947101593
+    ],
+    "floor_y_at_resolve": -0.4332599639892578,
+    "floor_hit": true,
+    "floor_object": "Road_Network_Internal"
+  },
+  "G2_outside": {
+    "o": [
+      13.699999809265137,
+      1.1881792545318604,
+      658.2000122070312
+    ],
+    "q": [
+      -0.007088260725140572,
+      0.17814363539218903,
+      0.0012832891661673784,
+      0.9839781522750854
+    ],
+    "floor_y_at_resolve": -0.5118207931518555,
+    "floor_hit": true,
+    "floor_object": "Ground_Desert_Sand"
+  },
+  "G3_inside": {
+    "o": [
+      -261.5,
+      1.7579166889190674,
+      -110.4000015258789
+    ],
+    "q": [
+      -0.006119628436863422,
+      0.19972273707389832,
+      0.0012473856331780553,
+      0.9798325896263123
+    ],
+    "floor_y_at_resolve": 0.05791664123535156,
+    "floor_hit": true,
+    "floor_object": "Ground_Campus_Plot"
+  },
+  "G3_outside": {
+    "o": [
+      -284.5,
+      1.7683031558990479,
+      -141.5
+    ],
+    "q": [
+      -0.004353279713541269,
+      -0.8808335661888123,
+      -0.008101029321551323,
+      0.473336786031723
+    ],
+    "floor_y_at_resolve": 0.06830310821533203,
+    "floor_hit": true,
+    "floor_object": "Ground_Desert_Sand"
+  },
+  "G4_inside": {
+    "o": [
+      -324.70001220703125,
+      1.4786293506622314,
+      245.0
+    ],
+    "q": [
+      -0.006552788428962231,
+      0.56142258644104,
+      0.004445826169103384,
+      0.8274914026260376
+    ],
+    "floor_y_at_resolve": -0.22137069702148438,
+    "floor_hit": true,
+    "floor_object": "Ground_Campus_Plot"
+  },
+  "G4_outside": {
+    "o": [
+      -362.6000061035156,
+      1.442678689956665,
+      246.0
+    ],
+    "q": [
+      -0.005682356655597687,
+      -0.5627279877662659,
+      -0.0038683388847857714,
+      0.8266135454177856
+    ],
+    "floor_y_at_resolve": -0.2573213577270508,
+    "floor_hit": true,
+    "floor_object": "Ground_Desert_Sand"
+  },
+  "G5_inside": {
+    "o": [
+      221.39999389648438,
+      1.9516746997833252,
+      -68.30000305175781
+    ],
+    "q": [
+      -0.00697665149345994,
+      -0.5319686532020569,
+      -0.004383198916912079,
+      0.8467239737510681
+    ],
+    "floor_y_at_resolve": 0.2516746520996094,
+    "floor_hit": true,
+    "floor_object": "Lawns"
+  },
+  "G5_outside": {
+    "o": [
+      245.89999389648438,
+      1.838939905166626,
+      -97.19999694824219
+    ],
+    "q": [
+      -0.0012196695897728205,
+      0.9830859899520874,
+      0.0065512885339558125,
+      0.18302352726459503
+    ],
+    "floor_y_at_resolve": 0.13893985748291016,
+    "floor_hit": true,
+    "floor_object": "Ground_Desert_Sand"
+  },
+  "G6_inside": {
+    "o": [
+      328.5,
+      1.6507256031036377,
+      227.89999389648438
+    ],
+    "q": [
+      -0.003930484410375357,
+      -0.8488742113113403,
+      -0.006312615238130093,
+      0.5285426378250122
+    ],
+    "floor_y_at_resolve": -0.049274444580078125,
+    "floor_hit": true,
+    "floor_object": "Ground_Campus_Plot"
+  },
+  "G6_outside": {
+    "o": [
+      366.5,
+      1.6007397174835205,
+      230.6999969482422
+    ],
+    "q": [
+      -0.004284258000552654,
+      0.8040541410446167,
+      0.005794285796582699,
+      0.594512403011322
+    ],
+    "floor_y_at_resolve": -0.09926033020019531,
+    "floor_hit": true,
+    "floor_object": "Ground_Desert_Sand"
+  },
+  "drone_overview": {
+    "o": [
+      -260.0,
+      150.24400329589844,
+      -330.0
+    ],
+    "q": [
+      -0.05434810370206833,
+      -0.9263064861297607,
+      -0.146916925907135,
+      0.34266307950019836
+    ],
+    "floor_y_at_resolve": 0.24400043487548828,
+    "floor_hit": true,
+    "floor_object": "Lawns"
+  },
+  "G1_inside_evening": {
+    "o": [
+      -16.299999237060547,
+      2.113535165786743,
+      -274.6000061035156
+    ],
+    "q": [
+      -0.002489403123036027,
+      -0.04114504158496857,
+      -0.00010251371713820845,
+      0.9991500973701477
+    ],
+    "floor_y_at_resolve": 0.41353511810302734,
+    "floor_hit": true,
+    "floor_object": "Plaza_Paving"
+  },
+  "dorm_garden_evening": {
+    "o": [
+      425.0,
+      1.909999132156372,
+      568.0
+    ],
+    "q": [
+      -0.013360285200178623,
+      0.9795027375221252,
+      0.06937438994646072,
+      0.1886349767446518
+    ],
+    "floor_y_at_resolve": 0.20999908447265625,
+    "floor_hit": true,
+    "floor_object": "Plaza_Paving"
+  },
+  "__source": "v8: reconstructed from the V8 backup Blender ground (ray cast), see tools/v9_rebuild_v8_poses.py | V10: fixed absolute poses added by tools/v10_add_capture_poses.py | V10: fixed absolute poses added by tools/v10_add_capture_poses.py | V10: fixed absolute poses added by tools/v10_add_capture_poses.py | V11: owner-screenshot poses added by tools/v11_add_capture_poses.py | V11: owner-screenshot poses added by tools/v11_add_capture_poses.py | V11: owner-screenshot poses added by tools/v11_add_capture_poses.py",
+  "P09_forecourt_photo": {
+    "o": [
+      0,
+      6.11,
+      224.1
+    ],
+    "q": [
+      0.016436663409179385,
+      -0.0,
+      -0.0,
+      0.9998649089231872
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      0,
+      -224.1,
+      6.11
+    ],
+    "blender_target": [
+      0,
+      -45,
+      12
+    ],
+    "note": "P09 approximate photo camera"
+  },
+  "P13_court_photo": {
+    "o": [
+      61,
+      1.95,
+      269
+    ],
+    "q": [
+      0.011115912158005704,
+      0.9797939110405918,
+      -0.05689622526086844,
+      0.19142400041724375
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      61,
+      -269,
+      1.95
+    ],
+    "blender_target": [
+      35,
+      -333,
+      10
+    ],
+    "note": "P13 approximate photo camera"
+  },
+  "P15_bridge_photo": {
+    "o": [
+      26,
+      2.55,
+      285
+    ],
+    "q": [
+      0.08791919239736172,
+      0.3148668529197339,
+      -0.029306397465787244,
+      0.9446005587592015
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      26,
+      -285,
+      2.55
+    ],
+    "blender_target": [
+      -1,
+      -249,
+      11
+    ],
+    "note": "P15 approximate photo camera"
+  },
+  "P16_dorm_photo": {
+    "o": [
+      424,
+      9.2,
+      566
+    ],
+    "q": [
+      -0.00042791929927157044,
+      0.9553280678996974,
+      0.001383223751592929,
+      0.2955438821227017
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      424,
+      -566,
+      9.2
+    ],
+    "blender_target": [
+      385,
+      -623,
+      9
+    ],
+    "note": "P16 approximate photo camera"
+  },
+  "P12_rear_gateC_photo": {
+    "o": [
+      25,
+      1.9,
+      389
+    ],
+    "q": [
+      0.0900209158910422,
+      0.2691891348878236,
+      -0.025280857606638885,
+      0.9585375958193585
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      25,
+      -389,
+      1.9
+    ],
+    "blender_target": [
+      0,
+      -348,
+      11
+    ],
+    "note": "P12 approximate photo camera"
+  },
+  "academic_court_aerial": {
+    "o": [
+      115,
+      70,
+      375
+    ],
+    "q": [
+      -0.18858660056241341,
+      0.41224206215183784,
+      0.08764521854839033,
+      0.8870230504032677
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      115,
+      -375,
+      70
+    ],
+    "blender_target": [
+      0,
+      -278,
+      3
+    ],
+    "note": "overview"
+  },
+  "admin_entrance_axis": {
+    "o": [
+      0,
+      1.91,
+      -48
+    ],
+    "q": [
+      0.0,
+      0.9989367182747879,
+      -0.0461024173161987,
+      -0.0
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      0,
+      48,
+      1.91
+    ],
+    "blender_target": [
+      0,
+      20,
+      4.5
+    ],
+    "note": "Admin arrival on the axis"
+  },
+  "admin_lobby_threshold": {
+    "o": [
+      2.5,
+      2.42,
+      -12.5
+    ],
+    "q": [
+      -0.003992484933944099,
+      0.027242140077107662,
+      0.00010880508344905886,
+      0.9996208851507281
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      2.5,
+      12.5,
+      2.42
+    ],
+    "blender_target": [
+      1.0,
+      40.0,
+      2.2
+    ],
+    "note": "inside the lobby looking out"
+  },
+  "academic_arcade": {
+    "o": [
+      21.6,
+      1.91,
+      172.0
+    ],
+    "q": [
+      8.219644608713189e-06,
+      0.9999912064572877,
+      -0.0034522703061309495,
+      0.002380917946755199
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      21.6,
+      -172.0,
+      1.91
+    ],
+    "blender_target": [
+      21.4,
+      -214.0,
+      2.2
+    ],
+    "note": "P09 forecourt arcade"
+  },
+  "academic_stair_right": {
+    "o": [
+      13.0,
+      1.91,
+      205.0
+    ],
+    "q": [
+      0.0,
+      0.9986093231732904,
+      -0.05272020173882888,
+      -0.0
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      13.0,
+      -205.0,
+      1.91
+    ],
+    "blender_target": [
+      13.0,
+      -222.0,
+      3.71
+    ],
+    "note": "right great stair"
+  },
+  "academic_central_passage": {
+    "o": [
+      0.0,
+      1.91,
+      214.0
+    ],
+    "q": [
+      0.0,
+      0.9999995605479371,
+      -0.0009374987640408931,
+      -0.0
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      0.0,
+      -214.0,
+      1.91
+    ],
+    "blender_target": [
+      0.0,
+      -262.0,
+      2.0
+    ],
+    "note": "central passage to the court"
+  },
+  "junction_dropoff_ring": {
+    "o": [
+      62.0,
+      34.0,
+      -104.0
+    ],
+    "q": [
+      -0.1176260018822912,
+      0.8754222256278525,
+      0.267391550231959,
+      0.38509973957731275
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      62.0,
+      104.0,
+      34.0
+    ],
+    "blender_target": [
+      24.8,
+      69.9,
+      0.0
+    ],
+    "note": "drop-off loop x ring junction"
+  },
+  "junction_ring_east": {
+    "o": [
+      334.0,
+      30.0,
+      118.0
+    ],
+    "q": [
+      -0.1043084633152834,
+      0.8848654224892397,
+      0.23916824851851098,
+      0.3859164125355791
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      334.0,
+      -118.0,
+      30.0
+    ],
+    "blender_target": [
+      296.3,
+      -153.0,
+      0.0
+    ],
+    "note": "ring x campus road junction"
+  },
+  "academic_court_topdown": {
+    "o": [
+      0.0,
+      78.0,
+      200.0
+    ],
+    "q": [
+      0.0,
+      0.9369335843030224,
+      0.3495074514299963,
+      -0.0
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      0.0,
+      -200.0,
+      78.0
+    ],
+    "blender_target": [
+      0.0,
+      -290.0,
+      0.0
+    ],
+    "note": "inner court from above the core"
+  },
+  "academic_court_palm_bed": {
+    "o": [
+      25.0,
+      2.51,
+      285.0
+    ],
+    "q": [
+      -0.004993916928737309,
+      -0.40355974284353696,
+      -0.0022027131888125574,
+      0.9149370157581204
+    ],
+    "v10_fixed_pose": true,
+    "blender_eye": [
+      25.0,
+      -285.0,
+      2.51
+    ],
+    "blender_target": [
+      59.5,
+      -253.5,
+      2.0
+    ],
+    "note": "eye level at the former V5-V9 east palm bed"
+  },
+  "O00_admin_roof_forecourt": {
+    "o": [
+      0,
+      70,
+      -150
+    ],
+    "q": [
+      0.0,
+      0.9780672904437282,
+      0.20828916285794608,
+      -0.0
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      0,
+      150,
+      70
+    ],
+    "blender_target": [
+      0,
+      20,
+      12
+    ],
+    "note": "00 admin rooftop + forecourt beds"
+  },
+  "O02_G1_inside": {
+    "o": [
+      -4,
+      1.9,
+      -288
+    ],
+    "q": [
+      0.04802644961766615,
+      -0.07447302480033897,
+      0.0035908249668455965,
+      0.9960594031935381
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      -4,
+      288,
+      1.9
+    ],
+    "blender_target": [
+      0,
+      314.6,
+      4.5
+    ],
+    "note": "02 main gate from inside"
+  },
+  "O03_G1_paving_curb": {
+    "o": [
+      -24,
+      3.2,
+      -298
+    ],
+    "q": [
+      -0.06564923155820496,
+      -0.2663135128503653,
+      -0.018183784452809437,
+      0.9614762822098574
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      -24,
+      298,
+      3.2
+    ],
+    "blender_target": [
+      -12,
+      318,
+      0.0
+    ],
+    "note": "03 gate forecourt curb / paving / sand"
+  },
+  "O04_G1_wall_side": {
+    "o": [
+      -35,
+      2.2,
+      -296
+    ],
+    "q": [
+      0.0028283461971666786,
+      0.508957590041362,
+      -0.0016723197095546358,
+      0.860785324772598
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      -35,
+      296,
+      2.2
+    ],
+    "blender_target": [
+      -75,
+      318,
+      2.5
+    ],
+    "note": "04 wall continuity beside G1"
+  },
+  "O05_approach_walk": {
+    "o": [
+      -15,
+      1.9,
+      -262
+    ],
+    "q": [
+      0.0,
+      0.9999880383578779,
+      0.004891128823029868,
+      -0.0
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      -15,
+      262,
+      1.9
+    ],
+    "blender_target": [
+      -15,
+      170,
+      1.0
+    ],
+    "note": "05 main approach walkways and trees"
+  },
+  "O06_G2_portal": {
+    "o": [
+      12,
+      1.9,
+      612
+    ],
+    "q": [
+      0.003021999086092468,
+      0.9942353621041767,
+      -0.029130422976200138,
+      0.10314228386228404
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      12,
+      -612,
+      1.9
+    ],
+    "blender_target": [
+      6.4,
+      -638.7,
+      3.5
+    ],
+    "note": "06 secondary gate G2 from inside"
+  },
+  "O07_academic_front": {
+    "o": [
+      0,
+      1.9,
+      150
+    ],
+    "q": [
+      0.0,
+      0.9990207285578261,
+      -0.04424459189314017,
+      -0.0
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      0,
+      -150,
+      1.9
+    ],
+    "blender_target": [
+      0,
+      -230,
+      9.0
+    ],
+    "note": "07 Academic front elevation"
+  },
+  "O08_terrace_overlook": {
+    "o": [
+      9,
+      6.1,
+      223
+    ],
+    "q": [
+      -0.007367434570676742,
+      0.9891780249517652,
+      0.05340697547581818,
+      0.13645603992091124
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      9,
+      -223,
+      6.1
+    ],
+    "blender_target": [
+      0,
+      -255,
+      2.5
+    ],
+    "note": "08 upper terrace looking over the void/passage"
+  },
+  "O09_rear_passage": {
+    "o": [
+      0,
+      1.9,
+      300
+    ],
+    "q": [
+      0.0,
+      0.9999606614785999,
+      -0.00886992081594388,
+      -0.0
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      0,
+      -300,
+      1.9
+    ],
+    "blender_target": [
+      0,
+      -362,
+      3.0
+    ],
+    "note": "09 court toward the rear passage"
+  },
+  "O10_gate_c": {
+    "o": [
+      -83.5,
+      1.9,
+      332.5
+    ],
+    "q": [
+      0.09753576588871941,
+      -0.38054486980233754,
+      0.04040063704755468,
+      0.9187165857683068
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      -83.5,
+      -332.5,
+      1.9
+    ],
+    "blender_target": [
+      -70.0,
+      -319.0,
+      6.0
+    ],
+    "note": "10 Gate (C) bay (V11 position)"
+  },
+  "O11_academic_aerial": {
+    "o": [
+      0,
+      240,
+      300
+    ],
+    "q": [
+      -0.6308905395898717,
+      -0.0,
+      -0.0,
+      0.7758718496349771
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      0,
+      -300,
+      240
+    ],
+    "blender_target": [
+      0,
+      -250,
+      0
+    ],
+    "note": "11 Academic aerial"
+  },
+  "O12_dorm_entry": {
+    "o": [
+      445,
+      1.9,
+      540
+    ],
+    "q": [
+      0.006835873215359814,
+      0.9458562715294581,
+      -0.019962239797896814,
+      0.32389920257392874
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      445,
+      -540,
+      1.9
+    ],
+    "blender_target": [
+      400,
+      -598,
+      5.0
+    ],
+    "note": "12 building / sidewalk interface"
+  },
+  "O13_ust_corner": {
+    "o": [
+      128,
+      1.9,
+      223
+    ],
+    "q": [
+      0.08608392698759082,
+      0.6898203863440701,
+      -0.0831666800120602,
+      0.7140172935120581
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      128,
+      -223,
+      1.9
+    ],
+    "blender_target": [
+      99,
+      -222,
+      9.0
+    ],
+    "note": "13 UST / Gate (F) corner"
+  },
+  "O14_stairs_forecourt": {
+    "o": [
+      -16,
+      1.9,
+      188
+    ],
+    "q": [
+      -0.006389287941788442,
+      0.9677141453384408,
+      -0.024657067397803573,
+      -0.25075992291199173
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      -16,
+      -188,
+      1.9
+    ],
+    "blender_target": [
+      4,
+      -224,
+      4.0
+    ],
+    "note": "14 stairs / terrace from the forecourt"
+  },
+  "O15_junction_eye": {
+    "o": [
+      40,
+      22.0,
+      585
+    ],
+    "q": [
+      -0.06893561143109553,
+      0.9309753063590502,
+      0.2467466204969818,
+      0.26009414776117523
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      40,
+      -585,
+      22.0
+    ],
+    "blender_target": [
+      20,
+      -618,
+      0.0
+    ],
+    "note": "15 median-gap junction near G2 (owner minimap)"
+  },
+  "O16_dome_axis_forecourt": {
+    "o": [
+      0,
+      1.9,
+      190
+    ],
+    "q": [
+      0.037028904762767836,
+      -0.0,
+      -0.0,
+      0.999314194941746
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      0,
+      -190,
+      1.9
+    ],
+    "blender_target": [
+      0,
+      0,
+      16.0
+    ],
+    "note": "16 dome sightline from the forecourt"
+  },
+  "O16_dome_axis_terrace": {
+    "o": [
+      0,
+      6.1,
+      221
+    ],
+    "q": [
+      0.02689385874588549,
+      -0.0,
+      -0.0,
+      0.9996382947655398
+    ],
+    "v11_fixed_pose": true,
+    "blender_eye": [
+      0,
+      -221,
+      6.1
+    ],
+    "blender_target": [
+      0,
+      0,
+      18.0
+    ],
+    "note": "16 dome sightline from the upper terrace"
+  },
+  "O12_east_institute_interface": {
+    "o": [
+      205,
+      32,
+      15
+    ],
+    "q": [
+      -0.06287752914860864,
+      0.89494161257026,
+      0.13365390793858434,
+      0.42102560410389883
+    ],
+    "blender_eye": [
+      205,
+      -15,
+      32
+    ],
+    "blender_target": [
+      147,
+      -63,
+      9
+    ],
+    "note": "Candidate location from existing terrain audit; exact owner pose unrecorded"
+  },
+  "O12_helmy_interface": {
+    "o": [
+      -205,
+      32,
+      20
+    ],
+    "q": [
+      0.060203519243000186,
+      0.8765630663225009,
+      0.1137946062546431,
+      -0.46374940929062447
+    ],
+    "blender_eye": [
+      -205,
+      -20,
+      32
+    ],
+    "blender_target": [
+      -133,
+      -69,
+      9
+    ],
+    "note": "Candidate location from existing terrain audit; exact owner pose unrecorded"
+  },
+  "O15_ring_junction_candidate": {
+    "o": [
+      140,
+      24,
+      470
+    ],
+    "q": [
+      -0.02166014610054627,
+      0.9429296152253605,
+      0.3263398398483874,
+      0.06258504397686125
+    ],
+    "blender_eye": [
+      140,
+      -470,
+      24
+    ],
+    "blender_target": [
+      136,
+      -500,
+      0.2
+    ],
+    "note": "Candidate location from existing terrain audit; exact owner pose unrecorded"
+  },
+  "V12_G1_close": {
+    "o": [
+      -24,
+      1.9,
+      -298
+    ],
+    "q": [
+      -0.07306557633903475,
+      -0.3542931568687538,
+      -0.027779482611142842,
+      0.9318616211090971
+    ],
+    "blender_eye": [
+      -24,
+      298,
+      1.9
+    ],
+    "blender_target": [
+      -16,
+      307,
+      0.0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_approach_close": {
+    "o": [
+      -12,
+      1.9,
+      -264
+    ],
+    "q": [
+      -0.15273796949229168,
+      -0.0,
+      -0.0,
+      0.9882667214246221
+    ],
+    "blender_eye": [
+      -12,
+      264,
+      1.9
+    ],
+    "blender_target": [
+      -12,
+      270,
+      0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_court_close": {
+    "o": [
+      18,
+      1.9,
+      258
+    ],
+    "q": [
+      0.03191778286362465,
+      0.9678688017158313,
+      0.1657357176585377,
+      -0.1863945001721908
+    ],
+    "blender_eye": [
+      18,
+      -258,
+      1.9
+    ],
+    "blender_target": [
+      20,
+      -263,
+      0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_dorm_close": {
+    "o": [
+      425,
+      1.9,
+      568
+    ],
+    "q": [
+      -0.03160607516407389,
+      0.963995992195714,
+      0.13388548289698482,
+      0.22756858419554526
+    ],
+    "blender_eye": [
+      425,
+      -568,
+      1.9
+    ],
+    "blender_target": [
+      422,
+      -574,
+      0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_shrub_prototype": {
+    "o": [
+      8.3,
+      1.6,
+      -255
+    ],
+    "q": [
+      -0.07889678458538182,
+      -0.2560186462641478,
+      -0.020970368334582712,
+      0.9632185597251918
+    ],
+    "blender_eye": [
+      8.3,
+      255,
+      1.6
+    ],
+    "blender_target": [
+      11.16,
+      260,
+      0.65
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_admin_covered": {
+    "o": [
+      1,
+      1.9,
+      -12
+    ],
+    "q": [
+      0.0,
+      0.9999896700084143,
+      -0.00454531368144788,
+      -0.0
+    ],
+    "blender_eye": [
+      1,
+      12,
+      1.9
+    ],
+    "blender_target": [
+      1,
+      1,
+      2
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_tree_prototype": {
+    "o": [
+      27.61548614501953,
+      2.013192194700241,
+      -251.33636474609375
+    ],
+    "q": [
+      0.04313082731844779,
+      -0.3048642629835899,
+      0.013821922880160258,
+      0.9513182786734383
+    ],
+    "blender_eye": [
+      27.61548614501953,
+      251.33636474609375,
+      2.013192194700241
+    ],
+    "blender_target": [
+      32.61548614501953,
+      258.33636474609375,
+      2.79482256770134
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_masterplan_top": {
+    "o": [
+      0,
+      1050,
+      100
+    ],
+    "q": [
+      -0.4997618481535824,
+      -0.5002380384678035,
+      -0.4997618481535824,
+      0.5002380384678035
+    ],
+    "blender_eye": [
+      0,
+      -100,
+      1050
+    ],
+    "blender_target": [
+      1,
+      -100,
+      0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_stair_detail": {
+    "o": [
+      -13,
+      2.5,
+      207
+    ],
+    "q": [
+      0.0,
+      0.9910109466609818,
+      0.13378080429607536,
+      -0.0
+    ],
+    "blender_eye": [
+      -13,
+      -207,
+      2.5
+    ],
+    "blender_target": [
+      -13,
+      -211,
+      1.4
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_landing_detail": {
+    "o": [
+      8,
+      6.2,
+      223
+    ],
+    "q": [
+      0.0974197027449106,
+      0.8934417322721303,
+      0.23519196760911862,
+      -0.3700756826972282
+    ],
+    "blender_eye": [
+      8,
+      -223,
+      6.2
+    ],
+    "blender_target": [
+      10,
+      -225,
+      4.6
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_junction_dropoff_eye": {
+    "o": [
+      41.017,
+      1.9,
+      -84.766
+    ],
+    "q": [
+      -0.013703297195945315,
+      0.9148179824169852,
+      0.0311508154819357,
+      0.4024300006054301
+    ],
+    "derived_from": "junction_dropoff_ring",
+    "ground_target": [
+      24.8,
+      0.0,
+      -69.9
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_junction_ring_east_eye": {
+    "o": [
+      312.423,
+      1.9,
+      138.032
+    ],
+    "q": [
+      -0.013604651533308766,
+      0.9160868953874332,
+      0.03119402372069443,
+      0.399533035480402
+    ],
+    "derived_from": "junction_ring_east",
+    "ground_target": [
+      296.3,
+      0.0,
+      153.0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_ring_junction_eye": {
+    "o": [
+      138.874,
+      1.9,
+      478.445
+    ],
+    "q": [
+      -0.0022538232987010963,
+      0.997226592305655,
+      0.033956942438450474,
+      0.06618889589063208
+    ],
+    "derived_from": "O15_ring_junction_candidate",
+    "ground_target": [
+      135.97,
+      0.0,
+      500.25
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_G2_junction_eye": {
+    "o": [
+      31.403,
+      1.9,
+      599.186
+    ],
+    "q": [
+      -0.009157050869416223,
+      0.9625614856716449,
+      0.03277654769198439,
+      0.2689186357290355
+    ],
+    "derived_from": "O15_junction_eye",
+    "ground_target": [
+      20.0,
+      0.0,
+      618.0
+    ],
+    "fixed_v12_pose": true
+  },
+  "V12_admin_frontage_eye": {
+    "o": [
+      0.0,
+      2.0,
+      -132.0
+    ],
+    "q": [
+      0.0,
+      0.9999989795975635,
+      -0.001428567055416643,
+      -0.0
+    ],
+    "fixed_v12_pose": true,
+    "note": "V12.1: Administration frontage tree rows (Blender y 54-115, x +-21)"
+  },
+  "V13_sky_sun_azimuth": {
+    "o": [
+      0.0,
+      30.0,
+      -150.0
+    ],
+    "q": [
+      0.2904488718810531,
+      0.381823632257461,
+      -0.12775640022862728,
+      0.8680601758365405
+    ],
+    "fixed_v13_pose": true,
+    "note": "HDRI yaw calibration: centred on DirectionalLight azimuth, pitched up 37 deg"
+  },
+  "V13_approach_aerial": {
+    "o": [
+      -45.0,
+      45.0,
+      -345.0
+    ],
+    "q": [
+      0.04406738864326881,
+      0.9557531382278888,
+      0.19597157501615256,
+      -0.21491660199108334
+    ],
+    "fixed_v13_pose": true,
+    "note": "Main approach aerial from outside G1"
+  },
+  "V14_g1_median_nose": {
+    "o": [
+      -9.0,
+      1.8,
+      -279.0
+    ],
+    "q": [
+      -0.05112768037322059,
+      -0.3356907237338184,
+      -0.01825070950414521,
+      0.9404066194478399
+    ],
+    "fixed_v14_pose": true,
+    "note": "G1 median curb noses, owner 03 (Blender eye (-9, 279, 1.8) target (0, 290, 0.25))"
+  },
+  "V14_g1_gate_sand": {
+    "o": [
+      22.0,
+      1.75,
+      -331.0
+    ],
+    "q": [
+      -0.012568998034716245,
+      0.954140078857096,
+      0.04046816054948038,
+      0.29634617964252463
+    ],
+    "fixed_v14_pose": true,
+    "note": "G1 lane edge / pedestrian gate sand pockets (+-12,315) (Blender eye (22, 331, 1.75) target (11, 315, 0.1))"
+  },
+  "V14_g1_forecourt_beds": {
+    "o": [
+      0.0,
+      2.6,
+      -352.0
+    ],
+    "q": [
+      0.0,
+      0.9967579281410163,
+      0.08045888818538632,
+      -0.0
+    ],
+    "fixed_v14_pose": true,
+    "note": "G1 exterior forecourt beds and sand pockets (+-7,336),(+-13,333.5) (Blender eye (0, 352, 2.6) target (0, 336, 0.0))"
+  },
+  "V14_junction_admin_close": {
+    "o": [
+      12.0,
+      1.8,
+      99.0
+    ],
+    "q": [
+      0.012770241354652278,
+      0.917842066275156,
+      0.02962613470587396,
+      -0.3956326003426483
+    ],
+    "fixed_v14_pose": true,
+    "note": "Junction curb return / 0.156 m step at (25.7,-116.6) (Blender eye (12, -99, 1.8) target (30, -116, 0.2))"
+  },
+  "V14_ring_sidewalk_step": {
+    "o": [
+      15.0,
+      1.8,
+      534.0
+    ],
+    "q": [
+      0.0,
+      0.9975253978457679,
+      0.07030704554056133,
+      -0.0
+    ],
+    "fixed_v14_pose": true,
+    "note": "Ring sidewalk lawn/paving step (15,-545.5) (Blender eye (15, -534, 1.8) target (15, -546, 0.1))"
+  },
+  "V15_median_eye": {
+    "o": [
+      -3.0,
+      1.7,
+      -232.0
+    ],
+    "q": [
+      0.00137278340739941,
+      0.9981620684744438,
+      0.02478613313184095,
+      -0.055283344045986574
+    ],
+    "fixed_v15_pose": true,
+    "note": "Palm median from pedestrian eye level at the carriageway edge",
+    "blender_eye": [
+      -3.0,
+      232.0,
+      1.7
+    ],
+    "blender_target": [
+      0.0,
+      205.0,
+      0.35
+    ]
+  },
+  "V15_verge_bed_close": {
+    "o": [
+      -16.3,
+      1.7,
+      -200.0
+    ],
+    "q": [
+      0.018034104439471805,
+      0.9684025453341467,
+      0.0734921395351049,
+      -0.23763456544443362
+    ],
+    "fixed_v15_pose": true,
+    "note": "Kerbed verge bed with groundcover from the walkway (C02)",
+    "blender_eye": [
+      -16.3,
+      200.0,
+      1.7
+    ],
+    "blender_target": [
+      -11.6,
+      191.0,
+      0.15
+    ]
+  },
+  "V15_kerb_close": {
+    "o": [
+      -6.5,
+      1.5,
+      -150.0
+    ],
+    "q": [
+      -0.09149242305052561,
+      0.24145465504838826,
+      0.0228731057626314,
+      0.9658186201935531
+    ],
+    "fixed_v15_pose": true,
+    "note": "Precast kerb units at the verge edge, close",
+    "blender_eye": [
+      -6.5,
+      150.0,
+      1.5
+    ],
+    "blender_target": [
+      -9.7,
+      156.0,
+      0.2
+    ]
+  },
+  "V15_ring_junction_kerbs": {
+    "o": [
+      -15.0,
+      1.7,
+      -121.0
+    ],
+    "q": [
+      0.005417904366745848,
+      0.9865226717581205,
+      0.03338663104412665,
+      -0.1600905908759659
+    ],
+    "fixed_v15_pose": true,
+    "note": "Approach end / kerb returns toward the ring junction",
+    "blender_eye": [
+      -15.0,
+      121.0,
+      1.7
+    ],
+    "blender_target": [
+      -8.0,
+      100.0,
+      0.2
+    ]
+  },
+  "V15_g1_inside_kerbs": {
+    "o": [
+      -15.5,
+      1.7,
+      -300.0
+    ],
+    "q": [
+      -0.04611604122991245,
+      -0.3282067297967364,
+      -0.016044634157604168,
+      0.9433431098874692
+    ],
+    "fixed_v15_pose": true,
+    "note": "Inside G1: lane kerbs and median nose",
+    "blender_eye": [
+      -15.5,
+      300.0,
+      1.7
+    ],
+    "blender_target": [
+      -6.0,
+      312.0,
+      0.2
+    ]
+  },
+  "V15_crossover_bands_eye": {
+    "o": [
+      -6.0,
+      1.7,
+      -275.9
+    ],
+    "q": [
+      0.0,
+      0.9988280048828337,
+      0.048400585345405804,
+      -0.0
+    ],
+    "fixed_v15_pose": true,
+    "note": "Crossover transverse bands (C02), inbound carriageway",
+    "blender_eye": [
+      -6.0,
+      275.9,
+      1.7
+    ],
+    "blender_target": [
+      -6.0,
+      258.4,
+      0.0
+    ]
+  }
+}

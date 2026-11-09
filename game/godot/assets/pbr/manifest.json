@@ -1,0 +1,2170 @@
+{
+  "schema": "zewail-v12-assets/1",
+  "candidate_version": "15.0.0",
+  "assets": [
+    {
+      "asset": "asphalt_01",
+      "source_url": "https://polyhaven.com/a/asphalt_01",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 2.1,
+      "files": [
+        {
+          "map": "Diffuse",
+          "path": "assets\\pbr\\asphalt_01\\asphalt_01_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_01/asphalt_01_diff_1k.jpg",
+          "sha256": "99b6f6bdfbd09279f3f550ac9593336df541aa2319537566eeb3e737d8512010",
+          "provider_md5_verified": true,
+          "bytes": 739513,
+          "godot_import_sha256": "bda6b549170992429d87e52e33d1a11dc917ecd37674a0f128cae29189e9de0c"
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\asphalt_01\\asphalt_01_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_01/asphalt_01_nor_gl_1k.jpg",
+          "sha256": "b745fd20cfb775ae907786ff0ffe200cedf73f3a6ef4e60c637b85b08e0a4f9a",
+          "provider_md5_verified": true,
+          "bytes": 1237059,
+          "godot_import_sha256": "3f84cf5c52c2a11bd8025376db83d3df3075a6208bd16be73159f070535c7df7"
+        },
+        {
+          "map": "Rough",
+          "path": "assets\\pbr\\asphalt_01\\asphalt_01_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_01/asphalt_01_rough_1k.jpg",
+          "sha256": "147891957807bb03cc565c9daa8a16a4af7713449a0f475c638f78f833ad0646",
+          "provider_md5_verified": true,
+          "bytes": 344964,
+          "godot_import_sha256": "328c2e7d930c00309c9b05b5c996151c401ccf52af2550b96e19fed53c3b5fe3"
+        }
+      ],
+      "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "External asphalt carriageways (M_Asphalt): whole surface, high-passed albedo tinted to the V11 mean x0.9, anti-tiling second sample",
+        "Road markings: worn paint over the asphalt maps"
+      ]
+    },
+    {
+      "asset": "concrete_pavers",
+      "source_url": "https://polyhaven.com/a/concrete_pavers",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 1.92,
+      "files": [
+        {
+          "map": "Diffuse",
+          "path": "assets\\pbr\\concrete_pavers\\concrete_pavers_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavers/concrete_pavers_diff_1k.jpg",
+          "sha256": "eea1fb8b498154754f4961ce0792092ef56cadc3d210becbb0dc3bf6c96c261d",
+          "provider_md5_verified": true,
+          "bytes": 757968,
+          "godot_import_sha256": "9a2210970aea07be266a81c3da69b75b9c3e05ec9b44826d8638bb81f3fddc88"
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\concrete_pavers\\concrete_pavers_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavers/concrete_pavers_nor_gl_1k.jpg",
+          "sha256": "761c8332b4b53ab06931adf83f5f8f4fa5b7559a1a8267bc7ef865f890b17894",
+          "provider_md5_verified": true,
+          "bytes": 918300,
+          "godot_import_sha256": "3c90704c54b9c90ca875248b1e9384dd7daf694cab769771b01d514f149cb3b2"
+        },
+        {
+          "map": "Rough",
+          "path": "assets\\pbr\\concrete_pavers\\concrete_pavers_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavers/concrete_pavers_rough_1k.jpg",
+          "sha256": "27fb26837b95523b4ff8d663745466005ac6ae9797e6f5ced1192eaebf6c1469",
+          "provider_md5_verified": true,
+          "bytes": 324326,
+          "godot_import_sha256": "8bbf89d6a9d89c300ecff36e554d0ee0debe070e4bbbf331ea7d8fcffc6d64eb"
+        }
+      ],
+      "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "Not used in V12.1 (zig-zag interlocking unit contradicted photo D02; retained in package manifest only as a licensed downloaded asset)"
+      ]
+    },
+    {
+      "asset": "concrete_pavement_03",
+      "source_url": "https://polyhaven.com/a/concrete_pavement_03",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 2.1,
+      "files": [
+        {
+          "map": "Diffuse",
+          "path": "assets\\pbr\\concrete_pavement_03\\concrete_pavement_03_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_03/concrete_pavement_03_diff_1k.jpg",
+          "sha256": "0c23759579103fc334bb9211c71fd026322b44fceb9cdeba8f2d7e0b17fefc8e",
+          "provider_md5_verified": true,
+          "bytes": 830452,
+          "godot_import_sha256": "63a44101203eb22b157feeda43a98a295f8805ae5e6b38312713f03bb9538a8d"
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\concrete_pavement_03\\concrete_pavement_03_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_03/concrete_pavement_03_nor_gl_1k.jpg",
+          "sha256": "b3d20510e5f6625c264a6491c343d025cfff8ab525d08363a42f21afb0e1d5e0",
+          "provider_md5_verified": true,
+          "bytes": 1017387,
+          "godot_import_sha256": "ea1957a29ef3e13149b995de260d13f1444d775b41898dc2209360521537bb28"
+        },
+        {
+          "map": "Rough",
+          "path": "assets\\pbr\\concrete_pavement_03\\concrete_pavement_03_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_03/concrete_pavement_03_rough_1k.jpg",
+          "sha256": "89876ea83fe2e8e14a0349607f3fd9174c14a7e9a01b56d91e49adb0b7484c09",
+          "provider_md5_verified": true,
+          "bytes": 227809,
+          "godot_import_sha256": "18e41699493949f06b40b0f392d7393a59e05ca0054ef428c643b888ec24ef5e"
+        }
+      ],
+      "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "Fine detail only on V11 running-bond paver roads (G1, main approach, ring road, Administration lanes) and dormitory garden paths",
+        "Fine detail only on V11 slab paving (sidewalks, G1 threshold, Administration forecourt, Academic court), curbs and edge restraints; original slab albedo/joints retained"
+      ]
+    },
+    {
+      "asset": "sand_01",
+      "source_url": "https://polyhaven.com/a/sand_01",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 1.5,
+      "files": [
+        {
+          "map": "Diffuse",
+          "path": "assets\\pbr\\sand_01\\sand_01_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_diff_1k.jpg",
+          "sha256": "a73b90eaa6d675ef57e7d48a8cf23e1f412e353ab2e29cf73930b8ecd4e76875",
+          "provider_md5_verified": true,
+          "bytes": 485088,
+          "godot_import_sha256": "cfcecdd1fb444da825c6d33fc493de734a571361a15ea8bd3c1079e14f8570d7"
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\sand_01\\sand_01_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_nor_gl_1k.jpg",
+          "sha256": "73984aecdc35b1ffbc322d64b7f8d8165b06970d11f37dd47010609fcb532704",
+          "provider_md5_verified": true,
+          "bytes": 877821,
+          "godot_import_sha256": "d95e4838acb09fbabaaae546b7ad687085866355fc68a3710f6d1d1b7923f03f"
+        },
+        {
+          "map": "Rough",
+          "path": "assets\\pbr\\sand_01\\sand_01_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_rough_1k.jpg",
+          "sha256": "ccb179b12c56a9032d60e4f4e2da690b3612a58e1784eb14576372690cdcd1cb",
+          "provider_md5_verified": true,
+          "bytes": 189667,
+          "godot_import_sha256": "5ed3c6c4008f4453c1c7a8bd4ac60884c61095c57d6c5854200571ebe500580f"
+        }
+      ],
+      "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "Fine detail only on V11 desert sand, graded campus soil and compacted earth"
+      ]
+    },
+    {
+      "asset": "sparse_grass",
+      "source_url": "https://polyhaven.com/a/sparse_grass",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 2.0,
+      "files": [
+        {
+          "map": "Diffuse",
+          "path": "assets\\pbr\\sparse_grass\\sparse_grass_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sparse_grass/sparse_grass_diff_1k.jpg",
+          "sha256": "ae94f2b34597b9108eefd88217f55eccaec6d6b382e858a478ee92df90e66617",
+          "provider_md5_verified": true,
+          "bytes": 955945,
+          "godot_import_sha256": "7d573ef13cbfbbbb59efd2d719978e871af07f0ab93e4adf52249b65b962c24e"
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\sparse_grass\\sparse_grass_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sparse_grass/sparse_grass_nor_gl_1k.jpg",
+          "sha256": "1c840a24807346ddaaf94a5057aee4078fcec3a4cd84bfe45da7d3b480ef460b",
+          "provider_md5_verified": true,
+          "bytes": 1440314,
+          "godot_import_sha256": "2e010baa36974b493e39edc5fbcc1b30365e232b35cc3a974942717d1de46cd6"
+        },
+        {
+          "map": "Rough",
+          "path": "assets\\pbr\\sparse_grass\\sparse_grass_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sparse_grass/sparse_grass_rough_1k.jpg",
+          "sha256": "9ebe6d03a9551c17d1802835c92c1442acb8f5d38d4874ee8c37770f11c4bed1",
+          "provider_md5_verified": true,
+          "bytes": 463340,
+          "godot_import_sha256": "2dcd0601660c9e25f2a9ce91387d50e54a9237121766dbfff7145223647f4824"
+        }
+      ],
+      "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "Planted sparse-soil surfaces (whole surface, V11 mean colour)",
+        "Fine detail only on V11 lawns"
+      ]
+    },
+    {
+      "asset": "beige_wall_001",
+      "source_url": "https://polyhaven.com/a/beige_wall_001",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 3.0,
+      "files": [
+        {
+          "map": "Diffuse",
+          "path": "assets\\pbr\\beige_wall_001\\beige_wall_001_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/beige_wall_001/beige_wall_001_diff_1k.jpg",
+          "sha256": "72104704d0b9bd3713c5f6238971252b63eccf6e61263059c674caa8f3d0fa6d",
+          "provider_md5_verified": true,
+          "bytes": 33074,
+          "godot_import_sha256": "60d4f5203d66b69c1c6424182fdac304748dbe2e4b9555d9903c93e8a06da74a"
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\beige_wall_001\\beige_wall_001_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/beige_wall_001/beige_wall_001_nor_gl_1k.jpg",
+          "sha256": "cec747be50f91da0693986080b6f59ef868d53cb2ab7d577982165ece63ed75e",
+          "provider_md5_verified": true,
+          "bytes": 153434,
+          "godot_import_sha256": "a90008100bc558501e0cb2921743d87aa7c69766528c3c3291b6fda00cab7899"
+        },
+        {
+          "map": "Rough",
+          "path": "assets\\pbr\\beige_wall_001\\beige_wall_001_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/beige_wall_001/beige_wall_001_rough_1k.jpg",
+          "sha256": "fc8328f47f4d2d82d5311a75bcb5c8cd8979d171a0ee097ad9e44ca9c5a00d60",
+          "provider_md5_verified": true,
+          "bytes": 151256,
+          "godot_import_sha256": "fbd2eed4414782c49760492e91652eaa72aec8d321d650985dfc85eee8735cc5"
+        }
+      ],
+      "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "Fine normal/roughness on existing stone/stucco facades and the Academic stairs/landings; original architectural panel grids retained"
+      ]
+    },
+    {
+      "asset": "pachira_aquatica_01",
+      "source_url": "https://polyhaven.com/a/pachira_aquatica_01",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "files": [
+        {
+          "file": "pachira_aquatica_01_1k.gltf",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pachira_aquatica_01/pachira_aquatica_01_1k.gltf",
+          "sha256": "e73b77c0ffadd8b9fa686faabfecf37799123fe4bc756f816145a4f8c9f53364",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "textures/pachira_aquatica_01_bark_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_bark_nor_gl_1k.jpg",
+          "sha256": "389b0f8cc3e8bf4ee78ea12c367ff3003d69d8e83de8baf908e6f2e123d1e6a8",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "textures/pachira_aquatica_01_leaves_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_leaves_nor_gl_1k.jpg",
+          "sha256": "3a442aa75df0e6f37bb7410f8ae09927b419d2dba202943cda40f52a7194804c",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "textures/pachira_aquatica_01_leaves_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_leaves_diff_1k.jpg",
+          "sha256": "b3211c240dd2ea7913326e7f21f9db9d029ee487b5e59d58d0e10c8cc77d203f",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "textures/pachira_aquatica_01_bark_arm_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_bark_arm_1k.jpg",
+          "sha256": "7c44f930e3a6c14acb9043e50d8244da7869f8937233c58276d1b3212a3a6960",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "textures/pachira_aquatica_01_bark_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_bark_diff_1k.jpg",
+          "sha256": "9ca175a1c105a3555c47626ebead36505c29482ea0018f4c6e9a5828ce6d7b25",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "textures/pachira_aquatica_01_leaves_arm_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_leaves_arm_1k.jpg",
+          "sha256": "42824afde27e7f0111a2e673f0a7cfe0b18bc21d2201b85d9737fce48c1016a3",
+          "provider_md5_verified": true
+        },
+        {
+          "file": "pachira_aquatica_01.bin",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pachira_aquatica_01/pachira_aquatica_01.bin",
+          "sha256": "a803777635a4744cc304bd936806242d8875430cc588295c9fa2792a64747c8e",
+          "provider_md5_verified": true
+        }
+      ],
+      "usage": [
+        "All 88 trees of the two main-approach roadside rows and the Administration frontage (V12.1 corridor stage; uniform scale from original height, upright trunks; shrub replacement rejected in V12 QA)"
+      ],
+      "variant": "c",
+      "triangles": 20551,
+      "optimization": "Only whole-plant variant c imported, source normals/UVs retained; spatial MultiMesh batching and Godot generated LODs; original world bounds/origins retained; original tree collision scale explicitly retained",
+      "actual_placements": {
+        "stage": "corridor",
+        "prototype_candidates": 113,
+        "replaced": [],
+        "trees": [
+          {
+            "name": "Tree_0001",
+            "position": [
+              -21.59213638305664,
+              103.49993133544922,
+              0.15848152339458466
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.968209981918335,
+              4.152026653289795,
+              5.261867046356201
+            ],
+            "dimensions": [
+              4.466195583343506,
+              4.22988224029541,
+              5.261867046356201
+            ]
+          },
+          {
+            "name": "Tree_0002",
+            "position": [
+              -21.47480583190918,
+              111.47052764892578,
+              0.16488145291805267
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.2250752449035645,
+              4.808862686157227,
+              6.067168235778809
+            ],
+            "dimensions": [
+              5.149723529815674,
+              4.877243518829346,
+              6.067168235778809
+            ]
+          },
+          {
+            "name": "Tree_0006",
+            "position": [
+              -21.35806655883789,
+              143.47764587402344,
+              0.19051049649715424
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.367236614227295,
+              4.098487854003906,
+              4.3454108238220215
+            ],
+            "dimensions": [
+              3.688321113586426,
+              3.493166208267212,
+              4.3454108238220215
+            ]
+          },
+          {
+            "name": "Tree_0007",
+            "position": [
+              -21.19923210144043,
+              152.6432342529297,
+              0.1978747397661209
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.8998348712921143,
+              4.080483913421631,
+              5.171201229095459
+            ],
+            "dimensions": [
+              4.389240264892578,
+              4.156998634338379,
+              5.171201229095459
+            ]
+          },
+          {
+            "name": "Tree_0008",
+            "position": [
+              -21.562238693237305,
+              159.4695587158203,
+              0.20326319336891174
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.928338527679443,
+              4.535762786865234,
+              5.722607612609863
+            ],
+            "dimensions": [
+              4.857265949249268,
+              4.600260257720947,
+              5.722607612609863
+            ]
+          },
+          {
+            "name": "Tree_0009",
+            "position": [
+              -21.617511749267578,
+              168.2438201904297,
+              0.21027155220508575
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.623405933380127,
+              4.338892936706543,
+              4.600299835205078
+            ],
+            "dimensions": [
+              3.904667377471924,
+              3.6980652809143066,
+              4.600299835205078
+            ]
+          },
+          {
+            "name": "Tree_0010",
+            "position": [
+              -21.64542579650879,
+              176.59779357910156,
+              0.21694914996623993
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.3896875381469727,
+              3.546705484390259,
+              4.4947428703308105
+            ],
+            "dimensions": [
+              3.8150722980499268,
+              3.613210916519165,
+              4.4947428703308105
+            ]
+          },
+          {
+            "name": "Tree_0011",
+            "position": [
+              -21.49911880493164,
+              183.8724365234375,
+              0.22279812395572662
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.371634006500244,
+              4.102613925933838,
+              4.349785804748535
+            ],
+            "dimensions": [
+              3.6920347213745117,
+              3.496683359146118,
+              4.349785804748535
+            ]
+          },
+          {
+            "name": "Tree_0012",
+            "position": [
+              -21.628494262695312,
+              191.54953002929688,
+              0.22891391813755035
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.610487461090088,
+              4.3267693519592285,
+              4.587446212768555
+            ],
+            "dimensions": [
+              3.8937573432922363,
+              3.687732696533203,
+              4.587446212768555
+            ]
+          },
+          {
+            "name": "Tree_0013",
+            "position": [
+              -21.478940963745117,
+              199.90081787109375,
+              0.23562486469745636
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.851581573486328,
+              4.465120315551758,
+              5.633480548858643
+            ],
+            "dimensions": [
+              4.7816162109375,
+              4.528613090515137,
+              5.633480548858643
+            ]
+          },
+          {
+            "name": "Tree_0014",
+            "position": [
+              -21.378299713134766,
+              207.22659301757812,
+              0.24150560796260834
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.82637095451355,
+              4.003616809844971,
+              5.073787689208984
+            ],
+            "dimensions": [
+              4.306556701660156,
+              4.078690052032471,
+              5.073787689208984
+            ]
+          },
+          {
+            "name": "Tree_0015",
+            "position": [
+              -21.26188087463379,
+              215.29908752441406,
+              0.24798689782619476
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.4423136711120605,
+              4.08845329284668,
+              5.158253192901611
+            ],
+            "dimensions": [
+              4.3782501220703125,
+              4.146589756011963,
+              5.158253192901611
+            ]
+          },
+          {
+            "name": "Tree_0016",
+            "position": [
+              -21.31024742126465,
+              223.84027099609375,
+              0.2548101544380188
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.12506103515625,
+              3.8712148666381836,
+              4.104445457458496
+            ],
+            "dimensions": [
+              3.4837934970855713,
+              3.2994604110717773,
+              4.104445457458496
+            ]
+          },
+          {
+            "name": "Tree_0017",
+            "position": [
+              -21.591257095336914,
+              232.1074676513672,
+              0.26136770844459534
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.921600580215454,
+              4.103257656097412,
+              5.200062274932861
+            ],
+            "dimensions": [
+              4.4137372970581055,
+              4.18019962310791,
+              5.2000627517700195
+            ]
+          },
+          {
+            "name": "Tree_0018",
+            "position": [
+              -21.397172927856445,
+              239.49440002441406,
+              0.267316073179245
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.145851135253906,
+              4.337896347045898,
+              5.497420310974121
+            ],
+            "dimensions": [
+              4.666130542755127,
+              4.419238090515137,
+              5.497420310974121
+            ]
+          },
+          {
+            "name": "Tree_0019",
+            "position": [
+              -21.191869735717773,
+              247.22425842285156,
+              0.27354103326797485
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.085043430328369,
+              3.8336598873138428,
+              4.064627647399902
+            ],
+            "dimensions": [
+              3.4499967098236084,
+              3.267451763153076,
+              4.064627647399902
+            ]
+          },
+          {
+            "name": "Tree_0020",
+            "position": [
+              -21.586498260498047,
+              255.83331298828125,
+              0.28034934401512146
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.964245319366455,
+              4.568809986114502,
+              5.764301776885986
+            ],
+            "dimensions": [
+              4.892654895782471,
+              4.633776664733887,
+              5.764301300048828
+            ]
+          },
+          {
+            "name": "Tree_0021",
+            "position": [
+              -21.597801208496094,
+              263.3577880859375,
+              0.28636667132377625
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.261630535125732,
+              4.459039211273193,
+              5.650944709777832
+            ],
+            "dimensions": [
+              4.7964396476745605,
+              4.542652606964111,
+              5.650944709777832
+            ]
+          },
+          {
+            "name": "Tree_0022",
+            "position": [
+              -21.470111846923828,
+              272.105224609375,
+              0.29026681184768677
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.739717483520508,
+              4.362166881561279,
+              5.50358772277832
+            ],
+            "dimensions": [
+              4.671364784240723,
+              4.424195766448975,
+              5.50358772277832
+            ]
+          },
+          {
+            "name": "Tree_0023",
+            "position": [
+              21.286794662475586,
+              103.90065002441406,
+              0.16737787425518036
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.818694114685059,
+              4.522163391113281,
+              4.794612407684326
+            ],
+            "dimensions": [
+              4.069597244262695,
+              3.8542683124542236,
+              4.794612407684326
+            ]
+          },
+          {
+            "name": "Tree_0024",
+            "position": [
+              21.10699462890625,
+              111.45984649658203,
+              0.17338927090168
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.012030124664307,
+              4.703601837158203,
+              4.986981391906738
+            ],
+            "dimensions": [
+              4.232877254486084,
+              4.008908748626709,
+              4.986981391906738
+            ]
+          },
+          {
+            "name": "Tree_0028",
+            "position": [
+              21.22359275817871,
+              144.078369140625,
+              0.19950741529464722
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.5731611251831055,
+              4.208878040313721,
+              5.3101887702941895
+            ],
+            "dimensions": [
+              4.507211208343506,
+              4.2687273025512695,
+              5.310189247131348
+            ]
+          },
+          {
+            "name": "Tree_0029",
+            "position": [
+              21.511808395385742,
+              151.7292938232422,
+              0.2056857943534851
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.768376350402832,
+              4.474942207336426,
+              4.7445454597473145
+            ],
+            "dimensions": [
+              4.027101039886475,
+              3.8140206336975098,
+              4.7445454597473145
+            ]
+          },
+          {
+            "name": "Tree_0030",
+            "position": [
+              21.358497619628906,
+              159.1683807373047,
+              0.21160639822483063
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.01506233215332,
+              3.7679851055145264,
+              3.9949963092803955
+            ],
+            "dimensions": [
+              3.390894651412964,
+              3.211477041244507,
+              3.9949963092803955
+            ]
+          },
+          {
+            "name": "Tree_0031",
+            "position": [
+              21.421430587768555,
+              167.8374786376953,
+              0.2185542732477188
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.251084327697754,
+              4.832800388336182,
+              6.0973687171936035
+            ],
+            "dimensions": [
+              5.175357341766357,
+              4.9015212059021,
+              6.0973687171936035
+            ]
+          },
+          {
+            "name": "Tree_0032",
+            "position": [
+              21.452543258666992,
+              175.06993103027344,
+              0.22434645891189575
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.999034404754639,
+              4.69140625,
+              4.974050998687744
+            ],
+            "dimensions": [
+              4.221901893615723,
+              3.998514413833618,
+              4.974050998687744
+            ]
+          },
+          {
+            "name": "Tree_0033",
+            "position": [
+              21.13681983947754,
+              183.94419860839844,
+              0.23138272762298584
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.984367609024048,
+              3.7391793727874756,
+              3.9644546508789062
+            ],
+            "dimensions": [
+              3.364971160888672,
+              3.186925172805786,
+              3.9644546508789062
+            ]
+          },
+          {
+            "name": "Tree_0034",
+            "position": [
+              21.272382736206055,
+              191.20672607421875,
+              0.23721985518932343
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.600372791290283,
+              3.7671501636505127,
+              4.774113178253174
+            ],
+            "dimensions": [
+              4.052197456359863,
+              3.837789297103882,
+              4.774113178253174
+            ]
+          },
+          {
+            "name": "Tree_0035",
+            "position": [
+              21.687789916992188,
+              200.75228881835938,
+              0.244939386844635
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.220870494842529,
+              3.9611284732818604,
+              4.1997761726379395
+            ],
+            "dimensions": [
+              3.564708948135376,
+              3.3760945796966553,
+              4.1997761726379395
+            ]
+          },
+          {
+            "name": "Tree_0036",
+            "position": [
+              21.611616134643555,
+              207.57037353515625,
+              0.2503786087036133
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.7906816005706787,
+              3.9662744998931885,
+              5.026463508605957
+            ],
+            "dimensions": [
+              4.266388893127441,
+              4.040647506713867,
+              5.026463508605957
+            ]
+          },
+          {
+            "name": "Tree_0037",
+            "position": [
+              21.47744369506836,
+              215.29823303222656,
+              0.25653406977653503
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.7529296875,
+              3.5219836235046387,
+              3.7341737747192383
+            ],
+            "dimensions": [
+              3.1695122718811035,
+              3.0018084049224854,
+              3.7341737747192383
+            ]
+          },
+          {
+            "name": "Tree_0038",
+            "position": [
+              21.571321487426758,
+              224.95846557617188,
+              0.2642810344696045
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.7719101905822754,
+              3.5397961139678955,
+              3.7530593872070312
+            ],
+            "dimensions": [
+              3.185542345046997,
+              3.0169901847839355,
+              3.7530593872070312
+            ]
+          },
+          {
+            "name": "Tree_0039",
+            "position": [
+              21.586734771728516,
+              231.90003967285156,
+              0.2698373794555664
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.289522171020508,
+              3.9478325843811035,
+              4.980837345123291
+            ],
+            "dimensions": [
+              4.227662086486816,
+              4.003969669342041,
+              4.980837345123291
+            ]
+          },
+          {
+            "name": "Tree_0040",
+            "position": [
+              21.12238883972168,
+              240.991943359375,
+              0.2770180404186249
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.154848575592041,
+              3.8238866329193115,
+              4.824459075927734
+            ],
+            "dimensions": [
+              4.094930171966553,
+              3.878261089324951,
+              4.824459075927734
+            ]
+          },
+          {
+            "name": "Tree_0041",
+            "position": [
+              21.59859848022461,
+              248.1037139892578,
+              0.2828027009963989
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.097158432006836,
+              3.84502911567688,
+              4.076682090759277
+            ],
+            "dimensions": [
+              3.460228204727173,
+              3.27714204788208,
+              4.076682090759277
+            ]
+          },
+          {
+            "name": "Tree_0042",
+            "position": [
+              21.499292373657227,
+              256.85723876953125,
+              0.2897856533527374
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.063285827636719,
+              4.659960746765137,
+              5.879303932189941
+            ],
+            "dimensions": [
+              4.990268230438232,
+              4.72622537612915,
+              5.8793044090271
+            ]
+          },
+          {
+            "name": "Tree_0043",
+            "position": [
+              21.510272979736328,
+              264.9842224121094,
+              0.29628944396972656
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.8881545066833496,
+              4.068262577056885,
+              5.155713081359863
+            ],
+            "dimensions": [
+              4.376093864440918,
+              4.144547939300537,
+              5.155713081359863
+            ]
+          },
+          {
+            "name": "Tree_0044",
+            "position": [
+              21.67555809020996,
+              271.31060791015625,
+              0.2998488247394562
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.364035129547119,
+              4.0164103507995605,
+              5.06735897064209
+            ],
+            "dimensions": [
+              4.301100254058838,
+              4.073522567749023,
+              5.06735897064209
+            ]
+          },
+          {
+            "name": "Tree_0047",
+            "position": [
+              1.121900200843811,
+              54.99626159667969,
+              0.013613997958600521
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.5567145347595215,
+              3.7214696407318115,
+              4.716221809387207
+            ],
+            "dimensions": [
+              4.003060340881348,
+              3.7912521362304688,
+              4.716222286224365
+            ]
+          },
+          {
+            "name": "Tree_0048",
+            "position": [
+              -16.354928970336914,
+              54.54105758666992,
+              0.01161984819918871
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.305449485778809,
+              3.962491273880005,
+              4.999331951141357
+            ],
+            "dimensions": [
+              4.2433600425720215,
+              4.018836975097656,
+              4.999331951141357
+            ]
+          },
+          {
+            "name": "Tree_0327",
+            "position": [
+              -77.47721099853516,
+              73.00492095947266,
+              0.028626933693885803
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.2200119495391846,
+              3.3691701889038086,
+              4.269752502441406
+            ],
+            "dimensions": [
+              3.624103546142578,
+              3.4323465824127197,
+              4.269752502441406
+            ]
+          },
+          {
+            "name": "Tree_0335",
+            "position": [
+              -64.51589965820312,
+              82.5081787109375,
+              0.008150661364197731
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.408771514892578,
+              3.566673517227173,
+              4.52004861831665
+            ],
+            "dimensions": [
+              3.8365511894226074,
+              3.6335532665252686,
+              4.52004861831665
+            ]
+          },
+          {
+            "name": "Tree_0343",
+            "position": [
+              -59.624717712402344,
+              82.46017456054688,
+              0.020003531128168106
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.205263376235962,
+              3.353738307952881,
+              4.250195503234863
+            ],
+            "dimensions": [
+              3.60750412940979,
+              3.4166252613067627,
+              4.250195503234863
+            ]
+          },
+          {
+            "name": "Tree_0344",
+            "position": [
+              -54.719627380371094,
+              288.1755065917969,
+              0.09810102730989456
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.3584113121032715,
+              4.931577682495117,
+              6.221992492675781
+            ],
+            "dimensions": [
+              5.2811360359191895,
+              5.001702785491943,
+              6.221992015838623
+            ]
+          },
+          {
+            "name": "Tree_0347",
+            "position": [
+              -47.58899688720703,
+              82.19550323486328,
+              0.05454409122467041
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.918292045593262,
+              4.615632057189941,
+              4.893712043762207
+            ],
+            "dimensions": [
+              4.153711318969727,
+              3.933931827545166,
+              4.893711566925049
+            ]
+          },
+          {
+            "name": "Tree_0349",
+            "position": [
+              -45.31855010986328,
+              280.0047607421875,
+              0.1692480593919754
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.855717658996582,
+              5.389270305633545,
+              6.799447059631348
+            ],
+            "dimensions": [
+              5.771271228790283,
+              5.465904235839844,
+              6.799447059631348
+            ]
+          },
+          {
+            "name": "Tree_0350",
+            "position": [
+              -47.59657287597656,
+              285.73370361328125,
+              0.12233538925647736
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.03244161605835,
+              4.722757339477539,
+              5.007290840148926
+            ],
+            "dimensions": [
+              4.250115871429443,
+              4.025235652923584,
+              5.007291316986084
+            ]
+          },
+          {
+            "name": "Tree_0353",
+            "position": [
+              -41.750972747802734,
+              77.39082336425781,
+              0.05283776670694351
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.273930549621582,
+              4.85382604598999,
+              6.123896598815918
+            ],
+            "dimensions": [
+              5.197874069213867,
+              4.92284631729126,
+              6.12389612197876
+            ]
+          },
+          {
+            "name": "Tree_0355",
+            "position": [
+              -36.410797119140625,
+              199.12835693359375,
+              0.11070822924375534
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.877644062042236,
+              4.489107131958008,
+              5.663743019104004
+            ],
+            "dimensions": [
+              4.807302474975586,
+              4.552940368652344,
+              5.663743019104004
+            ]
+          },
+          {
+            "name": "Tree_0357",
+            "position": [
+              -27.10010528564453,
+              82.00965118408203,
+              0.060187701135873795
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.4910736083984375,
+              5.0536723136901855,
+              6.376035690307617
+            ],
+            "dimensions": [
+              5.411885738372803,
+              5.125534534454346,
+              6.376035213470459
+            ]
+          },
+          {
+            "name": "Tree_0358",
+            "position": [
+              -32.327911376953125,
+              91.49695587158203,
+              0.06673198193311691
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.413177013397217,
+              4.981980800628662,
+              6.285584926605225
+            ],
+            "dimensions": [
+              5.335113525390625,
+              5.052824020385742,
+              6.285584926605225
+            ]
+          },
+          {
+            "name": "Tree_0359",
+            "position": [
+              -28.323627471923828,
+              108.84461975097656,
+              0.09520423412322998
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.647292137145996,
+              3.422846794128418,
+              3.6290643215179443
+            ],
+            "dimensions": [
+              3.080296754837036,
+              2.917313575744629,
+              3.6290643215179443
+            ]
+          },
+          {
+            "name": "Tree_0362",
+            "position": [
+              -29.58949089050293,
+              143.31536865234375,
+              0.10776989161968231
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.621140480041504,
+              4.336766719818115,
+              4.598045349121094
+            ],
+            "dimensions": [
+              3.9027535915374756,
+              3.6962528228759766,
+              4.598045349121094
+            ]
+          },
+          {
+            "name": "Tree_0363",
+            "position": [
+              -30.582050323486328,
+              152.10092163085938,
+              0.11609148234128952
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.032613754272461,
+              3.7113888263702393,
+              4.682524681091309
+            ],
+            "dimensions": [
+              3.974458694458008,
+              3.7641639709472656,
+              4.682524681091309
+            ]
+          },
+          {
+            "name": "Tree_0364",
+            "position": [
+              -31.051488876342773,
+              171.84918212890625,
+              0.13126905262470245
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.701127290725708,
+              3.4733688831329346,
+              3.6826303005218506
+            ],
+            "dimensions": [
+              3.125762462615967,
+              2.9603734016418457,
+              3.6826300621032715
+            ]
+          },
+          {
+            "name": "Tree_0365",
+            "position": [
+              -27.70883560180664,
+              205.34808349609375,
+              0.15149694681167603
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.5418806076049805,
+              4.262384414672852,
+              4.519181728363037
+            ],
+            "dimensions": [
+              3.835815668106079,
+              3.632856607437134,
+              4.519181728363037
+            ]
+          },
+          {
+            "name": "Tree_0366",
+            "position": [
+              -29.630884170532227,
+              243.37628173828125,
+              0.20228813588619232
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.841265678405762,
+              5.375969409942627,
+              6.782666206359863
+            ],
+            "dimensions": [
+              5.757028102874756,
+              5.452414512634277,
+              6.782666206359863
+            ]
+          },
+          {
+            "name": "Tree_0367",
+            "position": [
+              -29.23113250732422,
+              260.1631774902344,
+              0.21541817486286163
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.6012349128723145,
+              4.8143744468688965,
+              6.101261138916016
+            ],
+            "dimensions": [
+              5.178661346435547,
+              4.9046502113342285,
+              6.101260662078857
+            ]
+          },
+          {
+            "name": "Tree_0368",
+            "position": [
+              -30.094572067260742,
+              266.8185729980469,
+              0.2074359506368637
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.129894256591797,
+              3.2748780250549316,
+              4.1502556800842285
+            ],
+            "dimensions": [
+              3.522676467895508,
+              3.3362860679626465,
+              4.1502556800842285
+            ]
+          },
+          {
+            "name": "Tree_0369",
+            "position": [
+              -27.92738151550293,
+              278.771728515625,
+              0.1690831333398819
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.9811594486236572,
+              3.736168622970581,
+              3.9612629413604736
+            ],
+            "dimensions": [
+              3.362262010574341,
+              3.184359550476074,
+              3.9612627029418945
+            ]
+          },
+          {
+            "name": "Tree_0374",
+            "position": [
+              26.809389114379883,
+              222.14479064941406,
+              0.18358628451824188
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.244447708129883,
+              3.9832546710968018,
+              4.223235130310059
+            ],
+            "dimensions": [
+              3.584620714187622,
+              3.3949527740478516,
+              4.223235130310059
+            ]
+          },
+          {
+            "name": "Tree_0375",
+            "position": [
+              26.763046264648438,
+              234.64952087402344,
+              0.19652396440505981
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.719471454620361,
+              5.367509365081787,
+              5.690888404846191
+            ],
+            "dimensions": [
+              4.8303422927856445,
+              4.574761390686035,
+              5.690888404846191
+            ]
+          },
+          {
+            "name": "Tree_0377",
+            "position": [
+              31.315719604492188,
+              90.3416976928711,
+              0.0785365030169487
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.746528387069702,
+              3.9200761318206787,
+              4.967916011810303
+            ],
+            "dimensions": [
+              4.2166948318481445,
+              3.9935827255249023,
+              4.967916011810303
+            ]
+          },
+          {
+            "name": "Tree_0378",
+            "position": [
+              34.45253372192383,
+              96.6339111328125,
+              0.08419763296842575
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.0525546073913574,
+              3.193955659866333,
+              4.047702789306641
+            ],
+            "dimensions": [
+              3.435631036758423,
+              3.2538464069366455,
+              4.047702789306641
+            ]
+          },
+          {
+            "name": "Tree_0379",
+            "position": [
+              34.70619201660156,
+              108.08692932128906,
+              0.09341078251600266
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.261291980743408,
+              4.45868444442749,
+              5.6504950523376465
+            ],
+            "dimensions": [
+              4.79605770111084,
+              4.542290687561035,
+              5.6504950523376465
+            ]
+          },
+          {
+            "name": "Tree_0383",
+            "position": [
+              35.84392547607422,
+              150.41619873046875,
+              0.1275017410516739
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.715901851654053,
+              4.42569637298584,
+              4.692333221435547
+            ],
+            "dimensions": [
+              3.9827842712402344,
+              3.7720487117767334,
+              4.692333221435547
+            ]
+          },
+          {
+            "name": "Tree_0385",
+            "position": [
+              32.35816955566406,
+              168.6238250732422,
+              0.14840082824230194
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.171704292297363,
+              4.759742736816406,
+              6.005195140838623
+            ],
+            "dimensions": [
+              5.0971221923828125,
+              4.827425003051758,
+              6.005195140838623
+            ]
+          },
+          {
+            "name": "Tree_0386",
+            "position": [
+              32.169776916503906,
+              206.1466827392578,
+              0.17135129868984222
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.390717029571533,
+              5.058985233306885,
+              5.363775730133057
+            ],
+            "dimensions": [
+              4.552694797515869,
+              4.311804294586182,
+              5.363775730133057
+            ]
+          },
+          {
+            "name": "Tree_0387",
+            "position": [
+              33.03837966918945,
+              212.39297485351562,
+              0.17652206122875214
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.511198997497559,
+              4.233590602874756,
+              4.488653182983398
+            ],
+            "dimensions": [
+              3.809903383255005,
+              3.6083152294158936,
+              4.488653182983398
+            ]
+          },
+          {
+            "name": "Tree_0388",
+            "position": [
+              35.73716735839844,
+              221.5076446533203,
+              0.1843535453081131
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              3.725316047668457,
+              3.4285695552825928,
+              4.325701713562012
+            ],
+            "dimensions": [
+              3.6715924739837646,
+              3.477322816848755,
+              4.325701713562012
+            ]
+          },
+          {
+            "name": "Tree_0389",
+            "position": [
+              33.767547607421875,
+              235.42213439941406,
+              0.19509121775627136
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.718766689300537,
+              4.937350749969482,
+              6.25710916519165
+            ],
+            "dimensions": [
+              5.310943126678467,
+              5.029932975769043,
+              6.25710916519165
+            ]
+          },
+          {
+            "name": "Tree_0390",
+            "position": [
+              32.61548614501953,
+              258.33636474609375,
+              0.2131921947002411
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.042387008666992,
+              3.720383644104004,
+              4.693873405456543
+            ],
+            "dimensions": [
+              3.9840915203094482,
+              3.773286819458008,
+              4.693873405456543
+            ]
+          },
+          {
+            "name": "Tree_0391",
+            "position": [
+              32.48577117919922,
+              271.6747131347656,
+              0.22157059609889984
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.330682277679443,
+              4.531289577484131,
+              5.742507457733154
+            ],
+            "dimensions": [
+              4.874156475067139,
+              4.616257190704346,
+              5.742507457733154
+            ]
+          },
+          {
+            "name": "Tree_0392",
+            "position": [
+              30.612390518188477,
+              275.59619140625,
+              0.20892587304115295
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.834434986114502,
+              4.012054443359375,
+              5.084480285644531
+            ],
+            "dimensions": [
+              4.3156328201293945,
+              4.087285995483398,
+              5.084479808807373
+            ]
+          },
+          {
+            "name": "Tree_0393",
+            "position": [
+              33.40900802612305,
+              285.4732666015625,
+              0.13387075066566467
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.7406868934631348,
+              3.5104942321777344,
+              3.721992015838623
+            ],
+            "dimensions": [
+              3.159172773361206,
+              2.992015838623047,
+              3.721992254257202
+            ]
+          },
+          {
+            "name": "Tree_0399",
+            "position": [
+              40.64442825317383,
+              154.21466064453125,
+              0.13075712323188782
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              5.494460582733154,
+              5.056789875030518,
+              6.379968166351318
+            ],
+            "dimensions": [
+              5.415224552154541,
+              5.128696441650391,
+              6.379968166351318
+            ]
+          },
+          {
+            "name": "Tree_0400",
+            "position": [
+              41.879661560058594,
+              158.35435485839844,
+              0.13443803787231445
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.599626064300537,
+              5.255038738250732,
+              5.571640968322754
+            ],
+            "dimensions": [
+              4.729127883911133,
+              4.478902339935303,
+              5.571641445159912
+            ]
+          },
+          {
+            "name": "Tree_0401",
+            "position": [
+              39.24106216430664,
+              215.10818481445312,
+              0.18004460632801056
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.273214817047119,
+              4.010251522064209,
+              4.251858711242676
+            ],
+            "dimensions": [
+              3.6089158058166504,
+              3.4179623126983643,
+              4.251858711242676
+            ]
+          },
+          {
+            "name": "Tree_0402",
+            "position": [
+              39.03055953979492,
+              249.96884155273438,
+              0.20907172560691833
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.385031700134277,
+              5.05364990234375,
+              5.358119010925293
+            ],
+            "dimensions": [
+              4.547893524169922,
+              4.307257175445557,
+              5.358119010925293
+            ]
+          },
+          {
+            "name": "Tree_0403",
+            "position": [
+              42.14738464355469,
+              271.8253173828125,
+              0.2232663780450821
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              5.7284770011901855,
+              5.375960350036621,
+              5.69984769821167
+            ],
+            "dimensions": [
+              4.837947368621826,
+              4.581964015960693,
+              5.69984769821167
+            ]
+          },
+          {
+            "name": "Tree_0404",
+            "position": [
+              43.17909622192383,
+              280.0734558105469,
+              0.1826547533273697
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.8155832290649414,
+              3.9923295974731445,
+              5.059482574462891
+            ],
+            "dimensions": [
+              4.29441499710083,
+              4.067190647125244,
+              5.059482574462891
+            ]
+          },
+          {
+            "name": "Tree_0405",
+            "position": [
+              44.57271957397461,
+              289.2818908691406,
+              0.09781237691640854
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.757401943206787,
+              4.4646430015563965,
+              4.733626365661621
+            ],
+            "dimensions": [
+              4.0178327560424805,
+              3.8052430152893066,
+              4.733626365661621
+            ]
+          },
+          {
+            "name": "Tree_0408",
+            "position": [
+              52.77090835571289,
+              81.0972671508789,
+              0.06807373464107513
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              4.078949928283691,
+              4.267895698547363,
+              5.408708572387695
+            ],
+            "dimensions": [
+              4.59083366394043,
+              4.347925186157227,
+              5.4087090492248535
+            ]
+          },
+          {
+            "name": "Tree_0409",
+            "position": [
+              49.774723052978516,
+              276.6851806640625,
+              0.2067260444164276
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.147468090057373,
+              3.817094326019287,
+              4.815889358520508
+            ],
+            "dimensions": [
+              4.087656497955322,
+              3.8713719844818115,
+              4.815889358520508
+            ]
+          },
+          {
+            "name": "Tree_0410",
+            "position": [
+              49.7869873046875,
+              287.0666198730469,
+              0.12014812976121902
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              3.7674365043640137,
+              3.535597562789917,
+              3.748608112335205
+            ],
+            "dimensions": [
+              3.1817638874053955,
+              3.013411521911621,
+              3.748607873916626
+            ]
+          },
+          {
+            "name": "Tree_0413",
+            "position": [
+              58.727115631103516,
+              280.3774108886719,
+              0.18595771491527557
+            ],
+            "prior_mesh": "ASSET_Tree_2",
+            "prior_dimensions": [
+              4.945501327514648,
+              4.551558494567871,
+              5.742536544799805
+            ],
+            "dimensions": [
+              4.874181270599365,
+              4.616280555725098,
+              5.742536544799805
+            ]
+          },
+          {
+            "name": "Tree_0423",
+            "position": [
+              75.0716552734375,
+              72.64449310302734,
+              0.06851664185523987
+            ],
+            "prior_mesh": "ASSET_Tree_0",
+            "prior_dimensions": [
+              4.927008152008057,
+              4.623812198638916,
+              4.9023847579956055
+            ],
+            "dimensions": [
+              4.161072254180908,
+              3.9409031867980957,
+              4.9023847579956055
+            ]
+          },
+          {
+            "name": "Tree_0424",
+            "position": [
+              80.37291717529297,
+              79.61822509765625,
+              0.07315367460250854
+            ],
+            "prior_mesh": "ASSET_Tree_1",
+            "prior_dimensions": [
+              3.563579797744751,
+              3.7286529541015625,
+              4.725325107574463
+            ],
+            "dimensions": [
+              4.010787487030029,
+              3.798570156097412,
+              4.725325584411621
+            ]
+          }
+        ],
+        "asset_triangles": 20551
+      }
+    },
+    {
+      "asset": "dirt",
+      "source_url": "https://polyhaven.com/a/dirt",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "tile_m": 2.0,
+      "files": [
+        {
+          "map": "diff",
+          "path": "assets\\pbr\\dirt\\dirt_diff_2k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_diff_2k.jpg",
+          "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+          "provider_md5_verified": true,
+          "bytes": 3053062
+        },
+        {
+          "map": "nor_gl",
+          "path": "assets\\pbr\\dirt\\dirt_nor_gl_2k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_nor_gl_2k.jpg",
+          "sha256": "ff629fce04c5d6d581cfcb604ea85df6b726798e60d982fd5484c60cddcccd88",
+          "provider_md5_verified": true,
+          "bytes": 4914156
+        },
+        {
+          "map": "rough",
+          "path": "assets\\pbr\\dirt\\dirt_rough_2k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_rough_2k.jpg",
+          "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+          "provider_md5_verified": true,
+          "bytes": 964887
+        }
+      ],
+      "optimization": "2K originals; physical world projection; VRAM compression; mipmaps; 16x anisotropy; no displacement",
+      "usage": [
+        "V15 raised kerbed verge beds and outer approach beds (M_V15_Planted_Bed_Soil): baked source albedo + detail mode 2"
+      ]
+    }
+  ],
+  "license_verified": "Poly Haven originals are CC0 1.0; provider page/API and original file MD5 retained",
+  "rejected": [
+    "stair_concrete_micro derivative (dark blue-grey stairs clashed with stone landings; moved to output/validation/v12/recovery/rejected/)",
+    "Pachira shrub replacement of 58 V11 shrubs (read as sparse twigs)",
+    "sand_01 as whole desert/soil surface (grey cracked crust)",
+    "concrete_pavers as campus road surface (V12.1: wrong unit shape vs D02; busy at grazing angles)",
+    "per-axis Pachira fitting (V12.1: flattened sprawling crowns)"
+  ],
+  "tone_targets": {
+    "Asphalt": {
+      "target_mean_linear": [
+        0.0931,
+        0.0909,
+        0.0866
+      ],
+      "pbr_mean_linear": [
+        0.1009,
+        0.0804,
+        0.0624
+      ],
+      "saturation": 0.2,
+      "tint": [
+        1.0705,
+        1.0963,
+        1.0921
+      ]
+    },
+    "Paver_Road_Grey": {
+      "target_mean_linear": [
+        0.2585,
+        0.2585,
+        0.2487
+      ],
+      "pbr_mean_linear": [
+        0.14,
+        0.1154,
+        0.089
+      ],
+      "saturation": 0.35,
+      "tint": [
+        2.0486,
+        2.1991,
+        2.2956
+      ]
+    },
+    "Garden_Pavers": {
+      "target_mean_linear": [
+        0.3908,
+        0.3677,
+        0.3265
+      ],
+      "pbr_mean_linear": [
+        0.14,
+        0.1154,
+        0.089
+      ],
+      "saturation": 0.35,
+      "tint": [
+        3.0975,
+        3.1285,
+        3.0138
+      ]
+    },
+    "Desert_Sand": {
+      "target_mean_linear": [
+        0.4767,
+        0.3489,
+        0.2142
+      ],
+      "pbr_mean_linear": [
+        0.3819,
+        0.3062,
+        0.1622
+      ],
+      "saturation": 0.8,
+      "tint": [
+        1.2958,
+        1.1353,
+        1.1144
+      ]
+    },
+    "Graded_Campus_Soil": {
+      "target_mean_linear": [
+        0.4976,
+        0.3779,
+        0.2488
+      ],
+      "pbr_mean_linear": [
+        0.3819,
+        0.3062,
+        0.1622
+      ],
+      "saturation": 0.75,
+      "tint": [
+        1.3655,
+        1.2285,
+        1.2461
+      ]
+    },
+    "Compacted_Earth": {
+      "target_mean_linear": [
+        0.4392,
+        0.347,
+        0.2405
+      ],
+      "pbr_mean_linear": [
+        0.3819,
+        0.3062,
+        0.1622
+      ],
+      "saturation": 0.7,
+      "tint": [
+        1.2171,
+        1.1272,
+        1.1609
+      ]
+    },
+    "Planted_Soil_Sparse": {
+      "target_mean_linear": [
+        0.1706,
+        0.1346,
+        0.0703
+      ],
+      "pbr_mean_linear": [
+        0.0816,
+        0.0491,
+        0.0087
+      ],
+      "saturation": 0.45,
+      "tint": [
+        2.589,
+        2.6246,
+        2.1251
+      ]
+    }
+  },
+  "shader_files": {
+    "shaders\\ground_surface.gdshader": "f9f204f9b3d8b0a25d5e84b945c4813d3b53fb9eec535f9f429b30abed3e41ac",
+    "shaders\\pbr_world.gdshader": "63c358d5834a49c08c21385a0ecaf2f7b19e8f8676168f4e2d4e56fd86243329",
+    "scripts\\pbr_materials.gd": "381e94f3a5bfcde3eab8be21aeb7b8f4efdd33a3bbb0eec1dd4bdef7ef5631c3",
+    "assets\\pbr\\tone_targets.json": "b9f1468da8f601fa72fabf2e7978fce8399cb8da40641e09d1a774a23f90839e"
+  }
+}

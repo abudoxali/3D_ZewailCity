@@ -1,0 +1,17 @@
+{
+  "command": [
+    "godot_console",
+    "--path",
+    "output/validation/v15/candidate/game/godot",
+    "--resolution",
+    "1920x1080",
+    "--fixed-fps",
+    "30",
+    "--write-movie",
+    "C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/output/validation/v15/walkthrough/v15_walkthrough.avi",
+    "res://tests/V15Walkthrough.tscn"
+  ],
+  "exit_code": 0,
+  "seconds": 95.74,
+  "started_utc": "2026-11-09T11:21:15.460808+00:00"
+}

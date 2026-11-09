@@ -1,0 +1,176 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "cells": 44671,
+        "grid_m": 0.4,
+        "half_width_m": 68.0,
+        "normal_bounds": [
+          -32.0,
+          20.0
+        ],
+        "reachable": false
+      },
+      "name": "G1 closed capsule flood has NO edge/perimeter bypass",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 44671,
+        "grid_m": 0.4,
+        "half_width_m": 68.0,
+        "normal_bounds": [
+          -32.0,
+          20.0
+        ],
+        "reachable": true
+      },
+      "name": "G1 open capsule flood finds a route",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7503,
+        "grid_m": 0.4,
+        "half_width_m": 24.4409851646982,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": false
+      },
+      "name": "G2 closed capsule flood has NO edge/perimeter bypass",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7503,
+        "grid_m": 0.4,
+        "half_width_m": 24.4409851646982,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": true
+      },
+      "name": "G2 open capsule flood finds a route",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 6832,
+        "grid_m": 0.4,
+        "half_width_m": 22.2267586779789,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": false
+      },
+      "name": "G3 closed capsule flood has NO edge/perimeter bypass",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 6832,
+        "grid_m": 0.4,
+        "half_width_m": 22.2267586779789,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": true
+      },
+      "name": "G3 open capsule flood finds a route",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7808,
+        "grid_m": 0.4,
+        "half_width_m": 25.4546779103666,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": false
+      },
+      "name": "G4 closed capsule flood has NO edge/perimeter bypass",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7808,
+        "grid_m": 0.4,
+        "half_width_m": 25.4546779103666,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": true
+      },
+      "name": "G4 open capsule flood finds a route",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7320,
+        "grid_m": 0.4,
+        "half_width_m": 23.848926483574,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": false
+      },
+      "name": "G5 closed capsule flood has NO edge/perimeter bypass",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7320,
+        "grid_m": 0.4,
+        "half_width_m": 23.848926483574,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": true
+      },
+      "name": "G5 open capsule flood finds a route",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7503,
+        "grid_m": 0.4,
+        "half_width_m": 24.4175231616721,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": false
+      },
+      "name": "G6 closed capsule flood has NO edge/perimeter bypass",
+      "pass": true
+    },
+    {
+      "detail": {
+        "cells": 7503,
+        "grid_m": 0.4,
+        "half_width_m": 24.4175231616721,
+        "normal_bounds": [
+          -12.0,
+          12.0
+        ],
+        "reachable": true
+      },
+      "name": "G6 open capsule flood finds a route",
+      "pass": true
+    }
+  ],
+  "method": "Real PhysicsDirectSpaceState capsule occupancy on ground collider, 0.4 m grid, 4-neighbor flood with a swept player.test_move on every edge (prevents concave-solid interior false routes). Complements physical player walks; not a substitute for them.",
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

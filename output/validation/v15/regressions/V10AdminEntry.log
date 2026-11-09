@@ -1,0 +1,28 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1518 ms (+52 ms prepare): { "gate_leaves": 19, "load_ms": 1518, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1604 ms (campus { "gate_leaves": 19, "load_ms": 1518, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] Administration road to steps and supported landing  {"airborne_frames":1,"failures":[],"final":[0.0,1.61,-25.42],"floor_losses":0,"max_floor_gap_m":0.188439249992371,"max_gap_at":{"feet_y":0.398439168930054,"floor":[0.0,0.21,-30.96],"on_floor":true,"player":[0.0,1.27,-30.96],"target":[0.0,-30.0],"velocity":[0.0,0.0,0.79]}}
+[PASS] Administration landing floor contact at 0.72 m  {"feet_y":0.738727331161499}
+[PASS] Administration axis doorway, lobby, second doorway and return  {"airborne_frames":1,"failures":[],"final":[3.0,1.61,-24.54],"floor_losses":0,"max_floor_gap_m":0.188439309597015,"max_gap_at":{"feet_y":0.398439288139343,"floor":[0.0,0.21,-30.96],"on_floor":true,"player":[0.0,1.27,-30.96],"target":[0.0,-25.0],"velocity":[0.0,0.0,0.79]}}
+[PASS] Administration returned landing has floor contact at 0.72 m  {"feet_y":0.738727331161499}
+[PASS] Administration second doorway reaches lobby floor  {"airborne_frames":1,"failures":[],"final":[3.0,1.61,-12.46],"floor_losses":0,"max_floor_gap_m":0.170792639255524,"max_gap_at":{"feet_y":0.550792694091797,"floor":[3.0,0.38,-30.55],"on_floor":true,"player":[3.0,1.43,-30.55],"target":[3.0,-25.0],"velocity":[0.0,0.0,0.0]}}
+[PASS] Administration lobby floor contact at 0.72 m  {"feet_y":0.738811612129211}
+[PASS] Administration facade retained x=-16.0  {}
+[PASS] Administration facade retained x=16.0  {}
+[PASS] Administration bounded lobby back wall x=-10.0  {}
+[PASS] Administration bounded lobby back wall x=0.0  {}
+[PASS] Administration bounded lobby back wall x=10.0  {}
+[PASS] Administration doorway clear x=0.0  {}
+[PASS] Administration doorway clear x=3.0  {}
+[PASS] Administration lobby glazing blocks x=-8.0  {}
+[PASS] Administration lobby glazing blocks x=-5.0  {}
+[PASS] Administration lobby glazing blocks x=7.0  {}
+[PASS] Administration lobby glazing blocks x=9.0  {}
+[PASS] Academic arcade walk x=22.3  {"airborne_frames":0,"failures":[],"final":[22.3,1.1,215.57],"floor_losses":0,"max_floor_gap_m":0.0189758539199829,"max_gap_at":{"feet_y":0.228975772857666,"floor":[22.3,0.21,192.01],"on_floor":true,"player":[22.3,1.1,192.01],"target":[22.2999992370605,205.0],"velocity":[0.0,0.0,4.37]}}
+[PASS] Academic arcade floor contact x=22.3  {"feet_y":0.228975772857666,"z":215.570404052734}
+[PASS] Academic arcade soffit overhead x=22.3  {}
+[PASS] Academic arcade walk x=-22.3  {"airborne_frames":0,"failures":[],"final":[-22.3,1.1,215.57],"floor_losses":0,"max_floor_gap_m":0.018727719783783,"max_gap_at":{"feet_y":0.228727698326111,"floor":[-22.3,0.21,197.76],"on_floor":true,"player":[-22.3,1.1,197.76],"target":[-22.2999992370605,205.0],"velocity":[0.0,0.0,4.37]}}
+[PASS] Academic arcade floor contact x=-22.3  {"feet_y":0.228727698326111,"z":215.570434570313}
+[PASS] Academic arcade soffit overhead x=-22.3  {}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/v10_admin_entry_runtime.json

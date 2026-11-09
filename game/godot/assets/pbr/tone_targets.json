@@ -1,0 +1,128 @@
+{
+  "Asphalt": {
+    "target_mean_linear": [
+      0.0931,
+      0.0909,
+      0.0866
+    ],
+    "pbr_mean_linear": [
+      0.1009,
+      0.0804,
+      0.0624
+    ],
+    "saturation": 0.2,
+    "tint": [
+      1.0705,
+      1.0963,
+      1.0921
+    ]
+  },
+  "Paver_Road_Grey": {
+    "target_mean_linear": [
+      0.2585,
+      0.2585,
+      0.2487
+    ],
+    "pbr_mean_linear": [
+      0.3559,
+      0.3319,
+      0.2733
+    ],
+    "saturation": 0.35,
+    "tint": [
+      0.7583,
+      0.7774,
+      0.7972
+    ]
+  },
+  "Garden_Pavers": {
+    "target_mean_linear": [
+      0.3908,
+      0.3677,
+      0.3265
+    ],
+    "pbr_mean_linear": [
+      0.3559,
+      0.3319,
+      0.2733
+    ],
+    "saturation": 0.35,
+    "tint": [
+      1.1464,
+      1.106,
+      1.0465
+    ]
+  },
+  "Desert_Sand": {
+    "target_mean_linear": [
+      0.4767,
+      0.3489,
+      0.2142
+    ],
+    "pbr_mean_linear": [
+      0.3819,
+      0.3062,
+      0.1622
+    ],
+    "saturation": 0.8,
+    "tint": [
+      1.2958,
+      1.1353,
+      1.1144
+    ]
+  },
+  "Graded_Campus_Soil": {
+    "target_mean_linear": [
+      0.4976,
+      0.3779,
+      0.2488
+    ],
+    "pbr_mean_linear": [
+      0.3819,
+      0.3062,
+      0.1622
+    ],
+    "saturation": 0.75,
+    "tint": [
+      1.3655,
+      1.2285,
+      1.2461
+    ]
+  },
+  "Compacted_Earth": {
+    "target_mean_linear": [
+      0.4392,
+      0.347,
+      0.2405
+    ],
+    "pbr_mean_linear": [
+      0.3819,
+      0.3062,
+      0.1622
+    ],
+    "saturation": 0.7,
+    "tint": [
+      1.2171,
+      1.1272,
+      1.1609
+    ]
+  },
+  "Planted_Soil_Sparse": {
+    "target_mean_linear": [
+      0.1706,
+      0.1346,
+      0.0703
+    ],
+    "pbr_mean_linear": [
+      0.0816,
+      0.0491,
+      0.0087
+    ],
+    "saturation": 0.45,
+    "tint": [
+      2.589,
+      2.6246,
+      2.1251
+    ]
+  }
+}

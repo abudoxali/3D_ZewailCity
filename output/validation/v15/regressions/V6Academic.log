@@ -1,0 +1,38 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[campus] loaded in 1515 ms (+52 ms prepare): { "gate_leaves": 19, "load_ms": 1515, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1600 ms (campus { "gate_leaves": 19, "load_ms": 1515, "prepare_ms": 52, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[PASS] academic approach > lower passage > courtyard > rear ground  {"airborne_frames":0,"failures":[],"final":[0.0,0.87,367.55],"floor_losses":0,"max_floor_gap_m":0.0213564038276672,"max_gap_at":{"feet_y":0.0571401715278625,"floor":[0.0,0.04,365.91],"on_floor":true,"player":[0.0,0.93,365.91],"target":[0.0,368.0],"velocity":[0.0,0.0,4.37]}}
+[PASS] great stair ascend -13.0  {"airborne_frames":0,"failures":[],"final":[-12.96,5.31,221.04],"floor_losses":0,"max_floor_gap_m":0.0470829010009766,"max_gap_at":{"feet_y":4.0334300994873,"floor":[-12.85,3.99,217.97],"on_floor":true,"player":[-12.85,4.91,217.97],"target":[-13.0,221.5],"velocity":[0.52,0.0,4.28]}}
+[PASS] great stair reaches the 4.41 m terrace -13.0  {"feet_y":4.43233871459961}
+[PASS] terrace > covered hall -13.0  {"airborne_frames":0,"failures":[],"final":[-9.0,5.3,244.58],"floor_losses":0,"max_floor_gap_m":0.018700122833252,"max_gap_at":{"feet_y":4.42869997024536,"floor":[-11.62,4.41,225.22],"on_floor":true,"player":[-11.62,5.3,225.22],"target":[-9.0,233.0],"velocity":[1.39,0.0,4.14]}}
+[PASS] covered hall floor at 4.41 m -13.0  {"feet_y":4.42869997024536}
+[PASS] hall > court bridge -13.0  {"airborne_frames":0,"failures":[],"final":[-9.98,5.3,261.6],"floor_losses":0,"max_floor_gap_m":0.018700122833252,"max_gap_at":{"feet_y":4.42869997024536,"floor":[-9.0,4.41,244.62],"on_floor":true,"player":[-9.0,5.3,244.62],"target":[-10.0,262.0],"velocity":[-0.03,0.0,2.4]}}
+[PASS] court bridge walkable -13.0  {"feet_y":4.42869997024536}
+[PASS] void balustrade stops a walking player -13.0  {"position":[-6.2,5.29,261.75]}
+[PASS] back to the stair head -13.0  {"airborne_frames":0,"failures":[],"final":[-12.87,5.31,221.89],"floor_losses":0,"max_floor_gap_m":0.0187983512878418,"max_gap_at":{"feet_y":4.42879819869995,"floor":[-8.54,4.41,237.72],"on_floor":true,"player":[-8.54,5.3,237.72],"target":[-9.0,233.0],"velocity":[-0.42,0.0,-4.35]}}
+[PASS] great stair descent grounded -13.0  {"position":[-12.76,1.1,205.26]}
+[PASS] great stair ascend 13.0  {"airborne_frames":0,"failures":[],"final":[12.95,5.31,221.03],"floor_losses":0,"max_floor_gap_m":0.0470883846282959,"max_gap_at":{"feet_y":3.6044282913208,"floor":[12.85,3.56,216.94],"on_floor":true,"player":[12.85,4.48,216.94],"target":[13.0,221.5],"velocity":[-0.77,0.0,4.21]}}
+[PASS] great stair reaches the 4.41 m terrace 13.0  {"feet_y":4.43231916427612}
+[PASS] terrace > covered hall 13.0  {"airborne_frames":0,"failures":[],"final":[9.0,5.3,244.58],"floor_losses":0,"max_floor_gap_m":0.018608570098877,"max_gap_at":{"feet_y":4.42860841751099,"floor":[11.63,4.41,225.15],"on_floor":true,"player":[11.63,5.3,225.15],"target":[9.0,233.0],"velocity":[-1.39,0.0,4.14]}}
+[PASS] covered hall floor at 4.41 m 13.0  {"feet_y":4.42860841751099}
+[PASS] hall > court bridge 13.0  {"airborne_frames":0,"failures":[],"final":[9.98,5.3,261.6],"floor_losses":0,"max_floor_gap_m":0.018608570098877,"max_gap_at":{"feet_y":4.42860841751099,"floor":[9.0,4.41,244.62],"on_floor":true,"player":[9.0,5.3,244.62],"target":[10.0,262.0],"velocity":[0.03,0.0,2.4]}}
+[PASS] court bridge walkable 13.0  {"feet_y":4.42860841751099}
+[PASS] void balustrade stops a walking player 13.0  {"position":[6.2,5.29,261.75]}
+[PASS] back to the stair head 13.0  {"airborne_frames":0,"failures":[],"final":[12.87,5.31,221.89],"floor_losses":0,"max_floor_gap_m":0.0188031196594238,"max_gap_at":{"feet_y":4.42880296707153,"floor":[8.54,4.41,237.72],"on_floor":true,"player":[8.54,5.3,237.72],"target":[9.0,233.0],"velocity":[0.42,0.0,-4.35]}}
+[PASS] great stair descent grounded 13.0  {"position":[12.76,1.1,205.25]}
+[PASS] courtyard seating circulation  {"airborne_frames":0,"failures":[],"final":[0.42,1.1,318.48],"floor_losses":0,"max_floor_gap_m":0.0188772678375244,"max_gap_at":{"feet_y":0.228877186775208,"floor":[48.05,0.21,256.55],"on_floor":true,"player":[48.05,1.1,256.55],"target":[55.0,256.0],"velocity":[4.36,0.0,-0.35]}}
+[PASS] academic lobby wall beside passage remains solid  {}
+[PASS] lower passage eye-height clearance  {}
+[PASS] void guarded by a collidable railing z=225.5  {}
+[PASS] void opens onto the lower passage z=225.5  {"hit_y":0.209999561309814}
+[PASS] void guarded by a collidable railing z=250.0  {}
+[PASS] void opens onto the lower passage z=250.0  {"hit_y":0.210000038146973}
+[PASS] terrace front between the stairs is guarded  {}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/academic_runtime.json
+[PASS] V6 three stepped semicircular court levels  {"airborne_frames":0,"failures":[],"final":[20.4,2.0,272.0],"floor_losses":0,"max_floor_gap_m":0.213740646839142,"max_gap_at":{"feet_y":1.17374062538147,"floor":[32.64,0.96,272.12],"on_floor":true,"player":[32.64,2.05,272.12],"target":[30.0,272.0],"velocity":[-3.03,0.0,0.85]}}
+[PASS] terraced court has real elevated collision  {"feet_y":1.12895107269287}
+[PASS] V6 estimated accessible terrace ramp  {"airborne_frames":0,"failures":[],"final":[10.5,1.99,285.93],"floor_losses":0,"max_floor_gap_m":0.0191220641136169,"max_gap_at":{"feet_y":0.678520917892456,"floor":[10.5,0.66,298.77],"on_floor":true,"player":[10.5,1.55,298.77],"target":[10.5,285.5],"velocity":[0.0,0.0,-4.35]}}
+[PASS] ramp reaches upper court  {"feet_y":1.11433398723602}
+[PASS] ramp descends continuously to main paving  {"position":[10.5,1.04,320.51]}
+[validate] wrote C:/Users/Abud/Desktop/GitHub/zc/Zewail-City-3D/game/godot/../../output/validation/v11/academic_runtime.json

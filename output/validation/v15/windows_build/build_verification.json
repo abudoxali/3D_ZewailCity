@@ -1,0 +1,22 @@
+{
+    "exe_sha256":  "c2bd10df65aaaf03996f7b1b881837701d3fc342b679e2455f02ee7910cb4aee",
+    "version":  "15.0.0",
+    "passed":  38,
+    "pe_file_version":  "15.0.0",
+    "exit_code":  0,
+    "glb_hash_match":  true,
+    "input_control":  {
+                          "frames_with_os_focus":  12070,
+                          "real_event_kinds":  {
+
+                                               },
+                          "real_events_blocked":  0,
+                          "window_no_focus_flag":  true
+                      },
+    "source_hash_match":  true,
+    "exe":  "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\releases\\ZewailCityExplorer_Windows_V15\\ZewailCityExplorer.exe",
+    "source_blend_sha256":  "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158",
+    "release_control_ports":  0,
+    "finished":  "2026-11-09T13:30:11.2553018+02:00",
+    "failed":  0
+}

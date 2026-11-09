@@ -1,0 +1,47 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070
+
+[campus] loaded in 1469 ms (+94 ms prepare): { "gate_leaves": 19, "load_ms": 1469, "prepare_ms": 94, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 }
+[main] ready in 1772 ms (campus { "gate_leaves": 19, "load_ms": 1469, "prepare_ms": 94, "static_bodies": 15, "veg_batches": 168, "prop_batches": 18, "spawns": 14, "landmarks": 20, "v7_ground_shader_materials": 19, "v9_masked_ground_surfaces": 12 })
+[smoketest] PASS  campus loaded  {"gate_leaves":19,"landmarks":20,"load_ms":1469,"prepare_ms":94,"prop_batches":18,"spawns":14,"static_bodies":15,"v7_ground_shader_materials":19,"v9_masked_ground_surfaces":12,"veg_batches":168}
+[smoketest] PASS  main menu shown at startup  {"state":"menu"}
+[smoketest] PASS  Arabic RTL packaged menu  {}
+[smoketest] PASS  start exploration from the menu  {"state":"explore"}
+[smoketest] PASS  walk (W)  {"speed_mps":4.26}
+[smoketest] PASS  sprint (Shift+W)  {"speed_mps":8.87}
+[smoketest] PASS  toggle drone mode (F)  {"mode":"fly"}
+[smoketest] PASS  fly up (Space/E)  {"climb_m":38.6}
+[smoketest] PASS  back to walking, lands  {"mode":"walk"}
+[smoketest] PASS  spawn 7 (outside the main gate) is grounded  {"pos":[-19.0,1.1,-327.1]}
+[smoketest] PASS  walk through the pedestrian gate into the campus  {"z":-298.6}
+[smoketest] PASS  pause menu (Esc)  {"state":"menu"}
+[smoketest] PASS  resume from the pause menu (Esc)  {"state":"explore"}
+[smoketest] PASS  V15 content shipped  {}
+[smoketest] PASS  All 15 V14 PBR textures, HDRI sky, tone targets and license manifest packaged  {}
+[smoketest] PASS  V8 packaged local threshold G2  {"external_access":"UNRESOLVED_SAND_GAP_25M","progress_m":6.24725914001465}
+[smoketest] PASS  V8 packaged local threshold G3  {"external_access":"UNVERIFIED_NO_EXTERNAL_EXTENSION","progress_m":6.26480960845947}
+[smoketest] PASS  V8 packaged local threshold G4  {"external_access":"UNVERIFIED_NO_EXTERNAL_EXTENSION","progress_m":6.26720714569092}
+[smoketest] PASS  V8 packaged local threshold G5  {"external_access":"UNVERIFIED_NO_EXTERNAL_EXTENSION","progress_m":6.26553440093994}
+[smoketest] PASS  V8 packaged local threshold G6  {"external_access":"UNVERIFIED_NO_EXTERNAL_EXTENSION","progress_m":6.26625442504883}
+[smoketest] PASS  V6 Academic passage to courtyard in Windows build  {"position":[-0.00000784736766945571,1.10376012325287,294.7978515625]}
+[smoketest] PASS  V6 courtyard spawn grounded  {}
+[smoketest] PASS  V6 dormitory candidate spawn grounded  {}
+[smoketest] PASS  V6 packaged major stair -13.0  {"position":[-12.7966957092285,5.30347013473511,229.96272277832]}
+[smoketest] PASS  V6 packaged major stair 13.0  {"position":[12.7997827529907,5.30277824401855,229.966018676758]}
+[smoketest] PASS  V10 packaged Administration doorway to lobby  {"position":[0.000628961657639593,1.61369919776917,-14.8335952758789]}
+[smoketest] PASS  V7 packaged evening lights (all modelled luminaires, 32 garden bollards)  {"bollards":32,"lights":121}
+[smoketest] PASS  V6 packaged daylight restore  {}
+[smoketest] PASS  V11 Academic entrance registry separate from boundary gates  {}
+[smoketest] PASS  V11 packaged E closes G3 including pedestrian leaf  {}
+[smoketest] PASS  V11 packaged closed G3 stops walking  {"signed_distance_to_leaf_m":0.450215470790863}
+[smoketest] PASS  V11 packaged E opens G3 and walking passage  {"signed_distance_to_leaf_m":-8.06797580718994}
+[smoketest] PASS  V7 photo mode entered (free camera, HUD hidden)  {}
+[smoketest] PASS  V7 photo mode camera moves  {"moved_m":6.37}
+[smoketest] PASS  V7 photo mode evening preset  {}
+[photo] saved C:/Users/Abud/AppData/Roaming/Godot/app_userdata/Zewail City Campus Explorer/screenshots/zewail_photo_2026-11-09T13-30-03.png (3840x2160)
+[smoketest] PASS  V7 photo mode 2x capture  {"path":"C:/Users/Abud/AppData/Roaming/Godot/app_userdata/Zewail City Campus Explorer/screenshots/zewail_photo_2026-11-09T13-30-03.png","size":[3840,2160]}
+[smoketest] PASS  V7 photo mode returns to exact prior state  {"offset_m":0.0}
+[smoketest] PASS  Exported 1080p High sample at least 60 FPS  {"avg_fps":165.214530168433,"duration_s":5.005613,"frames":827,"max_ms":8.073,"p99_ms":7.478}
+[smoketest] SUMMARY {"failed":0,"passed":38,"report":"C:/Users/Abud/AppData/Roaming/Godot/app_userdata/Zewail City Campus Explorer/smoketest.json"}
+WARNING: 7 RIDs of type "Texture" were leaked.
+   at: finalize (servers/rendering/rendering_device.cpp:7505)

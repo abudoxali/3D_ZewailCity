@@ -1,0 +1,12 @@
+{
+  "command": [
+    "godot_console",
+    "--headless",
+    "--path",
+    "game/godot",
+    "--import"
+  ],
+  "exit_code": 0,
+  "seconds": 2.82,
+  "started_utc": "2026-11-09T11:25:36.733462+00:00"
+}

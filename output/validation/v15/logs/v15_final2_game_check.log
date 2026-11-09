@@ -1,0 +1,21 @@
+00:02.312  blend            | Read blend: "C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\game_ready\Zewail_City_Game.blend"
+BlenderMCP addon registered
+[asset-check] PASS source blend hash matches exported scene C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\output\Zewail_City_3D.blend
+[asset-check] PASS procedural generators match exported asset provenance []
+[asset-check] PASS all game render meshes have complete UV layers []
+[asset-check] PASS all game render meshes have materials []
+[asset-check] PASS structural meshes retain metre scale []
+[asset-check] PASS nondegenerate faces have finite unit normals []
+[asset-check] PASS Academic render bounds stay in the surveyed Academic precinct [-349.4700012207031, -166.5]
+[asset-check] PASS all baked PBR resources resolve []
+[asset-check] PASS six gates retain evidence labels [('G1', 'PHOTO_AND_MAP'), ('G2', 'PROVISIONAL_MAP_CLUSTER'), ('G3', 'PROVISIONAL_MAP_CLUSTER'), ('G4', 'PROVISIONAL_MAP_CLUSTER'), ('G5', 'PROVISIONAL_MAP_CLUSTER'), ('G6', 'PROVISIONAL_MAP_CLUSTER')]
+[asset-check] PASS fourteen spawn records 14
+[asset-check] PASS V11 Academic entrance registry separate from the six boundary gates [('F', 'UST / Gate (F)'), ('B?', 'Academic side entrance (name unverified)'), ('C', 'Gate (C)'), ('E?', 'Academic entrance (name unverified)'), ('D?', 'Rear passage (name unverified)'), ('A', 'Gate (A)'), ('HALL', 'Upper hall / court bridge')]
+[asset-check] PASS V11 vehicle AND pedestrian interactive leaves for G1-G6 [('G1', 'E', True), ('G1', 'W', False), ('G1', 'PedW', False), ('G1', 'PedE', False), ('G2', 'Ped', False), ('G2', 'A', False), ('G2', 'B', False), ('G3', 'Ped', False), ('G3', 'A', False), ('G3', 'B', False), ('G4', 'Ped', False), ('G4', 'A', False)
+[asset-check] PASS V7 evening lights explicit, kind-labelled and range-bounded (32 garden bollards) {'bollard': 32, 'court_pole': 13, 'entrance': 13, 'street': 63}
+[asset-check] PASS V7 ground collision simplified (surface-guarded) and smaller than its render source {'before': 636672, 'after': 302834}
+[asset-check] PASS Godot GLB and manifest copies exactly match exports C:\Users\Abud\Desktop\GitHub\zc\Zewail-City-3D\output\validation\v15\candidate\game\godot\assets\campus
+BlenderMCP addon unregistered
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

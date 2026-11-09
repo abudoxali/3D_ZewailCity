@@ -1,0 +1,300 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "leaves": 19
+      },
+      "name": "V11 gate controller loaded the sliding leaves",
+      "pass": true
+    },
+    {
+      "detail": {
+        "gates": [
+          "G1",
+          "G2",
+          "G3",
+          "G4",
+          "G5",
+          "G6"
+        ]
+      },
+      "name": "V11 six interactive gates G1-G6",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G1 east lane starts closed",
+      "pass": true
+    },
+    {
+      "detail": {
+        "leaf_z": -322.7,
+        "z": -323.145874023438
+      },
+      "name": "G1 closed leaf stops a walking player",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G1 opened: east lane clear at body height",
+      "pass": true
+    },
+    {
+      "detail": {
+        "z": -314.309173583984
+      },
+      "name": "G1 open lane lets the player through",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G1 closed again: both lanes blocked",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G1 animated opening completes",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G1 bypass strip closed by return wall x=-1.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G1 bypass strip closed by return wall x=1.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G2 starts open with a clear vehicle opening",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G2 closed leaves block the opening",
+      "pass": true
+    },
+    {
+      "detail": {
+        "pos": [
+          6.47,
+          0.44,
+          640.33
+        ],
+        "signed_distance_to_leaf_m": -0.449336099624634
+      },
+      "name": "G2 closed gate stops a walking player",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G2 reopened",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G3 starts open with a clear vehicle opening",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G3 closed leaves block the opening",
+      "pass": true
+    },
+    {
+      "detail": {
+        "pos": [
+          -273.27,
+          1.0,
+          -129.11
+        ],
+        "signed_distance_to_leaf_m": -0.444289493560791
+      },
+      "name": "G3 closed gate stops a walking player",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G3 reopened",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G4 starts open with a clear vehicle opening",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G4 closed leaves block the opening",
+      "pass": true
+    },
+    {
+      "detail": {
+        "pos": [
+          -343.97,
+          0.69,
+          238.09
+        ],
+        "signed_distance_to_leaf_m": -0.442260670661926
+      },
+      "name": "G4 closed gate stops a walking player",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G4 reopened",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G5 starts open with a clear vehicle opening",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G5 closed leaves block the opening",
+      "pass": true
+    },
+    {
+      "detail": {
+        "pos": [
+          238.81,
+          1.04,
+          -77.47
+        ],
+        "signed_distance_to_leaf_m": -0.438172388076782
+      },
+      "name": "G5 closed gate stops a walking player",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G5 reopened",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G6 starts open with a clear vehicle opening",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G6 closed leaves block the opening",
+      "pass": true
+    },
+    {
+      "detail": {
+        "pos": [
+          348.27,
+          0.83,
+          236.83
+        ],
+        "signed_distance_to_leaf_m": -0.447945880889893
+      },
+      "name": "G6 closed gate stops a walking player",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G6 reopened",
+      "pass": true
+    },
+    {
+      "detail": {
+        "prompt": "اضغط E لإغلاق البوابة G3"
+      },
+      "name": "walking near G3 shows the gate prompt",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "E key toggles the nearest gate G3",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "gate prompt hidden while flying",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "E while flying does not operate the gate",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "pause suppresses prompt and E interaction",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "resume restores gate prompt in place",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "photo mode suppresses gate interaction",
+      "pass": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158",
+  "state_report": "{ \"G1\": [{ \"leaf\": \"E\", \"open\": true, \"pos\": (14.39, 0.08, -322.7) }, { \"leaf\": \"PedE\", \"open\": true, \"pos\": (21.6, 0.08, -314.6) }, { \"leaf\": \"PedW\", \"open\": true, \"pos\": (-21.6, 0.08, -314.6) }, { \"leaf\": \"W\", \"open\": true, \"pos\": (-14.39, 0.08, -322.7) }], \"G2\": [{ \"leaf\": \"A\", \"open\": true, \"pos\": (-4.443588, -0.36965, 640.6753) }, { \"leaf\": \"B\", \"open\": true, \"pos\": (17.50901, -0.36965, 639.0663) }, { \"leaf\": \"Ped\", \"open\": true, \"pos\": (25.41808, -0.36965, 637.7347) }], \"G3\": [{ \"leaf\": \"A\", \"open\": true, \"pos\": (-270.2651, 0.191794, -141.8712) }, { \"leaf\": \"B\", \"open\": true, \"pos\": (-273.9225, 0.191794, -123.5424) }, { \"leaf\": \"Ped\", \"open\": true, \"pos\": (-274.6414, 0.191794, -116.1077) }], \"G4\": [{ \"leaf\": \"A\", \"open\": true, \"pos\": (-342.9494, -0.118866, 226.1905) }, { \"leaf\": \"B\", \"open\": true, \"pos\": (-344.0958, -0.118866, 249.6946) }, { \"leaf\": \"Ped\", \"open\": true, \"pos\": (-343.748, -0.118866, 257.96) }], \"G5\": [{ \"leaf\": \"A\", \"open\": true, \"pos\": (245.3477, 0.248483, -68.72482) }, { \"leaf\": \"B\", \"open\": true, \"pos\": (232.027, 0.248483, -85.11865) }, { \"leaf\": \"Ped\", \"open\": true, \"pos\": (226.5027, 0.248483, -90.72814) }], \"G6\": [{ \"leaf\": \"A\", \"open\": true, \"pos\": (347.9774, 0.019922, 247.7231) }, { \"leaf\": \"B\", \"open\": true, \"pos\": (347.6663, 0.019922, 225.749) }, { \"leaf\": \"Ped\", \"open\": true, \"pos\": (346.8034, 0.019922, 217.781) }] }"
+}

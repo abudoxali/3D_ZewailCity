@@ -1,0 +1,661 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+
+      },
+      "name": "V8 six gates and stable provisional evidence",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          5.96,
+          0.4,
+          632.1
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.127465486526489,
+        "max_gap_at": {
+          "feet_y": -0.324123024940491,
+          "floor": [
+            6.66,
+            -0.45,
+            641.64
+          ],
+          "on_floor": true,
+          "player": [
+            6.66,
+            0.55,
+            641.64
+          ],
+          "target": [
+            6.44500017166138,
+            638.674011230469
+          ],
+          "velocity": [
+            -0.32,
+            0.0,
+            -4.36
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold inward G2",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          6.93,
+          0.39,
+          645.23
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.125606775283813,
+        "max_gap_at": {
+          "feet_y": -0.326089441776276,
+          "floor": [
+            6.66,
+            -0.45,
+            641.65
+          ],
+          "on_floor": true,
+          "player": [
+            6.66,
+            0.55,
+            641.65
+          ],
+          "target": [
+            6.95665311813354,
+            645.6552734375
+          ],
+          "velocity": [
+            0.32,
+            0.0,
+            4.36
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold outward G2",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          12.46,
+          0.45,
+          636.26
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0187413096427917,
+        "max_gap_at": {
+          "feet_y": -0.428145408630371,
+          "floor": [
+            12.49,
+            -0.45,
+            636.73
+          ],
+          "on_floor": true,
+          "player": [
+            12.49,
+            0.45,
+            636.73
+          ],
+          "target": [
+            12.4235639572144,
+            635.829406738281
+          ],
+          "velocity": [
+            -0.32,
+            0.0,
+            -4.35
+          ]
+        }
+      },
+      "name": "V8 pedestrian bay G2",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 masonry support blocks capsule-height ray G2",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 open vehicle route has head clearance G2",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -264.5,
+          1.01,
+          -131.19
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0190072059631348,
+        "max_gap_at": {
+          "feet_y": 0.097835898399353,
+          "floor": [
+            -277.63,
+            0.08,
+            -133.81
+          ],
+          "on_floor": true,
+          "player": [
+            -277.63,
+            0.97,
+            -133.81
+          ],
+          "target": [
+            -270.9169921875,
+            -132.47200012207
+          ],
+          "velocity": [
+            2.71,
+            0.0,
+            0.54
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold inward G3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -277.33,
+          0.97,
+          -133.75
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0191599726676941,
+        "max_gap_at": {
+          "feet_y": 0.115170776844025,
+          "floor": [
+            -274.37,
+            0.1,
+            -133.16
+          ],
+          "on_floor": true,
+          "player": [
+            -274.37,
+            0.99,
+            -133.16
+          ],
+          "target": [
+            -277.781646728516,
+            -133.841842651367
+          ],
+          "velocity": [
+            -4.29,
+            0.0,
+            -0.86
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold outward G3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -269.98,
+          1.0,
+          -127.12
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0182039141654968,
+        "max_gap_at": {
+          "feet_y": 0.125765442848206,
+          "floor": [
+            -273.5,
+            0.11,
+            -127.82
+          ],
+          "on_floor": true,
+          "player": [
+            -273.5,
+            1.0,
+            -127.82
+          ],
+          "target": [
+            -271.907867431641,
+            -127.50651550293
+          ],
+          "velocity": [
+            4.07,
+            0.0,
+            0.81
+          ]
+        }
+      },
+      "name": "V8 pedestrian bay G3",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 masonry support blocks capsule-height ray G3",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 open vehicle route has head clearance G3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -335.79,
+          0.7,
+          238.32
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0190643668174744,
+        "max_gap_at": {
+          "feet_y": -0.192253232002258,
+          "floor": [
+            -345.72,
+            -0.21,
+            237.84
+          ],
+          "on_floor": true,
+          "player": [
+            -345.72,
+            0.68,
+            237.84
+          ],
+          "target": [
+            -342.324005126953,
+            238.001007080078
+          ],
+          "velocity": [
+            4.36,
+            0.0,
+            0.21
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold inward G4",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -348.86,
+          0.65,
+          237.68
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0191680788993835,
+        "max_gap_at": {
+          "feet_y": -0.22668582201004,
+          "floor": [
+            -346.86,
+            -0.25,
+            237.78
+          ],
+          "on_floor": true,
+          "player": [
+            -346.86,
+            0.65,
+            237.78
+          ],
+          "target": [
+            -349.315704345703,
+            237.660003662109
+          ],
+          "velocity": [
+            -4.36,
+            0.0,
+            -0.21
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold outward G4",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -340.68,
+          0.69,
+          244.77
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0186920762062073,
+        "max_gap_at": {
+          "feet_y": -0.185849130153656,
+          "floor": [
+            -344.34,
+            -0.2,
+            244.59
+          ],
+          "on_floor": true,
+          "player": [
+            -344.34,
+            0.69,
+            244.59
+          ],
+          "target": [
+            -342.649291992188,
+            244.67041015625
+          ],
+          "velocity": [
+            4.1,
+            0.0,
+            0.2
+          ]
+        }
+      },
+      "name": "V8 pedestrian bay G4",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 masonry support blocks capsule-height ray G4",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 open vehicle route has head clearance G4",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          232.68,
+          1.06,
+          -72.04
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0190819501876831,
+        "max_gap_at": {
+          "feet_y": 0.188572525978088,
+          "floor": [
+            240.11,
+            0.17,
+            -78.08
+          ],
+          "on_floor": true,
+          "player": [
+            240.11,
+            1.06,
+            -78.08
+          ],
+          "target": [
+            237.755996704102,
+            -76.1650009155273
+          ],
+          "velocity": [
+            -3.39,
+            0.0,
+            2.76
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold inward G5",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          242.83,
+          1.02,
+          -80.29
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0192252993583679,
+        "max_gap_at": {
+          "feet_y": 0.178626537322998,
+          "floor": [
+            240.38,
+            0.16,
+            -78.29
+          ],
+          "on_floor": true,
+          "player": [
+            240.38,
+            1.05,
+            -78.29
+          ],
+          "target": [
+            243.188690185547,
+            -80.5792846679688
+          ],
+          "velocity": [
+            3.39,
+            0.0,
+            -2.76
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold outward G5",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          232.52,
+          1.06,
+          -79.48
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0189945101737976,
+        "max_gap_at": {
+          "feet_y": 0.189253568649292,
+          "floor": [
+            232.72,
+            0.17,
+            -79.64
+          ],
+          "on_floor": true,
+          "player": [
+            232.72,
+            1.06,
+            -79.64
+          ],
+          "target": [
+            232.188842773438,
+            -79.210693359375
+          ],
+          "velocity": [
+            -3.39,
+            0.0,
+            2.75
+          ]
+        }
+      },
+      "name": "V8 pedestrian bay G5",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 masonry support blocks capsule-height ray G5",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 open vehicle route has head clearance G5",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          340.08,
+          0.83,
+          236.85
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0191038250923157,
+        "max_gap_at": {
+          "feet_y": -0.0419360399246216,
+          "floor": [
+            342.08,
+            -0.06,
+            236.82
+          ],
+          "on_floor": true,
+          "player": [
+            342.08,
+            0.83,
+            236.82
+          ],
+          "target": [
+            339.622711181641,
+            236.852096557617
+          ],
+          "velocity": [
+            -4.37,
+            0.0,
+            0.06
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold inward G6",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          353.17,
+          0.81,
+          236.66
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0194321870803833,
+        "max_gap_at": {
+          "feet_y": -0.0614498853683472,
+          "floor": [
+            350.44,
+            -0.08,
+            236.7
+          ],
+          "on_floor": true,
+          "player": [
+            350.44,
+            0.81,
+            236.7
+          ],
+          "target": [
+            353.621307373047,
+            236.653915405273
+          ],
+          "velocity": [
+            4.37,
+            0.0,
+            -0.06
+          ]
+        }
+      },
+      "name": "V8 local vehicle threshold outward G6",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          344.57,
+          0.84,
+          230.62
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0189927220344543,
+        "max_gap_at": {
+          "feet_y": -0.0364447832107544,
+          "floor": [
+            345.26,
+            -0.06,
+            230.61
+          ],
+          "on_floor": true,
+          "player": [
+            345.26,
+            0.84,
+            230.61
+          ],
+          "target": [
+            344.135070800781,
+            230.628845214844
+          ],
+          "velocity": [
+            -4.36,
+            0.0,
+            0.06
+          ]
+        }
+      },
+      "name": "V8 pedestrian bay G6",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 masonry support blocks capsule-height ray G6",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "V8 open vehicle route has head clearance G6",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "G2 unresolved external sand gap remains explicit",
+      "pass": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

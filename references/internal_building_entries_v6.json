@@ -1,0 +1,26 @@
+{
+  "classification": "BUILDING ENTRANCES; NOT PERIMETER GATES",
+  "superseded_by": "references/academic_entrances_v11.json (V11 owner corrections 10/13)",
+  "entries": [
+    {
+      "id": "B-C",
+      "photo": "P12",
+      "model_blender": [
+        0,
+        -348.5
+      ],
+      "geographic_status": "UNVERIFIED rear-curve hypothesis",
+      "visible_label": "Gate (C)"
+    },
+    {
+      "id": "B-F",
+      "photo": "P14",
+      "model_blender": [
+        55.45,
+        -205
+      ],
+      "geographic_status": "UNVERIFIED +X-prong hypothesis from dome sightline",
+      "visible_label": "Gate (F)"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "fov": 84.25,
+  "preset": "High",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "boards": [
+    {
+      "view": "G1_exterior_eye",
+      "board": "output\\validation\\v15\\final3\\comparisons\\G1_exterior_eye.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "O02_G1_inside",
+      "board": "output\\validation\\v15\\final3\\comparisons\\O02_G1_inside.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "O03_G1_paving_curb",
+      "board": "output\\validation\\v15\\final3\\comparisons\\O03_G1_paving_curb.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "O07_academic_front",
+      "board": "output\\validation\\v15\\final3\\comparisons\\O07_academic_front.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "P13_court_photo",
+      "board": "output\\validation\\v15\\final3\\comparisons\\P13_court_photo.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V12_G1_close",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V12_G1_close.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V12_approach_close",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V12_approach_close.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V12_junction_dropoff_eye",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V12_junction_dropoff_eye.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V12_junction_ring_east_eye",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V12_junction_ring_east_eye.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V13_approach_aerial",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V13_approach_aerial.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V14_g1_forecourt_beds",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V14_g1_forecourt_beds.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V14_g1_gate_sand",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V14_g1_gate_sand.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V14_g1_median_nose",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V14_g1_median_nose.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V14_junction_admin_close",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V14_junction_admin_close.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V14_ring_sidewalk_step",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V14_ring_sidewalk_step.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V15_crossover_bands_eye",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V15_crossover_bands_eye.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V15_g1_inside_kerbs",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V15_g1_inside_kerbs.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V15_kerb_close",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V15_kerb_close.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V15_median_eye",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V15_median_eye.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V15_ring_junction_kerbs",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V15_ring_junction_kerbs.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "V15_verge_bed_close",
+      "board": "output\\validation\\v15\\final3\\comparisons\\V15_verge_bed_close.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "academic_court_aerial",
+      "board": "output\\validation\\v15\\final3\\comparisons\\academic_court_aerial.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "admin_entrance_axis",
+      "board": "output\\validation\\v15\\final3\\comparisons\\admin_entrance_axis.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "admin_lobby_threshold",
+      "board": "output\\validation\\v15\\final3\\comparisons\\admin_lobby_threshold.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "dorm_garden_paths",
+      "board": "output\\validation\\v15\\final3\\comparisons\\dorm_garden_paths.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "drone_overview",
+      "board": "output\\validation\\v15\\final3\\comparisons\\drone_overview.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "junction_dropoff_ring",
+      "board": "output\\validation\\v15\\final3\\comparisons\\junction_dropoff_ring.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "main_approach_road",
+      "board": "output\\validation\\v15\\final3\\comparisons\\main_approach_road.jpg",
+      "same_pose": true
+    },
+    {
+      "view": "ring_road_eye",
+      "board": "output\\validation\\v15\\final3\\comparisons\\ring_road_eye.jpg",
+      "same_pose": true
+    }
+  ]
+}

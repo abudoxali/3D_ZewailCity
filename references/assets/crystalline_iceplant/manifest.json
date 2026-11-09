@@ -1,0 +1,87 @@
+{
+ "asset": "crystalline_iceplant",
+ "source_url": "https://polyhaven.com/a/crystalline_iceplant",
+ "license": "CC0 1.0",
+ "license_url": "https://polyhaven.com/license",
+ "authors": [
+  "James Ray Cock",
+  "Jenelle van Heerden"
+ ],
+ "polycount": 23487,
+ "downloaded_files": [
+  {
+   "map": "gltf",
+   "path": "output/validation/v15/downloads/crystalline_iceplant/crystalline_iceplant_1k.gltf",
+   "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/crystalline_iceplant/crystalline_iceplant_1k.gltf",
+   "bytes": 13607,
+   "provider_md5_verified": true,
+   "sha256": "46983341146dfacc96116e7468562b9e3b0a5be15d15940a98d9bab045c39910"
+  },
+  {
+   "map": "textures/crystalline_iceplant_nor_gl_1k.jpg",
+   "path": "output/validation/v15/downloads/crystalline_iceplant/textures/crystalline_iceplant_nor_gl_1k.jpg",
+   "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/crystalline_iceplant/crystalline_iceplant_nor_gl_1k.jpg",
+   "bytes": 907570,
+   "provider_md5_verified": true,
+   "sha256": "860252c828abd312600ab0daff531dfa4573b1a3ee6293bdbc5b53093f082cec"
+  },
+  {
+   "map": "textures/crystalline_iceplant_arm_1k.jpg",
+   "path": "output/validation/v15/downloads/crystalline_iceplant/textures/crystalline_iceplant_arm_1k.jpg",
+   "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/crystalline_iceplant/crystalline_iceplant_arm_1k.jpg",
+   "bytes": 850713,
+   "provider_md5_verified": true,
+   "sha256": "313d08a7ab102b2e57181c136d17fa64fe91fc2a3fdc0355516c0fdc15712852"
+  },
+  {
+   "map": "textures/crystalline_iceplant_diff_1k.jpg",
+   "path": "output/validation/v15/downloads/crystalline_iceplant/textures/crystalline_iceplant_diff_1k.jpg",
+   "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/crystalline_iceplant/crystalline_iceplant_diff_1k.jpg",
+   "bytes": 510658,
+   "provider_md5_verified": true,
+   "sha256": "bf191d9f2f903961c45b16d9bee0efa4cf8a64dc66f98159d91ba9699f61db8f"
+  },
+  {
+   "map": "crystalline_iceplant.bin",
+   "path": "output/validation/v15/downloads/crystalline_iceplant/crystalline_iceplant.bin",
+   "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/crystalline_iceplant/crystalline_iceplant.bin",
+   "bytes": 330436,
+   "provider_md5_verified": true,
+   "sha256": "f51b43e9235e1765eb44495edf4f68e53c693a4ea1bab93830ac2e9f8e0d183a"
+  }
+ ],
+ "installed_files": [
+  {
+   "path": "crystalline_iceplant.bin",
+   "sha256": "f51b43e9235e1765eb44495edf4f68e53c693a4ea1bab93830ac2e9f8e0d183a",
+   "bytes": 330436
+  },
+  {
+   "path": "crystalline_iceplant_1k.gltf",
+   "sha256": "46983341146dfacc96116e7468562b9e3b0a5be15d15940a98d9bab045c39910",
+   "bytes": 13607
+  },
+  {
+   "path": "textures/crystalline_iceplant_arm_1k.jpg",
+   "sha256": "313d08a7ab102b2e57181c136d17fa64fe91fc2a3fdc0355516c0fdc15712852",
+   "bytes": 850713
+  },
+  {
+   "path": "textures/crystalline_iceplant_diff_1k.jpg",
+   "sha256": "bf191d9f2f903961c45b16d9bee0efa4cf8a64dc66f98159d91ba9699f61db8f",
+   "bytes": 510658
+  },
+  {
+   "path": "textures/crystalline_iceplant_diff_1k_v15green.jpg",
+   "sha256": "eb97dc42e655fa5df19c2992fe9727f537cbbebeaf3a7737f9900fe97d0190ff",
+   "bytes": 277567
+  },
+  {
+   "path": "textures/crystalline_iceplant_nor_gl_1k.jpg",
+   "sha256": "860252c828abd312600ab0daff531dfa4573b1a3ee6293bdbc5b53093f082cec",
+   "bytes": 907570
+  }
+ ],
+ "derived": "crystalline_iceplant_diff_1k_v15green.jpg = diff x(0.80,1.0,0.74), saturation +15 %",
+ "usage": "V15 verge-bed groundcover clumps (src/utilities/v15_corridor.py)"
+}

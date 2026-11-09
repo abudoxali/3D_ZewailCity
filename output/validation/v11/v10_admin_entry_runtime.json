@@ -1,0 +1,325 @@
+{
+  "all_pass": true,
+  "asset_sha256": "0d13844219114292ed85da061dde00ffd56de1e3d20be7bd56cd65b19f2ea7a1",
+  "checks": [
+    {
+      "detail": {
+        "airborne_frames": 1,
+        "failures": [],
+        "final": [
+          0.0,
+          1.61,
+          -25.42
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188439249992371,
+        "max_gap_at": {
+          "feet_y": 0.398439168930054,
+          "floor": [
+            0.0,
+            0.21,
+            -30.96
+          ],
+          "on_floor": true,
+          "player": [
+            0.0,
+            1.27,
+            -30.96
+          ],
+          "target": [
+            0.0,
+            -30.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.79
+          ]
+        }
+      },
+      "name": "Administration road to steps and supported landing",
+      "pass": true
+    },
+    {
+      "detail": {
+        "feet_y": 0.738727331161499
+      },
+      "name": "Administration landing floor contact at 0.72 m",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 1,
+        "failures": [],
+        "final": [
+          3.0,
+          1.61,
+          -24.54
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.188439309597015,
+        "max_gap_at": {
+          "feet_y": 0.398439288139343,
+          "floor": [
+            0.0,
+            0.21,
+            -30.96
+          ],
+          "on_floor": true,
+          "player": [
+            0.0,
+            1.27,
+            -30.96
+          ],
+          "target": [
+            0.0,
+            -25.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.79
+          ]
+        }
+      },
+      "name": "Administration axis doorway, lobby, second doorway and return",
+      "pass": true
+    },
+    {
+      "detail": {
+        "feet_y": 0.738727331161499
+      },
+      "name": "Administration returned landing has floor contact at 0.72 m",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 1,
+        "failures": [],
+        "final": [
+          3.0,
+          1.61,
+          -12.46
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.170792639255524,
+        "max_gap_at": {
+          "feet_y": 0.550792694091797,
+          "floor": [
+            3.0,
+            0.38,
+            -30.55
+          ],
+          "on_floor": true,
+          "player": [
+            3.0,
+            1.43,
+            -30.55
+          ],
+          "target": [
+            3.0,
+            -25.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Administration second doorway reaches lobby floor",
+      "pass": true
+    },
+    {
+      "detail": {
+        "feet_y": 0.738811612129211
+      },
+      "name": "Administration lobby floor contact at 0.72 m",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration facade retained x=-16.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration facade retained x=16.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration bounded lobby back wall x=-10.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration bounded lobby back wall x=0.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration bounded lobby back wall x=10.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration doorway clear x=0.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration doorway clear x=3.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration lobby glazing blocks x=-8.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration lobby glazing blocks x=-5.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration lobby glazing blocks x=7.0",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Administration lobby glazing blocks x=9.0",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          22.3,
+          1.1,
+          215.57
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.0189758539199829,
+        "max_gap_at": {
+          "feet_y": 0.228975772857666,
+          "floor": [
+            22.3,
+            0.21,
+            192.01
+          ],
+          "on_floor": true,
+          "player": [
+            22.3,
+            1.1,
+            192.01
+          ],
+          "target": [
+            22.2999992370605,
+            205.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            4.37
+          ]
+        }
+      },
+      "name": "Academic arcade walk x=22.3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "feet_y": 0.228975772857666,
+        "z": 215.570404052734
+      },
+      "name": "Academic arcade floor contact x=22.3",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Academic arcade soffit overhead x=22.3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "airborne_frames": 0,
+        "failures": [],
+        "final": [
+          -22.3,
+          1.1,
+          215.57
+        ],
+        "floor_losses": 0,
+        "max_floor_gap_m": 0.018727719783783,
+        "max_gap_at": {
+          "feet_y": 0.228727698326111,
+          "floor": [
+            -22.3,
+            0.21,
+            197.76
+          ],
+          "on_floor": true,
+          "player": [
+            -22.3,
+            1.1,
+            197.76
+          ],
+          "target": [
+            -22.2999992370605,
+            205.0
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            4.37
+          ]
+        }
+      },
+      "name": "Academic arcade walk x=-22.3",
+      "pass": true
+    },
+    {
+      "detail": {
+        "feet_y": 0.228727698326111,
+        "z": 215.570434570313
+      },
+      "name": "Academic arcade floor contact x=-22.3",
+      "pass": true
+    },
+    {
+      "detail": {
+
+      },
+      "name": "Academic arcade soffit overhead x=-22.3",
+      "pass": true
+    }
+  ],
+  "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158"
+}

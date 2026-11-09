@@ -1,0 +1,366 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-06T17:28:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1143261889,
+  "lat": 29.9566252,
+  "lon": 31.0765283,
+  "tags": {
+    "bus": "yes",
+    "gtfs:stop_id": "374",
+    "name": "Zewail Rd. (Wahat Rd.)",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "way",
+  "id": 29079248,
+  "center": {
+    "lat": 29.9444509,
+    "lon": 31.0604764
+  },
+  "tags": {
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 98608681,
+  "center": {
+    "lat": 29.9374582,
+    "lon": 31.0793552
+  },
+  "tags": {
+    "alt_name": "ميدان 30 يونيو",
+    "alt_name:en": "30th June Square",
+    "highway": "unclassified",
+    "junction": "roundabout",
+    "name": "ميدان زويل",
+    "name:ar": "ميدان زويل",
+    "name:en": "Zewil Square",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 98608684,
+  "center": {
+    "lat": 29.9429758,
+    "lon": 31.0593120
+  },
+  "tags": {
+    "highway": "unclassified",
+    "name": "شارع زويل الجانبى",
+    "name:ar": "شارع زويل الجانبى",
+    "name:en": "Side Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 98669259,
+  "center": {
+    "lat": 29.9330443,
+    "lon": 31.0578987
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street"
+  }
+},
+{
+  "type": "way",
+  "id": 540096421,
+  "center": {
+    "lat": 29.9444496,
+    "lon": 31.0610099
+  },
+  "tags": {
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 540096426,
+  "center": {
+    "lat": 29.9318101,
+    "lon": 31.0429868
+  },
+  "tags": {
+    "destination": "جهاز مدينة حدائق اكتوبر",
+    "destination:lang:en": "October Gardens City Authority",
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 681623761,
+  "center": {
+    "lat": 29.9848569,
+    "lon": 31.1509682
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع دكتور احمد زويل",
+    "name:ar": "شارع دكتور احمد زويل",
+    "name:en": "Doctor Ahmed Zewil Street"
+  }
+},
+{
+  "type": "way",
+  "id": 682915683,
+  "center": {
+    "lat": 29.8889049,
+    "lon": 30.8992025
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع احمد زويل",
+    "name:ar": "شارع احمد زويل",
+    "name:en": "Ahmed Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 682915684,
+  "center": {
+    "lat": 29.8890393,
+    "lon": 30.8991223
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع احمد زويل",
+    "name:ar": "شارع احمد زويل",
+    "name:en": "Ahmed Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 684401326,
+  "center": {
+    "lat": 29.9484692,
+    "lon": 31.0668036
+  },
+  "tags": {
+    "highway": "unclassified",
+    "name": "شارع زويل الجانبى",
+    "name:ar": "شارع زويل الجانبى",
+    "name:en": "Side Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 684555295,
+  "center": {
+    "lat": 29.9389138,
+    "lon": 31.0525776
+  },
+  "tags": {
+    "construction": "minor",
+    "highway": "unclassified",
+    "name": "شارع زويل الجانبى",
+    "name:ar": "شارع زويل الجانبى",
+    "name:en": "Side Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 717165361,
+  "center": {
+    "lat": 30.0426844,
+    "lon": 31.1085659
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع عبد الرحيم زويل",
+    "name:ar": "شارع عبد الرحيم زويل",
+    "name:en": "Abd Al Rahim Zewil Street"
+  }
+},
+{
+  "type": "way",
+  "id": 725384451,
+  "center": {
+    "lat": 30.0267523,
+    "lon": 31.1993832
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع احمد زويل",
+    "name:ar": "شارع احمد زويل",
+    "name:en": "Ahmed Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 887489332,
+  "center": {
+    "lat": 30.1485334,
+    "lon": 31.1426330
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "حارة اولاد زويل",
+    "name:ar": "حارة اولاد زويل",
+    "name:en": "Awlad Zewil Alley"
+  }
+},
+{
+  "type": "way",
+  "id": 894285389,
+  "center": {
+    "lat": 29.8880475,
+    "lon": 30.8974315
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع احمد زويل",
+    "name:ar": "شارع احمد زويل",
+    "name:en": "Ahmed Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 894285391,
+  "center": {
+    "lat": 29.8882079,
+    "lon": 30.8973296
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع احمد زويل",
+    "name:ar": "شارع احمد زويل",
+    "name:en": "Ahmed Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 894550265,
+  "center": {
+    "lat": 29.9275626,
+    "lon": 31.0350558
+  },
+  "tags": {
+    "destination": "مشروع ال 247 و 266 عمارة",
+    "destination:lang:en": "Project 247 and 266 Building",
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 894550267,
+  "center": {
+    "lat": 29.9261915,
+    "lon": 31.0342161
+  },
+  "tags": {
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 923051349,
+  "center": {
+    "lat": 30.1373245,
+    "lon": 31.2000416
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "شارع احمد زويل",
+    "name:ar": "شارع احمد زويل",
+    "name:en": "Ahmed Zewil Street"
+  }
+},
+{
+  "type": "way",
+  "id": 923317471,
+  "center": {
+    "lat": 29.9560695,
+    "lon": 31.0767442
+  },
+  "tags": {
+    "destination": "مدينة زويل للعلوم و التكنولوجيا; جهاز مدينة حدائق اكتوبر",
+    "destination:lang:en": "Zewail City Of Science And Technology; October Gardens City Authority",
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 927642451,
+  "center": {
+    "lat": 29.9333854,
+    "lon": 31.0446523
+  },
+  "tags": {
+    "destination": "جهاز مدينة حدائق أكتوبر; مدينة زويل",
+    "destination:lang:en": "October Gardens City Authority; Zewail City",
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 930597950,
+  "center": {
+    "lat": 29.9555711,
+    "lon": 31.0778586
+  },
+  "tags": {
+    "destination": "ميدان الرماية",
+    "destination:lang:en": "Al Remaya Square",
+    "destination:ref": "221",
+    "highway": "secondary",
+    "name": "شارع زويل",
+    "name:ar": "شارع زويل",
+    "name:en": "Zewil Street",
+    "oneway": "yes"
+  }
+}
+
+  ]
+}

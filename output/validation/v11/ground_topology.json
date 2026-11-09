@@ -1,0 +1,73 @@
+{
+  "phase": "A",
+  "datum": "ESTIMATED, no DEM; 0.08% longitudinal / 0.02% crossfall; level pads",
+  "plot_area_m2": 675794.5225999999,
+  "road_area_m2": 243016.71794381813,
+  "surface_overlap_m2": 8.919897188444253e-13,
+  "plot_uncovered_m2": 2.4800821220190423e-13,
+  "centreline_gaps": [],
+  "surface_regions": {
+    "M_Asphalt": 169998.129,
+    "M_Paver_Road_Grey": 72945.996,
+    "M_Concrete_Curb": 13142.137,
+    "M_V6_Plaza_Inlay": 178.696,
+    "M_V6_Plaza_Grey": 1911.846,
+    "M_V6_Plaza_Light": 10101.995,
+    "M_V6_Garden_Pavers": 1581.899,
+    "M_Paving_Limestone": 15922.476,
+    "M_Paving_Light": 8155.119,
+    "M_Grass_Lawn": 31988.144,
+    "M_Planted_Soil_Sparse": 147124.627,
+    "M_White_Pebbles": 251.35,
+    "M_Compacted_Earth": 1136.663,
+    "M_V7_Paving_Edge_Restraint": 955.018,
+    "M_V15_Planted_Bed_Soil": 3138.866,
+    "M_Grass_Lawn_V15_Median": 884.719,
+    "M_Paver_Road_Grey_V15_Band": 44.8
+  },
+  "estimated_pedestrian_links": [
+    [
+      [
+        0.0,
+        -117.88
+      ],
+      [
+        0.0,
+        -155.0
+      ]
+    ],
+    [
+      [
+        -16.3,
+        100.0
+      ],
+      [
+        -31.0,
+        60.0
+      ]
+    ],
+    [
+      [
+        16.3,
+        100.0
+      ],
+      [
+        36.0,
+        60.0
+      ]
+    ]
+  ],
+  "v7_edge_restraint_m2": 984.15,
+  "v7_shoulders": "soil +0.16 m over 1.6 m, lawn/planting +0.14 m over 1.2 m, toward raised paving/curb/foundation edges (ESTIMATED grading)",
+  "v9_relief": {
+    "status": "ESTIMATED, no DEM",
+    "inside_wall": "<=0.11 m @38 m + 0.035 m @13 m",
+    "outside_wall": "<=0.22 m @90 m + 0.065 m @30 m, within 450 m",
+    "fade": "0 within 1.5 m of every road/paving/wall/building/bed/lawn edge, full beyond 12 m",
+    "zone_m2": 2570827.7,
+    "sampled_max_abs_m": 0.1886
+  },
+  "v9_road_edges": "soil graded flush with road surface at the edge (was 4.8 cm below), lawn/planting flush (was 2.8 cm), 1.6/1.2 m fade",
+  "v9_apron_edge_restraint_m2": 27.79,
+  "all_topology_checks_pass": true
+}

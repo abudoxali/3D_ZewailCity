@@ -1,0 +1,56 @@
+{
+  "asset": "pachira_aquatica_01",
+  "source_url": "https://polyhaven.com/a/pachira_aquatica_01",
+  "license": "CC0 1.0",
+  "license_url": "https://polyhaven.com/license",
+  "files": [
+    {
+      "file": "pachira_aquatica_01_1k.gltf",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pachira_aquatica_01/pachira_aquatica_01_1k.gltf",
+      "sha256": "e73b77c0ffadd8b9fa686faabfecf37799123fe4bc756f816145a4f8c9f53364",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/pachira_aquatica_01_bark_nor_gl_1k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_bark_nor_gl_1k.jpg",
+      "sha256": "389b0f8cc3e8bf4ee78ea12c367ff3003d69d8e83de8baf908e6f2e123d1e6a8",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/pachira_aquatica_01_leaves_nor_gl_1k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_leaves_nor_gl_1k.jpg",
+      "sha256": "3a442aa75df0e6f37bb7410f8ae09927b419d2dba202943cda40f52a7194804c",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/pachira_aquatica_01_leaves_diff_1k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_leaves_diff_1k.jpg",
+      "sha256": "b3211c240dd2ea7913326e7f21f9db9d029ee487b5e59d58d0e10c8cc77d203f",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/pachira_aquatica_01_bark_arm_1k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_bark_arm_1k.jpg",
+      "sha256": "7c44f930e3a6c14acb9043e50d8244da7869f8937233c58276d1b3212a3a6960",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/pachira_aquatica_01_bark_diff_1k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_bark_diff_1k.jpg",
+      "sha256": "9ca175a1c105a3555c47626ebead36505c29482ea0018f4c6e9a5828ce6d7b25",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/pachira_aquatica_01_leaves_arm_1k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pachira_aquatica_01/pachira_aquatica_01_leaves_arm_1k.jpg",
+      "sha256": "42824afde27e7f0111a2e673f0a7cfe0b18bc21d2201b85d9737fce48c1016a3",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "pachira_aquatica_01.bin",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pachira_aquatica_01/pachira_aquatica_01.bin",
+      "sha256": "a803777635a4744cc304bd936806242d8875430cc588295c9fa2792a64747c8e",
+      "provider_md5_verified": true
+    }
+  ]
+}

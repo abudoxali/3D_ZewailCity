@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe",
+    "-b",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "output/validation/v15/candidate/src/build_scene.py"
+  ],
+  "exit_code": 0,
+  "seconds": 433.93,
+  "started_utc": "2026-11-09T09:12:04.806582+00:00"
+}

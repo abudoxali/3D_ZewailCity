@@ -1,0 +1,334 @@
+{
+ "schema": "zewail-v15-assets/1",
+ "utc": "2026-11-09T08:57:11.947497+00:00",
+ "licence_check": "Poly Haven asset pages and https://polyhaven.com/license: CC0 1.0; provider MD5 verified for every file",
+ "assets": [
+  {
+   "asset": "asphalt_01",
+   "kind": "texture",
+   "page": "https://polyhaven.com/a/asphalt_01",
+   "license": "CC0 1.0",
+   "license_url": "https://polyhaven.com/license",
+   "authors": [
+    "Dario Barresi",
+    "Charlotte Baglioni"
+   ],
+   "physical_size_mm": [
+    2079.9994468688965,
+    2079.9996852874756
+   ],
+   "resolution": "2k",
+   "files": [
+    {
+     "map": "diff",
+     "path": "output/validation/v15/downloads/asphalt_01/asphalt_01_diff_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_01/asphalt_01_diff_2k.jpg",
+     "bytes": 3118607,
+     "provider_md5_verified": true,
+     "sha256": "10fe1dafe34fec51397dbe9011f798c68c4e3fc16abfd4d7aea0123122db8993"
+    },
+    {
+     "map": "nor_gl",
+     "path": "output/validation/v15/downloads/asphalt_01/asphalt_01_nor_gl_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_01/asphalt_01_nor_gl_2k.jpg",
+     "bytes": 4845665,
+     "provider_md5_verified": true,
+     "sha256": "60fd6af2aae30bb3fd2231227ecbe52d0ced2c761d53a64f50dea59d173307cd"
+    },
+    {
+     "map": "rough",
+     "path": "output/validation/v15/downloads/asphalt_01/asphalt_01_rough_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_01/asphalt_01_rough_2k.jpg",
+     "bytes": 1599661,
+     "provider_md5_verified": true,
+     "sha256": "c6962037eb41c6f0feafba22353e315d37ae8c8ea472dfd7d4fe28136904ceb5"
+    },
+    {
+     "map": "ao",
+     "path": "output/validation/v15/downloads/asphalt_01/asphalt_01_ao_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_01/asphalt_01_ao_2k.jpg",
+     "bytes": 4048107,
+     "provider_md5_verified": true,
+     "sha256": "0cbbf5252a632482c9ce15fd53b26a6b468250114b8e3fef20d0393d139d2611"
+    }
+   ],
+   "status": "EVALUATED, NOT UPGRADED",
+   "usage": "The 2K set adds no visible detail over the installed V12 1K set at the 2.1 m tile; the albedo is inherently brown-grey and stays calibrated by the V12 tint (tone_targets.json, saturation 0.2). The dusty V12 trial is not reintroduced."
+  },
+  {
+   "asset": "aerial_asphalt_01",
+   "kind": "texture",
+   "page": "https://polyhaven.com/a/aerial_asphalt_01",
+   "license": "CC0 1.0",
+   "license_url": "https://polyhaven.com/license",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "physical_size_mm": [
+    30000,
+    30000
+   ],
+   "resolution": "2k",
+   "files": [
+    {
+     "map": "diff",
+     "path": "output/validation/v15/downloads/aerial_asphalt_01/aerial_asphalt_01_diff_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_asphalt_01/aerial_asphalt_01_diff_2k.jpg",
+     "bytes": 2802005,
+     "provider_md5_verified": true,
+     "sha256": "a85ce28b8e6ed90acb0234832969b27f5b73fe055a0d5b94f34fc2943d319fb5"
+    },
+    {
+     "map": "nor_gl",
+     "path": "output/validation/v15/downloads/aerial_asphalt_01/aerial_asphalt_01_nor_gl_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_asphalt_01/aerial_asphalt_01_nor_gl_2k.jpg",
+     "bytes": 2751902,
+     "provider_md5_verified": true,
+     "sha256": "cb7e5b75ff47ad672ab820f71b77566419b612e52e7791c5ed90a7fa27b71807"
+    },
+    {
+     "map": "rough",
+     "path": "output/validation/v15/downloads/aerial_asphalt_01/aerial_asphalt_01_rough_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_asphalt_01/aerial_asphalt_01_rough_2k.jpg",
+     "bytes": 1392536,
+     "provider_md5_verified": true,
+     "sha256": "20fdcdc9fc2a3efef83fd8a3453d2bc0a8543ee3ebb2badf148e4c142704eeff"
+    },
+    {
+     "map": "ao",
+     "path": "output/validation/v15/downloads/aerial_asphalt_01/aerial_asphalt_01_ao_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_asphalt_01/aerial_asphalt_01_ao_2k.jpg",
+     "bytes": 1929805,
+     "provider_md5_verified": true,
+     "sha256": "fb9da6e73cbfca310032ee113389be2f084c4d28cd688f663952e4747d5532d0"
+    }
+   ],
+   "status": "REJECTED",
+   "usage": "30 m physical tile = 68 px/m at 2K: too coarse at eye level; distinctive tyre marks/cracks would repeat visibly."
+  },
+  {
+   "asset": "concrete_pavement",
+   "kind": "texture",
+   "page": "https://polyhaven.com/a/concrete_pavement",
+   "license": "CC0 1.0",
+   "license_url": "https://polyhaven.com/license",
+   "authors": [
+    "Charlotte Baglioni"
+   ],
+   "physical_size_mm": [
+    1800.0000715255737,
+    1800.0000715255737
+   ],
+   "resolution": "2k",
+   "files": [
+    {
+     "map": "diff",
+     "path": "output/validation/v15/downloads/concrete_pavement/concrete_pavement_diff_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_diff_2k.jpg",
+     "bytes": 3817566,
+     "provider_md5_verified": true,
+     "sha256": "e5a1cecfe7765cc0b24a6ab0abf492bd21c9e7af64e97fc46ef6021d0645fbd3"
+    },
+    {
+     "map": "nor_gl",
+     "path": "output/validation/v15/downloads/concrete_pavement/concrete_pavement_nor_gl_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_nor_gl_2k.jpg",
+     "bytes": 5179971,
+     "provider_md5_verified": true,
+     "sha256": "72def937e418ccc9d7736c9b1f51ae22a127fa2a53a54f4d1fe4d3cf828b781c"
+    },
+    {
+     "map": "rough",
+     "path": "output/validation/v15/downloads/concrete_pavement/concrete_pavement_rough_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_rough_2k.jpg",
+     "bytes": 2125646,
+     "provider_md5_verified": true,
+     "sha256": "e97b7d190dcda5a842813502505bf3d1b2348b4cad57b1d51d1bcc694a92d137"
+    },
+    {
+     "map": "ao",
+     "path": "output/validation/v15/downloads/concrete_pavement/concrete_pavement_ao_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_ao_2k.jpg",
+     "bytes": 3576206,
+     "provider_md5_verified": true,
+     "sha256": "c5c7287990c57336c27ef68353d4cf2599e23977f7426c79c6a1a3a5982fa6be"
+    }
+   ],
+   "status": "REJECTED (pilot)",
+   "usage": "Running-bond slab texture duplicates the V11 jointed slab sidewalks already matched to C02; no measured gain."
+  },
+  {
+   "asset": "dirt",
+   "kind": "texture",
+   "page": "https://polyhaven.com/a/dirt",
+   "license": "CC0 1.0",
+   "license_url": "https://polyhaven.com/license",
+   "authors": [
+    "Charlotte Baglioni"
+   ],
+   "physical_size_mm": [
+    2000,
+    2000
+   ],
+   "resolution": "2k",
+   "files": [
+    {
+     "map": "diff",
+     "path": "output/validation/v15/downloads/dirt/dirt_diff_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_diff_2k.jpg",
+     "bytes": 3053062,
+     "provider_md5_verified": true,
+     "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8"
+    },
+    {
+     "map": "nor_gl",
+     "path": "output/validation/v15/downloads/dirt/dirt_nor_gl_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_nor_gl_2k.jpg",
+     "bytes": 4914156,
+     "provider_md5_verified": true,
+     "sha256": "ff629fce04c5d6d581cfcb604ea85df6b726798e60d982fd5484c60cddcccd88"
+    },
+    {
+     "map": "rough",
+     "path": "output/validation/v15/downloads/dirt/dirt_rough_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_rough_2k.jpg",
+     "bytes": 964887,
+     "provider_md5_verified": true,
+     "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa"
+    },
+    {
+     "map": "ao",
+     "path": "output/validation/v15/downloads/dirt/dirt_ao_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_ao_2k.jpg",
+     "bytes": 2769552,
+     "provider_md5_verified": true,
+     "sha256": "5c6f36c9cfc6a03faca87d5407eaa26e18d33c0b3762016de023a5cafa3e2246"
+    }
+   ],
+   "status": "INSTALLED",
+   "usage": "Raised kerbed verge beds and outer approach beds (M_V15_Planted_Bed_Soil): Blender source albedo at the 2.0 m physical tile and Godot detail maps (pbr_mode 2, anti-tiling). Files: game/godot/assets/pbr/dirt/*_2k.jpg"
+  },
+  {
+   "asset": "dry_ground_01",
+   "kind": "texture",
+   "page": "https://polyhaven.com/a/dry_ground_01",
+   "license": "CC0 1.0",
+   "license_url": "https://polyhaven.com/license",
+   "authors": [
+    "Rob Tuytel"
+   ],
+   "physical_size_mm": [
+    4000,
+    4000
+   ],
+   "resolution": "2k",
+   "files": [
+    {
+     "map": "diff",
+     "path": "output/validation/v15/downloads/dry_ground_01/dry_ground_01_diff_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dry_ground_01/dry_ground_01_diff_2k.jpg",
+     "bytes": 2541635,
+     "provider_md5_verified": true,
+     "sha256": "b6b601e75ba68d91ea1b09af87e95f186d15d8210e4f14692f9b20d2e21d437b"
+    },
+    {
+     "map": "nor_gl",
+     "path": "output/validation/v15/downloads/dry_ground_01/dry_ground_01_nor_gl_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dry_ground_01/dry_ground_01_nor_gl_2k.jpg",
+     "bytes": 1080854,
+     "provider_md5_verified": true,
+     "sha256": "ffb7d63a0d93ff7fa352a2b9340ce5d3e29156435634dfe75e7647a99fee9fa8"
+    },
+    {
+     "map": "rough",
+     "path": "output/validation/v15/downloads/dry_ground_01/dry_ground_01_rough_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dry_ground_01/dry_ground_01_rough_2k.jpg",
+     "bytes": 1456821,
+     "provider_md5_verified": true,
+     "sha256": "a63000ba9e78a8ad5ddd1ea128ed20d91e68dba841c486af7292b8e7724c685a"
+    },
+    {
+     "map": "ao",
+     "path": "output/validation/v15/downloads/dry_ground_01/dry_ground_01_ao_2k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dry_ground_01/dry_ground_01_ao_2k.jpg",
+     "bytes": 2014209,
+     "provider_md5_verified": true,
+     "sha256": "26a099a07e81a1d806fc3b49db5984d27cfc9f7b6abffd483c765ee687d1fa02"
+    }
+   ],
+   "status": "REJECTED",
+   "usage": "Cracked clay crust; the site is sandy loam (C02, P07), cracked mud is not evidenced."
+  },
+  {
+   "asset": "crystalline_iceplant",
+   "kind": "model",
+   "page": "https://polyhaven.com/a/crystalline_iceplant",
+   "license": "CC0 1.0",
+   "license_url": "https://polyhaven.com/license",
+   "authors": [
+    "James Ray Cock",
+    "Jenelle van Heerden"
+   ],
+   "polycount": 23487,
+   "resolution": "1k",
+   "files": [
+    {
+     "map": "gltf",
+     "path": "output/validation/v15/downloads/crystalline_iceplant/crystalline_iceplant_1k.gltf",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/crystalline_iceplant/crystalline_iceplant_1k.gltf",
+     "bytes": 13607,
+     "provider_md5_verified": true,
+     "sha256": "46983341146dfacc96116e7468562b9e3b0a5be15d15940a98d9bab045c39910"
+    },
+    {
+     "map": "textures/crystalline_iceplant_nor_gl_1k.jpg",
+     "path": "output/validation/v15/downloads/crystalline_iceplant/textures/crystalline_iceplant_nor_gl_1k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/crystalline_iceplant/crystalline_iceplant_nor_gl_1k.jpg",
+     "bytes": 907570,
+     "provider_md5_verified": true,
+     "sha256": "860252c828abd312600ab0daff531dfa4573b1a3ee6293bdbc5b53093f082cec"
+    },
+    {
+     "map": "textures/crystalline_iceplant_arm_1k.jpg",
+     "path": "output/validation/v15/downloads/crystalline_iceplant/textures/crystalline_iceplant_arm_1k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/crystalline_iceplant/crystalline_iceplant_arm_1k.jpg",
+     "bytes": 850713,
+     "provider_md5_verified": true,
+     "sha256": "313d08a7ab102b2e57181c136d17fa64fe91fc2a3fdc0355516c0fdc15712852"
+    },
+    {
+     "map": "textures/crystalline_iceplant_diff_1k.jpg",
+     "path": "output/validation/v15/downloads/crystalline_iceplant/textures/crystalline_iceplant_diff_1k.jpg",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/crystalline_iceplant/crystalline_iceplant_diff_1k.jpg",
+     "bytes": 510658,
+     "provider_md5_verified": true,
+     "sha256": "bf191d9f2f903961c45b16d9bee0efa4cf8a64dc66f98159d91ba9699f61db8f"
+    },
+    {
+     "map": "crystalline_iceplant.bin",
+     "path": "output/validation/v15/downloads/crystalline_iceplant/crystalline_iceplant.bin",
+     "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/crystalline_iceplant/crystalline_iceplant.bin",
+     "bytes": 330436,
+     "provider_md5_verified": true,
+     "sha256": "f51b43e9235e1765eb44495edf4f68e53c693a4ea1bab93830ac2e9f8e0d183a"
+    }
+   ],
+   "status": "INSTALLED",
+   "usage": "Groundcover rows in the verge beds: 4 clumps of 9 rosettes, decimated to ~6.5 % (~1.6k tris), greener derived albedo crystalline_iceplant_diff_1k_v15green.jpg (x(0.80,1.0,0.74), +15 % saturation). Files: references/assets/crystalline_iceplant/"
+  }
+ ],
+ "derived_files": [
+  {
+   "path": "output/validation/v15/candidate/references/assets/crystalline_iceplant/textures/crystalline_iceplant_diff_1k_v15green.jpg",
+   "sha256": "eb97dc42e655fa5df19c2992fe9727f537cbbebeaf3a7737f9900fe97d0190ff",
+   "from": "crystalline_iceplant_diff_1k.jpg (CC0)"
+  }
+ ],
+ "not_downloaded": {
+  "concrete_pavers": "Rejected in V12 (zig-zag unit shape; campus pavers are rectangular running bond, photo D02).",
+  "patterned_concrete_pavers": "Not evidenced on the approach (C02/D02 show rectangular grey running bond).",
+  "sand_01": "Already installed since V12 as detail on sand/soil; as a whole surface it read as grey cracked crust (V12 QA).",
+  "ambientcg.com": "PavingStones125A was rejected in V13 (grain smearing); no further ambientCG set needed for this pilot."
+ },
+ "excluded_styles": "No PSX, stylized, Ghibli or low-poly packs were used."
+}
