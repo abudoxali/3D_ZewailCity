@@ -148,7 +148,7 @@ func _after_load() -> void:
 # ------------------------------------------------------------------ environment
 const HDRI_PATH := "res://assets/pbr/sky/kloofendal_48d_partly_cloudy_puresky_sunclamped_2k.hdr"
 const HDRI_ENERGY := 0.6
-const HDRI_BACKGROUND_ENERGY := 1.25
+const HDRI_BACKGROUND_ENERGY := 0.9
 ## Yaw that puts the HDRI's own sun azimuth on the DirectionalLight azimuth (calibrated
 ## from a capture aimed at the game sun; see output/validation/v13/sky_calibration).
 const HDRI_YAW_DEG := -93.0
@@ -277,20 +277,20 @@ func _set_evening(enabled: bool) -> void:
 	env.sky_rotation = Vector3.ZERO
 	if enabled:
 		# Blue-hour dusk: readable architecture, warm artificial light, no night-black.
-		sky_mat.sky_top_color = Color(0.035, 0.055, 0.13)
-		sky_mat.sky_horizon_color = Color(0.30, 0.22, 0.24)
+		sky_mat.sky_top_color = Color(0.10, 0.18, 0.38)
+		sky_mat.sky_horizon_color = Color(0.34, 0.40, 0.55)
 		sky_mat.ground_bottom_color = Color(0.05, 0.045, 0.04)
 		sky_mat.ground_horizon_color = Color(0.20, 0.16, 0.15)
 		sky_mat.sky_energy_multiplier = 1.0
 		env.ambient_light_color = Color(0.42, 0.46, 0.62)
 		env.ambient_light_sky_contribution = 0.6
-		env.ambient_light_energy = 0.55
-		env.tonemap_exposure = 1.35
+		env.ambient_light_energy = 0.80
+		env.tonemap_exposure = 1.45
 		env.glow_intensity = 0.55
 		env.glow_bloom = 0.04
 		env.fog_light_color = Color(0.20, 0.20, 0.26)
 		sun.light_energy = 0.06
-		sun.light_color = Color(0.70, 0.62, 0.72)
+		sun.light_color = Color(0.78, 0.82, 1.0)
 		sun.rotation_degrees.x = -4.0
 	else:
 		sky_mat.sky_top_color = Color(0.33, 0.50, 0.74)
@@ -302,15 +302,15 @@ func _set_evening(enabled: bool) -> void:
 		sky_mat.sky_energy_multiplier = 1.0
 		# V7: sky-only ambient tinted every shadow saturated blue (V6 captures); mix in a
 		# warm sand/stone bounce colour instead.
-		env.ambient_light_color = Color(0.86, 0.80, 0.71)
+		env.ambient_light_color = Color(0.84, 0.82, 0.78)
 		env.ambient_light_sky_contribution = 0.55
-		env.ambient_light_energy = 0.9
-		env.tonemap_exposure = 0.96
+		env.ambient_light_energy = 0.68
+		env.tonemap_exposure = 0.86
 		env.glow_intensity = 0.0
 		env.glow_bloom = 0.0
 		env.fog_light_color = Color(0.80, 0.82, 0.84)
 		sun.light_energy = 1.55
-		sun.light_color = Color(1.0, 0.95, 0.87)
+		sun.light_color = Color(1.0, 0.985, 0.96)
 		sun.rotation_degrees.x = -32.0
 	if not enabled and hdri_sky_mat != null:
 		env.sky.sky_material = hdri_sky_mat
@@ -318,7 +318,7 @@ func _set_evening(enabled: bool) -> void:
 		# Visible sky only: ambient/reflection radiance stays at HDRI_ENERGY.
 		env.background_energy_multiplier = HDRI_BACKGROUND_ENERGY
 		# Blend the desert haze into the photographed horizon (QA: hard band in aerials).
-		env.fog_sky_affect = 0.45
+		env.fog_sky_affect = 0.18
 	# Controlled material QA uses the recorded V11 daylight verbatim.
 	if not enabled and "--v12-legacy-daylight" in OS.get_cmdline_user_args():
 		sky_mat.sky_top_color = Color(0.33,0.50,0.74)

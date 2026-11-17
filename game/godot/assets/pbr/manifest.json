@@ -1,6 +1,6 @@
 {
   "schema": "zewail-v12-assets/1",
-  "candidate_version": "15.0.0",
+  "candidate_version": "19.0.0",
   "assets": [
     {
       "asset": "asphalt_01",
@@ -41,7 +41,8 @@
       "usage": [
         "External asphalt carriageways (M_Asphalt): whole surface, high-passed albedo tinted to the V11 mean x0.9, anti-tiling second sample",
         "Road markings: worn paint over the asphalt maps"
-      ]
+      ],
+      "v16_active": false
     },
     {
       "asset": "concrete_pavers",
@@ -81,7 +82,9 @@
       "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
       "usage": [
         "Not used in V12.1 (zig-zag interlocking unit contradicted photo D02; retained in package manifest only as a licensed downloaded asset)"
-      ]
+      ],
+      "v16_active": false,
+      "v16_inventory_note": "Historical evaluation record; files absent; not loaded by V16 materials."
     },
     {
       "asset": "concrete_pavement_03",
@@ -122,7 +125,8 @@
       "usage": [
         "Fine detail only on V11 running-bond paver roads (G1, main approach, ring road, Administration lanes) and dormitory garden paths",
         "Fine detail only on V11 slab paving (sidewalks, G1 threshold, Administration forecourt, Academic court), curbs and edge restraints; original slab albedo/joints retained"
-      ]
+      ],
+      "v16_active": true
     },
     {
       "asset": "sand_01",
@@ -162,7 +166,8 @@
       "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
       "usage": [
         "Fine detail only on V11 desert sand, graded campus soil and compacted earth"
-      ]
+      ],
+      "v16_active": true
     },
     {
       "asset": "sparse_grass",
@@ -203,7 +208,8 @@
       "usage": [
         "Planted sparse-soil surfaces (whole surface, V11 mean colour)",
         "Fine detail only on V11 lawns"
-      ]
+      ],
+      "v16_active": true
     },
     {
       "asset": "beige_wall_001",
@@ -243,7 +249,8 @@
       "optimization": "1K originals; physical world projection; BC7/BC5 VRAM compression; mipmaps; 16x anisotropy; no displacement",
       "usage": [
         "Fine normal/roughness on existing stone/stucco facades and the Academic stairs/landings; original architectural panel grids retained"
-      ]
+      ],
+      "v16_active": true
     },
     {
       "asset": "pachira_aquatica_01",
@@ -1985,7 +1992,9 @@
           }
         ],
         "asset_triangles": 20551
-      }
+      },
+      "v16_active": false,
+      "v16_inventory_note": "Historical evaluation record; files absent; not loaded by V16 materials."
     },
     {
       "asset": "dirt",
@@ -2000,7 +2009,8 @@
           "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_diff_2k.jpg",
           "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
           "provider_md5_verified": true,
-          "bytes": 3053062
+          "bytes": 3053062,
+          "godot_import_sha256": "908a0ac4394d4de1104a09bfa86894550d1a9213a6eb4e511632dacad490071f"
         },
         {
           "map": "nor_gl",
@@ -2008,7 +2018,8 @@
           "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_nor_gl_2k.jpg",
           "sha256": "ff629fce04c5d6d581cfcb604ea85df6b726798e60d982fd5484c60cddcccd88",
           "provider_md5_verified": true,
-          "bytes": 4914156
+          "bytes": 4914156,
+          "godot_import_sha256": "8bbcb28f7cefbbbcfe501e535815b8775ed4cd6b97872dfcc80b17141398d5d6"
         },
         {
           "map": "rough",
@@ -2016,13 +2027,15 @@
           "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dirt/dirt_rough_2k.jpg",
           "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
           "provider_md5_verified": true,
-          "bytes": 964887
+          "bytes": 964887,
+          "godot_import_sha256": "ef884998f68bee3844d89b9414fca05f7a700ce77ef864e22809f0757a1f4232"
         }
       ],
       "optimization": "2K originals; physical world projection; VRAM compression; mipmaps; 16x anisotropy; no displacement",
       "usage": [
         "V15 raised kerbed verge beds and outer approach beds (M_V15_Planted_Bed_Soil): baked source albedo + detail mode 2"
-      ]
+      ],
+      "v16_active": true
     }
   ],
   "license_verified": "Poly Haven originals are CC0 1.0; provider page/API and original file MD5 retained",
@@ -2041,16 +2054,17 @@
         0.0866
       ],
       "pbr_mean_linear": [
-        0.1009,
-        0.0804,
-        0.0624
+        0.10507690841540437,
+        0.10341819102502618,
+        0.09140733449280378
       ],
       "saturation": 0.2,
       "tint": [
-        1.0705,
-        1.0963,
-        1.0921
-      ]
+        0.9009244212733649,
+        0.882468080000137,
+        0.8607974495445266
+      ],
+      "source": "Poly Haven asphalt_02 CC0, physical tile 3 m; decoded 256px mean"
     },
     "Paver_Road_Grey": {
       "target_mean_linear": [
@@ -2059,15 +2073,15 @@
         0.2487
       ],
       "pbr_mean_linear": [
-        0.14,
-        0.1154,
-        0.089
+        0.3559,
+        0.3319,
+        0.2733
       ],
       "saturation": 0.35,
       "tint": [
-        2.0486,
-        2.1991,
-        2.2956
+        0.7583,
+        0.7774,
+        0.7972
       ]
     },
     "Garden_Pavers": {
@@ -2077,15 +2091,15 @@
         0.3265
       ],
       "pbr_mean_linear": [
-        0.14,
-        0.1154,
-        0.089
+        0.3559,
+        0.3319,
+        0.2733
       ],
       "saturation": 0.35,
       "tint": [
-        3.0975,
-        3.1285,
-        3.0138
+        1.1464,
+        1.106,
+        1.0465
       ]
     },
     "Desert_Sand": {
@@ -2108,39 +2122,41 @@
     },
     "Graded_Campus_Soil": {
       "target_mean_linear": [
-        0.4976,
-        0.3779,
-        0.2488
+        0.4967543275242466,
+        0.3772268636815479,
+        0.24829311053542302
       ],
       "pbr_mean_linear": [
-        0.3819,
-        0.3062,
-        0.1622
+        0.28802565195273927,
+        0.1586604773853975,
+        0.07347585563804025
       ],
-      "saturation": 0.75,
+      "saturation": 0.45,
       "tint": [
-        1.3655,
-        1.2285,
-        1.2461
-      ]
+        2.1728499123125258,
+        2.2137146561824306,
+        1.879991706060435
+      ],
+      "source": "Provider gravelly_sand with baseline mean colour calibration; evaluated in candidate only"
     },
     "Compacted_Earth": {
       "target_mean_linear": [
-        0.4392,
-        0.347,
-        0.2405
+        0.43862972703371067,
+        0.34646345889683744,
+        0.23997510509813416
       ],
       "pbr_mean_linear": [
-        0.3819,
-        0.3062,
-        0.1622
+        0.28802565195273927,
+        0.1586604773853975,
+        0.07347585563804025
       ],
-      "saturation": 0.7,
+      "saturation": 0.45,
       "tint": [
-        1.2171,
-        1.1272,
-        1.1609
-      ]
+        1.9186074707650045,
+        2.033182974580144,
+        1.8170105738036957
+      ],
+      "source": "Provider gravelly_sand with baseline mean colour calibration; evaluated in candidate only"
     },
     "Planted_Soil_Sparse": {
       "target_mean_linear": [
@@ -2162,9 +2178,45 @@
     }
   },
   "shader_files": {
-    "shaders\\ground_surface.gdshader": "f9f204f9b3d8b0a25d5e84b945c4813d3b53fb9eec535f9f429b30abed3e41ac",
-    "shaders\\pbr_world.gdshader": "63c358d5834a49c08c21385a0ecaf2f7b19e8f8676168f4e2d4e56fd86243329",
-    "scripts\\pbr_materials.gd": "381e94f3a5bfcde3eab8be21aeb7b8f4efdd33a3bbb0eec1dd4bdef7ef5631c3",
-    "assets\\pbr\\tone_targets.json": "b9f1468da8f601fa72fabf2e7978fce8399cb8da40641e09d1a774a23f90839e"
-  }
+    "scripts/pbr_materials.gd": "1aab9ce8c7ebcf91251fffcd19145f4987a81f2cd28cf57fa7b660bef65cebb2",
+    "scripts/campus_loader.gd": "34df8dc2b4f3005e3da7205e52618b91dc7dc2d6d7b5fb93f4fced7926374bc8",
+    "shaders/ground_surface.gdshader": "1d5ca1ec7fb2086ceea10ab98532cb0f1ed7ceca825c85785fa07a16a87e45bb",
+    "shaders/pbr_world.gdshader": "63c358d5834a49c08c21385a0ecaf2f7b19e8f8676168f4e2d4e56fd86243329",
+    "assets/pbr/tone_targets.json": "2b6e2e6e0eb11e7968d10963580118ec9f470436a6199da82fe26714c67fd218"
+  },
+  "v16_assets": {
+    "integrated": [
+      "asphalt_02",
+      "gravelly_sand"
+    ],
+    "evaluation_only": [
+      "worn_asphalt",
+      "sand_01",
+      "dry_ground_01"
+    ],
+    "license": "CC0 1.0",
+    "license_url": "https://polyhaven.com/license",
+    "manifests": [
+      "v16/asphalt_02/manifest.json",
+      "v16/gravelly_sand/manifest.json",
+      "v16/worn_asphalt/manifest.json",
+      "v16/sand_01/manifest.json",
+      "v16/dry_ground_01/manifest.json"
+    ]
+  },
+  "v19_assets": [
+    {
+      "asset": "shrub_01",
+      "source": "https://polyhaven.com/a/shrub_01",
+      "license": "CC0-1.0",
+      "installed": "native g/h/i cluster LOD2 used in low planted borders; species is a stand-in",
+      "manifest": "assets/pbr/v19/shrub_01/manifest.json"
+    }
+  ],
+  "v19_rejected_assets": [
+    {
+      "asset": "shrub_02",
+      "reason": "Sparse twig appearance rejected in actual Godot review; not active in final scene"
+    }
+  ]
 }

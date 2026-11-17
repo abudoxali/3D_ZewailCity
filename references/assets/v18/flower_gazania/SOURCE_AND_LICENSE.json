@@ -1,0 +1,45 @@
+{
+  "asset": "Flower Gazania",
+  "source": "https://polyhaven.com/a/flower_gazania",
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/license",
+  "credit": "Powered by Poly Haven. Model: James Ray Cock; photography: Jenelle van Heerden.",
+  "use": "Offline model download for orange flower beds visible in owner-marked Administration photo. Species identification not verified.",
+  "files": [
+    {
+      "file": "flower_gazania_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/flower_gazania/flower_gazania_1k.gltf",
+      "bytes": 19686,
+      "sha256": "73c7f4094f2ad78ddfbe6373f8372ddb736a5d9fc6485db08ae32301edc95a24",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "flower_gazania.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+      "bytes": 848136,
+      "sha256": "a3864c51fce2dacb01629a0c364730e5988ac5a7a937acc0e2635c946d786797",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/flower_gazania_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_nor_gl_1k.jpg",
+      "bytes": 874324,
+      "sha256": "802d0f9234ccd778c537b3b5ea3714f219d73a80ab794ea77271ab47dbbc9789",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/flower_gazania_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+      "bytes": 435784,
+      "sha256": "9d3022ebe7bfe0493a3e46aad87ea4746ea51df8c8b3e19294f1bb718a3147bb",
+      "provider_md5_verified": true
+    },
+    {
+      "file": "textures/flower_gazania_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_arm_1k.jpg",
+      "bytes": 670914,
+      "sha256": "80800dca73ad66b8c51b089db771b7a15c9e57dfd959e0da5cde434b3d8151b4",
+      "provider_md5_verified": true
+    }
+  ]
+}

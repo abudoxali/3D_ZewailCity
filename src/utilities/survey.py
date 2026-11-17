@@ -121,8 +121,10 @@ ACADEMIC = {
     'curve_c': (0.0, -249.0), 'r_out': 99.0, 'ring_depth': 25.0,
     'side_front_y': -212.0,              # side wings end   (axis y 34)
     'notch_y': -236.0,                   # recess between prong and side wing (axis y 10)
-    'prong_x': (19.8, 55.3), 'prong_front_y': -169.0,   # prongs (axis y 77)
-    'core_front_y': -229.0,              # Gate (A) facade between the prongs (axis y 17)
+    # V18 photo13/4/25: inner court width is photo-fitted; the dated OSM trace
+    # does not resolve the recessed arcade line. Outer mapped shell retained.
+    'prong_x': (16.6, 55.3), 'prong_front_y': -169.0,
+    'core_front_y': -240.0,              # facade owner at y_core-3 = -243; estimated fit
     'h_wing': 22.0, 'h_prong': 24.0,     # ~5 storeys (D05, A01)      ESTIMATED
 }
 
@@ -191,7 +193,7 @@ def drop_off_loop():
 
 # ---------------------------------------------------------------- control-point table
 # (name, V3 value from the brochure plan, V4 value from survey, source). Written to
-# output/validation/control_points.json by validate_architecture.py.
+# output/build_metadata/control_points.json by validate_architecture.py.
 CONTROL_POINTS = [
     ("main gate y", 307.6, GATE_Y, "OSM gate nodes"),
     ("ring centre y", -245.0, RING_C[1], "OSM ring fit (two halves)"),

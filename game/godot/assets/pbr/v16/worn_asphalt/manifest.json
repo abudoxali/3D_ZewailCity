@@ -1,0 +1,70 @@
+{
+  "asset": "worn_asphalt",
+  "source_url": "https://polyhaven.com/a/worn_asphalt",
+  "license": "CC0 1.0",
+  "license_url": "https://polyhaven.com/license",
+  "resolution": "2k",
+  "authors": [
+    "Amal Kumar"
+  ],
+  "physical_size_mm": [
+    2000,
+    2000
+  ],
+  "tile_m": [
+    2.0,
+    2.0
+  ],
+  "usage": "evaluation only / not loaded by V16 materials",
+  "files": [
+    {
+      "map": "diff",
+      "path": "game/godot/assets/pbr/v16/worn_asphalt/worn_asphalt_diff_2k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_asphalt/worn_asphalt_diff_2k.jpg",
+      "provider_md5": "7bd15211eea2137bfcc6af510e17cd3d",
+      "provider_md5_verified": true,
+      "sha256": "8313d3f8d25515d6ef0be59d461cdeb0feb484694eae385711ecf688c0afa4de",
+      "bytes": 3573942,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "normal_convention": null,
+      "godot_import_sha256": "d225318c8a44236677de01a2bf736380f06ac95da8d1314b4c798a8c3567c61d"
+    },
+    {
+      "map": "nor_gl",
+      "path": "game/godot/assets/pbr/v16/worn_asphalt/worn_asphalt_nor_gl_2k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_asphalt/worn_asphalt_nor_gl_2k.jpg",
+      "provider_md5": "e5e67ff8533fba07858b7efaa0bf29f0",
+      "provider_md5_verified": true,
+      "sha256": "114db3391e7d74c03758b06c8af2901a2c9392cf4cb37e7a8a3254a3235ce63e",
+      "bytes": 5863366,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "normal_convention": "OpenGL +Y",
+      "godot_import_sha256": "d0a9291a9e934e16eb75ab47c21942bd5f8cb5f2687f6113a327322ef8139abe"
+    },
+    {
+      "map": "rough",
+      "path": "game/godot/assets/pbr/v16/worn_asphalt/worn_asphalt_rough_2k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_asphalt/worn_asphalt_rough_2k.jpg",
+      "provider_md5": "38ef204748fd27be2a256e61d265f2ca",
+      "provider_md5_verified": true,
+      "sha256": "71572c4d7f3b4f33bd45f2b25368b853101e58c85c826a7109bab851eb847a6a",
+      "bytes": 1823718,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "normal_convention": null,
+      "godot_import_sha256": "584ed5a078c18d2f3397853228881a68cc580442a707b4a7a0d488e2b4de196e"
+    }
+  ],
+  "import_validation": "21 active maps / 19 mappings / 0 failures; VRAM compression and mipmaps enabled"
+}

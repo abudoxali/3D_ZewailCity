@@ -4,7 +4,7 @@
 
 The first run resolves every view to an exact camera pose (eye views ray-cast
 the floor and sit 1.70 m above it) and stores the poses in
-output/validation/v9/reference_cameras_v9.json. Every later run reuses those
+output/build_metadata/v9/reference_cameras_v9.json. Every later run reuses those
 stored poses unchanged, so before/after pairs share camera, lens, resolution,
 samples, denoiser and lighting.
 """
@@ -18,9 +18,9 @@ from utilities.scene_setup import enable_gpu
 args = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
 tag = args[0] if args else 'after'
 only = args[1:]
-OUT = R / 'output/validation/v9/reference_views'
+OUT = R / 'output/build_metadata/v9/reference_views'
 OUT.mkdir(parents=True, exist_ok=True)
-POSES = R / 'output/validation/v9/reference_cameras_v9.json'
+POSES = R / 'output/build_metadata/v9/reference_cameras_v9.json'
 
 # name: (camera, target, ortho_scale or None, eye) -- eye views give floor xy and a
 # target height above that floor; others are absolute Blender positions (V8 poses).

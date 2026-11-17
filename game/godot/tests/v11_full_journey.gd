@@ -11,13 +11,13 @@ func run_validation() -> void:
 		Vector2(-156.56,.78),Vector2(-151.94,2.03),Vector2(-145.08,7.12),Vector2(-137.23,15.02),
 		Vector2(-106.81,45.74),Vector2(-51.23,100.78),Vector2(-41.46,110.11),Vector2(-23.63,117.15),
 		Vector2(0,117.88),Vector2(0,155),Vector2(-13,200),Vector2(-13,221.5),
-		Vector2(-8,232),Vector2(-9,245),Vector2(-10,262),Vector2(-9,245),Vector2(-8,232),
+		Vector2(-11,232),Vector2(-11,245),Vector2(-11,262),Vector2(-11,245),Vector2(-11,232),
 		Vector2(-13,221.5),Vector2(-13,200),Vector2(13,200),Vector2(13,221.5),
-		Vector2(9,245),Vector2(10,262),Vector2(9,245),Vector2(13,221.5),Vector2(13,200),
-		Vector2(0,200),Vector2(0,239),Vector2(0,264),Vector2(0,280),Vector2(0,315),
-		Vector2(10.5,315),Vector2(10.5,285.5),Vector2(10.5,315),Vector2(0,315),Vector2(0,340),
+		Vector2(11,245),Vector2(11,262),Vector2(11,245),Vector2(13,221.5),Vector2(13,200),
+		Vector2(-2.3,200),Vector2(-2.3,239),Vector2(-2.3,264),Vector2(0,280),Vector2(0,315),
+		Vector2(12.,315),Vector2(12.,280.),Vector2(12.,315),Vector2(0,315),Vector2(0,340),
 		Vector2(0,368),Vector2(0,430),Vector2(0,500),Vector2(150,520),Vector2(250,525),Vector2(350,525),Vector2(425,555)]
-	var plan = JSON.parse_string(FileAccess.get_file_as_string("res://../../output/validation/v11/dorm_garden_plan.json"))
+	var plan = JSON.parse_string(FileAccess.get_file_as_string("res://tests/fixtures/dorm_garden_plan.json"))
 	for p in plan.walk_paths_godot[0]:
 		pts.append(Vector2(p[0],p[1]))
 	Input.action_press("sprint")

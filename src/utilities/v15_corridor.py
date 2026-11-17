@@ -17,6 +17,7 @@ Widths/heights not measurable from the photos are ESTIMATED (stated per item bel
 import json
 import math
 import random
+from functools import lru_cache
 from pathlib import Path
 
 import bpy
@@ -36,10 +37,12 @@ from shapely.strtree import STRtree
 # Pilot zone: G1 exterior (to the public street bend) through the approach to the ring junction,
 # the drop-off loop and the Administration forecourt.
 ZONE = box(-62., 8., 62., GY + 52.)
-# Terrain feathering is applied in a wider corridor and faded out over FEATHER_FADE m.
+# Retain the accepted pilot extent for its exterior gate context. V16 derives
+# campus-wide feathering from natural material interfaces, not this rectangle.
 FEATHER_ZONE = box(-150., 40., 150., GY + 70.)
 FEATHER_FADE = 25.
 FEATHER_W = 3.5
+FEATHER_COLLAR_W = 4.0
 
 LOG = {}
 STATE = {}
@@ -280,10 +283,14 @@ def feather_fn(terrain, soft_geoms):
     """Weight in [0, 1] toward a shared transition tone at natural-surface boundaries.
 
     Returns f(x, y) -> alpha for COLOR_0 (1 = no blend). Both sides of a boundary get the
-    same weight, so the shader blend is continuous across mesh/material boundaries."""
-    fz = FEATHER_ZONE.buffer(FEATHER_FADE)
-    t = _poly(terrain.intersection(fz))
-    softs = [s for s in (_poly(g.intersection(fz)) for g in soft_geoms if g is not None and not g.is_empty) if not s.is_empty and s.area > 0]
+    same weight. V16 covers the playable campus and retains the pilot's exterior
+    gate context. No boundary is inferred across a road, curb or other hard
+    surface. The returned alpha changes appearance only, never surface classes.
+    Dense meshing is limited to a 4 m collar on each side of these interfaces."""
+    scope = _poly(Polygon(SV.PLOT).buffer(FEATHER_COLLAR_W).union(
+        FEATHER_ZONE.buffer(FEATHER_FADE)))
+    t = _poly(terrain.intersection(scope))
+    softs = [s for s in (_poly(g.intersection(scope)) for g in soft_geoms if g is not None and not g.is_empty) if not s.is_empty and s.area > 0]
     lines = []
     allsoft = union_all(softs)
     for g in softs:
@@ -292,28 +299,45 @@ def feather_fn(terrain, soft_geoms):
         if bd is not None:
             lines.extend(_lines(make_valid(bd.intersection(others.buffer(0.05)))))
     lines.extend(_lines(make_valid(t.boundary.intersection(allsoft.buffer(0.05)))))
+    # Both surfaces contribute the same interface; dissolve duplicate lines
+    # before indexing and buffering, instead of retaining repeated boundaries.
+    boundaries = make_valid(union_all(lines)) if lines else LineString()
     segs = []
-    for ln in lines:
+    for ln in _lines(boundaries):
         co = list(ln.coords)
         segs.extend(LineString(co[i:i + 9]) for i in range(0, len(co) - 1, 8) if len(co[i:i + 9]) > 1)
-    LOG['feather'] = {'boundary_segments': len(segs), 'width_m': FEATHER_W, 'zone': list(FEATHER_ZONE.bounds)}
+    natural = _poly(t.union(allsoft))
+    collar = _poly(boundaries.buffer(FEATHER_COLLAR_W,quad_segs=4).intersection(natural)) if segs else Polygon()
+    STATE['feather_refinement'] = collar
+    LOG['feather'] = {'scope':'campus natural interfaces + retained G1 exterior context',
+        'boundary_segments': len(segs), 'boundary_length_m':boundaries.length,
+        'width_m': FEATHER_W, 'zone': list(scope.bounds),
+        'dense_collar_half_width_m':FEATHER_COLLAR_W,'dense_step_m':2.5,
+        'dense_collar_area_m2':collar.area,'natural_scope_area_m2':natural.area,
+        'dense_fraction':collar.area/natural.area if natural.area else 0.,
+        'surface_class_area_change_m2':0.0}
     if not segs:
         return lambda x, y: 1.0
     tree = STRtree(segs)
-    fz_prep = prep(FEATHER_ZONE)
+    collar_prep = prep(collar)
 
+    @lru_cache(maxsize=800000)
     def f(x, y):
         q = Point(x, y)
-        dz = 0. if fz_prep.contains(q) else FEATHER_ZONE.distance(q)
-        if dz >= FEATHER_FADE:
+        if not collar_prep.covers(q):
             return 1.0
         d = segs[int(tree.nearest(q))].distance(q)
         if d >= FEATHER_W:
             return 1.0
         s = d / FEATHER_W
-        w = (1.0 - s * s * (3 - 2 * s)) * (1.0 - min(1.0, dz / FEATHER_FADE))
+        w = 1.0 - s * s * (3 - 2 * s)
         return 1.0 - w
     return f
+
+
+def feather_refinement_zone():
+    """Natural-boundary collar created by feather_fn; never a full campus grid."""
+    return STATE.get('feather_refinement',Polygon())
 
 
 # ----------------------------------------------------------------------------- kerb units
@@ -500,30 +524,11 @@ def build_kerb_units(curb_geom, road, datum, mat, coll):
 
 
 def trim_profiled_kerb(kerb_obj, footprint):
-    """Delete visual profiled-kerb faces now covered by precast units (collision proxy untouched)."""
-    if footprint.is_empty:
-        return 0
-    import numpy as np
-    fp = footprint.buffer(0.012)
-    me = kerb_obj.data
-    mw = kerb_obj.matrix_world
-    # A face goes when its centroid OR any vertex lies in a unit footprint (straddling triangles
-    # would otherwise survive a few mm under the unit tops and z-fight at range).
-    co = np.array([tuple((mw @ v.co)[:2]) for v in me.vertices]) if len(me.vertices) else np.zeros((0, 2))
-    vin = contains_xy(fp, co[:, 0], co[:, 1]) if len(co) else np.zeros(0, bool)
-    cs = [mw @ f.center for f in me.polygons]
-    inside = contains_xy(fp, np.array([c.x for c in cs]), np.array([c.y for c in cs]))
-    for k, f in enumerate(me.polygons):
-        if not inside[k] and any(vin[v] for v in f.vertices):
-            inside[k] = True
-    bm = bmesh.new(); bm.from_mesh(me); bm.faces.ensure_lookup_table()
-    kill = [bm.faces[i] for i in np.nonzero(inside)[0]]
-    bmesh.ops.delete(bm, geom=kill, context='FACES_ONLY')
-    loose = [v for v in bm.verts if not v.link_faces]
-    bmesh.ops.delete(bm, geom=loose, context='VERTS')
-    bm.to_mesh(me); bm.free(); me.update()
-    LOG['profiled_kerb_faces_removed'] = int(len(kill))
-    return len(kill)
+    """Subtract modular units from original profile faces, retaining uncovered portions."""
+    from .v18_curb import trim
+    changed=trim(kerb_obj,footprint)
+    LOG['profiled_kerb_faces_clipped']=changed
+    return changed
 
 
 # ----------------------------------------------------------------------------- groundcover
@@ -697,7 +702,7 @@ def plant_groundcover():
 
 
 def write_log():
-    out = ROOT / 'output/validation/v11'
+    out = ROOT / 'output/build_metadata/v11'
     out.mkdir(parents=True, exist_ok=True)
     (out / 'v15_corridor.json').write_text(json.dumps(LOG, indent=2), encoding='utf-8')
     print('[v15-corridor]', json.dumps(LOG), flush=True)

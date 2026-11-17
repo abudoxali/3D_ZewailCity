@@ -13,7 +13,7 @@ scene.camera=bpy.data.objects['REF_V6_'+key]
 scene.render.engine='CYCLES';enable_gpu(scene);scene.cycles.samples=24;scene.cycles.use_denoising=True
 scene.render.resolution_x,scene.render.resolution_y=PHOTOS[key][4];scene.render.resolution_percentage=100
 scene.render.image_settings.file_format='PNG'
-out=R/'output/validation/v6/reference_views';out.mkdir(parents=True,exist_ok=True)
+out=R/'output/build_metadata/v6/reference_views';out.mkdir(parents=True,exist_ok=True)
 scene.render.filepath=str(out/(tag+'_'+key+'.png'))
 if key=='P04':
     from utilities.scene_setup import setup_world

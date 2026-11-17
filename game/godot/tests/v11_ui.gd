@@ -5,7 +5,7 @@ const Menu := preload("res://scripts/ui/menu.gd")
 const Hud := preload("res://scripts/ui/hud.gd")
 const Style := preload("res://ui/style.gd")
 var results: Array = []
-var evidence := "res://../../output/validation/v11/final/ui/"
+var evidence := "res://../../output/checks/final/ui/"
 var _changed_count := 0
 
 func check(label: String, passed: bool) -> void:

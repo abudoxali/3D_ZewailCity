@@ -1,0 +1,12 @@
+{
+  "verified_originals": {
+    "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\validation\\v19\\candidate\\output\\Zewail_City_3D.blend": true,
+    "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\validation\\v19\\candidate\\game\\godot\\assets\\campus\\campus_full.glb": true,
+    "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\Zewail-City-3D\\output\\validation\\v19\\candidate\\releases\\ZewailCityExplorer_Windows_V19_Candidate\\ZewailCityExplorer.exe": true
+  },
+  "native_sha256": "68b5c6e02a3c11883c57af30b5c4e394fe68c6dce4b3d2ca918ba9034c1cca03",
+  "game_glb_sha256": "0535614ac6ef82307bc5e94890a36145a1be144b834caa178df691e7ca7a3165",
+  "windows_sha256": "4a3f028bc16b1628023d4f37d7517cdf25f2529a32d254758e704fc11fc79400",
+  "original_snapshot_location": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261111_FINAL_CLOSURE\\V15_rollback_and_project_history\\output\\validation\\v19",
+  "note": "Original byte-identical V19 identities. Portable master has packaging-only path changes; final identities are in FROZEN_BASELINE.json."
+}

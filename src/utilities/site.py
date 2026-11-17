@@ -167,6 +167,29 @@ def roads():
     global ROADS
     if ROADS is None:
         ROADS = road_table()
+        # V17 full source snapshot drives the road axes used by site furniture,
+        # crossings and final transport geometry. Original dated map is untouched.
+        from pathlib import Path
+        import json
+        path=Path(__file__).resolve().parent/'data/v17_alignment_overrides.json'
+        if path.exists():
+            document=json.loads(path.read_text(encoding='utf-8'))
+            for row in document['sources']:
+                if row.get('role')!='vehicle' or row['id'] not in ROADS:
+                    continue
+                name=row['id'];spec=ROADS[name]
+                if row['kind']!=spec['kind']:
+                    raise ValueError('Reclassified dated road: '+name)
+                if spec['kind']=='external':
+                    continue  # baseline external asphalt is immutable
+                pts=row['points']
+                if len(pts)<2 or not all(len(p)==2 and all(math.isfinite(v) for v in p) for p in pts):
+                    raise ValueError('Invalid editable alignment: '+name)
+                spec['pts']=[Vector(p) for p in pts]
+                if spec['half'] is not None:
+                    width=float(row['width_m'])
+                    if not 1.<=width<=30.:raise ValueError('Invalid estimated width: '+name)
+                    if not spec.get('parking'):spec['half']=width/2
     return ROADS
 
 
@@ -298,9 +321,10 @@ def build_roads(M, C):
         for sgn in (-1, 1):
             a, b = sorted((sgn * 8.5, sgn * 8.8))
             mb.ribbon(M['curb'], pts, a, b, PAVE + 0.02, depth=0.25)
-            for p, t in sample_along(pts, 2.6, start=1.3):
-                c = p + Vector((-t.y, t.x)) * sgn * 5.75
-                mb.obox(M['marking'], (c.x, c.y, 0.055), (0.1, 5.5, 0.02), math.atan2(t.y, t.x))
+    # V18: generate stalls against the whole network. Independent tangent
+    # ribbons crossed one another at bends and extended into shared aisles.
+    from .v18_parking import emit_markings
+    emit_markings(mb,M,T)
     if not mb.empty():
         objs.append(mb.to_object("Parking_Lots", R))
     return objs
@@ -466,18 +490,8 @@ def build_landscape(M, C):
             mat = M['shrub_red'] if k % 2 == 0 else M['shrub_orange']
             mb.cylinder(mat, (x, 36.8), 0.2, 0.52, 0.34, 0.24, segs=8)
             mb.cylinder(M['shrub_orange'] if k % 2 == 0 else M['shrub_red'], (x + 0.2, 37.45), 0.2, 0.48, 0.3, 0.2, segs=8)
-    # V11 (owner 00 + C02, PHOTO VERIFIED): the approach circle is kept but restyled to C02 -
-    # white pebble ring, dark red mulch, tall red euphorbia clumps (no bullseye rings).
-    cx, cy, r = WEDGE_BED
+    # V16 owner correction: circular red bed and euphorbia proxies removed.
     from shapely.geometry import Polygon
-    outer = Polygon(circle_poly(cx, cy, r, 64))
-    inner = Polygon(circle_poly(cx, cy, r - .7, 64))
-    _bed_prism(mb, M['pebbles'], outer.difference(inner), 0., .16)
-    _bed_prism(mb, M['mulch'], inner, 0., .19)
-    for k in range(9):
-        a = 2 * math.pi * k / 9
-        rr = r * (0.45 if k % 2 else 0.62)
-        mb.cylinder(M['shrub_red'], (cx + rr * math.cos(a), cy + rr * math.sin(a)), 0.19, 1.25, 0.45, 0.18, segs=7)
     # gate island outside the frame (C01): red mulch beds edged with white pebbles on soil
     isl = _gate_island_poly(to_gatehouse=True)
     _bed_prism(mb, M['soil'], Polygon(isl), -.1, .1)

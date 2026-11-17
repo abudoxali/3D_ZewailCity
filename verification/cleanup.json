@@ -1,0 +1,154 @@
+{
+  "removed_from_active": [
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_00.001.glb",
+      "bytes": 2007908,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_01.001.glb",
+      "bytes": 2011224,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_02.001.glb",
+      "bytes": 2025736,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_03.001.glb",
+      "bytes": 2075240,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_04.001.glb",
+      "bytes": 2132924,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_05.001.glb",
+      "bytes": 2170520,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_06.001.glb",
+      "bytes": 2190164,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V18_Gazania_07.001.glb",
+      "bytes": 2217152,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Dense_Hedge_00.glb",
+      "bytes": 6332060,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Dense_Hedge_01.glb",
+      "bytes": 6538348,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Dense_Hedge_02.glb",
+      "bytes": 6303064,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Hedge_00.glb",
+      "bytes": 2067444,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Hedge_01.glb",
+      "bytes": 2004552,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Hedge_02.glb",
+      "bytes": 2116376,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "output\\game_ready\\assets\\ASSET_V19_Hedge_03.glb",
+      "bytes": 2001924,
+      "reason": "Not referenced by final exported asset manifest; superseded asset export"
+    },
+    {
+      "path": "game\\godot\\assets\\campus\\campus_full_shrub_02_arm_1k.jpg",
+      "bytes": 313715,
+      "reason": "Rejected shrub02 import artifact, absent from native dependency reports"
+    },
+    {
+      "path": "game\\godot\\assets\\campus\\campus_full_shrub_02_arm_1k.jpg.import",
+      "bytes": 1065,
+      "reason": "Rejected shrub02 import artifact, absent from native dependency reports"
+    },
+    {
+      "path": "game\\godot\\assets\\campus\\campus_full_shrub_02_diff_1k.png",
+      "bytes": 1048149,
+      "reason": "Rejected shrub02 import artifact, absent from native dependency reports"
+    },
+    {
+      "path": "game\\godot\\assets\\campus\\campus_full_shrub_02_diff_1k.png.import",
+      "bytes": 1068,
+      "reason": "Rejected shrub02 import artifact, absent from native dependency reports"
+    },
+    {
+      "path": "game\\godot\\assets\\campus\\campus_full_shrub_02_nor_gl_1k.jpg",
+      "bytes": 490815,
+      "reason": "Rejected shrub02 import artifact, absent from native dependency reports"
+    },
+    {
+      "path": "game\\godot\\assets\\campus\\campus_full_shrub_02_nor_gl_1k.jpg.import",
+      "bytes": 1074,
+      "reason": "Rejected shrub02 import artifact, absent from native dependency reports"
+    },
+    {
+      "path": "game\\godot\\.godot",
+      "files": 495,
+      "bytes": 472929529,
+      "reason": "Regenerable cache; omitted from final source/package"
+    },
+    {
+      "path": "src\\__pycache__",
+      "files": 19,
+      "bytes": 243768,
+      "reason": "Regenerable cache; omitted from final source/package"
+    },
+    {
+      "path": "tools\\__pycache__",
+      "files": 10,
+      "bytes": 53528,
+      "reason": "Regenerable cache; omitted from final source/package"
+    },
+    {
+      "path": "tools\\vendor\\shapely\\__pycache__",
+      "files": 19,
+      "bytes": 311484,
+      "reason": "Regenerable cache; omitted from final source/package"
+    },
+    {
+      "path": "tools\\vendor\\shapely\\algorithms\\__pycache__",
+      "files": 3,
+      "bytes": 5532,
+      "reason": "Regenerable cache; omitted from final source/package"
+    },
+    {
+      "path": "tools\\vendor\\shapely\\geometry\\__pycache__",
+      "files": 10,
+      "bytes": 105256,
+      "reason": "Regenerable cache; omitted from final source/package"
+    },
+    {
+      "path": "src\\utilities\\__pycache__",
+      "files": 56,
+      "bytes": 1088500,
+      "reason": "Regenerable cache; omitted from final source/package"
+    }
+  ],
+  "archived_original_project": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261111_FINAL_CLOSURE\\V15_rollback_and_project_history",
+  "historical_inventory": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261111_FINAL_CLOSURE\\closure_evidence\\original_inventory.json",
+  "all_original_selected_hashes_match": 574
+}

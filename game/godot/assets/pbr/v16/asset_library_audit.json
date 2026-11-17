@@ -1,0 +1,237 @@
+{
+  "utc": "2026-11-10T17:14:01.718584+00:00",
+  "legacy_texture_inventory": [
+    {
+      "asset": "asphalt_01",
+      "active": false,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/asphalt_01/asphalt_01_diff_1k.jpg",
+          "present": true,
+          "sha256": "99b6f6bdfbd09279f3f550ac9593336df541aa2319537566eeb3e737d8512010",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/asphalt_01/asphalt_01_nor_gl_1k.jpg",
+          "present": true,
+          "sha256": "b745fd20cfb775ae907786ff0ffe200cedf73f3a6ef4e60c637b85b08e0a4f9a",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/asphalt_01/asphalt_01_rough_1k.jpg",
+          "present": true,
+          "sha256": "147891957807bb03cc565c9daa8a16a4af7713449a0f475c638f78f833ad0646",
+          "matches_record": true
+        }
+      ]
+    },
+    {
+      "asset": "concrete_pavers",
+      "active": false,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/concrete_pavers/concrete_pavers_diff_1k.jpg",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "assets/pbr/concrete_pavers/concrete_pavers_nor_gl_1k.jpg",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "assets/pbr/concrete_pavers/concrete_pavers_rough_1k.jpg",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        }
+      ]
+    },
+    {
+      "asset": "concrete_pavement_03",
+      "active": true,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/concrete_pavement_03/concrete_pavement_03_diff_1k.jpg",
+          "present": true,
+          "sha256": "0c23759579103fc334bb9211c71fd026322b44fceb9cdeba8f2d7e0b17fefc8e",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/concrete_pavement_03/concrete_pavement_03_nor_gl_1k.jpg",
+          "present": true,
+          "sha256": "b3d20510e5f6625c264a6491c343d025cfff8ab525d08363a42f21afb0e1d5e0",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/concrete_pavement_03/concrete_pavement_03_rough_1k.jpg",
+          "present": true,
+          "sha256": "89876ea83fe2e8e14a0349607f3fd9174c14a7e9a01b56d91e49adb0b7484c09",
+          "matches_record": true
+        }
+      ]
+    },
+    {
+      "asset": "sand_01",
+      "active": true,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/sand_01/sand_01_diff_1k.jpg",
+          "present": true,
+          "sha256": "a73b90eaa6d675ef57e7d48a8cf23e1f412e353ab2e29cf73930b8ecd4e76875",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/sand_01/sand_01_nor_gl_1k.jpg",
+          "present": true,
+          "sha256": "73984aecdc35b1ffbc322d64b7f8d8165b06970d11f37dd47010609fcb532704",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/sand_01/sand_01_rough_1k.jpg",
+          "present": true,
+          "sha256": "ccb179b12c56a9032d60e4f4e2da690b3612a58e1784eb14576372690cdcd1cb",
+          "matches_record": true
+        }
+      ]
+    },
+    {
+      "asset": "sparse_grass",
+      "active": true,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/sparse_grass/sparse_grass_diff_1k.jpg",
+          "present": true,
+          "sha256": "ae94f2b34597b9108eefd88217f55eccaec6d6b382e858a478ee92df90e66617",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/sparse_grass/sparse_grass_nor_gl_1k.jpg",
+          "present": true,
+          "sha256": "1c840a24807346ddaaf94a5057aee4078fcec3a4cd84bfe45da7d3b480ef460b",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/sparse_grass/sparse_grass_rough_1k.jpg",
+          "present": true,
+          "sha256": "9ebe6d03a9551c17d1802835c92c1442acb8f5d38d4874ee8c37770f11c4bed1",
+          "matches_record": true
+        }
+      ]
+    },
+    {
+      "asset": "beige_wall_001",
+      "active": true,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/beige_wall_001/beige_wall_001_diff_1k.jpg",
+          "present": true,
+          "sha256": "72104704d0b9bd3713c5f6238971252b63eccf6e61263059c674caa8f3d0fa6d",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/beige_wall_001/beige_wall_001_nor_gl_1k.jpg",
+          "present": true,
+          "sha256": "cec747be50f91da0693986080b6f59ef868d53cb2ab7d577982165ece63ed75e",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/beige_wall_001/beige_wall_001_rough_1k.jpg",
+          "present": true,
+          "sha256": "fc8328f47f4d2d82d5311a75bcb5c8cd8979d171a0ee097ad9e44ca9c5a00d60",
+          "matches_record": true
+        }
+      ]
+    },
+    {
+      "asset": "pachira_aquatica_01",
+      "active": false,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        },
+        {
+          "path": "",
+          "present": false,
+          "sha256": null,
+          "matches_record": false
+        }
+      ]
+    },
+    {
+      "asset": "dirt",
+      "active": true,
+      "license": "CC0 1.0",
+      "files": [
+        {
+          "path": "assets/pbr/dirt/dirt_diff_2k.jpg",
+          "present": true,
+          "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/dirt/dirt_nor_gl_2k.jpg",
+          "present": true,
+          "sha256": "ff629fce04c5d6d581cfcb604ea85df6b726798e60d982fd5484c60cddcccd88",
+          "matches_record": true
+        },
+        {
+          "path": "assets/pbr/dirt/dirt_rough_2k.jpg",
+          "present": true,
+          "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+          "matches_record": true
+        }
+      ]
+    }
+  ],
+  "v16_new_maps": "15/15 original SHA256 match, provider MD5 and decode checked on download",
+  "runtime_source": "scripts/pbr_materials.gd; unused historical entries are labelled inactive"
+}

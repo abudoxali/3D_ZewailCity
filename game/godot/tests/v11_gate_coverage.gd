@@ -6,6 +6,9 @@ var samples := []
 func run_validation() -> void:
 	main._start_explore()
 	var gc = campus.gate_controller
+	var ground_excludes: Array[RID] = [player.get_rid()]
+	for b in campus.campus_root.find_children("*","PhysicsBody3D",true,false):
+		if not String(b.name).contains("COL_Ground"):ground_excludes.append(b.get_rid())
 	for g in campus.manifest.gates:
 		var gid: String = g.id
 		var center := Vector2(g.model_position_blender_m[0], -g.model_position_blender_m[1])
@@ -37,6 +40,10 @@ func run_validation() -> void:
 		for k in range(int(ceil(-extent * 2)), int(floor(extent * 2)) + 1):
 			var s := float(k) * .5
 			var c: Vector2 = center + u * s
+			var fq=PhysicsRayQueryParameters3D.create(Vector3(c.x,6,c.y),Vector3(c.x,-6,c.y),1)
+			fq.exclude=ground_excludes
+			var local_floor=space().intersect_ray(fq)
+			if not local_floor.is_empty():h=local_floor.position.y+1.1
 			for sign in [-1.0, 1.0]:
 				var a: Vector2 = c + v * (plane - sign * 32.0)
 				var b: Vector2 = c + v * (plane + sign * 32.0)

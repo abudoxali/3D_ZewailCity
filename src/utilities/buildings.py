@@ -1,4 +1,4 @@
-"""As-built campus buildings, reconstructed from photographs and the site plan.
+"""Campus building reconstruction from photographs and dated plans; dimensions estimated.
 
 Evidence IDs refer to references/REFERENCE_SOURCES.md / SOURCE_EVIDENCE.md.
 All plan positions come from site_plan.py; heights come from photographs
@@ -69,11 +69,16 @@ def admin_cultural(M, C):
     # walls and tower piers live in v10_admin_entrance (single owner module).
     from . import v10_admin_entrance
     v10_admin_entrance.build(P, M)
-    P.rblock(-24, -36, 24, -16, G, 18.0)
+    P.rblock(-24, -36, 24, -16, 5.0, 18.0)
     P.parapet(rect_poly(-24, -36, 24, -16), 18.0)
     for sx in (-1, 1):
         lo, hi = _xr(sx * 18, sx * 29.8)
-        P.rblock(lo, -16, hi, yF, G, 15.7)
+        P.rblock(lo, -16, hi, yF, 5.0, 15.7)
+        # Ground side doorway, scaled from the marked photograph (ESTIMATED).
+        aa, bb = _xr(sx * 18, sx * 23.4)
+        P.rblock(aa, -16, bb, yF, G, 5.0)
+        aa, bb = _xr(sx * 28.9, sx * 29.8)
+        P.rblock(aa, -16, bb, yF, G, 5.0)
         P.parapet(rect_poly(lo, -16, hi, yF), 15.7)
         lo, hi = _xr(sx * 29.8, sx * 38)
         P.rblock(lo, -16.7, hi, -1.8, G, 16.5)
@@ -83,11 +88,11 @@ def admin_cultural(M, C):
     for sx in (-1, 1):
         e, hi = face_py(sx * 18, sx * 29.8, yF)
         s = lambda x: hi - x  # noqa: E731
-        a, b = sorted((s(sx * 18.4), s(sx * 22.4)))
+        a, b = sorted((s(sx * 16.4), s(sx * 20.4)))
         P.curtain(e, a, b, 1.0, 15.0, mull=1.0, transom=3.0)
         a, b = sorted((s(sx * 23.4), s(sx * 28.9)))
         P.frame(e, a, b, G, 8.0, t=0.8, depth=1.6)
-        P.curtain(e, a, b, G + 0.05, 8.0, mull=1.8, transom=4.0, off=0.6)
+        P.curtain(e, a, b, 5.0, 8.0, mull=1.8, transom=3.0, off=0.6)
         P.curtain(e, a, b, 9.4, 12.6, mull=1.8, transom=3.2)
         P.det.fbox(M['metal_light'], e, (a + b) / 2, 0.0, 0.5, b - a, 10.4, 10.5)   # balcony rail
         P.band(e, 0.0, e.L, 13.6, 14.4)
@@ -111,29 +116,27 @@ def admin_cultural(M, C):
         P.shell.box(st, lo, -8.3, 13.0, hi, -1.2, 15.7)
         P.det.box(band, lo, -1.2, 13.4, hi, -1.14, 14.0)
         lo, hi = _xr(sx * 40.6, sx * 46.2)
-        P.glass.box(M['glass'], lo, -7.6, G, hi, -1.9, 4.4)
+        # Ground-level portal is open, not a walk-through glass volume.
         P.det.box(st, lo, -8.0, 4.4, hi, -1.5, 4.9)
 
     # ---- arms projecting toward the gate (plan 4: u 1470-1492 / 1659-1682) --
     for sx in (-1, 1):
         lo, hi = _xr(sx * 48.8, sx * 62.2)
-        P.rblock(lo, -19.6, hi, yA, G, 10.5)   # A02: arms read ~0.6 of the 18 m centre
-        P.parapet(rect_poly(lo, -19.6, hi, yA), 10.5)
+        P.rblock(lo, -19.6, hi, yA, G, 6.4)    # V16 A02: low one-storey forecourt arms, ESTIMATED
+        P.parapet(rect_poly(lo, -19.6, hi, yA), 6.4)
         e, ehi = face_py(lo, hi, yA)
         P.curtain(e, 1.2, 12.2, G + 0.05, 5.0, mull=1.8, transom=5)
         P.det.fbox(st, e, 6.7, 0.0, 2.6, 13.4, 5.0, 5.7)                      # canopy
         for s_ in (1.0, 4.6, 8.8, 12.4):
             P.det.fbox(st, e, s_, 1.9, 0.5, 0.5, G, 5.0)                        # colonnade
-        P.frame(e, 2.0, 11.4, 6.0, 9.0, t=0.6, depth=0.6)
-        P.curtain(e, 2.0, 11.4, 6.0, 9.0, mull=1.6, transom=4.4)
         # outer side: horizontal glazing bands with vertical fins (A02 far left/right)
         fe, f0 = (face_px if sx > 0 else face_nx)(-19.6, yA, sx * 62.2)
-        for z0, z1 in ((1.2, 4.6), (6.0, 9.0)):
+        for z0, z1 in ((1.2, 5.0),):
             P.curtain(fe, 2.0, fe.L - 2.0, z0, z1, mull=1.8, transom=10)
-        P.piers(fe, 2.0, fe.L - 2.0, G, 10.0, spacing=2.4, w=0.35, depth=0.7)
+        P.piers(fe, 2.0, fe.L - 2.0, G, 6.0, spacing=2.4, w=0.35, depth=0.7)
         ie, _ = (face_nx if sx > 0 else face_px)(-1.2, yA, sx * 48.8)
-        P.slits(ie, 1.0, 9.5, spacing=4.2, w=0.9, floors=2, margin=2.0)
-        P.roof_plant(lo + 2, -16, hi - 2, 20, 10.5, random.Random(4 + sx), n=2)
+        P.slits(ie, 1.0, 5.4, spacing=4.2, w=0.9, floors=1, margin=2.0)
+        # No unsupported plant equipment on the low photographed arm roofs.
 
     # ---- end pavilions + bridges ------------------------------------------
     for sx in (-1, 1):
@@ -145,14 +148,14 @@ def admin_cultural(M, C):
         P.frame(e, 1.5, 10.4, G, 5.0, t=0.6, depth=0.6)
         P.curtain(e, 1.5, 10.4, G + 0.05, 5.0, mull=1.5, transom=5)
         lo2, hi2 = _xr(sx * 62.2, sx * 69.6)
-        P.shell.box(st, lo2, 3.6, 7.0, hi2, 7.0, 10.0)
-        P.glass.box(M["glass"], lo2, 3.55, 7.6, hi2, 7.05, 9.4)
+        P.shell.box(st, lo2, 3.6, 5.7, hi2, 7.0, 6.4)
+        # Open ground passage with a connected roof lintel, not an invented glazed storey.
 
     # ---- rear: stepped auditorium roof + rear block + wings 4.a / 4.b --------
     ys = [-13.5 - i * 4.4 for i in range(7)]
     tops = [18.6 + i * 0.95 for i in range(6)]
     for i in range(6):
-        P.shell.box(st, -14, ys[i + 1], G, 14, ys[i], tops[i])
+        P.shell.box(st, -14, ys[i + 1], 5.0, 14, ys[i], tops[i])
         P.det.box(M['roof'], -13.8, ys[i + 1], tops[i], 13.8, ys[i], tops[i] + 0.04)
         if i:
             P.glass.box(M['glass'], -13.5, ys[i] - 0.05, tops[i - 1] + 0.15, 13.5, ys[i] + 0.02, tops[i] - 0.15)
@@ -161,22 +164,45 @@ def admin_cultural(M, C):
     # admin block. V10's 25 m blocks hid the dome completely. The rear block is lowered to
     # 18.0 m (P09: ~1.2-1.4x the 15 m wings) and the link block to 20.4 m. ESTIMATED.
     ADMIN_REAR_H, ADMIN_LINK_H = 18.0, 20.4
-    P.rblock(-16, -50, 16, ys[-1], G, ADMIN_LINK_H)
+    P.rblock(-16, -50, 16, ys[-1], 5.0, ADMIN_LINK_H)
     P.parapet(rect_poly(-16, -50, 16, ys[-1]), ADMIN_LINK_H)
     # P09: the Academic-facing admin centre is a tall, three-bay glazed facade.
-    P.rblock(-16, -94, 16, -50, G, ADMIN_REAR_H)
+    P.rblock(-16, -94, 16, -50, 5.0, ADMIN_REAR_H)
     P.parapet(rect_poly(-16, -94, 16, -50), ADMIN_REAR_H)
     for sx in (-1, 1):
         lo, hi = _xr(sx * 14, sx * 44)
         poly = rect_poly(lo, -88, hi, -45)
-        edges = P.block(poly, G, 15.0)
+        edges = P.block(poly, 5.0, 15.0)
+        # Rear lateral galleries below the retained wing roof.
+        aa, bb = _xr(sx * 22, sx * 44)
+        P.rblock(aa, -88, bb, -45, G, 5.0)
         P.parapet(poly, 15.0)
         for e in edges:
-            P.slits(e, 1.0, 14.0, spacing=4.5, w=1.0, floors=3, margin=3.0)
+            # Keep the original two upper window rows and their exact grid.
+            # The first row belongs only to retained lower wall mass; the inner
+            # x=14..22 gallery is open below the 5 m soffit, without glazing.
+            storey = (14.0 - 1.0) / 3
+            P.slits(e, 1.0 + storey, 14.0, spacing=4.5, w=1.0,
+                    floors=2, margin=3.0)
+            span = e.L - 6.0
+            count = int(span // 4.5) + 1
+            start = 3.0 + (span - (count - 1) * 4.5) / 2
+            for i in range(count):
+                s = start + i * 4.5
+                # Include the 0.25 m band ends when checking wall support.
+                xs = (e.at(s - .75).x, e.at(s + .75).x)
+                if min(xs) < aa - 1e-6 or max(xs) > bb + 1e-6:
+                    continue
+                bottom = 1.0 + .12 * storey
+                top = 1.0 + .90 * storey
+                P.glass.fbox(M['glass'], e, s, 0.0, .06, 1.0, bottom, top)
+                P.det.fbox(M['band'], e, s, 0.0, .1, 1.5, top, top + .25)
         P.roof_plant(lo + 2, -86, hi - 2, -47, 15.0, random.Random(9 + sx), n=3)
+    from . import v17_architecture
+    v17_architecture.admin_circulation(P, M)
     e, _ = face_ny(-16, 16, -94)
-    from .v6_academic import admin_rear
-    admin_rear(P,M)
+    from .v17_architecture import admin_rear
+    admin_rear(P,M, open_passages=True)
 
     # ---- drum + dome (A01: white base, copper collar, copper windowed drum,
     #      banded darker dome, flat top ring and thin mast; A02/A03 proportions)
@@ -218,7 +244,11 @@ def admin_cultural(M, C):
     # V11 (owner 00): the V4-V10 rooftop trellis frames beside the drum are removed. Their
     # only support was a weak A01 aerial reading; A02/A03/P08/P09 show nothing above the
     # parapet. The ground-level pergola (A03) is a separate, retained object.
-    return P.finish(C, 'main')
+    from . import v17_rotunda
+    v17_rotunda.build(P, M)
+    root = P.finish(C, 'main')
+    root['zc_v16_circulation'] = 'OWNER MARKED / PHOTO INTERPRETATION; dimensions ESTIMATED; no inferred rooms'
+    return root
 
 
 def _dome(P, M, base_r, z0, rise, segs=72, rings=14):
@@ -272,7 +302,7 @@ def _dome(P, M, base_r, z0, rise, segs=72, rings=14):
 # The sign above Gate (A) in D05 ("Academic Building" in Arabic) in Arabic Presentation
 # Forms-B, visual left-to-right order for Blender's unshaped text.
 # V10 Academic forecourt arcade (P09). ESTIMATED: set-back depth, height, pier size/pitch.
-ARC_D, ARC_H, ARC_PIER, ARC_PITCH, ARC_Y0 = 3.2, 8.2, 1.8, 5.6, -218.0
+ARC_D, ARC_H, ARC_PIER, ARC_PITCH, ARC_Y0 = 3.2, 8.2, 1.8, 5.6, -243.0
 
 ACADEMIC_SIGN_AR = "ﻲﻤﻳﺩﺎﻛﻷﺍ ﻰﻨﺒﻤﻟﺍ"
 
@@ -328,9 +358,24 @@ def academic(M, C):
         # V10 (P09, PHOTO VERIFIED form): the forecourt face is a double-height arcade.
         # Stout square stone piers stand on the facade line and the ground storey is
         # set back ARC_D under the upper floors, so the colonnade is a real covered
-        # walkway (V9: thin piers glued to a solid glazed wall). It stops short of the
-        # big stair (y > ARC_Y0) so no pier stands on the treads. Depth/height ESTIMATED.
-        P.rblock(lo, cy, hi, y_pf, ARC_H, h_p)
+        # walkway (V9: thin piers glued to a solid glazed wall). Photos4/13 show
+        # columns within the broad stair footprint; the recessed arcade therefore
+        # continues behind both stair flights. Depth/height remain estimates.
+        # V19 photo13/25: real gallery depth behind the long upper ribbon.
+        # No room partitions or undocumented classrooms are inferred.
+        outer=sx*px1
+        aa,bb=sorted((outer,outer-sx*.35))
+        P.rblock(aa,cy,bb,y_pf,ARC_H,h_p)
+        P.rblock(lo,cy,hi,cy+.35,ARC_H,h_p)
+        P.rblock(lo,y_pf-.35,hi,y_pf,ARC_H,h_p)
+        for level in (ARC_H,15.5,h_p-.30):
+            P.rblock(lo,cy,hi,y_pf,level,level+.30)
+        # Pier/spandrel skin: true apertures behind the projected glazing,
+        # retaining the unglazed stone end bay facing Administration.
+        aa,bb=sorted((sx*px0,sx*(px0+.30)))
+        P.rblock(aa,y_pf-10.,bb,y_pf,ARC_H,h_p)
+        for py in (cy,cy+12.,cy+24.,cy+36.):
+            P.rblock(aa,py,bb,py+.5,ARC_H,h_p)
         P.rblock(lo, cy, hi, ARC_Y0, G, ARC_H)
         rlo, rhi = _xr(sx * (px0 + ARC_D), sx * px1)
         P.rblock(rlo, ARC_Y0, rhi, y_pf, G, ARC_H)
@@ -357,7 +402,7 @@ def academic(M, C):
         pier_y = [y_pf - 1.4 - ARC_PITCH * k for k in range(int((y_pf - ARC_Y0 - 2.6) / ARC_PITCH) + 1)]
         for py in pier_y:
             s_ = S(py)
-            P.det.fbox(st, ie, s_, -ARC_PIER, ARC_PIER, ARC_PIER, G, ARC_H)
+            P.shell.fbox(st, ie, s_, -ARC_PIER, ARC_PIER, ARC_PIER, G, ARC_H)
             for zb in (3.4, 6.1):
                 P.det.fbox(M['band'], ie, s_, 0.0, 0.05, ARC_PIER + 0.02, zb, zb + 0.3)
         # fascia over the arcade and a light soffit lining (close-range read)
@@ -373,19 +418,23 @@ def academic(M, C):
         centre=abs(-219.-ie.p0.y)
         # V10 (P09): the upper glazed box is wide, in heavy frames (big panes, 2-3 rows);
         # V9 had a 12 m box with fine mullions. Width ESTIMATED (~20 m).
-        b0, b1 = max(centre - 10.0, 0.6), min(centre + 10.0, ie.L - 0.6)
+        # V17 photos13 +25/26: a long framed glazed ribbon above most of the
+        # colonnade, with a stone/slit-window end bay toward Administration.
+        # The 10m outer stone end is an explicit photographic estimate.
+        b0, b1 = sorted((S(y_core+.6), S(y_pf-10.)))
         # P09 supersedes the V5 repeated square rows / full upper glass ribbon:
         # slits only where the glazed box is not.
         if b0 - 1.2 > 3.0:
             P.slits(ie,9.,22.5,spacing=4.8,w=1.05,floors=1,margin=3.,s1=b0-1.2)
         if b1 + 1.2 < ie.L - 3.0:
             P.slits(ie,9.,22.5,spacing=4.8,w=1.05,floors=1,margin=3.,s0=b1+1.2)
-        P.frame(ie,b0,b1,10.5,22.,t=.6,depth=1.35)
-        P.curtain(ie,b0,b1,10.5,22.,mull=b1-b0,transom=12.,off=1.1)
-        nb = 4
-        for k in range(1, nb):
-            P.det.fbox(M['band'], ie, b0 + (b1 - b0) * k / nb, 1.1, 0.45, 0.42, 10.5, 22.)
-        for zt in (14.3, 18.1):
+        P.frame(ie,b0,b1,9.,22.,t=.6,depth=1.35)
+        P.curtain(ie,b0,b1,9.,22.,mull=1.8,transom=6.5,off=1.1)
+        for py in pier_y:
+            ss=S(py)
+            if b0+.6<ss<b1-.6:
+                P.det.fbox(st, ie, ss, 1.1, 0.45, 0.42, 9., 22.)
+        for zt in (15.5,):
             P.det.fbox(M['band'], ie, (b0 + b1) / 2, 1.1, 0.45, b1 - b0, zt - 0.21, zt + 0.21)
         oe, _ = (face_px if sx > 0 else face_nx)(cy, y_pf, sx * px1)
         P.window_rows(oe, [1.0 + 4.0 * f for f in range(6)], w=1.6, h=2.5, spacing=1.0, group=2, margin=2.0)
@@ -398,12 +447,25 @@ def academic(M, C):
     # open terrace in front of the glazed core, a covered hall under the upper block and a
     # bridge projecting ~21 m into the court, with two railed voids looking down into the
     # passage. V10's 3 m deck strip, open 7 m hall and passage ceiling are replaced.
-    P.rblock(-px0,cy,px0,y_core-3.,7.4,h_p)
-    plate = V11.core(P, M, A)
+    # V18 photo13: the upper screen encloses floors and a recessed interior,
+    # not a glazed face pasted on a solid stone block. Retain the measured-plan
+    # envelope; floor/ceiling stations below remain photographic estimates.
+    front=y_core-3.
+    P.rblock(-px0,cy,px0,cy+.3,9.,h_p)
+    for aa,bb in ((-px0,-px0+.35),(px0-.35,px0)):
+        P.rblock(aa,cy,bb,front,9.,h_p)
+    for zz in (9.,15.5,h_p-.3):
+        P.rblock(-px0,cy,px0,front,zz,zz+.3)
+        P.det.box(M['plaster'],-px0+.35,cy+.3,zz-.04,px0-.35,front,zz)
+    from . import v17_architecture
+    plate = v17_architecture.core(P, M, A)
     P.parapet(rect_poly(-px0, cy, px0, y_core-3.), h_p)
     e, _ = face_py(-px0, px0, y_core-3.)
-    P.curtain(e, 2.5, e.L - 2.5, 7.5, h_p - 4.6, mull=1.6, transom=2.6)
-    P.det.fbox(st, e, e.L / 2, 0.0, 0.5, e.L, h_p - 4.6, h_p)             # top stone band with the sign
+    from . import v19_architecture
+    v19_architecture.gate_a_screen(P,M,e,v17_architecture.UPPER,h_p)
+    for zz in (8.7,15.5):
+        P.det.fbox(M['metal'],e,e.L/2,.05,.25,e.L-5.,zz,zz+.65)
+    P.det.fbox(st, e, e.L / 2, 0.0, 0.5, e.L, h_p - 1.8, h_p)             # top stone band with the sign
     # Upper-level main entry (Gate A hall): the terrace runs straight into the covered hall;
     # glazed entrance doors stand on the solid prong walls that bound the hall (glass on a
     # solid wall, so no walk-through glazing). Owner: main entry/hall relationship here.
@@ -414,10 +476,12 @@ def academic(M, C):
     # V11 (07, D05 proportions): Arabic sign ~27 % of the core width (was 1.1 m text).
     me = _text_mesh(ACADEMIC_SIGN_AR, FONT_AR, 1.75)
     if me:
-        P.det.add_mesh(M['band'], me, _on_face(0.0, h_p - 3.7, y_core - 3. + 0.55))
+        P.det.add_mesh(M['band'], me, _on_face(0.0, h_p - 1.4, y_core - 3. + 0.55))
     obj=P.finish(C, 'main')
+    from . import v18_academic_lighting
+    v18_academic_lighting.add(M,C,obj,A)
     obj['zc_public_route_v5']=True
-    V11.build_stairs(M, C, obj)
+    v17_architecture.stairs(M, C, obj)
     V11.rails_and_planters(M, C, obj, plate)
     from .academic_public import organize
     organize(C,obj)

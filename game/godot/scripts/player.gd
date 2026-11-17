@@ -230,19 +230,26 @@ func _try_step(dir: Vector3) -> bool:
 	if test_move(xf, up):
 		return false
 	xf.origin += up
-	var fwd := dir * 0.32
-	if test_move(xf, fwd):
-		return false
-	xf.origin += fwd
-	var col := KinematicCollision3D.new()
-	if not test_move(xf, -up - Vector3(0, 0.05, 0), col):
-		return false
-	xf.origin += col.get_travel()
-	if col.get_normal().y < cos(floor_max_angle):
-		return false
-	global_transform = xf
-	apply_floor_snap()
-	return true
+	# Retain the short reach for closely spaced stair treads. If its downcast
+	# catches the rounded capsule on a coping's riser/underside, also try just
+	# beyond the capsule radius. Both attempts require the same head clearance,
+	# forward clearance, 0.45 m height limit and upward-facing floor contact.
+	for reach: float in [0.32, RADIUS + safe_margin * 2.0 + 0.02]:
+		var trial := xf
+		var fwd := dir * reach
+		if test_move(trial, fwd):
+			continue
+		trial.origin += fwd
+		var col := KinematicCollision3D.new()
+		if not test_move(trial, -up - Vector3(0, 0.05, 0), col):
+			continue
+		if col.get_normal().y < cos(floor_max_angle):
+			continue
+		trial.origin += col.get_travel()
+		global_transform = trial
+		apply_floor_snap()
+		return true
+	return false
 
 
 func _fly(delta: float, input_dir: Vector2) -> void:

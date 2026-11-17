@@ -94,15 +94,20 @@ def main():
         pts=[terrace.matrix_world@v.co for v in terrace.data.vertices]
         far=max(_m.hypot(q.x,q.y+249.) for q in pts if not 8.9<q.x<12.1)
         ramp_foot=min(q.y for q in pts if 8.9<q.x<12.1)
-        check(report,'V7 court tiers concentric with inner glazing (outer radius ~62.5 m incl. tread; ramp foot outside)',
-              61.5<far<63. and ramp_foot<-311.,{'max_tier_radius_m':round(far,3),'ramp_foot_y':round(ramp_foot,3)})
+        from utilities.academic_public import public_ground_mask
+        from shapely.geometry import Point
+        court_envelope=public_ground_mask().buffer(.05)
+        outside=[tuple(q) for q in pts if not court_envelope.covers(Point(q.x,q.y))]
+        check(report,'V18 every court-tier vertex stays in the independently defined public court; ramp foot reaches rear',
+              not outside and far>50. and ramp_foot<-311.,{'max_tier_radius_m':round(far,3),'ramp_foot_y':round(ramp_foot,3),'vertices':len(pts),'outside_public_court':outside[:10]})
     res=bpy.data.objects.get('AB_East_Residential_Pair_Estimated')
     if res:
         zs=[(res.matrix_world@v.co).z for v in res.data.vertices]
         det=bpy.data.objects.get('AB_East_Residential_Pair_Estimated_Details')
         dz=max((det.matrix_world@v.co).z for v in det.data.vertices) if det else 0
-        check(report,'V7 dormitory candidate six storeys (roof 21.4 m, cores above roof)',abs(max(zs)-21.4)<.05 and dz>24.5,
-              {'roof_z':max(zs),'core_top_z':dz,'identity':res.get('zc_identity')})
+        pad=float(res.get('zc_v17_pad_datum_m',0.))
+        check(report,'V7 dormitory candidate six storeys (local roof 21.4 m, cores above roof)',abs(max(zs)-pad-21.4)<.05 and dz-pad>24.5,
+              {'roof_world_z':max(zs),'core_top_world_z':dz,'source_pad':pad,'identity':res.get('zc_identity')})
     kinds={}
     for o in objs:
         if o.type=='LIGHT' and o.get('zc_night_energy'):
@@ -121,13 +126,23 @@ def main():
     for coll_name in ("Main_Buildings", "Secondary_Buildings"):
         for o in bpy.data.collections[coll_name].objects:
             zs = [(o.matrix_world @ v.co).z for v in o.data.vertices]
-            heights[o.name] = (round(min(zs), 2), round(max(zs), 2))
+            owner=o
+            while owner.parent:owner=owner.parent
+            if 'zc_v17_pad_datum_m' in owner:pad=float(owner['zc_v17_pad_datum_m'])
+            else:
+                from utilities.ground_system import datum
+                coords=[o.matrix_world@v.co for v in o.data.vertices]
+                pad=datum((min(v.x for v in coords)+max(v.x for v in coords))/2,(min(v.y for v in coords)+max(v.y for v in coords))/2)
+            heights[o.name] = (round(min(zs)-pad, 2), round(max(zs)-pad, 2))
     report["building_z_ranges_m"] = heights
     bad = {k: v for k, v in heights.items() if not (-0.5 <= v[0] <= 0.5 and 4 < v[1] < 70)}
     check(report, "building heights plausible (base at ground, 4-70 m tall)", not bad, bad or "ok")
-    floating = [o.name for o in objs if o.type == 'MESH' and o.parent is None and o.location.z > 1.0
+    from utilities.ground_system import datum
+    floating = [o.name for o in objs if o.type == 'MESH' and o.parent is None and o.location.z-datum(o.location.x,o.location.y) > 1.0
                 and o.users_collection[0].name in ("Palms", "Trees", "Shrubs", "Site_Furniture")]
-    check(report, "no floating vegetation/furniture", not floating, floating[:10])
+    contact=json.loads((Path(ROOT)/'output/build_metadata/v16/vegetation_ground_audit.json').read_text())
+    fresh=contact.get('native_sha256')==hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest()
+    check(report, "no floating vegetation/furniture; fresh native ground BVH verifies tree contacts", not floating and fresh and not contact['ground_contact_failures'] and not contact['trees_on_hard_surfaces'] and not contact['academic_public_courtyard_trees'],{'floating':floating[:10],'fresh_native_audit':fresh,'native_contacts':contact['count']})
 
     # survey-anchor consistency (V4): the model still sits where survey.py (OSM / Sentinel-2 /
     # photogrammetry) says it should. Self-consistency checks, NOT a measure of accuracy.

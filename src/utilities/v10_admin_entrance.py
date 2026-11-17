@@ -15,7 +15,7 @@ G = GROUND
 # Functional ESTIMATES, not a surveyed interior (A02 obscures the doors).
 LOBBY_HALF_WIDTH = 11.6
 LOBBY_DEPTH = 12.0
-LOBBY_CLEAR_HEIGHT = 4.2
+LOBBY_CLEAR_HEIGHT = 5.8
 SCREEN_RECESS = 2.5
 DOORWAYS = ((-1.1, 1.1), (1.9, 4.1))
 DOOR_CLEAR_HEIGHT = 2.8
@@ -41,26 +41,41 @@ def build(P, M):
     w = LOBBY_HALF_WIDTH
     # Closed outward-facing prisms around an actual void; no facade/block face
     # crosses the axis. The back block bounds the unfinished public vestibule.
-    P.rblock(-18, -16, 18, back, G, 18.0)
+    P.rblock(-18, -16, 18, back, ceiling + .12, 18.0)
+    # Owner 2026-11-10: supported ground circulation continues to the rear.
+    # Keep two bounded flank walls; the axis is a real opening under the slab.
+    P.rblock(-18, -16, -w, back, G, ceiling + .12)
+    P.rblock(w, -16, 18, back, G, ceiling + .12)
     P.rblock(-18, back, -w, yF, G, ceiling + .12)
     P.rblock(w, back, 18, yF, G, ceiling + .12)
     P.shell.box(M['plaster'], -w, back, ceiling, w, yF, ceiling + .12)  # V10 integration: matte ceiling
-    P.rblock(-18, back, 18, yF, ceiling + .12, 18.0)
+    # V19 A02: recessed glazed upper bay with real depth and floor divisions.
+    P.rblock(-18,back,-w,yF,ceiling+.12,18.)
+    P.rblock(w,back,18,yF,ceiling+.12,18.)
+    P.rblock(-w,back,w,back+.30,ceiling+.12,18.)
+    for level in (ceiling+.12,10.5,14.8,17.75):
+        P.rblock(-w,back,w,yF,level,level+.25)
     P.parapet(rect_poly(-18, -16, 18, yF), 18.0)
 
+    # V16 image-ratio refinement: A02 lower portal is roughly one storey,
+    # not the former 8.2 m clear opening. 5.6 m soffit / 2.0 m fascia and
+    # narrower upper bay/pilasters are explicit photo-scaled ESTIMATES.
     # A02: stout square stone supports, not the palm trunks/round V9 columns.
     # Keep the inherited projecting frame and upper silhouette (A01).
-    P.shell.box(st, -13.2, yF, 8.2, 13.2, yPo, 10.6)
-    P.det.box(band, -8.0, yPo, 8.9, 8.0, yPo + 0.06, 10.1)          # name-sign fascia
-    P.det.box(M['roof'], -13.0, yF + 0.2, 10.6, 13.0, yPo - 0.2, 10.65)
+    # Owner-marked 01 + owner photo15: broad shallow entrance lintel almost
+    # meets the upper glazed bay; two stout bearing columns frame the doors.
+    # Ratios are photograph-guided; metric dimensions remain estimates.
+    P.shell.box(st, -15.5, yF, 7.2, 15.5, yF+1.6, 8.2)
+    P.det.box(band, -9.0, yF+1.6, 7.9, 9.0, yF+1.66, 8.2)
+    P.det.box(M['roof'], -15.3, yF+.2, 8.2, 15.3, yF+1.4, 8.25)
     for sx in (-1, 1):
-        lo, hi = _xr(sx * 12.0, sx * 13.2)
-        P.shell.box(st, lo, yPo - 4.2, G, hi, yPo, 8.2)              # solid stone cheek legs
-        P.det.box(band, lo - 0.02, yPo - 4.2, 0.6, hi + 0.02, yPo + 0.02, 0.9)
-    for x in (-7.0, 7.0):
-        P.shell.box(st, x - .7, yPo - 1.4, deck, x + .7, yPo, 8.2)
+        lo, hi = _xr(sx * 14.3, sx * 15.5)
+        P.shell.box(st, lo, yF+.1, G, hi, yF+1.5, 7.2)
+        P.det.box(band, lo - 0.02, yF+.1, 0.6, hi + 0.02, yF+1.52, 0.9)
+    for x in (-7.8, 7.8):
+        P.shell.box(st, x - .9, yF+.1, deck, x + .9, yF+1.5, 7.2)
     # Plain soffit panel; no unsupported lighting fixtures.
-    P.det.box(M['metal_light'], -11.6, yF + 0.6, 8.12, 11.6, yPo - 0.6, 8.2)
+    P.det.box(M['plaster'], -14.3, yF+.1, 7.12, 14.3, yF+1.4, 7.2)
     # Recessed ground glazing: two actual gaps in BOTH glass and collision.
     screen = yF - SCREEN_RECESS
     door_top = deck + DOOR_CLEAR_HEIGHT
@@ -114,20 +129,20 @@ def build(P, M):
     for x in (x0+.05,x1-.05):
         for k in range(7):
             t=k/6;y=ya+(yb-ya)*t;z=deck+(foot-deck)*t
-            P.det.cylinder(M['metal_light'],(x,y),z,z+1.02,.025,segs=8)
+            P.shell.cylinder(M['metal_light'],(x,y),z,z+1.02,.025,segs=8)
         for rise in (.56,1.02):
             vertices=[(xx,yy,zz) for xx in (x-.025,x+.025) for yy,zz in
                       [(ya,deck+rise-.025),(yb,foot+rise-.025),(yb,foot+rise+.025),(ya,deck+rise+.025)]]
-            P.det.raw(M['metal_light'],vertices,[(0,1,2,3),(7,6,5,4),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)])
+            P.shell.raw(M['metal_light'],vertices,[(0,1,2,3),(7,6,5,4),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)])
     # central upper curtain wall, stone band, dark band
     e, hi = face_py(-13, 13, yF)
     # The solid storey above the vestibule retains the dark glazed facade read;
     # only the ground-floor screen moves behind yF.
-    P.curtain(e, hi - w, hi + w, ceiling + .20, 8.12, mull=1.6, transom=3.0)
-    P.curtain(e, hi - 13, hi + 13, 10.4, 14.6, mull=1.6, transom=2.1)
+    P.curtain(e, hi - w, hi + w, ceiling + .20, 7.1, mull=1.6, transom=3.0)
+    P.curtain(e, hi - 11.8, hi + 11.8, 8.7, 14.6, mull=1.6, transom=2.1,mat=M['upper_lobby_glass'])
     P.band(e, hi - 18, hi + 18, 16.0, 17.2)
     # Retained stone tower piers flanking the centre; no new metric photo fit.
     for sx in (-1, 1):
-        lo, hi2 = _xr(sx * 13, sx * 18)
+        lo, hi2 = _xr(sx * 13, sx * 16)
         P.det.box(st, lo, yF, G, hi2, yF + 1.3, 18.0)
         P.det.box(band, lo, yF + 1.3, 16.0, hi2, yF + 1.36, 17.2)

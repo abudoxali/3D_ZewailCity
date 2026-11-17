@@ -235,6 +235,6 @@ def secondary(M, C):
                          'opening_width_m': round(2 * w, 2), 'portal_height_m': H, 'wall_connection_half_m': round(whalf, 2),
                          'evidence': 'PROVISIONAL_MAP_CLUSTER position; V11 design conceptually standardised from G1 (ESTIMATED)'})
     write()
-    out = ROOT / 'output/validation/v11'
+    out = ROOT / 'output/build_metadata/v11'
     out.mkdir(parents=True, exist_ok=True)
     (out / 'gate_family_v11.json').write_text(json.dumps(REGISTRY, indent=2))

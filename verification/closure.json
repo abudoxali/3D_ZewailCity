@@ -1,0 +1,91 @@
+{
+  "status": "CLOSED / FROZEN V19",
+  "technical_closure": "PASS",
+  "architectural_fidelity": "PARTIAL; unchanged visual limitations",
+  "date_local": "2026-11-11",
+  "regressions": {
+    "suites": 22,
+    "passed_assertion_lines": 379
+  },
+  "game_assets": {
+    "checks": 15,
+    "all_pass": true
+  },
+  "native_architecture": {
+    "checks": 12,
+    "all_pass": true
+  },
+  "windows": {
+    "exe_sha256": "b3a55e6ec414fe67288cb59059ecbce56151d278611179bd2159b6672cb386b4",
+    "release_control_ports": 0,
+    "exe": "releases/Windows/ZewailCityExplorer.exe",
+    "input_control": {
+      "frames_with_os_focus": 11637,
+      "real_event_kinds": {},
+      "real_events_blocked": 0,
+      "window_no_focus_flag": true
+    },
+    "exit_code": 0,
+    "passed": 38,
+    "source_hash_match": true,
+    "failed": 0,
+    "finished": "2026-11-11T22:42:50.8825320+02:00",
+    "source_blend_sha256": "61393dfa0bf9f2eb6b0161c6c73a24ad4e52e3ecba7bc9ade7591ba5f00a6e92",
+    "pe_file_version": "19.0.0",
+    "glb_hash_match": true,
+    "version": "19.0.0"
+  },
+  "v15_rollback": {
+    "release_control_ports": 0,
+    "passed": 38,
+    "failed": 0,
+    "source_blend_sha256": "724b65820bf05fd43b3b619f0af80e4348f37db89c76fce31f82806beb1ff158",
+    "exe": "C:\\Users\\Abud\\Desktop\\GitHub\\zc\\_archive_zewail_old\\20261111_FINAL_CLOSURE\\V15_rollback_and_project_history\\releases\\ZewailCityExplorer_Windows_V15\\ZewailCityExplorer.exe",
+    "version": "15.0.0",
+    "glb_hash_match": true,
+    "exit_code": 0,
+    "pe_file_version": "15.0.0",
+    "exe_sha256": "c2bd10df65aaaf03996f7b1b881837701d3fc342b679e2455f02ee7910cb4aee",
+    "finished": "2026-11-11T22:44:40.1570923+02:00",
+    "source_hash_match": true,
+    "input_control": {
+      "frames_with_os_focus": 11788,
+      "real_event_kinds": {},
+      "real_events_blocked": 0,
+      "window_no_focus_flag": true
+    }
+  },
+  "original_archive_hashes": {
+    "checked": 574,
+    "mismatches": []
+  },
+  "master_open": {
+    "file": "output\\Zewail_City_3D.blend",
+    "objects": 6180,
+    "mesh_datablocks": 117,
+    "images": 38,
+    "unresolved_images": [],
+    "metric_scale": 1.0
+  },
+  "geometry_preservation": {
+    "geometry_unchanged": true,
+    "runtime_glb_unchanged_from_v19": true,
+    "maintenance_changes": [
+      "relative image dependencies and packed image paths",
+      "test fixtures moved to tests/fixtures",
+      "generator metadata moved to output/build_metadata",
+      "stable build/export/verify launchers",
+      "Windows repackaged for portable source manifest",
+      "optional MCP editor bridge disabled by default",
+      "obsolete exports/scripts/caches excluded"
+    ]
+  },
+  "original_git_head": "29b85ba9556b6b6a9f7e837ac3f381dfd4b4a6ba",
+  "limits": [
+    "Dome/facade/arcade proportions and levels remain estimates",
+    "Long galleries, court detail and dorm garden/species remain approximate",
+    "G2 external connection unverified; historical GIS rather than survey geometry",
+    "Seven inherited Texture RID shutdown warnings",
+    "Maintenance did not run a frame-zero campus rebuild or add visual changes; it verified export/reuse entrypoints, imports and executable"
+  ]
+}

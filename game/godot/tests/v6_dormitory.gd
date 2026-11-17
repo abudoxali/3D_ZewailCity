@@ -2,7 +2,7 @@ extends "res://tests/v5_dormitory.gd"
 
 func run_validation() -> void:
 	await super.run_validation()
-	var plan = JSON.parse_string(FileAccess.get_file_as_string("res://../../output/validation/v11/dorm_garden_plan.json"))
+	var plan = JSON.parse_string(FileAccess.get_file_as_string("res://tests/fixtures/dorm_garden_plan.json"))
 	for i in plan.walk_paths_godot.size():
 		var points: Array = []
 		for p in plan.walk_paths_godot[i]: points.append(Vector2(p[0],p[1]))
@@ -19,4 +19,4 @@ func run_validation() -> void:
 	check("evening has bounded garden bollards and luminaire lights",main.evening_mode and main.garden_lights.visible and bollards==32 and main.garden_lights.get_child_count()==lights.size() and bounded,{"lights":main.garden_lights.get_child_count(),"bollards":bollards,"bounded_shadowless":bounded})
 	main._set_evening(false)
 	check("daylight restored without reloading geometry",not main.evening_mode and not main.garden_lights.visible and main.sun.light_energy>1.0)
-	save_json("res://../../output/validation/v11/dormitory_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"])})
+	save_json("res://../../output/checks/dormitory_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"])})

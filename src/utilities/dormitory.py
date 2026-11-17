@@ -1,6 +1,6 @@
-"""P04/P06/P10/P11/P16 housing design on an UNVERIFIED geographic candidate.
+"""Photo-supported housing design on the GIS-supported eastern curved pair.
 OSM five-storey pair retained. Inner curve interpolation, dimensions, core/garden
-positions and lighting are photo-supported estimates, not a geolocation proof.
+positions and lighting are estimates, not surveyed measurements.
 """
 import math,json
 from pathlib import Path
@@ -9,7 +9,7 @@ from mathutils import Vector
 from shapely.geometry import Polygon,Point,LineString
 from shapely import union_all
 from . import survey as SV
-from .geometry import MeshBuilder,instance,get_collection,ccw,smooth_polyline,parent_keep
+from .geometry import MeshBuilder,instance,get_collection,ccw,smooth_polyline,parent_keep,poly_edges
 
 CENTER=(390.,-603.)
 INGRESS=(425.,-555.)
@@ -24,7 +24,8 @@ SHELL=union_all([Polygon(p).buffer(0) for p in OUTLINES])
 # V10 (P16, owner photo): lawn compartments and hedges run up to the building
 # inside the courtyard; V9's 43 m circle left a large bare-soil wedge between the
 # garden and the north (ingress) wing. The garden now fills the courtyard's convex
-# enclosure (within 56 m of the centre). Extent ESTIMATED; identity UNVERIFIED.
+# enclosure (within 56 m of the centre). Extent ESTIMATED; geographic association
+# supported by V17 live Maps/Earth review, not by a measured garden plan.
 GARDEN=Point(CENTER).buffer(56.,quad_segs=48).intersection(Polygon(OUTLINES[1]).convex_hull).union(
     Point(CENTER).buffer(43.,quad_segs=48)).difference(SHELL.buffer(1.2))
 def curve(points):return [tuple(v) for v in smooth_polyline(points,3)]
@@ -38,6 +39,11 @@ BRANCHES=[
 ]
 LINES=[LineString(curve(p)) for p in BRANCHES]
 PATH=union_all([line.buffer(2.0 if i in [0,4] else 1.55,cap_style='round',join_style='round') for i,line in enumerate(LINES)]).difference(SHELL)
+# Owner photos 6/7/16/17 show a rectangular timber shade structure on a paved
+# court. Reserve its plaza/link before deriving beds, so furniture never sits
+# on overlapping lawn or hedge meshes. Geographic/metric placement estimated.
+from .v17_dormitory import garden_layout
+PATH,PERGOLA_PLAZAS,PERGOLA_LINKS=garden_layout(GARDEN,SHELL,PATH)
 PLANTED=GARDEN.difference(PATH.buffer(.72))
 HEDGE=PLANTED.difference(PLANTED.buffer(-.42))
 # V7 (P11): the 0.72 m strip between paver path and planting is a loose-stone
@@ -90,17 +96,22 @@ CORE_TOP=25.0
 # tris/window, 299k tris total) by four parts. Depth/pitch ESTIMATED.
 SKIN=.2
 CORE_EDGES=[]
-ROWS=[(1.15,2.2,2.4)]+[(z,1.4,2.1) for z in STOREY_Z]      # (sill z, height, max width)
+ROWS=[(.95,1.45,2.1)]+[(z,1.4,2.1) for z in STOREY_Z]      # (sill z, height, max width)
 
 def window_v10(P,M,e,s,z,w,h,lit=False,seed=0):
-    P.det.fbox(M['metal_light'],e,s,.01,.03,w+.1,z-.05,z+h+.05)           # aluminium frame rim
+    # Four actual rim strips. A full rectangular metal backing hid the curtain
+    # and interior even after the solid building mass had been removed.
+    for a in (-w/2-.025,w/2+.025):
+        P.det.fbox(M['metal_light'],e,s+a,.01,.03,.05,z-.05,z+h+.05)
+    for zz in (z-.05,z+h):
+        P.det.fbox(M['metal_light'],e,s,.01,.03,w+.1,zz,zz+.05)
     P.glass.fbox(M['res_lit'] if lit else M['res_glass'],e,s,.03,.03,w,z,z+h)
     k=(seed*2654435761)%997
     if k%3:
         drop=.25+.65*((k//3)%7)/6.
         cw=w*(.5 if k%5<2 else .96)
         cs=s+(w-cw)/2*(1 if k%2 else -1)
-        P.det.fbox(M[CURTAINS[k%3]],e,cs,.065,.015,cw-.06,z+h*(1-drop),z+h-.03)
+        P.det.fbox(M[CURTAINS[k%3]],e,cs,-.03,.015,cw-.06,z+h*(1-drop),z+h-.03)
     P.det.fbox(M['res_stone'],e,s,SKIN,.05,w+.2,z-.12,z-.02)                # projecting sill
 
 def skin_edge(P,M,e,slots):
@@ -124,26 +135,49 @@ def build_pair(M,C):
     CORE_EDGES.clear()
     P=Parts('AB_East_Residential_Pair_Estimated',M)
     for index,poly in enumerate(OUTLINES):
-        edges=P.block(poly,.21,ROOF_Z,M['res_stone'])
+        # V18: the existing pier/spandrel skin already owns real window holes.
+        # A second solid building prism behind it hid curtains and made every
+        # pane black. Retain the external plan and explicit floor/roof plates;
+        # no rooms or furnishings are inferred from the exterior photographs.
+        edges=poly_edges(poly)
+        for zz in (.21,4.35,7.75,11.15,14.55,17.95,ROOF_Z-.22):
+            P.shell.prism(M['res_stone'],poly,zz,zz+.20)
         P.parapet(poly,ROOF_Z,h=.65,t=.30,band=False)
         centre=CENTER if index else (350.,-460.)
         for j,e in enumerate(edges):
+            # Photos6/16/17: windowed curved elevations terminate in mostly
+            # blank cross walls. Repeating the room grid on every GIS edge
+            # incorrectly covered those end walls with windows.
+            source=SV.EAST_PAIR[index][:-1]
+            cut=11 if index else 10
+            caps=[LineString((source[0],source[-1])),LineString((source[cut-1],source[cut]))]
+            mid=e.at(e.L/2)
+            endcap=any(q.distance(Point(mid.x,mid.y))<.2 for q in caps)
             # V7: P16 window pitch ~3.3 m (V6 3.8 m).
             n=max(1,int(e.L/3.3));spacing=e.L/n
             slots=[]
-            if spacing>=2.35:
+            if spacing>=2.35 and not endcap:
                 for k in range(n):
                     slots.append(((k+.5)*spacing,min(2.1,spacing-.6)))
             skin_edge(P,M,e,slots)
+            # V19 photo16/17 horizontal limestone courses, shallow projecting edges.
+            for zc in (4.35,7.75,11.15,14.55,17.95,21.35):
+                P.det.fbox(M['res_plinth'],e,e.L/2,.20,.12,e.L+.02,zc,zc+.12)
             for k,(s_,w) in enumerate(slots):
                 # ground row wider in V9; V10 keeps one opening width per bay so the
                 # piers align vertically as in P16
-                window_v10(P,M,e,s_,1.15,w,2.2,seed=index*7919+j*131+k)
+                window_v10(P,M,e,s_,.95,w,1.45,seed=index*7919+j*131+k)
                 for f,z in enumerate(STOREY_Z):
                     window_v10(P,M,e,s_,z,w,1.4,lit=(index+j+k+f)%17==0,seed=index*7919+j*131+k*7+f*3+1)
             # P16: horizontal course bands at each floor, slightly proud of the skin
             for z in [4.35,7.75,11.15,14.55,17.95,21.35]:
-                P.det.fbox(M['res_stone'],e,e.L/2,SKIN,.05,e.L+.02,z,z+.14)
+                # End-wall floor lines are fine stone joints, not the heavy
+                # projecting ledges of the curved room elevations.
+                P.det.fbox(M['res_stone'],e,e.L/2,SKIN,.025 if endcap else .18,e.L+.02,z,z+(.045 if endcap else .14))
+            if index==1 and endcap and mid.x>440.:
+                # Photo7's single glazed terminal elevation. Geographic side
+                # and pane spacing remain estimated, unlike the observed form.
+                P.curtain(e,.55,e.L-.55,.95,ROOF_Z-.8,mull=1.5,transom=3.4,off=SKIN+.04,mat=M['glass_blue'])
             # V7 (P16): grey stone plinth along the ground floor.
             P.det.fbox(M['res_plinth'],e,e.L/2,SKIN,.05,e.L+.02,.21,.95)
         targets=[(365.,-636.),(420.,-630.)] if index else [(315.,-416.),(395.,-427.)]
@@ -182,7 +216,7 @@ def build_pair(M,C):
     o['zc_evidence']='Collision-only envelope of the V10 stone skin and stair cores (not rendered).'
     for k in root.children:
         if k.name.endswith('_Details'):k['zc_no_ground_collision']=True
-    root['zc_identity']='Student accommodation candidate; geographic identity UNVERIFIED'
+    root['zc_identity']='Student accommodation: eastern curved pair association supported by V17 live GIS; metric garden layout ESTIMATED'
     root['zc_photo_sources']='P04,P06,P10,P11,P16; design visible, candidate map association estimated'
     root['zc_garden']='Southern C-block; branching paths/hedges from photos; exact plan estimated'
     return root
@@ -198,10 +232,9 @@ def build(M,C,A):
     mesh_region('Dorm_Garden_Surfaces',[(M['grass'],PLANTED,lambda x,y:.032),
                 (M['garden_paver'],PATH,lambda x,y:.21),(M['pebbles'],PEBBLE,lambda x,y:.06)],coll,step=3)
     root=bpy.data.objects['AB_East_Residential_Pair_Estimated']
-    # V7: clipped hedge with a softened two-step crown instead of a sharp block.
-    hedges=MeshBuilder();polygon_prism(hedges,M['hedge'],HEDGE,.032,.52)
-    polygon_prism(hedges,M['hedge'],HEDGE.buffer(-.07),.52,.63)
-    o=hedges.to_object('Dorm_Garden_Hedges_Details',coll);parent_keep(o,root);o['zc_collision']=True
+    from .v17_dormitory import build as build_photo_pergolas
+    build_photo_pergolas(M,coll,root)
+    build_hedges(M,coll,root)
     for obj in list(bpy.data.objects):
         if obj.type=='MESH' and any(c.name in ('Palms','Trees','Shrubs') for c in obj.users_collection):
             if GARDEN.buffer(1).union(PATH.buffer(.4)).covers(Point(obj.location.x,obj.location.y)):
@@ -220,15 +253,16 @@ def build(M,C,A):
             cone.add_mesh(M['hedge'],branch_mesh,xf)
     conifer=cone.to_mesh('ASSET_V6_Garden_Evergreen')
     for i,(x,y) in enumerate([(374,-598),(388,-609),(401,-616),(416,-606),(390,-586),(356,-608),(407,-629)]):
-        if PLANTED.buffer(-1.).covers(Point(x,y)):
+        if PLANTED.buffer(-1.).covers(Point(x,y)) and PERGOLA_PLAZAS.distance(Point(x,y))>2.5:
             mesh=conifer if i<4 else A['trees'][i%len(A['trees'])]
             o=instance(mesh,f'Dorm_Photo_Tree_{i+1}',C['veg_trees'],(x,y,.032),i*.7,.8 if i%2 else 1.)
             coll.objects.link(o)
     # V7: mounded shrub rows (two-step crown) plus sparse flowering accents set into
     # them along the two main branches (official image: red / golden-green beds).
-    rows=MeshBuilder();polygon_prism(rows,M['shrub'],SHRUB_ROW,.032,.40)
-    polygon_prism(rows,M['shrub'],SHRUB_ROW.buffer(-.12),.40,.50)
+    rows=MeshBuilder();polygon_prism(rows,M['shrub'],SHRUB_ROW,.032,.48)
     o=rows.to_object('Dorm_Garden_Shrub_Rows_Details',coll);parent_keep(o,root)
+    from .geometry import add_bevel
+    add_bevel(o,width=.10,segments=3,angle=35.)
     shrub_pts=[]
     for i,line in enumerate(LINES[:5]):
         if i not in (0,4):continue
@@ -268,8 +302,8 @@ def build(M,C,A):
         mb.ribbon_var(M['compacted'],pts,ab,.012)
     o=mb.to_object('Rear_Compacted_Path',C['ground'])
     o['zc_evidence']='Owner bare rear ground; connecting desire line is an engineering estimate, not a mapped road.'
-    out=Path(__file__).resolve().parents[2]/'output/validation/v11';out.mkdir(parents=True,exist_ok=True)
-    (out/'dorm_garden_plan.json').write_text(json.dumps({'status':'PHOTO-SUPPORTED DESIGN; CANDIDATE GEOGRAPHIC IDENTITY UNVERIFIED','branches':BRANCHES,'garden_area_m2':GARDEN.area,'paved_area_m2':PATH.area,'pebble_border_m2':PEBBLE.area,'bed_shrubs':len(shrub_pts),'lights':LIGHT_POINTS,
+    out=Path(__file__).resolve().parents[2]/'output/build_metadata/v11';out.mkdir(parents=True,exist_ok=True)
+    (out/'dorm_garden_plan.json').write_text(json.dumps({'status':'PHOTO-SUPPORTED DESIGN; CANDIDATE GEOGRAPHIC IDENTITY UNVERIFIED','branches':BRANCHES,'garden_area_m2':GARDEN.area,'paved_area_m2':PATH.area,'pergola_plaza_area_m2':PERGOLA_PLAZAS.area,'pergola_note':'Owner photos 6/7/16/17 (20-28-31) timber shade morphology; plaza, dimensions, benches and location ESTIMATED; new furniture parented to housing root, paving consumed by ground_system once.','pebble_border_m2':PEBBLE.area,'bed_shrubs':len(shrub_pts),'lights':LIGHT_POINTS,
         'storey_note':'V7 models six storeys (ground + 5): P16 and the official zewailcity.edu.eg/dorms image both show six window rows. The OSM candidate footprint is tagged building:levels=5; the conflict is retained and the candidate geographic identity remains UNVERIFIED.',
         'official_page_facts':'Dorms inaugurated 2018-09-15 (281 beds); additional building received 2021-03-13 (93 rooms); 241 rooms / 467 beds total; laundry room per building (source: zewailcity.edu.eg/dorms, read 2026-11-07).'},indent=2))
     plan=json.loads((out/'dorm_garden_plan.json').read_text())
@@ -279,3 +313,15 @@ def build(M,C,A):
     plan['branch_shell_intersection_m']=[line.intersection(SHELL).length for line in LINES]
     (out/'dorm_garden_plan.json').write_text(json.dumps(plan,indent=2))
 
+
+
+def build_hedges(M,coll,root):
+    """Retained bounded clipped hedge source. Extra bands failed visual review."""
+    from .v6_academic import polygon_prism
+    hedges=MeshBuilder()
+    polygon_prism(hedges,M['hedge'],HEDGE,.032,.63)
+    obj=hedges.to_object('Dorm_Garden_Hedges_Details',coll)
+    parent_keep(obj,root);obj['zc_collision']=True
+    from .geometry import add_bevel
+    add_bevel(obj,width=.12,segments=3,angle=35.)
+    return obj

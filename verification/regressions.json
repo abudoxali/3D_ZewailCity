@@ -1,0 +1,184 @@
+{
+  "timestamp_utc": "2026-11-11T20:45:55.393920+00:00",
+  "suites": [
+    {
+      "suite": "V18Gallery",
+      "exit_code": 0,
+      "passed_lines": 6,
+      "failures": [],
+      "seconds": 9.46,
+      "log": "output\\checks\\regressions\\V18Gallery.log"
+    },
+    {
+      "suite": "V17Reconstruction",
+      "exit_code": 0,
+      "passed_lines": 24,
+      "failures": [],
+      "seconds": 11.17,
+      "log": "output\\checks\\regressions\\V17Reconstruction.log"
+    },
+    {
+      "suite": "Validate",
+      "exit_code": 0,
+      "passed_lines": 54,
+      "failures": [],
+      "seconds": 24.88,
+      "log": "output\\checks\\regressions\\Validate.log"
+    },
+    {
+      "suite": "V5Ground",
+      "exit_code": 0,
+      "passed_lines": 5,
+      "failures": [],
+      "seconds": 8.86,
+      "log": "output\\checks\\regressions\\V5Ground.log"
+    },
+    {
+      "suite": "V5Gates",
+      "exit_code": 0,
+      "passed_lines": 12,
+      "failures": [],
+      "seconds": 8.85,
+      "log": "output\\checks\\regressions\\V5Gates.log"
+    },
+    {
+      "suite": "V5Academic",
+      "exit_code": 0,
+      "passed_lines": 27,
+      "failures": [],
+      "seconds": 15.51,
+      "log": "output\\checks\\regressions\\V5Academic.log"
+    },
+    {
+      "suite": "V5Dormitory",
+      "exit_code": 0,
+      "passed_lines": 4,
+      "failures": [],
+      "seconds": 10.52,
+      "log": "output\\checks\\regressions\\V5Dormitory.log"
+    },
+    {
+      "suite": "V6Academic",
+      "exit_code": 0,
+      "passed_lines": 32,
+      "failures": [],
+      "seconds": 23.32,
+      "log": "output\\checks\\regressions\\V6Academic.log"
+    },
+    {
+      "suite": "V6Dormitory",
+      "exit_code": 0,
+      "passed_lines": 12,
+      "failures": [],
+      "seconds": 23.25,
+      "log": "output\\checks\\regressions\\V6Dormitory.log"
+    },
+    {
+      "suite": "V5Journey",
+      "exit_code": 0,
+      "passed_lines": 1,
+      "failures": [],
+      "seconds": 15.48,
+      "log": "output\\checks\\regressions\\V5Journey.log"
+    },
+    {
+      "suite": "V6Journey",
+      "exit_code": 0,
+      "passed_lines": 1,
+      "failures": [],
+      "seconds": 15.17,
+      "log": "output\\checks\\regressions\\V6Journey.log"
+    },
+    {
+      "suite": "V8Gates",
+      "exit_code": 0,
+      "passed_lines": 27,
+      "failures": [],
+      "seconds": 16.59,
+      "log": "output\\checks\\regressions\\V8Gates.log"
+    },
+    {
+      "suite": "V8Entries",
+      "exit_code": 0,
+      "passed_lines": 9,
+      "failures": [],
+      "seconds": 7.48,
+      "log": "output\\checks\\regressions\\V8Entries.log"
+    },
+    {
+      "suite": "V10AdminEntry",
+      "exit_code": 0,
+      "passed_lines": 23,
+      "failures": [],
+      "seconds": 9.44,
+      "log": "output\\checks\\regressions\\V10AdminEntry.log"
+    },
+    {
+      "suite": "V11Gates",
+      "exit_code": 0,
+      "passed_lines": 37,
+      "failures": [],
+      "seconds": 9.53,
+      "log": "output\\checks\\regressions\\V11Gates.log"
+    },
+    {
+      "suite": "V11GateCoverage",
+      "exit_code": 0,
+      "passed_lines": 18,
+      "failures": [],
+      "seconds": 95.66,
+      "log": "output\\checks\\regressions\\V11GateCoverage.log"
+    },
+    {
+      "suite": "V11PerimeterSeal",
+      "exit_code": 0,
+      "passed_lines": 12,
+      "failures": [],
+      "seconds": 9.19,
+      "log": "output\\checks\\regressions\\V11PerimeterSeal.log"
+    },
+    {
+      "suite": "V11FullJourney",
+      "exit_code": 0,
+      "passed_lines": 2,
+      "failures": [],
+      "seconds": 21.05,
+      "log": "output\\checks\\regressions\\V11FullJourney.log"
+    },
+    {
+      "suite": "V11Ui",
+      "exit_code": 0,
+      "passed_lines": 41,
+      "failures": [],
+      "seconds": 0.48,
+      "log": "output\\checks\\regressions\\V11Ui.log"
+    },
+    {
+      "suite": "V15Corridor",
+      "exit_code": 0,
+      "passed_lines": 9,
+      "failures": [],
+      "seconds": 16.13,
+      "log": "output\\checks\\regressions\\V15Corridor.log"
+    },
+    {
+      "suite": "V16AdminCirculation",
+      "exit_code": 0,
+      "passed_lines": 21,
+      "failures": [],
+      "seconds": 9.52,
+      "log": "output\\checks\\regressions\\V16AdminCirculation.log"
+    },
+    {
+      "suite": "V16Walkthrough",
+      "exit_code": 0,
+      "passed_lines": 2,
+      "failures": [],
+      "seconds": 9.56,
+      "log": "output\\checks\\regressions\\V16Walkthrough.log"
+    }
+  ],
+  "passed_suites": 22,
+  "passed_assertion_lines": 379,
+  "method": "Inherited assertions can repeat across derived suites; counts are not unique tests"
+}

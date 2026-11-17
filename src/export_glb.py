@@ -53,7 +53,7 @@ def drop_unverified():
 
     V10 (Codex review): the disabled vehicle collection is removed too; the glTF
     exporter does not filter excluded/hidden collections by default."""
-    for name in ("Unverified_Masterplan_Proposals", "Optional_Vehicles_Disabled"):
+    for name in ("Unverified_Masterplan_Proposals", "Optional_Vehicles_Disabled", "V16_Editable_Road_Alignments"):
         coll = bpy.data.collections.get(name)
         if coll:
             for o in list(coll.all_objects):

@@ -1,0 +1,265 @@
+{
+  "geometry_fingerprint": "7d8d2af6e3a387c8f27975931d1b6f27f0e84f7d3a3b39c067a9125f3eae909b",
+  "objects": 6180,
+  "images": [
+    {
+      "image": "359dce7fb2b932b6",
+      "path": "//../game/godot/assets/campus/campus_full_359dce7fb2b932b6.png",
+      "sha256": "9644322b3ad9a9e7c2049b875c0e812d5c7e91a8f59873338738e164cf3d8a12",
+      "packed": true
+    },
+    {
+      "image": "6887c6fc0fd09dcd",
+      "path": "//../game/godot/assets/campus/campus_full_6887c6fc0fd09dcd.png",
+      "sha256": "188bda4e1756f759a6ecd68b2590fa4e5a590a9a7459c19de053a034632bc0ed",
+      "packed": true
+    },
+    {
+      "image": "asphalt_02_diff_2k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_asphalt_02_diff_2k.jpg",
+      "sha256": "28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c",
+      "packed": true
+    },
+    {
+      "image": "asphalt_02_nor_gl_2k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_asphalt_02_nor_gl_2k.jpg",
+      "sha256": "ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21",
+      "packed": true
+    },
+    {
+      "image": "asphalt_02_rough_2k.jpg",
+      "path": "//../game/godot/assets/pbr/v16/asphalt_02/asphalt_02_rough_2k.jpg",
+      "sha256": "b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c",
+      "packed": true
+    },
+    {
+      "image": "beige_wall_001_nor_gl_1k.jpg",
+      "path": "//../game/godot/assets/pbr/beige_wall_001/beige_wall_001_nor_gl_1k.jpg",
+      "sha256": "cec747be50f91da0693986080b6f59ef868d53cb2ab7d577982165ece63ed75e",
+      "packed": true
+    },
+    {
+      "image": "beige_wall_001_rough_1k.jpg",
+      "path": "//../game/godot/assets/pbr/beige_wall_001/beige_wall_001_rough_1k.jpg",
+      "sha256": "fc8328f47f4d2d82d5311a75bcb5c8cd8979d171a0ee097ad9e44ca9c5a00d60",
+      "packed": true
+    },
+    {
+      "image": "concrete_pavement_03_nor_gl_1k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_concrete_pavement_03_nor_gl_1k.jpg",
+      "sha256": "b3d20510e5f6625c264a6491c343d025cfff8ab525d08363a42f21afb0e1d5e0",
+      "packed": true
+    },
+    {
+      "image": "concrete_pavement_03_rough_1k.jpg",
+      "path": "//../game/godot/assets/pbr/concrete_pavement_03/concrete_pavement_03_rough_1k.jpg",
+      "sha256": "89876ea83fe2e8e14a0349607f3fd9174c14a7e9a01b56d91e49adb0b7484c09",
+      "packed": true
+    },
+    {
+      "image": "crystalline_iceplant_diff_1k_v15green.jpg",
+      "path": "//../references/assets/crystalline_iceplant/textures/crystalline_iceplant_diff_1k_v15green.jpg",
+      "sha256": "eb97dc42e655fa5df19c2992fe9727f537cbbebeaf3a7737f9900fe97d0190ff",
+      "packed": true
+    },
+    {
+      "image": "crystalline_iceplant_nor_gl",
+      "path": "//../references/assets/crystalline_iceplant/textures/crystalline_iceplant_nor_gl_1k.jpg",
+      "sha256": "860252c828abd312600ab0daff531dfa4573b1a3ee6293bdbc5b53093f082cec",
+      "packed": true
+    },
+    {
+      "image": "crystalline_iceplant_rough",
+      "path": "//../references/assets/crystalline_iceplant/textures/crystalline_iceplant_arm_1k.jpg",
+      "sha256": "313d08a7ab102b2e57181c136d17fa64fe91fc2a3fdc0355516c0fdc15712852",
+      "packed": true
+    },
+    {
+      "image": "df8d6263ad77aee2",
+      "path": "//../game/godot/assets/campus/campus_full_df8d6263ad77aee2.png",
+      "sha256": "39e72020b545b822cca3bc64dd83a96ad4015d6b75d5b4aa4e7477a6d5d579ea",
+      "packed": true
+    },
+    {
+      "image": "dirt_diff_2k.jpg",
+      "path": "//../game/godot/assets/pbr/dirt/dirt_diff_2k.jpg",
+      "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+      "packed": true
+    },
+    {
+      "image": "dirt_nor_gl_2k.jpg",
+      "path": "//../game/godot/assets/pbr/dirt/dirt_nor_gl_2k.jpg",
+      "sha256": "ff629fce04c5d6d581cfcb604ea85df6b726798e60d982fd5484c60cddcccd88",
+      "packed": true
+    },
+    {
+      "image": "dirt_rough_2k.jpg",
+      "path": "//../game/godot/assets/pbr/dirt/dirt_rough_2k.jpg",
+      "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+      "packed": true
+    },
+    {
+      "image": "flower_gazania_diff",
+      "path": "//../references/assets/v18/flower_gazania/textures/flower_gazania_diff_1k.jpg",
+      "sha256": "9d3022ebe7bfe0493a3e46aad87ea4746ea51df8c8b3e19294f1bb718a3147bb",
+      "packed": true
+    },
+    {
+      "image": "flower_gazania_nor_gl",
+      "path": "//../references/assets/v18/flower_gazania/textures/flower_gazania_nor_gl_1k.jpg",
+      "sha256": "802d0f9234ccd778c537b3b5ea3714f219d73a80ab794ea77271ab47dbbc9789",
+      "packed": true
+    },
+    {
+      "image": "flower_gazania_rough",
+      "path": "//../references/assets/v18/flower_gazania/textures/flower_gazania_arm_1k.jpg",
+      "sha256": "80800dca73ad66b8c51b089db771b7a15c9e57dfd959e0da5cde434b3d8151b4",
+      "packed": true
+    },
+    {
+      "image": "gravelly_sand_diff_2k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_gravelly_sand_diff_2k.jpg",
+      "sha256": "cdab7130a67bc70f8c241b9ab2cd41b731d2baf1ec533939a333573b80070dd6",
+      "packed": true
+    },
+    {
+      "image": "gravelly_sand_nor_gl_2k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_gravelly_sand_nor_gl_2k.jpg",
+      "sha256": "191985454de9403961aab2a6ffd33b6ca1e4c2715712e03f3c928a8140322719",
+      "packed": true
+    },
+    {
+      "image": "gravelly_sand_rough_2k.jpg",
+      "path": "//../game/godot/assets/pbr/v16/gravelly_sand/gravelly_sand_rough_2k.jpg",
+      "sha256": "da39087ed3beced52f7ca68f77610ecaa048113c33e49a47cb6e7d930733fcaa",
+      "packed": true
+    },
+    {
+      "image": "oak_basecolor",
+      "path": "//../game/godot/assets/campus/campus_full_oak_basecolor.png",
+      "sha256": "f3737752b84d6875ef51a17d6169037518568ac9c007a17fd68e25cfd2a8a768",
+      "packed": true
+    },
+    {
+      "image": "pachira_aquatica_01_bark_diff",
+      "path": "//../references/assets/pachira_aquatica_01/textures/pachira_aquatica_01_bark_diff_1k.jpg",
+      "sha256": "9ca175a1c105a3555c47626ebead36505c29482ea0018f4c6e9a5828ce6d7b25",
+      "packed": true
+    },
+    {
+      "image": "pachira_aquatica_01_bark_nor_gl",
+      "path": "//../references/assets/pachira_aquatica_01/textures/pachira_aquatica_01_bark_nor_gl_1k.jpg",
+      "sha256": "389b0f8cc3e8bf4ee78ea12c367ff3003d69d8e83de8baf908e6f2e123d1e6a8",
+      "packed": true
+    },
+    {
+      "image": "pachira_aquatica_01_bark_rough",
+      "path": "//../references/assets/pachira_aquatica_01/textures/pachira_aquatica_01_bark_arm_1k.jpg",
+      "sha256": "7c44f930e3a6c14acb9043e50d8244da7869f8937233c58276d1b3212a3a6960",
+      "packed": true
+    },
+    {
+      "image": "pachira_aquatica_01_leaves_diff-pachira_aquatica_01_leaves_alpha",
+      "path": "//../references/assets/pachira_aquatica_01/textures/pachira_aquatica_01_leaves_diff_1k.jpg",
+      "sha256": "b3211c240dd2ea7913326e7f21f9db9d029ee487b5e59d58d0e10c8cc77d203f",
+      "packed": true
+    },
+    {
+      "image": "pachira_aquatica_01_leaves_nor_gl",
+      "path": "//../references/assets/pachira_aquatica_01/textures/pachira_aquatica_01_leaves_nor_gl_1k.jpg",
+      "sha256": "3a442aa75df0e6f37bb7410f8ae09927b419d2dba202943cda40f52a7194804c",
+      "packed": true
+    },
+    {
+      "image": "pachira_aquatica_01_leaves_rough",
+      "path": "//../references/assets/pachira_aquatica_01/textures/pachira_aquatica_01_leaves_arm_1k.jpg",
+      "sha256": "42824afde27e7f0111a2e673f0a7cfe0b18bc21d2201b85d9737fce48c1016a3",
+      "packed": true
+    },
+    {
+      "image": "sand_01_nor_gl_1k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_sand_01_nor_gl_1k.jpg",
+      "sha256": "73984aecdc35b1ffbc322d64b7f8d8165b06970d11f37dd47010609fcb532704",
+      "packed": true
+    },
+    {
+      "image": "sand_01_rough_1k.jpg",
+      "path": "//../game/godot/assets/pbr/sand_01/sand_01_rough_1k.jpg",
+      "sha256": "ccb179b12c56a9032d60e4f4e2da690b3612a58e1784eb14576372690cdcd1cb",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_alpha.png",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_alpha_1k.png",
+      "sha256": "eb693835205913dfc705a08fb45f3e8d1c338332bd0097e9837773765b421603",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_alpha.png.001",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_alpha_1k.png",
+      "sha256": "eb693835205913dfc705a08fb45f3e8d1c338332bd0097e9837773765b421603",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_diff.png",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_diff_1k.jpg",
+      "sha256": "fe60e639d694e1807c0a3ae97dd1d5a7e7b3f84e5fc32d0610b868ce48f36331",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_diff.png.001",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_diff_1k.jpg",
+      "sha256": "fe60e639d694e1807c0a3ae97dd1d5a7e7b3f84e5fc32d0610b868ce48f36331",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_disp.png",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_disp_1k.png",
+      "sha256": "14860a84281cc4cc28bf4cadcba6cd68110c6a6558f288090a83ab40dab83199",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_disp.png.001",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_disp_1k.png",
+      "sha256": "14860a84281cc4cc28bf4cadcba6cd68110c6a6558f288090a83ab40dab83199",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_nor_gl.png",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_nor_gl_1k.exr",
+      "sha256": "b940c0e6e7f52c3b40562a190286efb6941d5f22e39d9f07728c313cb019d5bb",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_nor_gl.png.001",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_nor_gl_1k.exr",
+      "sha256": "b940c0e6e7f52c3b40562a190286efb6941d5f22e39d9f07728c313cb019d5bb",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_rough.png",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_rough_1k.exr",
+      "sha256": "138f5fb22a95bf443e21dbfdc62714ad9f21986f3cdd35eba1e45293d74ca63d",
+      "packed": true
+    },
+    {
+      "image": "shrub_01_rough.png.001",
+      "path": "//../references/assets/v19/shrub_01/textures/shrub_01_rough_1k.exr",
+      "sha256": "138f5fb22a95bf443e21dbfdc62714ad9f21986f3cdd35eba1e45293d74ca63d",
+      "packed": true
+    },
+    {
+      "image": "sparse_grass_nor_gl_1k.jpg",
+      "path": "//../game/godot/assets/campus/campus_full_sparse_grass_nor_gl_1k.jpg",
+      "sha256": "1c840a24807346ddaaf94a5057aee4078fcec3a4cd84bfe45da7d3b480ef460b",
+      "packed": true
+    },
+    {
+      "image": "sparse_grass_rough_1k.jpg",
+      "path": "//../game/godot/assets/pbr/sparse_grass/sparse_grass_rough_1k.jpg",
+      "sha256": "9ebe6d03a9551c17d1802835c92c1442acb8f5d38d4874ee8c37770f11c4bed1",
+      "packed": true
+    }
+  ],
+  "file": "output\\Zewail_City_3D.blend"
+}

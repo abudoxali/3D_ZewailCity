@@ -43,7 +43,7 @@ func run_validation() -> void:
 						break
 			if hit.is_empty():
 				holes.append([x, z])
-			elif hit.position.y > 0.62 and String(hit.collider.name).contains("COL_Ground"):
+			elif hit.position.y > 0.62+datum_at(x,z) and String(hit.collider.name).contains("COL_Ground"):
 				high.append([x, z, snappedf(hit.position.y, 0.001), str(hit.collider.name)])
 	check("V15 corridor collision has no holes (0.5 m grid, x -22..22, Blender y 100..300)", holes.is_empty(), {"samples": n, "single_ray_edge_misses": edge_misses, "holes": holes.slice(0, 20), "hole_count": holes.size()})
 	check("V15 corridor has no raised invisible collision over the walkable surface", high.is_empty(), {"count": high.size(), "examples": high.slice(0, 20)})

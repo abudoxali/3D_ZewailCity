@@ -50,7 +50,7 @@ check('V7 ground collision simplified (surface-guarded) and smaller than its ren
 copy=ROOT/'game/godot/assets/campus'
 check('Godot GLB and manifest copies exactly match exports',all((copy/f).read_bytes()==(ROOT/'output/game_ready'/f).read_bytes() for f in ('campus_full.glb','campus_manifest.json')),str(copy))
 report={'checks':checks,'all_pass':all(c['pass'] for c in checks)}
-(ROOT/'output/validation/v11/game_asset_checks.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+(ROOT/'output/build_metadata/v11/game_asset_checks.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 for c in checks:
     print('[asset-check]', 'PASS' if c['pass'] else 'FAIL',c['name'],str(c['detail'])[:250])
 if not report['all_pass']:

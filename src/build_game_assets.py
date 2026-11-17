@@ -231,6 +231,8 @@ def stair_collision_parts(obj):
     sprint descent. A source-derived incline deviates by <= one 150 mm riser,
     retains the exact landing level, and keeps separate solid metal rails.
     """
+    if obj.get('zc_v17_exact_stairs'):
+        return [(obj.data,obj.matrix_world.copy())]
     from utilities.geometry import MeshBuilder
     # Work in the source object's local frame so moving/rotating the editable
     # stair keeps its walking proxy aligned as well.
@@ -939,7 +941,8 @@ def main():
             continue
         kind=o.get('zc_light_kind','bollard')
         e,r,col,spot=LIGHT_KINDS[kind]
-        evening_lights.append({'kind':kind,'blender':[round(c,3) for c in o.location],'godot':to_godot(o.location),
+        position=o.matrix_world.translation
+        evening_lights.append({'kind':kind,'blender':[round(c,3) for c in position],'godot':to_godot(position),
                                'energy':e,'range_m':r,'color':list(col),'spot':spot})
     strip_scene()
     G = make_collections()
@@ -1002,9 +1005,9 @@ def main():
         "materials": mat_report, "spawn_points": spawns, "landmarks": landmarks,
         "gates":GATE_RECORDS,
         "evening_lights":evening_lights,
-        "reconstruction_version":"15.0.0","v12_asset_manifest":"res://assets/pbr/manifest.json","gate_leaves":gate_leaves,"academic_entrances_v11":json.load(open(os.path.join(ROOT,"references","academic_entrances_v11.json"),encoding="utf-8")),
+        "reconstruction_version":"19.0.0","v12_asset_manifest":"res://assets/pbr/manifest.json","gate_leaves":gate_leaves,"academic_entrances_v11":json.load(open(os.path.join(ROOT,"references","academic_entrances_v11.json"),encoding="utf-8")),
         "internal_building_entries":"superseded by academic_entrances_v11 (V11)",
-        "collision_approximations":{"academic_stairs":"Continuous source-derived walking incline + exact landing/metal rails; visual treads retained; vertical deviation <= one estimated 0.15 m riser."},
+        "collision_approximations":{"academic_stairs":"V17 actual tread/landing/cheek/rail source mesh; no continuous invisible incline."},
         "files": {"campus_full": "campus_full.glb", "size_mb": round(os.path.getsize(full) / 1e6, 2)},
     }
     with open(os.path.join(OUT, "campus_manifest.json"), "w", encoding="utf-8") as fh:

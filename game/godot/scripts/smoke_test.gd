@@ -130,7 +130,7 @@ func _run() -> void:
 	await _tap("pause")
 	_check("resume from the pause menu (Esc)", main.state == "explore", {"state": main.state})
 	# V5 content and public circulation must also work in the packaged executable.
-	_check("V15 content shipped",campus.spawns.size()==14 and campus.manifest.get("gates",[]).size()==6 and str(ProjectSettings.get_setting("application/config/version"))=="15.0.0" and str(campus.manifest.get("reconstruction_version",""))=="15.0.0" and int(campus.stats.get("v9_masked_ground_surfaces",0))>0)
+	_check("V19 frozen baseline content shipped",campus.spawns.size()==14 and campus.manifest.get("gates",[]).size()==6 and str(ProjectSettings.get_setting("application/config/version"))=="19.0.0" and str(campus.manifest.get("reconstruction_version",""))=="19.0.0" and int(campus.stats.get("v9_masked_ground_surfaces",0))>0)
 	var pbr_ok := FileAccess.file_exists("res://assets/pbr/manifest.json")
 	for asset in ["asphalt_01","concrete_pavement_03","sand_01","sparse_grass","beige_wall_001"]:
 		for kind in ["diff","nor_gl","rough"]:
@@ -156,7 +156,7 @@ func _run() -> void:
 			await _hold("move_forward",2.4)
 		var progress := (Vector2(player.position.x,player.position.z)-center).dot(normal)
 		_check("V8 packaged local threshold "+gate.id,floor!=null and player.is_on_floor() and progress>2. and gate.status=="PROVISIONAL_MAP_CLUSTER" and not params.is_empty(),{"progress_m":progress,"external_access":gate.get("external_access","")})
-	var ground=campus.ground_at(0.,205.)
+	var ground=campus.ground_at(-2.3,205.)
 	player.teleport(ground+Vector3(0,player.half_height()+.05,0),Vector3(0,0,1))
 	await _frames(30)
 	Input.action_press("sprint")
@@ -177,7 +177,8 @@ func _run() -> void:
 	if DisplayServer.get_name()!="headless":
 		get_viewport().get_texture().get_image().save_png("user://smoketest_v6_dormitory.png")
 	for x in [-13.,13.]:
-		var start = campus.ground_at(x,214.)
+		# Begin before the first tread at z=201.56, then climb the whole flight.
+		var start = campus.ground_at(x,198.)
 		player.teleport(start+Vector3(0,player.half_height()+.05,0),Vector3(0,0,1))
 		await _frames(30)
 		Input.action_press("move_forward")
@@ -187,7 +188,8 @@ func _run() -> void:
 			step_frames+=1
 		Input.action_release("move_forward")
 		await _frames(3)
-		_check("V6 packaged major stair "+str(x),player.is_on_floor() and absf(player.feet_position().y-4.41)<.15,{"position":[player.position.x,player.position.y,player.position.z]})
+		# Landing is local4.41 minus the Academic terrain datum1.2 = world3.21.
+		_check("V6 packaged major stair "+str(x),player.is_on_floor() and player.position.z>=229.8 and absf(player.feet_position().y-3.21)<.15,{"position":[player.position.x,player.position.y,player.position.z],"start_z":198.,"expected_world_landing":3.21})
 	# V10: the Administration entrance is a real doorway into a bounded lobby (A02).
 	var adm = campus.ground_at(0.,-38.)
 	player.teleport(adm+Vector3(0,player.half_height()+.05,0),Vector3(0,0,1))
@@ -199,7 +201,7 @@ func _run() -> void:
 		adm_frames+=1
 	Input.action_release("move_forward")
 	await _frames(3)
-	_check("V10 packaged Administration doorway to lobby",player.is_on_floor() and player.position.z>-18.9 and player.position.z<-9.5 and absf(player.feet_position().y-.72)<.1,{"position":[player.position.x,player.position.y,player.position.z]})
+	_check("V10 packaged Administration doorway to lobby",player.is_on_floor() and player.position.z>-18.9 and player.position.z<-9.5 and absf(player.feet_position().y-1.92)<.1,{"position":[player.position.x,player.position.y,player.position.z]})
 	main._set_evening(true)
 	var bollards: int = campus.manifest.get("evening_lights",[]).filter(func(l): return String(l.get("kind",""))=="bollard").size()
 	_check("V7 packaged evening lights (all modelled luminaires, 32 garden bollards)",main.evening_mode and main.garden_lights.visible and main.garden_lights.get_child_count()==campus.manifest.get("evening_lights",[]).size() and bollards==32,{"lights":main.garden_lights.get_child_count(),"bollards":bollards})

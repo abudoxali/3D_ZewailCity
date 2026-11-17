@@ -18,15 +18,15 @@ extends RefCounted
 const SHADER=preload("res://shaders/pbr_world.gdshader")
 ## key: [asset, tile metres, normal strength, mode, anti-tiling rotation, roughness floor, contrast]
 const GROUND={
-	"Asphalt":["asphalt_01",2.1,0.5,1,true,0.93,1.0],
+	"Asphalt":["v16/asphalt_02",3.0,0.30,1,true,0.93,0.55],
 	"Paver_Road_Grey":["concrete_pavement_03",2.1,0.12,2,false,0.76],
 	"Garden_Pavers":["concrete_pavement_03",2.1,0.12,2,false,0.76],
 	"Desert_Sand":["sand_01",1.5,0.3,2,false,0.8],
-	"Graded_Campus_Soil":["sand_01",1.5,0.3,2,false,0.8],
-	"Compacted_Earth":["sand_01",1.5,0.28,2,false,0.8],
+	"Graded_Campus_Soil":["v16/gravelly_sand",2.48,0.15,1,true,0.8,0.42],
+	"Compacted_Earth":["v16/gravelly_sand",2.48,0.15,1,true,0.8,0.42],
 	"Planted_Soil_Sparse":["sparse_grass",2.0,0.3,2,true,0.8],
-	"Plaza_Grey":["concrete_pavement_03",2.1,0.22,2,false,0.72],
-	"Plaza_Light":["concrete_pavement_03",2.1,0.22,2,false,0.72],
+	"Plaza_Grey":["concrete_pavement_03",2.1,0.16,2,false,0.42],
+	"Plaza_Light":["concrete_pavement_03",2.1,0.16,2,false,0.45],
 	"Paving_Limestone":["concrete_pavement_03",2.1,0.22,2,false,0.72],
 	"Paving_Light":["concrete_pavement_03",2.1,0.22,2,false,0.72],
 	"Concrete_Curb":["concrete_pavement_03",2.1,0.2,2,false,0.74],
@@ -37,7 +37,7 @@ const GROUND={
 	"V15_Planted_Bed_Soil":["dirt",2.0,0.35,2,true,0.82],
 }
 ## Provider map resolution per asset (default 1k).
-const RES={"paving_stones_125a":"2k","dirt":"2k"}
+const RES={"paving_stones_125a":"2k","dirt":"2k","v16/asphalt_02":"2k","v16/gravelly_sand":"2k"}
 var cache={}
 var tones={}
 
@@ -48,7 +48,7 @@ func _init() -> void:
 
 func _maps(sm:ShaderMaterial,asset:String) -> void:
 	for m in ["diff","nor_gl","rough"]:
-		sm.set_shader_parameter({"diff":"pbr_albedo","nor_gl":"pbr_normal","rough":"pbr_rough"}[m],load("res://assets/pbr/%s/%s_%s_%s.jpg" % [asset,asset,m,RES.get(asset,"1k")]))
+		sm.set_shader_parameter({"diff":"pbr_albedo","nor_gl":"pbr_normal","rough":"pbr_rough"}[m],load("res://assets/pbr/%s/%s_%s_%s.jpg" % [asset,asset.get_file(),m,RES.get(asset,"1k")]))
 
 ## Adds provider maps to a V11 ground ShaderMaterial (res://shaders/ground_surface.gdshader).
 ## Returns true when the surface is a V12 PBR surface.
@@ -69,8 +69,8 @@ func configure(sm:ShaderMaterial,n:String) -> bool:
 			sm.set_shader_parameter("pbr_saturation",float(t.get("saturation",1.0)))
 			sm.set_shader_parameter("pbr_contrast",a[6])
 			sm.set_shader_parameter("pbr_highpass",0.0)
-			sm.set_shader_parameter("pbr_albedo_bias",0.0)
-			sm.set_shader_parameter("pbr_aggregate",1.0 if key=="Asphalt" else 0.0)
+			sm.set_shader_parameter("pbr_albedo_bias",0.75 if a[0].begins_with("v16/") else 0.0)
+			sm.set_shader_parameter("pbr_aggregate",0.35 if key=="Asphalt" else 0.0)
 			# Provider paver shapes differ from the V11 brick grid: no per-brick tone.
 			sm.set_shader_parameter("unit_variation",0.0)
 		else:
@@ -86,11 +86,11 @@ func paint(src:StandardMaterial3D,ground_shader:Shader) -> ShaderMaterial:
 	var sm=ShaderMaterial.new()
 	sm.shader=ground_shader
 	sm.resource_name="V12_"+src.resource_name
-	_maps(sm,"asphalt_01")
+	_maps(sm,"v16/asphalt_02")
 	var t:Dictionary=tones.get("Asphalt",{})
 	var tint:Array=t.get("tint",[1.0,1.0,1.0])
 	sm.set_shader_parameter("pbr_mode",3)
-	sm.set_shader_parameter("pbr_tile_m",2.1)
+	sm.set_shader_parameter("pbr_tile_m",3.0)
 	sm.set_shader_parameter("pbr_normal_strength",0.45)
 	sm.set_shader_parameter("pbr_rough_floor",0.93)
 	sm.set_shader_parameter("pbr_tint",Vector3(tint[0],tint[1],tint[2]))

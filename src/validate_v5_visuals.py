@@ -14,7 +14,7 @@ sc.cycles.samples=12
 sc.cycles.use_denoising=True
 sc.render.resolution_percentage=100
 sc.render.image_settings.file_format='PNG'
-out=ROOT/'output/validation/v5'
+out=ROOT/'output/build_metadata/v5'
 out.mkdir(parents=True,exist_ok=True)
 cd=bpy.data.cameras.new('V5_Validation')
 cam=bpy.data.objects.new('V5_Validation',cd)

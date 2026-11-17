@@ -9,7 +9,7 @@ extends Node
 ## transforms unchanged, so V8 and V9 images share camera, FOV, resolution, preset,
 ## time of day and HUD state (hidden). Real rendering, no post-processing.
 
-var OUT := "res://../../output/validation/v11/"
+var OUT := "res://../../output/checks/"
 const EYE := 1.70
 const VIEWS := [
 	["V12_landing_detail",[0.,0.],[0.,0.,1.],false],

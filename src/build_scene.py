@@ -65,6 +65,8 @@ def main():
 
     C = make_collections()
     M = materials.build_materials()
+    from utilities import v18_palette
+    v18_palette.apply(M)
     A = vegetation.build_assets(M)
     print('[build] materials and assets ready',flush=True)
 
@@ -83,7 +85,12 @@ def main():
     from utilities import v6_context
     v6_context.build(M,C)
     print('[build] V4 survey layout ready; rebuilding V5 ground topology',flush=True)
+    bpy.context.scene['zc_material_keys'] = __import__('json').dumps({k:v.name for k,v in M.items()})
+    bpy.ops.wm.save_as_mainfile(filepath=os.path.join(ROOT,'output','v17_pre_ground.blend'),compress=True)
     ground_system.rebuild(M, C)
+    from utilities import v17_elevation
+    v17_elevation.seat_architecture()
+    v17_elevation.source_section_curves()
     # V7: evening sources for modelled luminaires (off in the daylight source scene).
     from utilities import v7_lighting
     lamp_counts = v7_lighting.street_lamps()
@@ -113,6 +120,11 @@ def main():
     from utilities import v15_corridor
     v15_corridor.plant_groundcover()
     v15_corridor.write_log()
+    from utilities import v16_vegetation
+    v16_vegetation.audit_and_remove()
+    v17_elevation.seat_cameras_and_lights()
+    from utilities import v17_finalize
+    v17_finalize.clean_surfaces()
     # Editable V12 scene carries its verified texture inputs with it.
     bpy.ops.file.pack_all()
     os.makedirs(os.path.dirname(BLEND_PATH), exist_ok=True)

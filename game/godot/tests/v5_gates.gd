@@ -12,4 +12,4 @@ func run_validation() -> void:
 		var z: float=-g.model_position_blender_m[1]
 		var inward:=Vector2(g.inward[0],-g.inward[1])
 		await follow_route("walk through provisional opening "+g.id,[Vector2(x,z)+inward*8,Vector2(x,z),Vector2(x,z)-inward*8])
-	save_json("res://../../output/validation/v11/gates_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"])})
+	save_json("res://../../output/checks/gates_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"])})

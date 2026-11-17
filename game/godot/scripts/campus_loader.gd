@@ -106,9 +106,19 @@ func _upgrade_ground_materials() -> int:
 			# reflective, as in V5-V9.
 			if sm and sm.resource_name.contains("Lobby_Glass") and sm.transparency == BaseMaterial3D.TRANSPARENCY_DISABLED:
 				sm.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
-				sm.albedo_color.a = 0.22
+				sm.albedo_color.a = 0.64 if sm.resource_name.contains("Gallery_") else 0.22
+				if sm.resource_name.contains("Upper_Lobby_Glass"):
+					sm.albedo_color.a = 0.36
 				sm.metallic = 0.1
-				sm.roughness = 0.04
+				if sm.resource_name.contains("Upper_Lobby_Glass"):
+					sm.metallic = 0.18
+				sm.roughness = 0.08 if sm.resource_name.contains("Gallery_") else 0.04
+				sm.cull_mode = BaseMaterial3D.CULL_DISABLED
+			if sm and sm.resource_name.contains("Residential_Glass"):
+				sm.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+				sm.albedo_color = Color(0.20,0.27,0.34,0.42)
+				sm.metallic = 0.12
+				sm.roughness = 0.06
 				sm.cull_mode = BaseMaterial3D.CULL_DISABLED
 			_v11_material_tuning(sm)
 			if sm:
@@ -130,12 +140,14 @@ func _v11_material_tuning(sm: StandardMaterial3D) -> void:
 	var n := sm.resource_name
 	if n.contains("Glass") and not n.contains("Lobby_Glass") and sm.transparency == BaseMaterial3D.TRANSPARENCY_DISABLED:
 		sm.metallic = 0.6
-		sm.roughness = 0.03
+		sm.roughness = 0.10
 		sm.metallic_specular = 0.75
 		sm.albedo_color = sm.albedo_color.lerp(Color(0.10, 0.14, 0.18), 0.35)
 	elif n.contains("Stone") or n.contains("Stucco") or n.contains("Plaster"):
 		# Wave 5 review: P09/P12/P14/P15 stone is warm sand/ochre, not grey-white.
-		sm.albedo_color = sm.albedo_color * Color(0.96, 0.89, 0.77, 1.0)
+		# V18: source stone is already warm. The old ochre multiplier combined
+		# with warm sun and warm ambient three times, yellowing the whole campus.
+		sm.albedo_color = sm.albedo_color * Color(0.98, 0.95, 0.90, 1.0)
 		sm.roughness = maxf(sm.roughness, 0.78)
 
 
@@ -188,7 +200,7 @@ func _ground_material(src: StandardMaterial3D, masked := false) -> ShaderMateria
 		if n.contains(b):
 			kind = 3
 			sm.set_shader_parameter("brick_size", BRICKS[b])
-			sm.set_shader_parameter("unit_variation", 0.10)
+			sm.set_shader_parameter("unit_variation", 0.045 if n.contains("Plaza_") else 0.10)
 	sm.set_shader_parameter("kind", kind)
 	sm.set_shader_parameter("has_masks", masked)
 	if kind == 1:
@@ -212,9 +224,10 @@ func _ground_material(src: StandardMaterial3D, masked := false) -> ShaderMateria
 	elif n.contains("Paver_Road"):
 		sm.set_shader_parameter("drift_color", Color(0.72, 0.62, 0.48))
 		sm.set_shader_parameter("drift_amount", 0.65)
-	# V15: feathered natural-surface boundaries in the G1 corridor (COLOR_0.a, see shader).
+	# V16: common boundary tone across campus natural surfaces (COLOR_0.a);
+	# V15 used unequal strengths that retained a visible soil/lawn colour seam.
 	if kind == 1 or kind == 4:
-		sm.set_shader_parameter("feather_amount", 0.5 if kind == 1 else 0.2)
+		sm.set_shader_parameter("feather_amount", 1.0)
 		sm.set_shader_parameter("feather_color", Color(0.62, 0.53, 0.40))
 	# V15 raised verge beds and worn median: kerb-side sand drift (C02).
 	if n.contains("V15_Planted_Bed") or n.contains("V15_Median"):
@@ -281,14 +294,16 @@ func _batch_group(group_name: String, is_veg: bool) -> int:
 			var mmi := MultiMeshInstance3D.new()
 			mmi.multimesh = mm
 			mmi.name = "MM_%s_%d_%d" % [mesh_name, cell.x, cell.y]
+			# Retain disconnected leaf silhouettes in the newly imported hedge.
+			if mesh_name.contains("V19_Hedge"): mmi.lod_bias = 2.0
 			var lower := String(b.nodes[0].name).to_lower()
 			mmi.set_meta("is_veg", is_veg)
-			mmi.set_meta("small", lower.contains("shrub"))
+			mmi.set_meta("small", lower.contains("shrub") or lower.contains("hedge"))
 			# V15: ground-hugging groundcover clumps (8-10 cm): no shadows, short draw range.
-			mmi.set_meta("groundcover", lower.contains("groundcover"))
+			mmi.set_meta("groundcover", lower.contains("groundcover") or lower.contains("gazania"))
 			if lower.contains("groundcover"):
 				mmi.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
-			if lower.contains("shrub"):
+			if lower.contains("shrub") or lower.contains("hedge") or lower.contains("gazania"):
 				mmi.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 				# V13: leaf-geometry shrubs sit in full sun on open beds; their shared
 				# Pachira leaf material reads too dark there (independent QA).

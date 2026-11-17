@@ -11,7 +11,7 @@ func run_validation() -> void:
 		Vector2(-210.47,23.21),Vector2(-188.08,18.3),Vector2(-169.57,3.32),Vector2(-164.06,.67),
 		Vector2(-156.56,.78),Vector2(-151.94,2.03),Vector2(-145.08,7.12),Vector2(-137.23,15.02),
 		Vector2(-106.81,45.74),Vector2(-51.23,100.78),Vector2(-41.46,110.11),Vector2(-23.63,117.15),
-		Vector2(0,117.88),Vector2(0,155),Vector2(0,205),Vector2(0,235),Vector2(0,280),
+		Vector2(0,117.88),Vector2(0,155),Vector2(-2.3,205),Vector2(-2.3,235),Vector2(0,280),
 		Vector2(0,320),Vector2(0,352),Vector2(0,368)])
 	Input.action_release("sprint")
-	save_json("res://../../output/validation/v11/journey_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"]),"method":"scripted sprint through existing walk controller; one initial placement, continuous movement"})
+	save_json("res://../../output/checks/journey_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"]),"method":"scripted sprint through existing walk controller; one initial placement, continuous movement"})

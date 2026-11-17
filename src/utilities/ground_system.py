@@ -37,10 +37,9 @@ def smooth(t):
 
 @lru_cache(maxsize=400000)
 def datum(x, y):
-    # No invented hills: 0.08% longitudinal / 0.02% crossfall, smooth pad collars.
-    w = smooth(PAD.distance(Point(x, y)) / 35.)
-    fade = 1. - smooth((max(abs(x), abs(y)) - 1200.) / 500.)
-    return (0.0008 * y + 0.0002 * x) * w * fade
+    # Owner-supported descent direction; magnitudes remain engineering estimates.
+    from .v17_elevation import datum as campus_datum
+    return campus_datum(x, y)
 
 def polygons(g):
     if g.is_empty:
@@ -158,6 +157,45 @@ def repair_foundation_winding():
 MASK_ATTR = 'ZC_Ground_Mask'
 
 
+def segmentize_preserving_coverage(poly,step):
+    """Densify edges without accepting GEOS' silent narrow-polygon collapse.
+
+    Natural collar booleans can leave valid narrow polygons for which GEOS
+    segmentize returns almost zero area without raising an error. Reconstruct
+    collinear subdivisions explicitly when its area contract fails; never drop
+    the polygon or conceal a missing physical floor with a shader/overlay.
+    """
+    result=poly.segmentize(step)
+    tolerance=max(1e-7,poly.area*1e-10)
+    if result.is_valid and abs(result.area-poly.area)<=tolerance:
+        return result
+    def ring(coords):
+        out=[]
+        for a,b in zip(coords[:-1],coords[1:]):
+            count=max(1,math.ceil(math.hypot(b[0]-a[0],b[1]-a[1])/step))
+            out.extend((a[0]+(b[0]-a[0])*i/count,
+                        a[1]+(b[1]-a[1])*i/count) for i in range(count))
+        out.append(out[0])
+        return out
+    fixed=make_valid(union_all([make_valid(Polygon(ring(list(p.exterior.coords)),
+                  [ring(list(h.coords)) for h in p.interiors])) for p in polygons(poly)]))
+    fixed=union_all(list(polygons(fixed)))
+    error=poly.symmetric_difference(fixed).area
+    if not fixed.is_valid or error>tolerance:
+        raise RuntimeError('Explicit edge densification failed exact surface coverage: '+str(error))
+    import hashlib
+    ident='densify_'+hashlib.sha256(poly.wkb).hexdigest()[:16]
+    dest=ROOT/'output/build_metadata/v16/triangulation_repairs'
+    dest.mkdir(parents=True,exist_ok=True)
+    (dest/(ident+'.wkt')).write_text(poly.wkt)
+    (dest/(ident+'.json')).write_text(json.dumps({
+        'repair':'explicit collinear edge subdivisions after silent GEOS segmentize area loss',
+        'step_m':step,'source_area_m2':poly.area,'failed_segmentize_area_m2':result.area,
+        'repaired_area_m2':fixed.area,'symmetric_delta_m2':error}))
+    print('[ground-v16] preserved narrow surface during densification',round(poly.area,6),'m2',flush=True)
+    return fixed
+
+
 def region_triangles(poly, step):
     """Constrained triangulation with conforming interior refinement.
 
@@ -188,7 +226,37 @@ def region_triangles(poly, step):
                     heapq.heappush(queue, (-d2, e))
             edges[e].add(ti)
     add.serial = 0
-    for tri in constrained_delaunay_triangles(poly.segmentize(step)).geoms:
+    from shapely.errors import GEOSException
+    from shapely import set_precision
+    segmented=segmentize_preserving_coverage(poly,step)
+    try:
+        initial=constrained_delaunay_triangles(segmented)
+    except GEOSException:
+        # Boolean ribbon intersections can contain sub-micron duplicate corners.
+        # Preserve the failed evidence; repair numerical precision only, bounded
+        # to 0.1 mm. Never discard a polygon or silently continue past a lost face.
+        dest=ROOT/'output/build_metadata/v16/triangulation_repairs'
+        dest.mkdir(parents=True,exist_ok=True)
+        ident=str(len(list(dest.glob('*.wkt'))))
+        (dest/(ident+'.wkt')).write_text(poly.wkt)
+        clean=set_precision(make_valid(poly),.0001)
+        error=clean.symmetric_difference(poly).area
+        if error > max(.01,poly.area*1e-5):
+            raise RuntimeError('Precision repair changed too much surface area: '+str(error))
+        segmented=segmentize_preserving_coverage(clean,step)
+        initial=constrained_delaunay_triangles(segmented)
+        coverage=union_all(list(initial.geoms))
+        uncovered=clean.symmetric_difference(coverage).area
+        if uncovered > max(1e-6,clean.area*1e-8):
+            raise RuntimeError('Triangulation repair lost area: '+str(uncovered))
+        (dest/(ident+'.json')).write_text(json.dumps({'repair':'0.1 mm precision after GEOS failure',
+            'area_m2':poly.area,'symmetric_delta_m2':error,'lost_area_m2':uncovered}))
+    # GEOS can return incomplete output without raising. Coverage must be a
+    # contract on every polygon, not only those taking the exception fallback.
+    area=sum(t.area for t in initial.geoms)
+    if abs(area-segmented.area)>max(1e-6,segmented.area*1e-9):
+        raise RuntimeError('Constrained triangulation silently changed surface area: '+str((segmented.area,area)))
+    for tri in initial.geoms:
         add(tuple(point(xy) for xy in list(tri.exterior.coords)[:3]))
     while queue:
         _, e = heapq.heappop(queue)
@@ -303,8 +371,16 @@ def mesh_region(name, regions, coll, step=8., skirts=False):
                 else:
                     pieces.append(poly)
             for poly in pieces:
+                # Natural feather collars introduce curved coarse/fine cuts.
+                # Identical boundary vertices and conforming triangulation keep
+                # both sides welded; independent grids would create T-junctions
+                # with slightly different interpolated relief heights.
+                if opts.get('conforming'):
+                    poly=segmentize_preserving_coverage(poly,opts.get('boundary_step',2.5))
                 cell = 50000. if poly.area > 1e8 else rstep
                 keep_grid = legacy or (curb_work_area is not None and poly.disjoint(curb_work_area))
+                if opts.get('conforming'):
+                    keep_grid=False
                 triangulate = grid_triangles if keep_grid else region_triangles
                 for coords in triangulate(poly, cell):
                     a, b, c = coords
@@ -552,7 +628,7 @@ def profile_kerb(obj,road):
 # (morphological closing), and a curb return follows the new edge. Radius is a
 # standard engineering ESTIMATE, not a survey of the built kerbs.
 JUNCTION_RADIUS = 4.0
-JUNCTION_MAX_FILL_M2 = 90.0  # 3 fills > 40 m2 inspected top-down in V10 (output/validation/v11/junctions/)
+JUNCTION_MAX_FILL_M2 = 90.0  # 3 fills > 40 m2 inspected top-down in V10 (output/build_metadata/v11/junctions/)
 
 
 def junction_fillets(regions, road_names, M):
@@ -618,19 +694,14 @@ def rebuild(M, C):
             target.setdefault(mat, []).extend(polys)
     regions = {m: union_all(ps) for m, ps in raw.items()}
     print('[ground-v5] surface unions ready',flush=True)
-    junction_report = junction_fillets(regions, road_names, M)
+    from . import v17_network
+    network_report = v17_network.reconstruct(regions, M, C)
+    # The complete source generator owns roads, gate links, returns and paving.
+    # No legacy junction/short-link/kerb patch may alter its output afterwards.
+    junction_report = {'owner': 'v17 unified transport source'}
     road = union_all([g for m,g in regions.items() if m in road_names])
-    # V8: actual threshold surfaces, not stacked slabs. Five short gate aprons
-    # and bounded internal gaps enter the same disjoint surface partition.
-    from .v8_gates import ground_regions
-    gate_aprons=ground_regions(road)
-    regions[M['paver_road'].name]=regions.get(M['paver_road'].name,Polygon()).union(gate_aprons)
-    # V9: a flush 0.2 m concrete edge restraint where the gate aprons meet soil (the
-    # V8 aprons ended as bare slab edges); it is cut out of the apron, so disjoint.
-    apron_edge=make_valid(gate_aprons.difference(gate_aprons.buffer(-.2)).difference(road.buffer(.05)))
-    regions[M['paver_road'].name]=make_valid(regions[M['paver_road'].name].difference(apron_edge))
-    regions[M['edge'].name]=regions.get(M['edge'].name,Polygon()).union(apron_edge)
-    road=road.union(gate_aprons)
+    gate_aprons = Polygon()
+    apron_edge = Polygon()
     trim_raised_beds(bpy.data.objects['Flower_Beds'],road)
     boundaries=[]
     for p in polygons(road):
@@ -643,23 +714,11 @@ def rebuild(M, C):
         p=Point(x,y)
         return boundaries[int(tree.nearest(p))].distance(p)
     plot = Polygon(SV.PLOT)
-    # Short missing links are functional approximations, explicitly registered.
-    connectors = [((0.,-117.88),(0.,-155.)), ((-16.3,100.),(-31.,60.)),
-                  ((16.3,100.),(36.,60.))]
-    link = union_all([LineString(p).buffer(1.5, cap_style='flat') for p in connectors])
-    regions[M['paving'].name] = regions.get(M['paving'].name, Polygon()).union(link)
-    # V11 (owner 05): footways that stop in sand are joined to the nearest hard surface.
+    connectors = [r['points'] for r in v17_network.STATE['document']['sources']
+                  if r.get('kind') == 'estimated_connector']
     from . import v11_ground
     v11_hard = {M[k].name for k in ('paving','paving_light','plaza_grey','plaza_light','plaza_inlay','garden_paver','curb')} | set(road_names)
-    v11_ground.extend_footways(regions, M, v11_hard)
-    v11_ground.g1_lane_paving(regions, M)
-    # Footway crossings and the two gate-loop crossing points remove obstructing curb ends.
-    crossing = union_all([LineString(w['pts']).buffer(1.65) for w in SV.campus_footways()] +
-        [box(-20, SV.PERIMETER_LOOP_Y-6, -13, SV.PERIMETER_LOOP_Y+6),
-         box(13, SV.PERIMETER_LOOP_Y-6, 20, SV.PERIMETER_LOOP_Y+6)] +
-        [LineString(p).buffer(1.65) for p in connectors])
     curb_name = M['curb'].name
-    regions[curb_name] = regions.get(curb_name, Polygon()).difference(crossing.union(gate_aprons.buffer(.25)))
     # Avoid paving/lawn through building walls: terrain remains underneath foundations.
     from . import dormitory
     footprints = union_all([Polygon(v['pts']).buffer(0) for k,v in SV.OSM['buildings'].items() if not k.startswith('east_pair_')]+[dormitory.SHELL])
@@ -687,10 +746,8 @@ def rebuild(M, C):
             continue
         occupied = occupied.union(g)
         partition.append((mat, g))
-    # V11 (owner 03/12/15): enclosed sand slivers between hard surfaces become paving.
-    partition, occupied = v11_ground.close_slivers(partition, occupied, bed, footprints, M, v11_hard)
-    partition = v11_ground.repair_curb_runs(partition, M)
-    partition, occupied = v11_ground.g1_shoulders(partition, occupied, bed, footprints, M)
+    # No post-generator pavement/curb rewrites: the editable source snapshot
+    # remains the single owner of the entire transport partition.
     # Rounded curb tips can fill a hairline gap formerly assigned to terrain.
     # Recompute occupancy so the terrain mesh remains disjoint there too.
     occupied = union_all([g for _, g in partition])
@@ -714,6 +771,7 @@ def rebuild(M, C):
         partition.append((M['edge'].name, make_valid(union_all(edges))))
         paving_names = paving_names | {M['edge'].name}
     partition = V15.adjust_partition(partition, M)
+    v17_network.finalize_partition(partition, M)
     band_name, bed_names = M['v15_band'].name, {M['v15_bed'].name, M['v15_median'].name}
     band_geom = union_all([g for m, g in partition if m == band_name])
     partition_mesh = [(m, g) for m, g in partition if m != band_name]
@@ -822,8 +880,16 @@ def rebuild(M, C):
         bpy.data.objects.remove(o, do_unlink=True)
     pave_regions, lawn_regions = [], []
     bed_z, bed_col = V15.bed_height(datum), V15.bed_mask()
-    feather = V15.feather_fn(terrain, [planted_geom, union_all([g for m, g in partition if m == M['grass'].name])])
-    fz = V15.FEATHER_ZONE.buffer(V15.FEATHER_FADE)
+    lawn_geom=union_all([g for m,g in partition if m==M['grass'].name])
+    # Treat campus soil and exterior sand as distinct natural classes, so their
+    # actual shared edge is feathered too. Road/curb/paver partitions are intact.
+    feather = V15.feather_fn(terrain, [outer_near,planted_geom,lawn_geom])
+    fz = V15.feather_refinement_zone()
+    V15.LOG['feather']['dense_area_by_surface_m2']={
+        'campus_soil':terrain.intersection(fz).area,
+        'exterior_sand':outer_near.intersection(fz).area,
+        'planted_soil':planted_geom.intersection(fz).area,
+        'lawn':lawn_geom.intersection(fz).area}
     def mask_zone4(x, y):
         return (*mask_zone(x, y), feather(x, y))
     def mask_lawn4(x, y):
@@ -837,7 +903,7 @@ def rebuild(M, C):
             if mat == M['paver_road'].name and not band_geom.is_empty:
                 # V15: crossover bands, same level and mask as the carriageway (C02).
                 rr.append((M['v15_band'],band_geom,lambda x,y: datum(x,y)+.06,{'band':.9,'color':mask_road}))
-            obj = mesh_region(nm, rr, C['roads'], step=8)
+            obj = mesh_region(nm, rr, C['roads'], step=3)
             if mat == M['paver_road'].name:
                 g1_exterior_asphalt(obj, M['asphalt'])
             built.append(obj)
@@ -876,12 +942,22 @@ def rebuild(M, C):
             lawn_regions.append((material,g,lambda x,y:datum(x,y)+.012+max(shoulder(x,y,1.6,.15),road_lift(x,y,1.6,.048)),{'band':1.2}))
         else:
             planted = mat == M['planted_soil'].name
-            def lawn_z(x,y,planted=planted):
-                return datum(x,y)+.032+max(lawn_shoulder(x,y),road_lift(x,y,1.2,.028))+(relief(x,y) if planted else 0.)
+            natural = mat in {M['grass'].name,M['planted_soil'].name}
+            def lawn_z(x,y,planted=planted,natural=natural):
+                z=datum(x,y)+.032+max(lawn_shoulder(x,y),road_lift(x,y,1.2,.028))+(relief(x,y) if planted else 0.)
+                if natural:
+                    # Real geometric grading: the old 20 mm grass/soil split is
+                    # closed at the common natural edge, not hidden by alpha.
+                    common=datum(x,y)+.012+max(shoulder(x,y,1.6,.16),road_lift(x,y,1.6,.048))+relief(x,y)
+                    w=feather(x,y)
+                    return common+(z-common)*w
+                return z
             original_opts = {'step':5.,'band':1.2,'color':mask_zone4} if planted else {'color':mask_lawn4}
-            local_opts = {'step':5.,'band':2.4}
+            original_opts.update(conforming=True,boundary_step=2.5)
+            local_opts = {'step':5.,'band':2.4,'conforming':True,'boundary_step':2.5}
             local_opts['color'] = mask_zone4 if planted else mask_lawn4
-            # V15: denser grid inside the feathered corridor so the soft transitions resolve.
+            # V16: dense sampling only in 4 m natural-boundary collars; coarse
+            # interiors keep their prior 5/8 m spacing across the whole campus.
             fine_opts = dict(original_opts, step=2.5, band=1.2)
             outside = g.difference(grade_zones)
             lawn_regions.append((material,outside.difference(fz),lawn_z,original_opts))
@@ -906,8 +982,8 @@ def rebuild(M, C):
     print('[ground-v5] meshing graded terrain',flush=True)
     plot_z = lambda x,y:datum(x,y)+.012+max(shoulder(x,y,1.6,.16),road_lift(x,y,1.6,.048))+relief(x,y)
     built.append(mesh_region('Ground_Campus_Plot', [(M['soil_light'],terrain.difference(fz),plot_z,
-                    {'step':5.,'band':1.6,'color':mask_zone4}),
-                    (M['soil_light'],terrain.intersection(fz),plot_z,{'step':2.5,'band':1.6,'color':mask_zone4})],
+                    {'step':5.,'band':1.6,'color':mask_zone4,'conforming':True,'boundary_step':2.5}),
+                    (M['soil_light'],terrain.intersection(fz),plot_z,{'step':2.5,'band':1.6,'color':mask_zone4,'conforming':True,'boundary_step':2.5})],
                     C['ground'], step=12))
     # A finite, graded near-field connects to the distant desert without a stacked campus plane.
     # V9: the 450 m band around the wall is meshed at 10 m for the estimated relief.
@@ -916,9 +992,9 @@ def rebuild(M, C):
                     # V11 (QA defect 5): sand is graded up to raised apron/paving edges like the
                     # plot soil (V5-V10: 0.198 m bare paving face against the desert sand at G1).
                     (M['sand'],outer_near.difference(fz),lambda x,y:datum(x,y)+.012+max(shoulder(x,y,1.6,.16),road_lift(x,y,1.6,.048))+relief(x,y),
-                     {'step':10.,'band':1.6,'color':mask_zone4}),
+                     {'step':10.,'band':1.6,'color':mask_zone4,'conforming':True,'boundary_step':2.5}),
                     (M['sand'],outer_near.intersection(fz),lambda x,y:datum(x,y)+.012+max(shoulder(x,y,1.6,.16),road_lift(x,y,1.6,.048))+relief(x,y),
-                     {'step':2.5,'band':1.6,'color':mask_zone4}),
+                     {'step':2.5,'band':1.6,'color':mask_zone4,'conforming':True,'boundary_step':2.5}),
                     (M['sand'],outer_far,lambda x,y:datum(x,y)+.012+road_lift(x,y,1.6,.048)),
                     (M['sand'],horizon,lambda x,y:.012)], C['ground'], step=60))
     # Site assets share the datum; architecture stays rigid on level pads.
@@ -951,7 +1027,7 @@ def rebuild(M, C):
             gaps.append({'road':name,'misses':misses[:5]})
     overlap=sum(a.intersection(b).area for i,(_,a) in enumerate(partition) for _,b in partition[i+1:])
     cover=terrain.union(occupied).union(bed)
-    report={'phase':'A', 'datum':'ESTIMATED, no DEM; 0.08% longitudinal / 0.02% crossfall; level pads',
+    report={'phase':'A', 'datum':'V17 owner-supported descent direction; elevations ESTIMATED, no DEM; level building pads',
             'plot_area_m2':plot.area, 'road_area_m2':road.area, 'surface_overlap_m2':overlap,
             'plot_uncovered_m2':plot.difference(cover).area, 'centreline_gaps':gaps,
             'surface_regions':{m:round(g.area,3) for m,g in partition},
@@ -964,7 +1040,7 @@ def rebuild(M, C):
             'v9_road_edges':'soil graded flush with road surface at the edge (was 4.8 cm below), lawn/planting flush (was 2.8 cm), 1.6/1.2 m fade',
             'v9_apron_edge_restraint_m2':round(apron_edge.area,2),
             'all_topology_checks_pass':not gaps and overlap < .001 and plot.difference(cover).area < .001}
-    out=ROOT/'output/validation/v11'
+    out=ROOT/'output/build_metadata/v11'
     out.mkdir(parents=True,exist_ok=True)
     (out/'ground_topology.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     samples=[]

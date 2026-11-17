@@ -56,7 +56,7 @@ func follow_route(name: String, points: Array, start := true) -> void:
 
 func run_validation() -> void:
 	main._start_explore()
-	var data = JSON.parse_string(FileAccess.get_file_as_string("res://../../output/validation/v11/road_floor_samples.json"))
+	var data = JSON.parse_string(FileAccess.get_file_as_string("res://tests/fixtures/road_floor_samples.json"))
 	var gaps := []
 	var max_error := 0.
 	var edge_recoveries := 0
@@ -90,10 +90,10 @@ func run_validation() -> void:
 	check("all road centrelines have collision at source elevation",gaps.is_empty() and max_error < .04,
 		{"samples":data.size(),"gaps":gaps,"height_errors":height_errors,"max_error_m":max_error,"edge_recoveries_at_2cm":edge_recoveries})
 	if "--floors-only" in OS.get_cmdline_user_args():
-		save_json("res://../../output/validation/v11/ground_floor_probe.json",{"checks":results})
+		save_json("res://../../output/checks/ground_floor_probe.json",{"checks":results})
 		return
 	await follow_route("gate walkway and perimeter-loop transition",[Vector2(-19,-327),Vector2(-19,-310),Vector2(-16.3,-290),Vector2(-16.3,-270)])
 	await follow_route("approach paving",[Vector2(16.3,-220),Vector2(16.3,-200),Vector2(16.3,-180)])
 	await follow_route("academic connector",[Vector2(0,121),Vector2(0,145),Vector2(0,160)])
 	await follow_route("ring road grade",[Vector2(300.7,250),Vector2(301.2,240),Vector2(300.7,225)])
-	save_json("res://../../output/validation/v11/ground_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"])})
+	save_json("res://../../output/checks/ground_runtime.json",{"checks":results,"all_pass":results.all(func(r):return r["pass"])})

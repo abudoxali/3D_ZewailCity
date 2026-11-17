@@ -15,7 +15,7 @@ from shapely.geometry import Polygon, box
 from .geometry import MeshBuilder, get_collection, instance, parent_keep
 
 def public_ground_mask():
-    # Inner half-disc of the measured C-shaped footprint, central passage, rear axis.
+    # Estimated court fit within the dated mapped footprint, central passage and rear axis.
     arc=[(72.*math.cos(math.radians(a)),-249.+72.*math.sin(math.radians(a))) for a in range(180,361,3)]
     m=Polygon(arc).union(box(-5.5,-365.,5.5,-228.)).union(box(-17.8,-249.,17.8,-228.))
     # V10: paved floor under both stair flights (V9 left the right flight standing on
@@ -94,7 +94,8 @@ def build_spaces(M,C,A):
     mask=public_ground_mask()
     mb=MeshBuilder()
     # The source surface pass later cuts planters and foundations out of this paving.
-    from .v6_academic import paving_regions,polygon_prism,terrace_geometry
+    from .v6_academic import paving_regions,polygon_prism
+    from .v17_architecture import terraces as terrace_geometry
     for mat,g in paving_regions(mask,M):polygon_prism(mb,mat,g,-.1,.21)
     mb.to_object('Academic_Public_Paving',C['academic_court'])
     # V10 owner correction: the inner Academic courtyard has NO trees. The V5-V9

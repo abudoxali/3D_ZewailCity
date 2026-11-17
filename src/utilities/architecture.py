@@ -146,4 +146,4 @@ class Parts:
 
     def steps(self, e, s, w, n=4, rise=0.17, tread=0.4, z0=GROUND):
         for i in range(n):
-            self.shell.fbox(self.M['stone'], e, s, 0.0, tread * (n - i), w, z0, z0 + rise * (i + 1))
+            self.shell.fbox(self.M['plaza_grey'], e, s, 0.0, tread * (n - i), w, z0, z0 + rise * (i + 1))

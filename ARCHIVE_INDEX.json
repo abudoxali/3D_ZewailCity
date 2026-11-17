@@ -1,0 +1,9 @@
+{
+  "archive_root": "../_archive_zewail_old/20261111_FINAL_CLOSURE",
+  "original_project_and_v15": "../_archive_zewail_old/20261111_FINAL_CLOSURE/V15_rollback_and_project_history",
+  "v15_executable": "../_archive_zewail_old/20261111_FINAL_CLOSURE/V15_rollback_and_project_history/releases/ZewailCityExplorer_Windows_V15/ZewailCityExplorer.exe",
+  "original_v19_snapshot": "../_archive_zewail_old/20261111_FINAL_CLOSURE/V15_rollback_and_project_history/output/validation/v19",
+  "older_versions": "../_archive_zewail_old/20261109T112458Z",
+  "closure_evidence": "../_archive_zewail_old/20261111_FINAL_CLOSURE/closure_evidence",
+  "note": "External archival paths are historical provenance, never runtime/build dependencies. Git history remains in the active root."
+}

@@ -10,17 +10,20 @@ PBR=ROOT/'game/godot/assets/pbr'
 # (tools/v12_tone_targets.py). Claude V12 review: natural sand/soil/earth keep the V11
 # procedural surfaces (sand_01 read as grey cracked crust) and receive detail only.
 MAP={
- 'M_Asphalt':('asphalt_01',2.1,.5,1.),
+ 'M_Asphalt':('v16/asphalt_02',3.0,.30,.55),
+ 'M_Graded_Campus_Soil':('v16/gravelly_sand',2.48,.15,.42),
+ 'M_Compacted_Earth':('v16/gravelly_sand',2.48,.15,.42),
 }
 DETAIL={'M_Paver_Road_Grey':'concrete_pavement_03','M_V6_Garden_Pavers':'concrete_pavement_03','M_Paving_Limestone':'concrete_pavement_03','M_Paving_Light':'concrete_pavement_03','M_V6_Plaza_Grey':'concrete_pavement_03','M_V6_Plaza_Light':'concrete_pavement_03','M_Concrete_Curb':'concrete_pavement_03','M_V7_Paving_Edge_Restraint':'concrete_pavement_03','M_Grass_Lawn':'sparse_grass',
- 'M_Desert_Sand':'sand_01','M_Graded_Campus_Soil':'sand_01','M_Compacted_Earth':'sand_01','M_Planted_Soil_Sparse':'sparse_grass'}
-TONE_KEY={'M_Asphalt':'Asphalt'}
+ 'M_Desert_Sand':'sand_01','M_Graded_Campus_Soil':'v16/gravelly_sand','M_Compacted_Earth':'v16/gravelly_sand','M_Planted_Soil_Sparse':'sparse_grass'}
+DETAIL.pop('M_Graded_Campus_Soil');DETAIL.pop('M_Compacted_Earth')
+TONE_KEY={'M_Asphalt':'Asphalt','M_Graded_Campus_Soil':'Graded_Campus_Soil','M_Compacted_Earth':'Compacted_Earth'}
 def tones():
     p=PBR/'tone_targets.json'
     return json.loads(p.read_text()) if p.exists() else {}
 def image(asset,kind):
-    res={'paving_stones_125a':'2k'}.get(asset,'1k')
-    im=bpy.data.images.load(str(PBR/asset/f'{asset}_{kind}_{res}.jpg'),check_existing=True)
+    res='2k' if asset.startswith('v16/') else {'paving_stones_125a':'2k'}.get(asset,'1k')
+    im=bpy.data.images.load(str(PBR/asset/f'{asset.rsplit(chr(47),1)[-1]}_{kind}_{res}.jpg'),check_existing=True)
     im.colorspace_settings.name='sRGB' if kind=='diff' else 'Non-Color'
     return im
 def apply_materials():

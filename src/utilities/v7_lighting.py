@@ -14,6 +14,8 @@ import bpy
 
 # kind: (godot energy, range m, colour, spot?)  -- used by build_game_assets
 KINDS = {
+    'lobby_neutral': (5.5, 9.0, (1.0, .95, .84), True),
+    'lobby_warm': (2.4, 8.0, (1.0, .74, .38), True),
     'street': (2.2, 18.0, (1.0, 0.86, 0.66), False),
     'plaza': (1.6, 11.0, (1.0, 0.84, 0.62), False),
     'court_pole': (1.5, 11.0, (1.0, 0.86, 0.68), False),

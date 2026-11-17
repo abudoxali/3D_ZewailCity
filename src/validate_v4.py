@@ -1,10 +1,10 @@
-"""V4 photo-matched validation renders and comparisons -> output/validation/v4/.
+"""V4 photo-matched validation renders and comparisons -> output/build_metadata/v4/.
 
 Each reference photograph has a camera pose estimated from features whose position is
 known independently of the model (gate frame and circular bed from OSM/photo scale, the
 dome, the approach axis). The same camera is rendered from the V3 backup scene and the V4
 scene, so the comparison shows what changed, not a different viewpoint. No numerical
-"accuracy score" is produced; mismatches are recorded in output/validation/v4/PHOTO_MATCH_REPORT.md.
+"accuracy score" is produced; mismatches are recorded in output/build_metadata/v4/PHOTO_MATCH_REPORT.md.
 
 Usage (from the project root):
     blender -b <scene.blend> --python src/validate_v4.py -- --tag v4|v3 [--only C02,A02] [--samples 32] [--scale 0.5]

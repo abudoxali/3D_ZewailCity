@@ -12,8 +12,8 @@ extends Node
 ## screenshots: output/previews/godot/*.png
 
 ## --outdir selects a separate evidence directory; current default is V8.
-var OUT_VALID := "res://../../output/validation/v11/"
-var OUT_SHOTS := "res://../../output/validation/v11/game_captures/"
+var OUT_VALID := "res://../../output/checks/"
+var OUT_SHOTS := "res://../../output/checks/game_captures/"
 ## V4 main gate line in Godot coordinates (Blender y = 314.6 -> Godot z = -314.6).
 const GATE_Z := -314.6
 
@@ -28,7 +28,7 @@ func _ready() -> void:
 	capture_mode = "--capture" in OS.get_cmdline_user_args()
 	for a in OS.get_cmdline_user_args():
 		if a.begins_with("--outdir="):
-			OUT_VALID = "res://../../output/validation/" + a.get_slice("=", 1).trim_suffix("/") + "/"
+			OUT_VALID = "res://../../output/checks/" + a.get_slice("=", 1).trim_suffix("/") + "/"
 			OUT_SHOTS = OUT_VALID + "game_captures/"
 	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(OUT_VALID))
 	# V7: --uncapped removes vsync / FPS cap so GPU cost differences are measurable.
@@ -583,3 +583,17 @@ func _view_at(name: String, pos: Vector3, facing: Vector3, pitch: float, perf: D
 	await _settle(60)
 	_shot(name)
 	perf.views[name] = await _measure(240)
+
+
+# V18: the same estimated source datum as Blender; assertions remain in metres.
+func datum_at(x: float,z: float) -> float:
+	var profile: Array = [[-1800, 0], [-900, -1.55], [-660, -1.55], [-388, -1.55], [-359, -1.2], [-156, -1.2], [-111, 1.2], [42, 1.2], [300, 0], [345, 0], [1800, 0]]
+	var y := -z
+	for i in range(profile.size()-1):
+		var a: Array=profile[i]
+		var b: Array=profile[i+1]
+		if y>=a[0] and y<=b[0]:
+			var t: float=clampf((y-a[0])/(b[0]-a[0]),0.,1.)
+			t=t*t*(3.-2.*t)
+			return lerpf(a[1],b[1],t)
+	return 0.

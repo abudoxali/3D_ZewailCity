@@ -1,10 +1,10 @@
 extends Node
 func _ready():
     var report={"textures":[],"materials":[],"failures":[]}
-    var assets=["asphalt_01","concrete_pavement_03","sand_01","sparse_grass","beige_wall_001"]
+    var assets=["v16/asphalt_02","v16/gravelly_sand","concrete_pavement_03","sand_01","sparse_grass","beige_wall_001","dirt"]
     for asset in assets:
         for kind in ["diff","nor_gl","rough"]:
-            var path="res://assets/pbr/%s/%s_%s_%s" % [asset,asset,kind,"2k.jpg" if asset=="paving_stones_125a" else "1k.jpg"]
+            var path="res://assets/pbr/%s/%s_%s_%s" % [asset,asset.get_file(),kind,"2k.jpg" if asset.begins_with("v16/") or asset=="dirt" else "1k.jpg"]
             var tex=load(path) as Texture2D
             if tex==null:
                 report.failures.append("Missing "+path)
@@ -28,7 +28,7 @@ func _ready():
     report["renderer"]=RenderingServer.get_video_adapter_name()
     report["anisotropy_enum"]=ProjectSettings.get_setting("rendering/textures/default_filters/anisotropic_filtering_level")
     report["source_of_normals"]="Provider OpenGL +Y maps; source_color on diffuse only; world projection derivative frame; +Z reconstructed for BC5"
-    var f=FileAccess.open("res://../../output/v12_material_diagnostics.json",FileAccess.WRITE)
+    var f=FileAccess.open("res://../../output/checks/material_diagnostics.json",FileAccess.WRITE)
     f.store_string(JSON.stringify(report,"  "));f.close()
-    print("[V12 materials] ",report.textures.size()," maps; ",report.materials.size()," material mappings; ",report.failures.size()," failures")
+    print("[V16 materials] ",report.textures.size()," maps; ",report.materials.size()," material mappings; ",report.failures.size()," failures")
     get_tree().quit(0 if report.failures.is_empty() else 1)

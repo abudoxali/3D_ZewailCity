@@ -23,6 +23,6 @@ def build(scene,coll):
         cam.location=loc;cam.rotation_euler=(Vector(tgt)-Vector(loc)).to_track_quat('-Z','Y').to_euler()
         cd.lens=lens;cd.sensor_fit='HORIZONTAL';cd.sensor_width=36.;cd.clip_start=.1;cd.clip_end=5000
         cam['zc_photo_id']=key;cam['zc_camera_fit']='APPROXIMATE / NOT CALIBRATED';cam['zc_assumptions']=note
-    out=Path(__file__).resolve().parents[2]/'output/validation/v11'
+    out=Path(__file__).resolve().parents[2]/'output/build_metadata/v11'
     out.mkdir(parents=True,exist_ok=True)
     (out/'reference_cameras.json').write_text(json.dumps({k:{'filename':v[0],'location':v[1],'target':v[2],'lens_mm':v[3],'resolution':v[4],'fit':'APPROXIMATE, NOT A CALIBRATED PHOTO MATCH','assumptions':v[5]} for k,v in PHOTOS.items()},indent=2))

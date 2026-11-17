@@ -193,7 +193,7 @@ const TEXT := {
 	"source.Approach walkway": ["ممشى المدخل", "Approach walkway"],
 	"source.P15: deep stone portal and public passage": ["المدخل الحجري والممر العام", "P15: deep stone portal and public passage"],
 	"source.P13: court walkway, dark granite risers, platform poles and curved glazing": ["ممشى الفناء والسلالم الجرانيتية والزجاج المنحني", "P13: court walkway, dark granite risers, platform poles and curved glazing"],
-	"source.V11 great stair to the upper terrace: 28 estimated 150 mm risers, 12.5 m wide, metal rails": ["السلم الكبير إلى الشرفة العلوية — 28 درجة تقديرية، عرض 12.5 م، درابزين معدني", "V11 great stair to the upper terrace: 28 estimated 150 mm risers, 12.5 m wide, metal rails"],
+	"source.V11 great stair to the upper terrace: 28 estimated 150 mm risers, 10.5 m wide, metal rails": ["السلم الكبير إلى الشرفة العلوية — 28 درجة تقديرية، عرض 10.5 م، درابزين معدني", "V11 great stair to the upper terrace: 28 estimated 150 mm risers, 10.5 m wide, metal rails"],
 	"source.Rear passage to the rear open area (owner 09) | rear sandy ground": ["الممر الخلفي إلى الساحة الخلفية؛ أرض رملية خلفية", "Rear passage to the rear open area (owner 09) | rear sandy ground"],
 	"source.Left-side gate B — provisional marker, not verified architecture": ["البوابة اليسرى B — موقع وشكل تقديريان", "Left-side gate B — provisional marker, not verified architecture"],
 	"source.Main gate: stone portal, lane and pedestrian gates, graded apron": ["البوابة الرئيسية ومداخل المركبات والمشاة", "Main gate: stone portal, lane and pedestrian gates, graded apron"],

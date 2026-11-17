@@ -1,0 +1,1094 @@
+{
+  "Diffuse": {
+    "8k": {
+      "jpg": {
+        "size": 14591802,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_diff_8k.jpg",
+        "md5": "7572d99b918864f68a19353ef08a43cf"
+      },
+      "png": {
+        "size": 223000650,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_diff_8k.png",
+        "md5": "0e6646822a759f84eb39fcc2509d6875"
+      },
+      "exr": {
+        "size": 37499885,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_diff_8k.exr",
+        "md5": "3add28315b9a36ae9968ca5a798512b8"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4023208,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_diff_4k.jpg",
+        "md5": "3b5f6c18b9d1291364e7f0c0ad57fe2f"
+      },
+      "png": {
+        "size": 33028639,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_diff_4k.png",
+        "md5": "b4f5088a185a60b405a74a2d35338c62"
+      },
+      "exr": {
+        "size": 8662243,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_diff_4k.exr",
+        "md5": "de906a9bc2a120135f6715a943d48a96"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1313843,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_diff_2k.jpg",
+        "md5": "a3d2044b892b3b7bdd6fe87685908860"
+      },
+      "png": {
+        "size": 9056235,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_diff_2k.png",
+        "md5": "f0fc34993e5e82169653ed8a127d05f4"
+      },
+      "exr": {
+        "size": 2865299,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_diff_2k.exr",
+        "md5": "2a10ca2c701a8d147fa3d1dd926ab686"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 435784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+        "md5": "617b04076469b00d231225d565f520f4"
+      },
+      "png": {
+        "size": 2454063,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_diff_1k.png",
+        "md5": "6af7dc5e7b512547d812521771ea8096"
+      },
+      "exr": {
+        "size": 997129,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_diff_1k.exr",
+        "md5": "d7baec378fa9bbae0f52f65aa887053b"
+      }
+    }
+  },
+  "nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 31263280,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_nor_dx_8k.jpg",
+        "md5": "1d725887be34f4cee2b65af1a3533748"
+      },
+      "png": {
+        "size": 171805873,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_nor_dx_8k.png",
+        "md5": "4044031a9272df12e5594c7c2e89df77"
+      },
+      "exr": {
+        "size": 61885339,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_nor_dx_8k.exr",
+        "md5": "ba885cc19e4c191bd567dd6ef6556228"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 9574526,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_nor_dx_4k.jpg",
+        "md5": "0434ee9a3faa92f19fc7259392d97346"
+      },
+      "png": {
+        "size": 53471192,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_nor_dx_4k.png",
+        "md5": "3ade73471f1c390fefba0f0fa1527063"
+      },
+      "exr": {
+        "size": 19229585,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_nor_dx_4k.exr",
+        "md5": "533806ac403f0d66688e6c45ba7df000"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2957961,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_nor_dx_2k.jpg",
+        "md5": "3fc43833d70343101446d780e0841c84"
+      },
+      "png": {
+        "size": 16770765,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_nor_dx_2k.png",
+        "md5": "bfd0dc67b1c905098c5b4c0552d9d9f3"
+      },
+      "exr": {
+        "size": 6196897,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_nor_dx_2k.exr",
+        "md5": "692ea0a8557bba771b0cf3ddef254287"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 866094,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_nor_dx_1k.jpg",
+        "md5": "c5dd3f63b75c433ac935733b6bdfa323"
+      },
+      "png": {
+        "size": 4688474,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_nor_dx_1k.png",
+        "md5": "ba97e00ac46493f92f1f86dd0f7296b6"
+      },
+      "exr": {
+        "size": 1853176,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_nor_dx_1k.exr",
+        "md5": "1be17c5b204fc1a2b6b98d6d8fbe4b54"
+      }
+    }
+  },
+  "nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 31081574,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_nor_gl_8k.jpg",
+        "md5": "a5ab0039e7945c6451c4cf00dae26c5d"
+      },
+      "png": {
+        "size": 171808705,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_nor_gl_8k.png",
+        "md5": "032258288492ed4624c3a872d58e2998"
+      },
+      "exr": {
+        "size": 63305345,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_nor_gl_8k.exr",
+        "md5": "ee201232868f5efbe3f62978132070ff"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 9676493,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_nor_gl_4k.jpg",
+        "md5": "8126f04e04e991f0e949508c7284626d"
+      },
+      "png": {
+        "size": 53473992,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_nor_gl_4k.png",
+        "md5": "b64a743da90e13ff1b92f9febe6cd0a9"
+      },
+      "exr": {
+        "size": 19530410,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_nor_gl_4k.exr",
+        "md5": "8ae452ba270cbed3b1a19b19bbc8eb5d"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2997513,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_nor_gl_2k.jpg",
+        "md5": "9458c93f6e49ea49400ad90c0c3b78ce"
+      },
+      "png": {
+        "size": 16771072,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_nor_gl_2k.png",
+        "md5": "b1843097577e344ad17f390b5ee1ca37"
+      },
+      "exr": {
+        "size": 6268163,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_nor_gl_2k.exr",
+        "md5": "3bf49d2685ea5649bec24bb0b6f368d6"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 874324,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_nor_gl_1k.jpg",
+        "md5": "072dc75b84857662454cdcac932e4732"
+      },
+      "png": {
+        "size": 4690467,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_nor_gl_1k.png",
+        "md5": "193bf18a4b19108f8f18d54ca48139ce"
+      },
+      "exr": {
+        "size": 1871003,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_nor_gl_1k.exr",
+        "md5": "aaab20832dfa65e357da6a4b8210f731"
+      }
+    }
+  },
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/flower_gazania_nor_gl_8k.exr": {
+            "size": 63305345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_nor_gl_8k.exr",
+            "md5": "ee201232868f5efbe3f62978132070ff"
+          },
+          "textures/flower_gazania_diff_8k.jpg": {
+            "size": 14591802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_diff_8k.jpg",
+            "md5": "7572d99b918864f68a19353ef08a43cf"
+          },
+          "textures/flower_gazania_disp_8k.png": {
+            "size": 41009706,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_disp_8k.png",
+            "md5": "2b04c4747f0544aa523d85aecdb3d181"
+          },
+          "textures/flower_gazania_rough_8k.exr": {
+            "size": 15872056,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_rough_8k.exr",
+            "md5": "10b5b95324ca13e4ead21981d23cf13a"
+          },
+          "textures/flower_gazania_alpha_8k.png": {
+            "size": 2583344,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_alpha_8k.png",
+            "md5": "7696d15a55bfe3c451e1f1116b2e6970"
+          }
+        },
+        "size": 839069,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/flower_gazania/flower_gazania_8k.blend",
+        "md5": "965baf1a41ea20c740e877fd040d7a5d"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/flower_gazania_diff_4k.jpg": {
+            "size": 4023208,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_diff_4k.jpg",
+            "md5": "3b5f6c18b9d1291364e7f0c0ad57fe2f"
+          },
+          "textures/flower_gazania_disp_4k.png": {
+            "size": 14769521,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_disp_4k.png",
+            "md5": "7da658b823a13cc21bcfa335de4d6173"
+          },
+          "textures/flower_gazania_rough_4k.exr": {
+            "size": 4664272,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_rough_4k.exr",
+            "md5": "c9d205e86b04799c07138f3afcc62a78"
+          },
+          "textures/flower_gazania_nor_gl_4k.exr": {
+            "size": 19530410,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_nor_gl_4k.exr",
+            "md5": "8ae452ba270cbed3b1a19b19bbc8eb5d"
+          },
+          "textures/flower_gazania_alpha_4k.png": {
+            "size": 761415,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_alpha_4k.png",
+            "md5": "93f0f8d1a1d5880a5f04ff1a9f2eef8f"
+          }
+        },
+        "size": 839323,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/flower_gazania/flower_gazania_4k.blend",
+        "md5": "79b93a063b4b7961d9f8a5c9be328205"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/flower_gazania_alpha_2k.png": {
+            "size": 281216,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_alpha_2k.png",
+            "md5": "a248ffec47deeb49ce6e97911cc0fbae"
+          },
+          "textures/flower_gazania_diff_2k.jpg": {
+            "size": 1313843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_diff_2k.jpg",
+            "md5": "a3d2044b892b3b7bdd6fe87685908860"
+          },
+          "textures/flower_gazania_nor_gl_2k.exr": {
+            "size": 6268163,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_nor_gl_2k.exr",
+            "md5": "3bf49d2685ea5649bec24bb0b6f368d6"
+          },
+          "textures/flower_gazania_disp_2k.png": {
+            "size": 4508264,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_disp_2k.png",
+            "md5": "4451fbf3968082cad0db3bb48a236f7e"
+          },
+          "textures/flower_gazania_rough_2k.exr": {
+            "size": 1521094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_rough_2k.exr",
+            "md5": "cbc8896142e6558e14831980c7c99bb8"
+          }
+        },
+        "size": 839183,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/flower_gazania/flower_gazania_2k.blend",
+        "md5": "b77cdfeddce67c44b076a37e7a2ea75a"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/flower_gazania_disp_1k.png": {
+            "size": 1395527,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_disp_1k.png",
+            "md5": "de650f8a08b11c58694145fde097c8a7"
+          },
+          "textures/flower_gazania_alpha_1k.png": {
+            "size": 110222,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_alpha_1k.png",
+            "md5": "72a02f7f5a2c73e5d61e8f0b22fb3473"
+          },
+          "textures/flower_gazania_nor_gl_1k.exr": {
+            "size": 1871003,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_nor_gl_1k.exr",
+            "md5": "aaab20832dfa65e357da6a4b8210f731"
+          },
+          "textures/flower_gazania_diff_1k.jpg": {
+            "size": 435784,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+            "md5": "617b04076469b00d231225d565f520f4"
+          },
+          "textures/flower_gazania_rough_1k.exr": {
+            "size": 499753,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_rough_1k.exr",
+            "md5": "5476ea1b87959b5ea472a23eae9e475e"
+          }
+        },
+        "size": 838903,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/flower_gazania/flower_gazania_1k.blend",
+        "md5": "b0585cdb57a9e6e0ff5c556938774dee"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "flower_gazania.bin": {
+            "size": 848136,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+            "md5": "2ce0f3360d107e2567f8ff47d8fe0d1d"
+          },
+          "textures/flower_gazania_nor_gl_8k.jpg": {
+            "size": 31081574,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_nor_gl_8k.jpg",
+            "md5": "a5ab0039e7945c6451c4cf00dae26c5d"
+          },
+          "textures/flower_gazania_diff_8k.jpg": {
+            "size": 14591802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_diff_8k.jpg",
+            "md5": "7572d99b918864f68a19353ef08a43cf"
+          },
+          "textures/flower_gazania_arm_8k.jpg": {
+            "size": 26846722,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_arm_8k.jpg",
+            "md5": "a80a7e2c8987aec2722b2209824430df"
+          }
+        },
+        "size": 19686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania_8k.gltf",
+        "md5": "ccbce1a49ab934b47000bfd6bd01bd06"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "flower_gazania.bin": {
+            "size": 848136,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+            "md5": "2ce0f3360d107e2567f8ff47d8fe0d1d"
+          },
+          "textures/flower_gazania_diff_4k.jpg": {
+            "size": 4023208,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_diff_4k.jpg",
+            "md5": "3b5f6c18b9d1291364e7f0c0ad57fe2f"
+          },
+          "textures/flower_gazania_nor_gl_4k.jpg": {
+            "size": 9676493,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_nor_gl_4k.jpg",
+            "md5": "8126f04e04e991f0e949508c7284626d"
+          },
+          "textures/flower_gazania_arm_4k.jpg": {
+            "size": 7677179,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_arm_4k.jpg",
+            "md5": "eafad7b96a47a7a14b3ffe8cdfbee7f6"
+          }
+        },
+        "size": 19686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/flower_gazania/flower_gazania_4k.gltf",
+        "md5": "28a2f0df5d17564ae64b221f7d29df5e"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/flower_gazania_diff_2k.jpg": {
+            "size": 1313843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_diff_2k.jpg",
+            "md5": "a3d2044b892b3b7bdd6fe87685908860"
+          },
+          "flower_gazania.bin": {
+            "size": 848136,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+            "md5": "2ce0f3360d107e2567f8ff47d8fe0d1d"
+          },
+          "textures/flower_gazania_arm_2k.jpg": {
+            "size": 2297432,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_arm_2k.jpg",
+            "md5": "63dc26605741344f120b2832d883bac6"
+          },
+          "textures/flower_gazania_nor_gl_2k.jpg": {
+            "size": 2997513,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_nor_gl_2k.jpg",
+            "md5": "9458c93f6e49ea49400ad90c0c3b78ce"
+          }
+        },
+        "size": 19686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/flower_gazania/flower_gazania_2k.gltf",
+        "md5": "d08ead93d7084320f3ebc4368f441d40"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "flower_gazania.bin": {
+            "size": 848136,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+            "md5": "2ce0f3360d107e2567f8ff47d8fe0d1d"
+          },
+          "textures/flower_gazania_nor_gl_1k.jpg": {
+            "size": 874324,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_nor_gl_1k.jpg",
+            "md5": "072dc75b84857662454cdcac932e4732"
+          },
+          "textures/flower_gazania_diff_1k.jpg": {
+            "size": 435784,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+            "md5": "617b04076469b00d231225d565f520f4"
+          },
+          "textures/flower_gazania_arm_1k.jpg": {
+            "size": 670914,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_arm_1k.jpg",
+            "md5": "7ccebc1c751aa6a012867583e5380f0c"
+          }
+        },
+        "size": 19686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/flower_gazania/flower_gazania_1k.gltf",
+        "md5": "78053547581103a0630049ab073e93bd"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/flower_gazania_nor_gl_8k.exr": {
+            "size": 63305345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_nor_gl_8k.exr",
+            "md5": "ee201232868f5efbe3f62978132070ff"
+          },
+          "textures/flower_gazania_diff_8k.jpg": {
+            "size": 14591802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_diff_8k.jpg",
+            "md5": "7572d99b918864f68a19353ef08a43cf"
+          },
+          "textures/flower_gazania_disp_8k.png": {
+            "size": 41009706,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_disp_8k.png",
+            "md5": "2b04c4747f0544aa523d85aecdb3d181"
+          },
+          "textures/flower_gazania_rough_8k.exr": {
+            "size": 15872056,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_rough_8k.exr",
+            "md5": "10b5b95324ca13e4ead21981d23cf13a"
+          },
+          "textures/flower_gazania_alpha_8k.png": {
+            "size": 2583344,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_alpha_8k.png",
+            "md5": "7696d15a55bfe3c451e1f1116b2e6970"
+          }
+        },
+        "size": 1208519,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/flower_gazania/flower_gazania_8k.usdc",
+        "md5": "46773f025ec10bc616fd630724e2ed20"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/flower_gazania_diff_4k.jpg": {
+            "size": 4023208,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_diff_4k.jpg",
+            "md5": "3b5f6c18b9d1291364e7f0c0ad57fe2f"
+          },
+          "textures/flower_gazania_disp_4k.png": {
+            "size": 14769521,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_disp_4k.png",
+            "md5": "7da658b823a13cc21bcfa335de4d6173"
+          },
+          "textures/flower_gazania_rough_4k.exr": {
+            "size": 4664272,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_rough_4k.exr",
+            "md5": "c9d205e86b04799c07138f3afcc62a78"
+          },
+          "textures/flower_gazania_nor_gl_4k.exr": {
+            "size": 19530410,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_nor_gl_4k.exr",
+            "md5": "8ae452ba270cbed3b1a19b19bbc8eb5d"
+          },
+          "textures/flower_gazania_alpha_4k.png": {
+            "size": 761415,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_alpha_4k.png",
+            "md5": "93f0f8d1a1d5880a5f04ff1a9f2eef8f"
+          }
+        },
+        "size": 1208503,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/flower_gazania/flower_gazania_4k.usdc",
+        "md5": "88f87d66edc7cc2b7cb41e9108e85165"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/flower_gazania_alpha_2k.png": {
+            "size": 281216,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_alpha_2k.png",
+            "md5": "a248ffec47deeb49ce6e97911cc0fbae"
+          },
+          "textures/flower_gazania_diff_2k.jpg": {
+            "size": 1313843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_diff_2k.jpg",
+            "md5": "a3d2044b892b3b7bdd6fe87685908860"
+          },
+          "textures/flower_gazania_nor_gl_2k.exr": {
+            "size": 6268163,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_nor_gl_2k.exr",
+            "md5": "3bf49d2685ea5649bec24bb0b6f368d6"
+          },
+          "textures/flower_gazania_disp_2k.png": {
+            "size": 4508264,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_disp_2k.png",
+            "md5": "4451fbf3968082cad0db3bb48a236f7e"
+          },
+          "textures/flower_gazania_rough_2k.exr": {
+            "size": 1521094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_rough_2k.exr",
+            "md5": "cbc8896142e6558e14831980c7c99bb8"
+          }
+        },
+        "size": 1208503,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/flower_gazania/flower_gazania_2k.usdc",
+        "md5": "4ce3117c2390881aa63e9a707b5815a3"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/flower_gazania_disp_1k.png": {
+            "size": 1395527,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_disp_1k.png",
+            "md5": "de650f8a08b11c58694145fde097c8a7"
+          },
+          "textures/flower_gazania_alpha_1k.png": {
+            "size": 110222,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_alpha_1k.png",
+            "md5": "72a02f7f5a2c73e5d61e8f0b22fb3473"
+          },
+          "textures/flower_gazania_nor_gl_1k.exr": {
+            "size": 1871003,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_nor_gl_1k.exr",
+            "md5": "aaab20832dfa65e357da6a4b8210f731"
+          },
+          "textures/flower_gazania_diff_1k.jpg": {
+            "size": 435784,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+            "md5": "617b04076469b00d231225d565f520f4"
+          },
+          "textures/flower_gazania_rough_1k.exr": {
+            "size": 499753,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_rough_1k.exr",
+            "md5": "5476ea1b87959b5ea472a23eae9e475e"
+          }
+        },
+        "size": 1208538,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/flower_gazania/flower_gazania_1k.usdc",
+        "md5": "760cb6250ab5384cfaee08be34f77fd0"
+      }
+    }
+  },
+  "Alpha": {
+    "8k": {
+      "jpg": {
+        "size": 2477563,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_alpha_8k.jpg",
+        "md5": "fe483c7c5d86dfd54b354cf707187225"
+      },
+      "png": {
+        "size": 2583344,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_alpha_8k.png",
+        "md5": "7696d15a55bfe3c451e1f1116b2e6970"
+      },
+      "exr": {
+        "size": 2751014,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_alpha_8k.exr",
+        "md5": "bc0c9c9da55502ab6798598719eb97ea"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1066854,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_alpha_4k.jpg",
+        "md5": "5549b69696f45d35b017ba6fec4cd1b9"
+      },
+      "png": {
+        "size": 761415,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_alpha_4k.png",
+        "md5": "93f0f8d1a1d5880a5f04ff1a9f2eef8f"
+      },
+      "exr": {
+        "size": 1264627,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_alpha_4k.exr",
+        "md5": "c9909ef7356d1910262bcb520ffdfd45"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 485332,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_alpha_2k.jpg",
+        "md5": "f896d0e66d1b4a5ee583f17c28a56b8e"
+      },
+      "png": {
+        "size": 281216,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_alpha_2k.png",
+        "md5": "a248ffec47deeb49ce6e97911cc0fbae"
+      },
+      "exr": {
+        "size": 603141,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_alpha_2k.exr",
+        "md5": "993154836650a62d942c5bc00a774532"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 220142,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_alpha_1k.jpg",
+        "md5": "c1569a5cacaf1210e49ab61f8a8bd4da"
+      },
+      "png": {
+        "size": 110222,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_alpha_1k.png",
+        "md5": "72a02f7f5a2c73e5d61e8f0b22fb3473"
+      },
+      "exr": {
+        "size": 285088,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_alpha_1k.exr",
+        "md5": "7e22797dd3fcfebba5b2911167ebc684"
+      }
+    }
+  },
+  "arm": {
+    "8k": {
+      "jpg": {
+        "size": 26846722,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_arm_8k.jpg",
+        "md5": "a80a7e2c8987aec2722b2209824430df"
+      },
+      "png": {
+        "size": 54137580,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_arm_8k.png",
+        "md5": "a1adea79977ac3a6a8f4e7373cadee96"
+      },
+      "exr": {
+        "size": 44550300,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_arm_8k.exr",
+        "md5": "ed10de9f76e0f42e56d8a527fb40d1bc"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 7677179,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_arm_4k.jpg",
+        "md5": "eafad7b96a47a7a14b3ffe8cdfbee7f6"
+      },
+      "png": {
+        "size": 29835726,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_arm_4k.png",
+        "md5": "4e30d3cbf4598515700d2a9542bac212"
+      },
+      "exr": {
+        "size": 12562897,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_arm_4k.exr",
+        "md5": "5cbb39f710520577c8fde51cfa856dac"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2297432,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_arm_2k.jpg",
+        "md5": "63dc26605741344f120b2832d883bac6"
+      },
+      "png": {
+        "size": 11380160,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_arm_2k.png",
+        "md5": "7b8c25e716a023588698a61c99616d0d"
+      },
+      "exr": {
+        "size": 4055731,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_arm_2k.exr",
+        "md5": "288ae760eddb16111f1a1ba62d8211e1"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 670914,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_arm_1k.jpg",
+        "md5": "7ccebc1c751aa6a012867583e5380f0c"
+      },
+      "png": {
+        "size": 3496283,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_arm_1k.png",
+        "md5": "a0f7f24c7dd463066456c39b3c10834d"
+      },
+      "exr": {
+        "size": 1272488,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_arm_1k.exr",
+        "md5": "ad6e1cb5cd65a227d937d75964b18779"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/flower_gazania_nor_gl_8k.exr": {
+            "size": 63305345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_nor_gl_8k.exr",
+            "md5": "ee201232868f5efbe3f62978132070ff"
+          },
+          "textures/flower_gazania_diff_8k.jpg": {
+            "size": 14591802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_diff_8k.jpg",
+            "md5": "7572d99b918864f68a19353ef08a43cf"
+          },
+          "textures/flower_gazania_disp_8k.png": {
+            "size": 41009706,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_disp_8k.png",
+            "md5": "2b04c4747f0544aa523d85aecdb3d181"
+          },
+          "textures/flower_gazania_rough_8k.exr": {
+            "size": 15872056,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_rough_8k.exr",
+            "md5": "10b5b95324ca13e4ead21981d23cf13a"
+          },
+          "textures/flower_gazania_alpha_8k.png": {
+            "size": 2583344,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_alpha_8k.png",
+            "md5": "7696d15a55bfe3c451e1f1116b2e6970"
+          }
+        },
+        "size": 1047180,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/flower_gazania/flower_gazania_8k.fbx",
+        "md5": "1d0b5e3f5a50893484c6dc1ec75e22cf"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/flower_gazania_diff_4k.jpg": {
+            "size": 4023208,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_diff_4k.jpg",
+            "md5": "3b5f6c18b9d1291364e7f0c0ad57fe2f"
+          },
+          "textures/flower_gazania_disp_4k.png": {
+            "size": 14769521,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_disp_4k.png",
+            "md5": "7da658b823a13cc21bcfa335de4d6173"
+          },
+          "textures/flower_gazania_rough_4k.exr": {
+            "size": 4664272,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_rough_4k.exr",
+            "md5": "c9d205e86b04799c07138f3afcc62a78"
+          },
+          "textures/flower_gazania_nor_gl_4k.exr": {
+            "size": 19530410,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_nor_gl_4k.exr",
+            "md5": "8ae452ba270cbed3b1a19b19bbc8eb5d"
+          },
+          "textures/flower_gazania_alpha_4k.png": {
+            "size": 761415,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_alpha_4k.png",
+            "md5": "93f0f8d1a1d5880a5f04ff1a9f2eef8f"
+          }
+        },
+        "size": 1047180,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/flower_gazania/flower_gazania_4k.fbx",
+        "md5": "a6fc2de734b217bf9a7a5da4ede389ee"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/flower_gazania_alpha_2k.png": {
+            "size": 281216,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_alpha_2k.png",
+            "md5": "a248ffec47deeb49ce6e97911cc0fbae"
+          },
+          "textures/flower_gazania_diff_2k.jpg": {
+            "size": 1313843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_diff_2k.jpg",
+            "md5": "a3d2044b892b3b7bdd6fe87685908860"
+          },
+          "textures/flower_gazania_nor_gl_2k.exr": {
+            "size": 6268163,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_nor_gl_2k.exr",
+            "md5": "3bf49d2685ea5649bec24bb0b6f368d6"
+          },
+          "textures/flower_gazania_disp_2k.png": {
+            "size": 4508264,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_disp_2k.png",
+            "md5": "4451fbf3968082cad0db3bb48a236f7e"
+          },
+          "textures/flower_gazania_rough_2k.exr": {
+            "size": 1521094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_rough_2k.exr",
+            "md5": "cbc8896142e6558e14831980c7c99bb8"
+          }
+        },
+        "size": 1047180,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/flower_gazania/flower_gazania_2k.fbx",
+        "md5": "1da7857debccae53e48cd989cd379509"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/flower_gazania_disp_1k.png": {
+            "size": 1395527,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_disp_1k.png",
+            "md5": "de650f8a08b11c58694145fde097c8a7"
+          },
+          "textures/flower_gazania_alpha_1k.png": {
+            "size": 110222,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_alpha_1k.png",
+            "md5": "72a02f7f5a2c73e5d61e8f0b22fb3473"
+          },
+          "textures/flower_gazania_nor_gl_1k.exr": {
+            "size": 1871003,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_nor_gl_1k.exr",
+            "md5": "aaab20832dfa65e357da6a4b8210f731"
+          },
+          "textures/flower_gazania_diff_1k.jpg": {
+            "size": 435784,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+            "md5": "617b04076469b00d231225d565f520f4"
+          },
+          "textures/flower_gazania_rough_1k.exr": {
+            "size": 499753,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_rough_1k.exr",
+            "md5": "5476ea1b87959b5ea472a23eae9e475e"
+          }
+        },
+        "size": 1047180,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/flower_gazania/flower_gazania_1k.fbx",
+        "md5": "907ae0d9e8859fcc505fb2c4b7e4b876"
+      }
+    }
+  },
+  "AO": {
+    "8k": {
+      "jpg": {
+        "size": 26867428,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_ao_8k.jpg",
+        "md5": "481e00504fe8b9f736be8af50b478862"
+      },
+      "png": {
+        "size": 29228465,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_ao_8k.png",
+        "md5": "4f0708c71ed625ae2b0e78f68fdc062e"
+      },
+      "exr": {
+        "size": 26475113,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_ao_8k.exr",
+        "md5": "b12a83bb4ef1a020329bc40308f94f73"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 7251569,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_ao_4k.jpg",
+        "md5": "7e3638b369234133e02fc4de61a3b1b1"
+      },
+      "png": {
+        "size": 14002785,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_ao_4k.png",
+        "md5": "8a5dc8d2787ad70a5a61bcadb938b1c8"
+      },
+      "exr": {
+        "size": 6963467,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_ao_4k.exr",
+        "md5": "cba7d1c84e610eefa6668ecbc4f269b1"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2073824,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_ao_2k.jpg",
+        "md5": "4d19ad03eb093d4424d834fa9970a039"
+      },
+      "png": {
+        "size": 5071032,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_ao_2k.png",
+        "md5": "bc96431c16718c20a91beffc1c9c74b8"
+      },
+      "exr": {
+        "size": 2067420,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_ao_2k.exr",
+        "md5": "82a3e211e193410e7cae6497a2fc63fe"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 582007,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_ao_1k.jpg",
+        "md5": "935e08ef80532299b431f36dc860415c"
+      },
+      "png": {
+        "size": 1562274,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_ao_1k.png",
+        "md5": "b9a6f5f15562989e105d04d56e4ce607"
+      },
+      "exr": {
+        "size": 601380,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_ao_1k.exr",
+        "md5": "a9e5b4bf814866ef8323372f83268390"
+      }
+    }
+  },
+  "Displacement": {
+    "8k": {
+      "jpg": {
+        "size": 7122539,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_disp_8k.jpg",
+        "md5": "75eccd5884be32c2224ff60cc37899d8"
+      },
+      "png": {
+        "size": 41009706,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_disp_8k.png",
+        "md5": "2b04c4747f0544aa523d85aecdb3d181"
+      },
+      "exr": {
+        "size": 6388067,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_disp_8k.exr",
+        "md5": "afe2700b1941af82371f81c5281dad85"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 2344753,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_disp_4k.jpg",
+        "md5": "36cb3b95bb2643e1d53e0b850bed0fad"
+      },
+      "png": {
+        "size": 14769521,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_disp_4k.png",
+        "md5": "7da658b823a13cc21bcfa335de4d6173"
+      },
+      "exr": {
+        "size": 2338364,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_disp_4k.exr",
+        "md5": "c91444ca253ffd5082358d8c5e2920b7"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 784670,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_disp_2k.jpg",
+        "md5": "6644aabc9dc7b57ba33f18ae6ab5faff"
+      },
+      "png": {
+        "size": 4508264,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_disp_2k.png",
+        "md5": "4451fbf3968082cad0db3bb48a236f7e"
+      },
+      "exr": {
+        "size": 865134,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_disp_2k.exr",
+        "md5": "69edeabba92376b94f57cb78747278d5"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 271144,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_disp_1k.jpg",
+        "md5": "286bb4f5988ed3f8b86bb336b3a61131"
+      },
+      "png": {
+        "size": 1395527,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_disp_1k.png",
+        "md5": "de650f8a08b11c58694145fde097c8a7"
+      },
+      "exr": {
+        "size": 321001,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_disp_1k.exr",
+        "md5": "c8eaaa1fa879888a5931d2e9c7508e28"
+      }
+    }
+  },
+  "Rough": {
+    "8k": {
+      "jpg": {
+        "size": 14810097,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/flower_gazania/flower_gazania_rough_8k.jpg",
+        "md5": "ad00f436b5d7111461982f141f10277e"
+      },
+      "png": {
+        "size": 16852127,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/flower_gazania/flower_gazania_rough_8k.png",
+        "md5": "96b790bc5463c05ac9e038e7e610dfda"
+      },
+      "exr": {
+        "size": 15872056,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/flower_gazania/flower_gazania_rough_8k.exr",
+        "md5": "10b5b95324ca13e4ead21981d23cf13a"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4311284,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/flower_gazania/flower_gazania_rough_4k.jpg",
+        "md5": "ffcc68506b9b8c9dfe83e0e571832bc9"
+      },
+      "png": {
+        "size": 11225459,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/flower_gazania/flower_gazania_rough_4k.png",
+        "md5": "56d4eac8acf463fa88c12c452080f078"
+      },
+      "exr": {
+        "size": 4664272,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/flower_gazania/flower_gazania_rough_4k.exr",
+        "md5": "c9d205e86b04799c07138f3afcc62a78"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1365416,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_rough_2k.jpg",
+        "md5": "c2bec178851ca3db279b27079919870f"
+      },
+      "png": {
+        "size": 4520300,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/flower_gazania/flower_gazania_rough_2k.png",
+        "md5": "1ea083f5b33635224ccbe08ce432338d"
+      },
+      "exr": {
+        "size": 1521094,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/flower_gazania/flower_gazania_rough_2k.exr",
+        "md5": "cbc8896142e6558e14831980c7c99bb8"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 424068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_rough_1k.jpg",
+        "md5": "6120313e7f186941c29510bebe58b038"
+      },
+      "png": {
+        "size": 1455583,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_rough_1k.png",
+        "md5": "89be28af749887eca9196e162e2e64ec"
+      },
+      "exr": {
+        "size": 499753,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/flower_gazania/flower_gazania_rough_1k.exr",
+        "md5": "5476ea1b87959b5ea472a23eae9e475e"
+      }
+    }
+  }
+}

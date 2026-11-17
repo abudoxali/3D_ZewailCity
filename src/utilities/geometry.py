@@ -253,8 +253,12 @@ class MeshBuilder:
         if sx <= 0 or sy <= 0 or sz <= 0:
             return
         m = Matrix.Translation(Vector(center)) @ Matrix.Rotation(angle, 4, 'Z') @ Matrix.Diagonal((sx, sy, sz, 1.0))
-        r = bmesh.ops.create_cube(self.bm, size=1.0, matrix=m)
-        self._tag(r['verts'], mat)
+        # BMesh create_cube updates operator bookkeeping across the growing
+        # accumulator. Thousands of real window-rim strips made that quadratic.
+        # Emit the same eight transformed corners and six outward quads directly.
+        corners=[m @ Vector(p) for p in ((-.5,-.5,-.5),(.5,-.5,-.5),(.5,.5,-.5),(-.5,.5,-.5),
+                                         (-.5,-.5,.5),(.5,-.5,.5),(.5,.5,.5),(-.5,.5,.5))]
+        self.raw(mat,corners,[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)])
 
     def box(self, mat, x0, y0, z0, x1, y1, z1):
         self.obox(mat, ((x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2), (abs(x1 - x0), abs(y1 - y0), abs(z1 - z0)))

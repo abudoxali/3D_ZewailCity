@@ -10,7 +10,7 @@ from utilities.scene_setup import enable_gpu
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 tag=args[0] if args else 'after'
 only=args[1:]
-out=R/'output/validation/v8/reference_views';out.mkdir(parents=True,exist_ok=True)
+out=R/'output/build_metadata/v8/reference_views';out.mkdir(parents=True,exist_ok=True)
 views={'G1_exterior':((-45,368,7),(0,317,7),None),
        'G1_interior':((42,238,8),(0,318,5),None),
        'ground_overview':((660,-950,660),(0,-170,0),None),

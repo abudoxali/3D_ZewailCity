@@ -52,15 +52,17 @@ def _register(**kw):
 def balustrade(mb, M, p0, p1, z, glass=True):
     """Metal posts + handrail + laminated glass infill (collidable as one object)."""
     e = Edge(p0, p1)
-    n = max(1, int(math.ceil(e.L / 1.6)))
+    n = max(1, int(math.ceil(e.L / 3.2)))
     for i in range(n + 1):
         p = e.at(e.L * i / n)
         mb.box(M['metal_light'], p.x - .035, p.y - .035, z, p.x + .035, p.y + .035, z + RAIL_H)
     mb.fbox(M['metal_light'], e, e.L / 2, -.04, .08, e.L, z + RAIL_H - .05, z + RAIL_H + .02)
-    # Light open rails (V11 review: dark glass infill read as solid black walls). Gaps of
-    # <= 0.3 m still stop the player capsule; the whole object is collidable.
-    for zz in (.12, .42, .72):
-        mb.fbox(M['metal_light'], e, e.L / 2, -.02, .04, e.L, z + zz, z + zz + .035)
+    # Photos25/26 show clear glass panels with stainless clamps, not four open
+    # horizontal bars. Reuse the transparent lobby material, not opaque court glass.
+    mb.fbox(M['lobby_glass'],e,e.L/2,0.,.018,e.L-.08,z+.14,z+RAIL_H-.08)
+    for i in range(n):
+        for s in (e.L*i/n+.15,e.L*(i+1)/n-.15):
+            mb.fbox(M['metal_light'],e,s,.015,.04,.08,z+.14,z+.22)
 
 
 def rect_rail(mb, M, r, z, skip=()):
@@ -106,7 +108,7 @@ def core(P, M, A):
     for x in (-15.8, -7.6, 7.6, 15.8):
         for y in (BRIDGE_END + .7, -259.5):
             P.shell.box(st, x - .7, y - .7, 0.0, x + .7, y + .7, DECK_Z0)
-    P.rblock(-BRIDGE_HALF, BRIDGE_END, BRIDGE_HALF, cy, 7.4, BRIDGE_TOP)
+    P.rblock(-BRIDGE_HALF, BRIDGE_END, BRIDGE_HALF, cy, 9.0, BRIDGE_TOP)
     P.parapet([(-BRIDGE_HALF, BRIDGE_END), (BRIDGE_HALF, BRIDGE_END), (BRIDGE_HALF, cy), (-BRIDGE_HALF, cy)], BRIDGE_TOP)
     ce = Edge((BRIDGE_HALF, BRIDGE_END), (-BRIDGE_HALF, BRIDGE_END))   # court face (normal -Y)
     # P15 shows a blank stone bridge face with two thin horizontal course joints,
@@ -117,13 +119,15 @@ def core(P, M, A):
         se = Edge((sx * BRIDGE_HALF, cy), (sx * BRIDGE_HALF, BRIDGE_END)) if sx > 0 else Edge((sx * BRIDGE_HALF, BRIDGE_END), (sx * BRIDGE_HALF, cy))
         P.window_rows(se, [8.6, 12.4], w=1.4, h=2.4, spacing=2.2, margin=1.5)
     # Light stone soffit under the hall and bridge (deep P15 soffit read).
-    P.det.box(M['plaza_light'], -BRIDGE_HALF, BRIDGE_END, 7.34, BRIDGE_HALF, cy, 7.4)
-    P.det.box(M['plaza_light'], -px0, cy, 7.34, px0, -232., 7.4)
+    P.det.box(M['plaster'], -BRIDGE_HALF, BRIDGE_END, 8.94, BRIDGE_HALF, cy, 9.0)
+    # The front terrace is open to sky. Its old hard-coded soffit ran 11 m
+    # in front of the recessed facade, hiding the actual first glazed level.
+    P.det.box(M['plaster'], -px0, cy, 8.94, px0, A['core_front_y']-3., 9.0)
     # Downlights in the soffits (emissive squares; real lights come from v7_lighting).
     for x in (-11., -3., 3., 11.):
         for y in (-236., -243., -252., -262.):
-            if abs(x) < BRIDGE_HALF:
-                P.det.box(M['lamp'], x - .25, y - .25, 7.3, x + .25, y + .25, 7.34)
+            if abs(x) < BRIDGE_HALF and y <= A['core_front_y']-3.:
+                P.det.box(M['lamp'], x - .25, y - .25, 8.9, x + .25, y + .25, 8.94)
     _register(id='A', name='Gate (A)', name_ar='البوابة (أ)', level='ground + upper terrace',
               position_blender=[0.0, TER_FRONT, DECK_Z1], orientation_deg=90.0,
               connected_walkway='forecourt → two great stairs → terrace; lower passage → inner court',
@@ -154,21 +158,30 @@ def rails_and_planters(M, C, root, plate):
         x0, x1 = sorted((sx * 4.2, sx * 6.85))
         mb.box(M['plaza_light'], x0, TER_FRONT + .25, z, x1, TER_FRONT + 1.55, z + .78)
         mb.box(M['soil'] if 'soil' in M else M['granite'], x0 + .12, TER_FRONT + .37, z + .78, x1 - .12, TER_FRONT + 1.43, z + .8)
-        for k in range(4):
-            cx = x0 + .45 + k * (x1 - x0 - .9) / 3
-            mb.cylinder(M['hedge'] if 'hedge' in M else M['lawn'], (cx, TER_FRONT + .9), z + .8, z + 1.25, .32, .2, segs=8)
+        # Reuse the licensed V15 CC0 groundcover at final source refresh.
+        # The initial source pass leaves soil until those assets are loaded;
+        # no truncated-cone shrub is emitted into the architectural mesh.
+        variants=[m for m in bpy.data.meshes if m.name.startswith('ASSET_V15_Groundcover_Iceplant_')]
+        if variants:
+            from .geometry import instance
+            for row in range(2):
+                for k in range(4):
+                    obj=instance(variants[(k+row)%len(variants)],f'V18_Deck_Groundcover_{sx}_{row}_{k}',C['academic_stairs'],
+                                 (x0+.5+k*.5,TER_FRONT+.62+row*.53,z+.8),k*.9+row,.55)
+                    parent_keep(obj,root)
+                    obj['zc_evidence']='P09 upper-deck planters; Poly Haven crystalline_iceplant CC0 is a species stand-in; placement estimated'
     o = mb.to_object('Academic_V11_Balustrades', C['academic_stairs'])
     parent_keep(o, root)
     o['zc_collision'] = True
     o['zc_evidence'] = 'Owner: railings around real drop-offs (terrace, voids, bridge). P09: rail + planter at the deck corners. Heights 1.1 m; layout ESTIMATED.'
     # Front fascia between the stairs carries the D05 "Gate (A)" lettering.
     fas = MeshBuilder()
-    fas.box(M['stone'], -STAIR_IN, TER_FRONT - .1, 3.25, STAIR_IN, TER_FRONT + .5, DECK_Z1)
-    fas.box(M['band'], -STAIR_IN, TER_FRONT + .5, 3.25, STAIR_IN, TER_FRONT + .53, 3.37)
+    fas.box(M['stone'], -STAIR_IN, TER_FRONT - .1, DECK_Z1-.8, STAIR_IN, TER_FRONT + .5, DECK_Z1)
+    fas.box(M['band'], -STAIR_IN, TER_FRONT + .5, DECK_Z1-.8, STAIR_IN, TER_FRONT + .53, DECK_Z1-.68)
     from .gate import FONT_LAT, _on_face, _text_mesh
     me = _text_mesh("Gate (A)", FONT_LAT, .5)
     if me:
-        fas.add_mesh(M['band'], me, _on_face(0.0, 3.55, TER_FRONT + .54))
+        fas.add_mesh(M['band'], me, _on_face(0.0, DECK_Z1-.55, TER_FRONT + .54))
     o = fas.to_object('Academic_V11_GateA_Fascia', C['academic_entry'])
     parent_keep(o, root)
     o['zc_collision'] = True
@@ -336,7 +349,10 @@ def rear_passage(P, M, A):
         v = (cx + r1 * math.cos(math.radians(a)), cy + r1 * math.sin(math.radians(a)))
         # Normal must face into the passage (266 deg face looks +X, 274 deg face looks -X).
         e = Edge(v, u) if sgn > 0 else Edge(u, v)
-        P.curtain(e, .3, e.L - .3, .26, 7.0, mull=2.3, transom=3.4, off=.05)
+        # A real opening at the court end connects each gallery. Remaining
+        # fixed return glass retains its physical backing outside the opening.
+        start,end=(.3,e.L-4.2) if sgn>0 else (4.2,e.L-.3)
+        P.curtain(e,start,end,.26,7.0,mull=2.3,transom=3.4,off=.05)
     pts = arc_points(cx, cy, (ri + ro) / 2, 266.5, 273.5, 4)
     for p in pts:
         P.det.box(M['lamp'], p[0] - .25, p[1] - .25, 7.35, p[0] + .25, p[1] + .25, 7.4)

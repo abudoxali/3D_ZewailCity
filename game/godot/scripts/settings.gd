@@ -16,7 +16,7 @@ const PRESETS := {
 		"veg_range": 600.0, "prop_range": 350.0, "lod_threshold": 1.5, "fog": true,
 	},
 	"High": {
-		"scale_3d": 1.0, "msaa": Viewport.MSAA_4X, "fxaa": false, "shadow_size": 8192,
+		"scale_3d": 1.0, "msaa": Viewport.MSAA_4X, "fxaa": false, "taa": true, "shadow_size": 8192,
 		"shadow_distance": 650.0, "ssao": true, "ssil": true, "ssr": true, "glow": true, "sdfgi": false,
 		"veg_range": 1400.0, "prop_range": 800.0, "lod_threshold": 1.0, "fog": true,
 	},

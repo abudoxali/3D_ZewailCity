@@ -1,4 +1,4 @@
-"""Architectural validation renders + reference comparisons -> output/validation/.
+"""Architectural validation renders + reference comparisons -> output/build_metadata/.
 
 Comparison method (no numerical "accuracy score" is claimed):
 1. plan_overlay.png: the model is rendered with an orthographic camera whose

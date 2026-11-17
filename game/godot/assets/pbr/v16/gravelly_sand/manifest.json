@@ -1,0 +1,70 @@
+{
+  "asset": "gravelly_sand",
+  "source_url": "https://polyhaven.com/a/gravelly_sand",
+  "license": "CC0 1.0",
+  "license_url": "https://polyhaven.com/license",
+  "resolution": "2k",
+  "authors": [
+    "Dario Barresi"
+  ],
+  "physical_size_mm": [
+    2480.0000190734863,
+    2480.0000190734863
+  ],
+  "tile_m": [
+    2.48,
+    2.48
+  ],
+  "usage": "integrated V16 candidate surface at documented physical tile; mean calibrated",
+  "files": [
+    {
+      "map": "diff",
+      "path": "game/godot/assets/pbr/v16/gravelly_sand/gravelly_sand_diff_2k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravelly_sand/gravelly_sand_diff_2k.jpg",
+      "provider_md5": "b90aa766dac59af8c136321149ca86bc",
+      "provider_md5_verified": true,
+      "sha256": "cdab7130a67bc70f8c241b9ab2cd41b731d2baf1ec533939a333573b80070dd6",
+      "bytes": 4402825,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "normal_convention": null,
+      "godot_import_sha256": "b5bcb2ca0bcdffa5299d0ed87b34942829526f60229fc825276862d97583b2db"
+    },
+    {
+      "map": "nor_gl",
+      "path": "game/godot/assets/pbr/v16/gravelly_sand/gravelly_sand_nor_gl_2k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravelly_sand/gravelly_sand_nor_gl_2k.jpg",
+      "provider_md5": "cad65c6ba322bbd7f89e72f00d9508cf",
+      "provider_md5_verified": true,
+      "sha256": "191985454de9403961aab2a6ffd33b6ca1e4c2715712e03f3c928a8140322719",
+      "bytes": 5955314,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "normal_convention": "OpenGL +Y",
+      "godot_import_sha256": "f5e60accc9405aa5718bca4a246859c4ebae6929c023cbe9628c5724cd037244"
+    },
+    {
+      "map": "rough",
+      "path": "game/godot/assets/pbr/v16/gravelly_sand/gravelly_sand_rough_2k.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravelly_sand/gravelly_sand_rough_2k.jpg",
+      "provider_md5": "ffa5636da8fad6a051030218f2c01a92",
+      "provider_md5_verified": true,
+      "sha256": "da39087ed3beced52f7ca68f77610ecaa048113c33e49a47cb6e7d930733fcaa",
+      "bytes": 1825952,
+      "pixels": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "normal_convention": null,
+      "godot_import_sha256": "30524de75a7998b34bbed2d7e39ac52546fe96b36980f821bd96beac1efae3af"
+    }
+  ],
+  "import_validation": "21 active maps / 19 mappings / 0 failures; VRAM compression and mipmaps enabled"
+}

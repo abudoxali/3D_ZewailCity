@@ -22,7 +22,7 @@ def _lerp(a, b, t):
 
 
 def _foot(x, y, paved=True):
-    return datum(x, y) + (0.21 if paved else 0.012)
+    return 0.21 if paved else 0.012
 
 
 SEGMENTS = [
@@ -40,13 +40,13 @@ SEGMENTS = [
     ((2., -168., None), (-1.5, -203., None), (-6., -228., 3.5), (0., -231., 4.6), 9.,
      'Academic Gate (A) forecourt and the paired major stairs (P09)'),
     # V11: the great stair runs from the forecourt (y -208.9) to the 4.41 m terrace (y -219).
-    ((-10.1, -203., None), (-10.1, -222., 6.13), (-10.1, -232., 6.4), (-3., -258., 5.0), 8.,
-     'V11 great stair to the upper terrace: 28 estimated 150 mm risers, 12.5 m wide, metal rails'),
-    ((0., -219., None), (0., -257., None), (0., -262., 3.4), (0., -300., 3.0), 9.,
+    ((-12.6, -198., None), (-12.6, -220., 6.13), (-12.6, -232., 6.4), (-3., -258., 5.0), 8.,
+     'V11 great stair to the upper terrace: 28 estimated 150 mm risers, 10.5 m wide, metal rails'),
+    ((-2.3, -215., None), (-2.3, -257., None), (0., -262., 3.4), (0., -300., 3.0), 9.,
      'P15: deep stone portal and covered public passage into the court'),
     ((66.7, -270., None), (40., -307., None), (10., -290., 2.5), (-12., -285., 3.0), 11.,
      'P13: court walkway, dark granite risers, platform poles and curved glazing'),
-    ((10.5, -317., None), (10.5, -292., 1.11), (-25., -296., 5.), (-45., -282., 8.), 8.,
+    ((12., -317., None), (12., -292., 1.11), (-25., -296., 5.), (-45., -282., 8.), 8.,
      'Estimated 3.4% ramp to the upper court level'),
     ('DORM_PATH_A', 'DORM_PATH_B', None, None, 10.,
      'P04/P11/P16 design: paver paths, pebble borders, bed shrubs, bollards | candidate site UNVERIFIED'),
@@ -72,8 +72,8 @@ def shot():
     for c0, c1, t0, t1, seconds, caption in SEGMENTS:
         if c0 == 'DORM_PATH_A':
             pts = [line.interpolate(d) for d in (6., 32.)]
-            c0 = (pts[0].x, pts[0].y, dormitory.height(pts[0].x, pts[0].y) + 1.72)
-            c1 = (pts[1].x, pts[1].y, dormitory.height(pts[1].x, pts[1].y) + 1.72)
+            c0 = (pts[0].x, pts[0].y, dormitory.height(pts[0].x, pts[0].y)-datum(pts[0].x,pts[0].y) + 1.72)
+            c1 = (pts[1].x, pts[1].y, dormitory.height(pts[1].x, pts[1].y)-datum(pts[1].x,pts[1].y) + 1.72)
             ahead = [line.interpolate(d) for d in (24., 46.)]
             t0 = (ahead[0].x, ahead[0].y, 1.4)
             t1 = (ahead[1].x, ahead[1].y, 2.2)

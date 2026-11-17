@@ -42,6 +42,12 @@ GH = SV.GATEHOUSE
 
 FONT_AR = r"C:\Windows\Fonts\tahomabd.ttf"
 FONT_LAT = r"C:\Windows\Fonts\arialbd.ttf"
+# SIL-licensed bundled fallback for non-Windows rebuilds.
+from pathlib import Path as _FontPath
+_FALLBACK_FONT = str(_FontPath(__file__).resolve().parents[2] / 'game/godot/ui/fonts/NotoSansArabic.ttf')
+if not _FontPath(FONT_AR).is_file(): FONT_AR = _FALLBACK_FONT
+if not _FontPath(FONT_LAT).is_file(): FONT_LAT = _FALLBACK_FONT
+
 # "مدينة زويل" in Arabic Presentation Forms-B, visual (left-to-right) order, so that a
 # renderer without complex-text shaping (Blender text objects) draws the joined letters.
 # Logical: meem-ini, dal-fin, yeh-ini, noon-med, teh-marbuta-fin, space, zain, waw, yeh-ini, lam-fin.

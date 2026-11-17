@@ -63,6 +63,21 @@ def main():
     cams = [o for o in scene.objects if o.type == 'CAMERA' and o.get("zc_shot")]
     if not cams:
         raise SystemExit("[paths] no CIN_/TOUR_ cameras found (rebuild with build_scene.py)")
+    # Pose sampling needs camera/curve/target animation, not 19M triangles of
+    # static campus geometry. Remove unrelated meshes/lights IN MEMORY ONLY;
+    # the source .blend is never saved by this exporter. Keep all explicit
+    # camera constraint targets/ancestors even if a later author uses a mesh.
+    needed=set(cams)
+    for cam in cams:
+        for con in cam.constraints:
+            target=getattr(con,'target',None)
+            if target:needed.add(target)
+        if cam.data.dof.focus_object:needed.add(cam.data.dof.focus_object)
+    for obj in list(needed):
+        while obj.parent:obj=obj.parent;needed.add(obj)
+    for obj in list(scene.objects):
+        if obj.type in ('MESH','LIGHT') and obj not in needed:bpy.data.objects.remove(obj,do_unlink=True)
+    bpy.context.view_layer.update()
     index = []
     for cam in sorted(cams, key=lambda o: o.name):
         path, n = export_shot(scene, cam)

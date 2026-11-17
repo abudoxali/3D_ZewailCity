@@ -79,7 +79,7 @@ def ground_regions(road):
                         'internal_surface_gap_m':round(distance,3),'internal_connector_m2':round(link.area,3),'v9_apron_m2':round(regions[-1].area,3) if regions else None,
                         'external_connection':'UNRESOLVED: mapped branches end ~25 m before external road; no extension' if r['id']=='G2' else 'No external connector invented',
                         'evidence':'PROVISIONAL_MAP_CLUSTER; architectural dimensions and open state estimated'})
-    out=ROOT/'output/validation/v11';out.mkdir(parents=True,exist_ok=True)
+    out=ROOT/'output/build_metadata/v11';out.mkdir(parents=True,exist_ok=True)
     (out/'gate_ground.json').write_text(json.dumps(details,indent=2))
     return union_all(regions)
 

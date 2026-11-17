@@ -1,94 +1,38 @@
-# Zewail City 3D Campus — reconstruction, explorer and Blender source
+# Zewail City 3D — Frozen V19
 
-An evidence-based 3D reconstruction of the Zewail City of Science, Technology and Innovation campus
-(6th of October, Egypt): a procedural Blender source scene, a game-ready export and a Godot 4.6
-walk/fly explorer with an Arabic (default) and English interface. It is an **estimated
-reconstruction, not a survey**; see [STATUS.md](STATUS.md) for the current verification state and
-remaining known differences.
+Final reusable campus baseline. Technical closure is verified; photographic/architectural fidelity remains **PARTIAL**. The single `STATUS.md` records closure, evidence and known limitations. No new visual development was performed during closure.
 
-Current version: **15.0.0** — the V15 pilot rebuilt the main entrance corridor
-(Gate G1 → main approach → median → walkways → Administration and Cultural Building forecourt):
-modular precast kerb units, raised kerbed planting beds with CC0 groundcover, crossover paver bands,
-a worn palm-median lawn and softly graded natural ground. Details, measurements and the
-before/after evidence are in [STATUS.md](STATUS.md).
+## Open and play
 
-## Repository layout
+- Editable master: `output/Zewail_City_3D.blend` (Blender 5.2.3 LTS). Textures are packed and also resolve to project-relative files. All scene coordinates, object identities and material assignments are preserved.
+- Godot source: open `game/godot/project.godot` in Godot 4.6.2 Standard, Forward+. Allow the first import to finish. No Python environment or MCP service is needed to play. The optional editor MCP plugin is retained but disabled by default; enable it manually only for future MCP-assisted editing.
+- Windows build: run `releases/Windows/ZewailCityExplorer.exe`.
+- Source launcher: PowerShell `./Launch.ps1`. It imports once if `.godot` is absent, then runs High quality. Graphics are configurable in-game. Controls and Arabic UI are unchanged; see in-game help.
 
-| Path | Contents |
-|---|---|
-| `src/` | Procedural Blender generators (`build_scene.py`, `build_game_assets.py`, `utilities/`). `utilities/survey.py` holds the OSM/Sentinel-2 survey layout; `utilities/v15_corridor.py` the V15 corridor system. |
-| `game/godot/` | Godot 4.6 explorer project (scenes, scripts, shaders, regression tests, CC0 PBR maps, campus GLB via Git LFS). |
-| `references/` | Evidence registers, geodata, OSM/NDVI extracts and CC0 asset sources with licence manifests. Reference *photographs* are kept out of this public repository. |
-| `tools/` | Pipeline, capture, benchmark, regression and asset tools (`v15_*`), plus vendored Shapely. |
-| `output/Zewail_City_3D.blend` | Authoritative editable Blender scene (Git LFS). |
-| `output/validation/v15/` | V15 evidence: matched comparisons, benchmark, regression logs, asset manifest. |
-| `docs/` | Game asset guide. |
+## Modify and rebuild
 
-## Run the explorer
+Work on a **copy or new branch** of this frozen baseline. `FROZEN_BASELINE.json` identifies the delivered files; later modifications require new verification and hashes.
 
-**From the Godot project** (Godot 4.6.2):
+1. Edit the Blender master for manual art/cinematic work. Save into your working copy. Rendering cameras and editable source curves remain available.
+2. For changes that must survive procedural regeneration, edit `src/utilities/` as well. These layered version-named modules are active dependencies, not obsolete milestones. `tools/export_alignments.py` exports editable transport curves for the existing source override round trip.
+3. Run `./tools/rebuild.ps1` to regenerate the affected architecture/finalization and export game assets/camera paths from the master. Optional `-FromScratch` regenerates the full source campus and can overwrite manual edits; it was **not** invoked during maintenance. Choose the normal incremental build for the frozen master.
+4. The build accepts `-Blender <executable>` and `-Godot <executable>` or `BLENDER_EXE` / `GODOT_EXE`. Blender is required for `.py` modelling/export scripts; standard Python runs the verification driver. Shapely is vendored for Windows Python 3.13; see `licenses/` for other platforms.
+5. Run `py tools/verify_project.py` on Windows, or `python tools/verify_project.py` with an installed Python 3.11+ interpreter (or set `GODOT_EXE` for a different Godot binary). Frozen test inputs live in `game/godot/tests/fixtures/`; generated check results go to `output/checks/`. Do not weaken fixture contracts to hide geometry regressions.
+6. Run `./tools/export_windows.ps1`, then `./tools/verify_windows.ps1`. Windows export templates for Godot 4.6.2 must already be installed.
 
-```bash
-godot --path game/godot
-```
+`output/build_metadata/` holds generator inputs/reports needed by the retained build stack. `output/game_ready/` contains reusable per-building/per-asset GLBs, collision-ready whole-campus export, baked textures and a game-authoring Blender scene. The Godot runtime keeps its own complete importable campus GLB and textures. Those source/derived representations are intentional, not disposable cache duplicates. The closure did not rebuild terrain or alter architecture.
 
-A packaged Windows build is produced with `godot --headless --path game/godot --export-release "Windows Desktop"`
-(output under `releases/`, not committed).
+## Reuse in games or cinematics
 
-### Controls
+- Blender: duplicate the master, retain metric units (1 unit = 1 metre), select required building/vegetation collections, and light/render with the existing cameras or your own. GLB export tools are under `src/`.
+- Godot: copy the complete project, or import the campus/per-building GLBs into a new project. Retain scripts/shaders/material resources if you want the current PBR response, gate controls, collisions, player and tours. Avoid importing only mesh files while omitting their shader/texture dependencies.
+- Coordinates: Blender origin is the dome centre, Z up, +Y toward G1. Godot conversion is `(x, y, z) = (Blender X, Blender Z, -Blender Y)`. Do not recenter building exports without accounting for their stored origins.
+- Keep `LICENSES.md`, relevant manifests and notices with derived distributions. Original reference photos are private evidence, not public-release assets.
 
-| Key | Action |
-|---|---|
-| W A S D / mouse | Move / look |
-| Shift | Sprint (walk), boost ×4 (fly) |
-| Space | Jump (walk), ascend (fly) |
-| E | Operate a nearby gate (walk); ascend (fly) |
-| Ctrl or Q | Descend (fly) |
-| F | Switch walk ↔ drone fly |
-| C | Fly: toggle collision (no-clip) |
-| R | Reset to the last spawn point |
-| 1 – 7 | Teleport to a spawn point (7 = outside the main gate) |
-| T | Guided tour; P pauses, Esc exits |
-| M | Minimap |
-| H / F1 | Help |
-| F12 | Screenshot to `user://screenshots` |
-| Esc | Pause menu |
+## Preserved history and limitations
 
-Command line (after `--`): `--explore`, `--autotour=TOUR_Guided`, `--quit-at-end`, `--preset=low|medium|high`, `--smoketest`.
+A verified V15 rollback, the original unmodified V19 snapshot and earlier experiments/evidence are archived outside the active project. Their exact paths are in `STATUS.md` and `ARCHIVE_INDEX.json`. The root `.git` history is retained; no push was performed.
 
-## Rebuild pipeline
+Known limits include estimated dome/facade/arcade proportions, sparse/approximate galleries and garden planting, unverified G2 external road connection, historical GIS alignment rather than surveyed geometry, and seven inherited Texture RID shutdown warnings. The maintenance freeze certifies portability/functionality, not a new visual accuracy acceptance.
 
-Requires Blender 5.2.3 and Godot 4.6.2 (`godot_console` on PATH) and the project venv in `tools/.venv`
-(`tools/requirements-v5.txt`).
-
-```bash
-bash tools/v15_rebuild.sh <tag>      # scene -> game assets -> paths -> source GLB -> checks -> Godot import
-python tools/v15_regressions.py      # 18 Godot regression suites (incl. V15Corridor)
-bash tools/v15_capture.sh <dir> v15  # 1920x1080 High captures at stored poses
-bash tools/v15_bench.sh              # 10-view GPU benchmark
-```
-
-## Coordinate system
-
-* Metres. Origin = dome centre. +Y = toward the main gate along the campus axis (N 36.5° W). Z up.
-* Godot / glTF: (x, y, z)_godot = (x, z, −y)_blender.
-* The OSM → Blender transformation is documented in `src/utilities/survey.py`.
-
-## Licences
-
-* Source code: see repository owner.
-* Poly Haven assets (asphalt_01, concrete_pavement_03, sand_01, sparse_grass, beige_wall_001, dirt,
-  pachira_aquatica_01, crystalline_iceplant, kloofendal sky): CC0 1.0. Innerscene palm models: CC0.
-  Per-file sources and SHA-256 are in `game/godot/assets/pbr/manifest.json`,
-  `references/assets/*/manifest.json` and `output/validation/v15/external_asset_manifest.json`.
-* OpenStreetMap data © OpenStreetMap contributors (ODbL); Copernicus Sentinel-2 data.
-
-## Optional editor integrations (not vendored)
-
-Live Blender/Godot inspection used these MCP servers; clone them into `tools/integrations/` if needed:
-[ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) and [slangwald/godot-mcp](https://github.com/slangwald/godot-mcp).
-
-## History and rollback
-
-Earlier versions (V1–V14, the V11 Windows release and all backups) are archived outside this repository by
-the owner's decision; see the rollback notes in [STATUS.md](STATUS.md).
+Generated `.godot`, `__pycache__`, raw capture movies, old comparison iterations and development environments are excluded from the portable package. They can be recreated or found in the external archive.

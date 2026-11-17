@@ -1,6 +1,6 @@
 """Owner-photo form corrections P09/P13/P15. All metric dimensions are estimates.
 
-OSM footprint retained. Segmented inner facade replaces the generic V5 glass arc;
+The inherited footprint is a fit to dated OSM, not an exact surveyed outline. Segmented inner facade replaces the generic V5 glass arc;
 balcony voids, projecting bays, portal and court levels are actual geometry.
 """
 import math
@@ -15,9 +15,26 @@ AXIS=box(-5.5,-370,5.5,-228)
 
 def ring(P,M,A):
     cx,cy=A['curve_c'];ro=A['r_out'];ri=ro-A['ring_depth'];h=A['h_wing']
+    # Dark, tinted gallery glass is distinct from clear entrance screens.
+    gallery_glass=bpy.data.materials.get('M_V18_Gallery_Lobby_Glass')
+    if gallery_glass is None:
+        gallery_glass=M['court_glass'].copy();gallery_glass.name='M_V18_Gallery_Lobby_Glass'
+
     # Floor body, split at the rear walking axis. Behind-glass mass is set back.
     for a,b in [(180,266),(274,360)]:
-        P.shell.prism(M['stone'],arc_band(cx,cy,ri+.45,ro,a,b,32),.21,7.6)
+        P.shell.prism(M['stone'],arc_band(cx,cy,ri+3.6,ro,a,b,32),.21,7.6)
+        # V18: an actual continuous public gallery behind the courtyard glazing,
+        # linked through the two inner rear return openings. Photos11/12 support
+        # corridor/glass/striped-floor form; exact level and placement remain an
+        # interpretation. No offices, classroom doors or room plan are invented.
+        P.shell.prism(M['plaza_light'],arc_band(cx,cy,ri+.05,ri+3.6,a,b,64),.02,.21)
+        P.shell.prism(M['plaster'],arc_band(cx,cy,ri+.05,ri+3.6,a,b,64),3.55,3.75)
+        P.shell.prism(gallery_glass,arc_band(cx,cy,ri-.025,ri+.025,a,b,96),.45,3.55)
+        P.shell.prism(M['stone'],arc_band(cx,cy,ri-.1,ri+.05,a,b,96),.21,.45)
+        for ang in range(int(a)+4,int(b),5):
+            # Narrow inlay is integrated into the gallery floor finish only.
+            P.det.prism(M['granite'],arc_band(cx,cy,ri+.06,ri+3.55,ang,ang+.10,2),.211,.214)
+        P.det.prism(M['plaster'],arc_band(cx,cy,ri+3.55,ri+3.6,a,b,64),.21,3.55)
     P.shell.prism(M['stone'],arc_band(cx,cy,ri+.45,ro,266,274,8),7.4,7.6)
     P.shell.prism(M['stone'],arc_band(cx,cy,ri+3.,ro,180,360,64),7.6,h)
     P.det.prism(M['roof'],arc_band(cx,cy,ri+3.,ro,180,360,64),h-.01,h+.04)
@@ -35,24 +52,19 @@ def ring(P,M,A):
     inner=arc_points(cx,cy,ri,360,180,72)
     for a,b in zip(inner[:-1],inner[1:]):
         e=Edge(a,b);rear=abs(e.at(e.L/2).x)<7
-        if not rear:P.curtain(e,.02,e.L-.02,.45,7.6,mull=1.2,transom=2.4,mat=M['court_glass'])
+        if not rear:
+            # The shell owns the one pane. Frames do not duplicate transparent
+            # glass boxes over it (the first visual trial washed out the facade).
+            count=max(1,round(e.L/1.2))
+            for k in range(count+1):P.det.fbox(M['metal'],e,e.L*k/count,.03,.1,.045,.45,3.55)
+            for zz in (.45,3.49):P.det.fbox(M['metal'],e,e.L/2,.03,.1,e.L,zz,zz+.06)
+            P.curtain(e,.02,e.L-.02,3.75,7.6,mull=1.2,transom=3.85,mat=M['court_glass'])
         # V10 (P13): the crown is a deep, tall cream stone fascia over the dark glass,
         # not a thin 1 m strip (V9). Height/depth ESTIMATED from P13 proportions.
         P.det.fbox(M['stone'],e,e.L/2,-.05,.55,e.L,19.95,22.)
     # P13: repeated deep glazed boxes, separated by real recessed open-air bays.
-    for i,(a,b) in enumerate([(182,207),(220,246),(258,282),(294,320),(333,358)]):
-        r=ri-2.2 if i%2==0 else ri-1.2
-        pts=arc_points(cx,cy,r,b,a,12)
-        for u,v in zip(pts[:-1],pts[1:]):
-            e=Edge(u,v)
-            P.curtain(e,.01,e.L-.01,8.3,18.9,mull=1.25,transom=2.65,mat=M['court_glass'])
-            # V10 (P13): the cantilever soffits read dark; the head stays a thin stone cap.
-            P.det.fbox(M['band'],e,e.L/2,-.1,2.7,e.L+.04,7.7,8.3)
-            P.det.fbox(M['stone'],e,e.L/2,-.1,2.7,e.L+.04,18.9,19.45)
-        for a2 in [a,b]:
-            ar=math.radians(a2)
-            u=(cx+r*math.cos(ar),cy+r*math.sin(ar));v=(cx+(ri+3)*math.cos(ar),cy+(ri+3)*math.sin(ar))
-            P.curtain(Edge(u,v),0,math.dist(u,v),8.3,18.9,mull=1.3,transom=2.65,mat=M['court_glass'])
+    from .v17_architecture import glass_bays
+    glass_bays(P,M,A)
     for a,b in [(207,220),(246,258),(282,294),(320,333)]:
         # V10 (P13): the recessed balcony bays are glazed behind the rails (V9 showed a
         # blank white wall); dark glass on the set-back face, grey spandrel at each slab.
@@ -74,9 +86,12 @@ def ring(P,M,A):
 
 def polygon_prism(mb,mat,g,z0,z1):
     if g.is_empty:return
+    if g.geom_type in ('LineString','LinearRing','Point'):return  # exact zero-area Boolean residue
     if g.geom_type!='Polygon':
         for p in g.geoms:polygon_prism(mb,mat,p,z0,z1)
         return
+    from shapely.geometry.polygon import orient
+    g=orient(g,sign=1.)
     # Constrained triangulation supports inset bands and nonconvex terrace pieces.
     for t in constrained_delaunay_triangles(g).geoms:
         pts=list(t.exterior.coords)[:3]
@@ -100,9 +115,12 @@ POLE_R=56.5
 def _tier_prism(mb,top_mat,side_mat,g,z0,z1):
     """Top in paving stone, vertical risers in dark polished granite (P13)."""
     if g.is_empty:return
+    if g.geom_type in ('LineString','LinearRing','Point'):return  # no surface area to triangulate
     if g.geom_type!='Polygon':
         for q in g.geoms:_tier_prism(mb,top_mat,side_mat,q,z0,z1)
         return
+    from shapely.geometry.polygon import orient
+    g=orient(g,sign=1.)
     for t in constrained_delaunay_triangles(g).geoms:
         pts=list(t.exterior.coords)[:3]
         area=(pts[1][0]-pts[0][0])*(pts[2][1]-pts[0][1])-(pts[1][1]-pts[0][1])*(pts[2][0]-pts[0][0])
@@ -190,15 +208,15 @@ def rail_stairs(mb,M,lo,hi,front,back,top):
             v=[(xx,yy,zz) for xx in [x-.025,x+.025] for yy,zz in [(y0,z0-.025),(y1,z1-.025),(y1,z1+.025),(y0,z0+.025)]]
             mb.raw(M['metal_light'],v,[(0,1,2,3),(7,6,5,4),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)])
 
-def admin_rear(P,M):
+def admin_rear(P,M, open_passages=False):
     """P09 directly locates the south admin face in the Academic visual axis."""
     # V11 (owner 16 / P09): the rear block is 18 m; bays and frames stop below its parapet
     # (V10 ran them to 24 m, which also hid the dome once the block was lowered).
     top=17.2
     e=Edge((-16,-94.15),(16,-94.15))
     for a,b in [(1.,7.8),(11.,21.),(24.2,31.)]:
-        P.curtain(e,a,b,.5,top,mull=2.,transom=5.6,off=.04)
-        P.frame(e,a,b,.4,top,t=.55,depth=.2)
+        P.curtain(e,a,b,5.0 if open_passages and a != 11. else .5,top,mull=2.,transom=5.6,off=.04)
+        P.frame(e,a,b,.72 if open_passages else .4,top,t=.55,depth=.2)
     from .gate import FONT_LAT,_text_mesh,_on_face
     from mathutils import Matrix
     me=_text_mesh('Administrative\nand Cultural\nComplex',FONT_LAT,.72)

@@ -6,16 +6,17 @@
       0.0866
     ],
     "pbr_mean_linear": [
-      0.1009,
-      0.0804,
-      0.0624
+      0.10507690841540437,
+      0.10341819102502618,
+      0.09140733449280378
     ],
     "saturation": 0.2,
     "tint": [
-      1.0705,
-      1.0963,
-      1.0921
-    ]
+      0.9009244212733649,
+      0.882468080000137,
+      0.8607974495445266
+    ],
+    "source": "Poly Haven asphalt_02 CC0, physical tile 3 m; decoded 256px mean"
   },
   "Paver_Road_Grey": {
     "target_mean_linear": [
@@ -73,39 +74,41 @@
   },
   "Graded_Campus_Soil": {
     "target_mean_linear": [
-      0.4976,
-      0.3779,
-      0.2488
+      0.4967543275242466,
+      0.3772268636815479,
+      0.24829311053542302
     ],
     "pbr_mean_linear": [
-      0.3819,
-      0.3062,
-      0.1622
+      0.28802565195273927,
+      0.1586604773853975,
+      0.07347585563804025
     ],
-    "saturation": 0.75,
+    "saturation": 0.45,
     "tint": [
-      1.3655,
-      1.2285,
-      1.2461
-    ]
+      2.1728499123125258,
+      2.2137146561824306,
+      1.879991706060435
+    ],
+    "source": "Provider gravelly_sand with baseline mean colour calibration; evaluated in candidate only"
   },
   "Compacted_Earth": {
     "target_mean_linear": [
-      0.4392,
-      0.347,
-      0.2405
+      0.43862972703371067,
+      0.34646345889683744,
+      0.23997510509813416
     ],
     "pbr_mean_linear": [
-      0.3819,
-      0.3062,
-      0.1622
+      0.28802565195273927,
+      0.1586604773853975,
+      0.07347585563804025
     ],
-    "saturation": 0.7,
+    "saturation": 0.45,
     "tint": [
-      1.2171,
-      1.1272,
-      1.1609
-    ]
+      1.9186074707650045,
+      2.033182974580144,
+      1.8170105738036957
+    ],
+    "source": "Provider gravelly_sand with baseline mean colour calibration; evaluated in candidate only"
   },
   "Planted_Soil_Sparse": {
     "target_mean_linear": [

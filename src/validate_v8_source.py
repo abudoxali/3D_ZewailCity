@@ -27,23 +27,31 @@ mat=bpy.data.materials['M_Gate_Sandstone_Tiles']
 col=mat.diffuse_color
 check('gate stone cream-beige rather than orange',col[0]-col[2]<.18 and col[0]>.6, list(col))
 check('gate stone roughness and recessed joints',mat.roughness>=.69 and any(n.type=='BUMP' and n.invert for n in mat.node_tree.nodes),mat.roughness)
-ground=json.loads((R/'output/validation/v11/ground_topology.json').read_text())
+ground=json.loads((R/'output/build_metadata/v11/ground_topology.json').read_text())
 check('ground partition disjoint and complete',ground['all_topology_checks_pass'],{k:ground[k] for k in ['surface_overlap_m2','plot_uncovered_m2','centreline_gaps']})
-gates=json.loads((R/'output/validation/v11/gate_ground.json').read_text())
+gates=json.loads((R/'output/build_metadata/v11/gate_ground.json').read_text())
 check('five integrated aprons, no invented external links',len(gates)==5 and all('No external' in g['external_connection'] or 'UNRESOLVED' in g['external_connection'] for g in gates),gates)
 for name in ['Academic_Stair_Left','Academic_Stair_Right']:
  o=bpy.data.objects[name]
- check(name+' original safe riser and landing geometry retained',o.get('zc_risers')==28 and o.get('zc_riser_height_m')==.15 and o.get('zc_tread_m')==.36)
+ floors=[f for f in o.data.polygons if f.normal.z>.99 and f.area>1.]
+ levels=[(o.matrix_world@o.data.vertices[f.vertices[0]].co).z for f in floors]
+ from utilities.v17_architecture import UPPER
+ expected=UPPER+datum(0,-220.)
+ check(name+' V17 physical tread geometry reaches upper landing with safe estimated risers',
+       o.get('zc_v17_exact_stairs') and 0<float(o.get('zc_riser_height_m',1))<=.17 and
+       o.get('zc_tread_m',0)>=.30 and levels and abs(max(levels)-expected)<.025,
+       {'measured_highest_wide_tread_m':max(levels) if levels else None,'expected_datum_m':expected,'risers':o.get('zc_risers')})
 from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 from utilities.site_plan import ADMIN
 admin=bpy.data.objects['AB_Administration_Cultural_Building']
 tree=BVHTree.FromObject(admin,bpy.context.evaluated_depsgraph_get())
-q=admin.matrix_world.inverted()@Vector((11.,ADMIN['portico_front_y']+10.15,2.))
+dy=datum(11.,ADMIN['portico_front_y']+10.15)
+q=admin.matrix_world.inverted()@Vector((11.,ADMIN['portico_front_y']+10.15,2.+dy))
 hit=tree.ray_cast(q,Vector((0,0,-1)),3.)
 height=(admin.matrix_world@hit[0]).z if hit[0] else -99
-check('Administration ramp toe flush to 0.06 m road and outward top normal',hit[0] is not None and abs(height-.06)<.02 and hit[1].z>.99,
+check('Administration ramp toe flush to local road datum and outward top normal',hit[0] is not None and abs(height-(dy+.06))<.02 and hit[1].z>.99,
       {'toe_z':height,'top_normal':list(hit[1]) if hit[1] else None})
 report={'checks':checks,'all_pass':all(c['pass'] for c in checks),'source_blend_sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest()}
-(R/'output/validation/v11/v8_source_checks.json').write_text(json.dumps(report,indent=2))
+(R/'output/build_metadata/v11/v8_source_checks.json').write_text(json.dumps(report,indent=2))
 if not report['all_pass']:raise RuntimeError('V8 source geometry checks failed')

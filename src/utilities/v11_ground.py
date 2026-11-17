@@ -12,7 +12,7 @@
 3. relocate_trees    Trees/palms whose trunk stands on a walk, road or curb are moved to the
                      nearest point >= 1.2 m outside the hard surface (<= 4 m move), otherwise
                      removed ("trees intersecting sidewalks", owner 05).
-All results are logged to output/validation/v11/ground_repairs_v11.json.
+All results are logged to output/build_metadata/v11/ground_repairs_v11.json.
 """
 import json
 import math
@@ -276,7 +276,7 @@ def relocate_trees(walk_hard):
 
 
 def write_log():
-    out = ROOT / 'output/validation/v11'
+    out = ROOT / 'output/build_metadata/v11'
     out.mkdir(parents=True, exist_ok=True)
     LOG['summary'] = {'footway_connectors': len(LOG['footway_connectors']), 'sliver_area_m2': LOG['slivers'].get('area_m2', 0),
                       'trees_moved': len(LOG['trees']['moved']), 'trees_removed': len(LOG['trees']['removed'])}
